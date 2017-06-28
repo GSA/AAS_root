@@ -626,6 +626,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   color: white;
 }
 
+body{background-color:#ffffff;}
 h1, h2, h3, h4 {
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -1706,6 +1707,48 @@ dialog {
   background: #000;
   opacity: .6;
   z-index: 666;
+}
+/* ACCORDION CODE DO NOT REMOVE */
+.panel {
+	border: 0px solid;
+    margin-bottom: 1.25rem;
+    padding: .5rem 1.25rem 0 1.25rem;
+    background: #ffffff; 
+}
+.panel-default{
+	border: 0px solid;
+}
+.panel-group{
+	margin-top:40px;
+}
+.panel-body{
+	margin-left: 40px;
+    background-color: #f1f1f1;
+/*    font-style: italic;*/
+    font-size: 20px;
+    line-height: 30px;
+	font-family:  "droid serif", georgia;
+}
+.panel-default>.panel-heading {
+    background-color: #4B92CE;
+    border: 0px solid;
+}
+.panel-titlearrow{
+	background-image:url(../images/@stock/faqarrow.png);
+	background-repeat: no-repeat;
+	min-height: 30px;
+	margin-left:20px;
+	float:left;
+    min-width: 42px;
+}
+.panel-title {
+    text-transform: none;
+	margin-top:8px;
+}
+.panel-title>a {
+    color: #FFFFFF;
+	font-weight: bold;
+	font-size: 20px;
 }
 /* Mobile Code DO NOT REMOVE */
 @media only screen 
