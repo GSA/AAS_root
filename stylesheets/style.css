@@ -662,7 +662,7 @@ h8 {
 }
 
 .call-to-action-bg-alt {
-	background: #006699;
+	background: #f1f1f1;
 }
 
 .members-bg {
@@ -701,7 +701,7 @@ h8 {
   text-transform: uppercase;
   letter-spacing: 3px;
   font-size: 14px;
-  padding: 13px 30px 10px;
+  padding: 20px 30px 18px;
   background: #4B92CE;
   border: 1px solid #4B92CE;
 	color: #ffffff;
@@ -834,6 +834,7 @@ body .socials i.grey:hover, body[class^=colorScheme] .socials i.grey:hover {
 .special-title h2 {
   text-transform: uppercase;
   margin-bottom: 0;
+	color:#1D5187
 }
 .special-title p {
   font-family: "droid serif", georgia;
