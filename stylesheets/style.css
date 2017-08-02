@@ -837,11 +837,13 @@ body .socials i.grey:hover, body[class^=colorScheme] .socials i.grey:hover {
 	color:#1D5187
 }
 .special-title p {
-  font-family: "droid serif", georgia;
-  font-size: 1.125rem;
-  font-style: italic;
-  color: #5b616b;
-  letter-spacing: 1px;
+  text-transform: none;
+    font-style: italic;
+	font-weight: bold;
+    color: #838384;
+    font-size: 18px;
+/*    font-family: "droid serif", georgia;*/
+    text-align: center;
 }
 .special-title p.shortline {
 	width: 100px;
