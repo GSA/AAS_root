@@ -702,8 +702,10 @@ h8 {
   letter-spacing: 3px;
   font-size: 14px;
   padding: 13px 30px 10px;
-  background: #112e51;
-  border: 1px solid #112e51;
+  background: #4B92CE;
+  border: 1px solid #4B92CE;
+	color: #ffffff;
+	font-weight: bold;
 }
 
 .button:hover {
@@ -1091,7 +1093,7 @@ form input.error, form textarea.error {
 
 /*footer */
 .footer {
-  background: #f1f1f1;
+  background: #ffffff;
   padding: 40px 0 20px;
 }
 .footer h1 {
