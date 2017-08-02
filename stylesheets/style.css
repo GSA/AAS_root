@@ -710,6 +710,7 @@ h8 {
 
 .button:hover {
 	background-color: rgba(1,83,143,1);
+	color:#ffffff;
 }
 
 body .icon-text .yellow, body[class^=colorScheme] .icon-text .yellow {
