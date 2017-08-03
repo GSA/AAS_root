@@ -1729,7 +1729,9 @@ ul.info i:hover {
 .serviceIcon{
 	padding-bottom:20px;
 }
-
+.services{
+	padding:40px;
+}
 /* 508 Compliance Code DO NOT REMOVE */
 .hidden 
 {position:absolute;
