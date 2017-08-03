@@ -1680,6 +1680,56 @@ ul.info i:hover {
     font-size: 1.5rem;
   }
 }
+.about{
+	background-color:#5d92c5;
+	max-width: none;
+	width:100%;
+}
+.about p{
+    color: #ffffff;
+/*    font-style: italic;*/
+	padding-right: 30%;
+	font-size: 1.3rem;
+/*	font-family:"droid serif", georgia;*/
+}
+.aboutImage{
+	background-image: url(../images/@stock/aboutImage.png);
+	min-height:435px;
+	color:#ffffff;
+	text-align: right;
+	background-repeat:no-repeat;
+	width:51%;
+}
+.aboutColor{
+	background-color:#5d92c5;
+	padding-top:115px;
+	padding-right:22px;
+	color: #ffffff;
+	font-style:italic;
+	width:49%;
+}
+.aasButton{
+	padding:20px 0;
+}
+.grey{
+	background-color:#e6e6e6;
+	min-height:392px;
+	padding:40px;
+}
+.white{
+	background-color:#ffffff;
+	min-height:392px;
+	padding:20px;
+}
+.white-last{
+	background-color:#ffffff;
+	min-height:450px;
+	padding:20px;
+}
+.serviceIcon{
+	padding-bottom:20px;
+}
+
 /* 508 Compliance Code DO NOT REMOVE */
 .hidden 
 {position:absolute;
