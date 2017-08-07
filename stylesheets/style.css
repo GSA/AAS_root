@@ -1758,6 +1758,14 @@ ul.info i:hover {
 .process{
 	padding:20px 0;
 }
+.howto h4{
+	color: #4d91cb;
+}
+.howto p{
+	color:#838384;
+	font-weight:bold;
+	font-style: italic;
+}
 /* 508 Compliance Code DO NOT REMOVE */
 .hidden 
 {position:absolute;
