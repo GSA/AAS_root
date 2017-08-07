@@ -1713,24 +1713,50 @@ ul.info i:hover {
 }
 .grey{
 	background-color:#e6e6e6;
-	min-height:392px;
+	min-height:500px;
 	padding:40px;
 }
 .white{
 	background-color:#ffffff;
-	min-height:392px;
-	padding:20px;
+	min-height:500px;
+	padding:40px;
 }
 .white-last{
 	background-color:#ffffff;
-	min-height:450px;
-	padding:20px;
+	min-height:669px;
+	padding:40px;
 }
 .serviceIcon{
 	padding-bottom:20px;
 }
 .services{
 	padding:40px;
+}
+.special-title ul{
+	text-align: left;
+	color:#4d91cb;
+	padding-left:24%;
+}
+.acqTitle h3{
+	color:#1e518c;
+	font-size: 2rem;
+	margin-bottom:0px;
+}
+.acqTitle h4{
+	color: #4d91cb;
+	margin-top:0px;
+}
+.acqTitle h5{
+	color:#1e518c;
+/*	font-size: 1.1rem;*/
+	text-transform: uppercase; 
+}
+.acqTitle ul{
+	margin-left:4rem;
+	font-style: italic;
+}
+.process{
+	padding:20px 0;
 }
 /* 508 Compliance Code DO NOT REMOVE */
 .hidden 
@@ -1835,4 +1861,5 @@ dialog {
 	  .acqmgmt img, .finmgmt img {padding-left: 30%;}
 	  .special-title h2{padding: 0 1px;}
 	  .special-title p{padding:0 2px;}
+	  .last{display:none;}
 }
