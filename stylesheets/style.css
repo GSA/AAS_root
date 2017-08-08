@@ -1738,7 +1738,7 @@ ul.info i:hover {
 	padding-left:24%;
 }
 .acqTitle h3{
-	color:#1e518c;
+	color:#1e518c !important;
 	font-size: 2rem;
 	margin-bottom:0px;
 }
@@ -1765,6 +1765,33 @@ ul.info i:hover {
 	color:#838384;
 	font-weight:bold;
 	font-style: italic;
+}
+.successCDC{
+	background-image: url(../images/@stock/successCDC.png);
+	background-repeat: no-repeat;
+	min-height:344px;
+	width:100%;
+	background-size: 100%;
+	margin-bottom: 40px;
+	padding-top:14%;
+}
+.successCDC h2{
+	color:#ffffff;
+}
+.successDoL{
+	background-image: url(../images/@stock/successDoL.png);
+	background-repeat: no-repeat;
+	min-height:344px;
+	width:100%;
+	background-size: 100%;
+	margin-bottom: 40px;
+	padding-top:14%;
+}
+.successDoL h2{
+	color:#ffffff;
+}
+.grey h3{
+	color:#4d91cb;
 }
 /* 508 Compliance Code DO NOT REMOVE */
 .hidden 
