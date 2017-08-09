@@ -1843,6 +1843,78 @@ ul.info i:hover {
 	margin-bottom: 40px;
 /*	padding-top:14%;*/
 }
+.region4{
+	background-image: url(../images/@stock/region4.png);
+	background-repeat: no-repeat;
+	max-height:344px;
+	width:100%;
+	background-size: 100%;
+	margin-bottom: 40px;
+/*	padding-top:14%;*/
+}
+.region5{
+	background-image: url(../images/@stock/region5.png);
+	background-repeat: no-repeat;
+	max-height:344px;
+	width:100%;
+	background-size: 100%;
+	margin-bottom: 40px;
+/*	padding-top:14%;*/
+}
+.region6{
+	background-image: url(../images/@stock/region6.png);
+	background-repeat: no-repeat;
+	max-height:344px;
+	width:100%;
+	background-size: 100%;
+	margin-bottom: 40px;
+/*	padding-top:14%;*/
+}
+.region7{
+	background-image: url(../images/@stock/region7.png);
+	background-repeat: no-repeat;
+	max-height:344px;
+	width:100%;
+	background-size: 100%;
+	margin-bottom: 40px;
+/*	padding-top:14%;*/
+}
+.region8{
+	background-image: url(../images/@stock/region8.png);
+	background-repeat: no-repeat;
+	max-height:344px;
+	width:100%;
+	background-size: 100%;
+	margin-bottom: 40px;
+/*	padding-top:14%;*/
+}
+.region9{
+	background-image: url(../images/@stock/region9.png);
+	background-repeat: no-repeat;
+	max-height:344px;
+	width:100%;
+	background-size: 100%;
+	margin-bottom: 40px;
+/*	padding-top:14%;*/
+}
+.region10{
+	background-image: url(../images/@stock/region10.png);
+	background-repeat: no-repeat;
+	max-height:344px;
+	width:100%;
+	background-size: 100%;
+	margin-bottom: 40px;
+/*	padding-top:14%;*/
+}
+.region11{
+	background-image: url(../images/@stock/region11.png);
+	background-repeat: no-repeat;
+	max-height:344px;
+	width:100%;
+	background-size: 100%;
+	margin-bottom: 40px;
+/*	padding-top:14%;*/
+}
 .region h2{
 	color:#ffffff;
 	max-width: 70rem;
