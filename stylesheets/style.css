@@ -1935,6 +1935,45 @@ ul.info i:hover {
 	font-style: italic;
 	font-size: 1.25rem;
 }
+.contactLegend{
+	margin-top: 70px;
+}
+.button a{
+	color: #ffffff;
+}
+.region1c, .region6c{
+	background-color:#d3e2ed;
+	padding: 10px;
+	font-weight: bold;
+	margin: 5px;
+}
+.region2c, .region5c, .region9c{
+	background-color:#46a1da;
+	padding: 10px;
+	font-weight: bold;
+	margin: 5px;
+}
+.region3c, .region8c, .region11c{
+	background-color:#98b9d0;
+	padding: 10px;
+	font-weight: bold;
+	margin: 5px;
+}
+.region4c, .region10c{
+	background-color:#7bc7ee;
+	padding: 10px;
+	font-weight: bold;
+	margin: 5px;
+}
+.region7c{
+	background-color:#b7e5fa;
+	padding: 10px;
+	font-weight: bold;
+	margin: 5px;
+}
+.region2c a, .region3c a, .region4c a, .region5c a, .region8c a, .region9c a, .region10c a, .region11c a{
+	color:#ffffff;
+}
 .usa-disclaimer {
   background-color: #01538f;
   font-size: 1.2rem;
