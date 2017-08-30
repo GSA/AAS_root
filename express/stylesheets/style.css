@@ -1091,17 +1091,24 @@ form input.error, form textarea.error {
 
 /*footer */
 .footer {
-  background: #f1f1f1;
+  background: #3b7840;
   padding: 40px 0 20px;
 }
 .footer h1 {
-  color: #323a45;
+  color: #ffffff;
   font-size: 48px;
 }
 .footer p.copyright {
   padding: 40px 0 0;
-  color: ##323a45;
+  color: #ffffff;
   font-size: 14px;
+}
+.footer h6{
+	color:#ffffff;
+}
+.footer a{
+	color:#cdb047;
+	font-weight: bold;
 }
 
 /* slider customization */
@@ -1673,6 +1680,67 @@ ul.info i:hover {
   #sequence .title h2 {
     font-size: 1.5rem;
   }
+}
+.expressGreen{
+	color:#3b7840;
+}
+h3.expressGreen {
+	font-size: 36pt;
+}
+h3.expressGreen:after{
+	content: url(../images/@stock/goldArrow.png);
+}
+.expressButton{
+    background: #ffffff;
+    border: 3px solid #3b7840;
+	color:#3b7840;
+	font-weight: bold;
+    padding: 15px 75px;
+}
+.expressButton:hover{
+    background: #ffffff;
+    border: 3px solid #3b7840;
+	color:#3b7840;
+}
+.expressFront{
+	margin-top:7px;
+}
+.expressFront h3{
+	font-size: 46pt;
+    color: #ffffff;
+    font-weight: lighter
+}
+.expressFront h3 span{
+	color:#cdb047;
+	font-style: italic;
+	font-weight: normal;
+}
+.expressOverview p{
+	font-weight: bold;
+}
+.expressServicesWork{
+	background-image:url(../images/@stock/workservices.png);
+	min-height: 418px;
+	margin-bottom: 40px;
+}
+.expressServicesWork h4{
+	color:#ffffff;
+	font-size: 18pt;
+	text-align: center;
+	padding-top:40px;
+}
+.expressServicesWork ul.no-bullet{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+.expressServicesWork li.arrow{
+	background: url(../images/@stock/goldArrowVert.png) no-repeat left top;
+	color: #ffffff;
+	font-size: 14pt;
+	padding: 5px 0 5px 40px;
+	margin-bottom: 15px;
+	
 }
 /* 508 Compliance Code DO NOT REMOVE */
 .hidden 
