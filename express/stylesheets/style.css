@@ -1681,7 +1681,7 @@ ul.info i:hover {
     font-size: 1.5rem;
   }
 }
-.expressGreen{
+.active, .expressGreen{
 	color:#3b7840;
 }
 h3.expressGreen {
