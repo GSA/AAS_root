@@ -1682,7 +1682,7 @@ ul.info i:hover {
   }
 }
 .active, .expressGreen{
-	color:#3b7840;
+	color:#3b7840 !important;
 }
 h3.expressGreen {
 	font-size: 36pt;
@@ -1741,6 +1741,56 @@ h3.expressGreen:after{
 	padding: 5px 0 5px 40px;
 	margin-bottom: 15px;
 	
+}
+.titleHeader{
+	background-image: url(../images/@stock/titleHeader.png);
+	min-height:160px;
+}
+.titleHeaderText{
+	color: #cdb047;
+	font-weight:lighter;
+	font-size: 40pt;
+	max-width: 70rem;
+    margin: 0 auto;
+    margin-bottom: 0;
+	padding-top:40px;
+}
+.extraPadBot{
+	margin-bottom:50px;
+}
+h4.about {
+	font-weight: bold;
+	font-size: 14pt;
+	margin-top:20px;
+}
+.palt{
+	margin-top:40px;
+}
+.palt h3{
+	color:#0d5386;
+	font-size:36pt;
+	text-align: center;
+	font-family:"PT sans";
+}
+.palt h4{
+	color:#5b616b;
+	margin-bottom: 0px;
+    margin-left: 6px;
+}
+.paltRight{
+	margin-top:50px;
+}
+.expressAbout{
+	background: #f6f6f6;
+}
+.expressAbout h4{
+    text-transform: none;
+    color: #464646;
+    font-size: 18px;
+    text-align: center;
+}
+.expressVision{
+	background: #ccc480;
 }
 /* 508 Compliance Code DO NOT REMOVE */
 .hidden 
