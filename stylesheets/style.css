@@ -1735,9 +1735,12 @@ ul.info i:hover {
 	padding:40px;
 }
 .special-title ul{
-	text-align: left;
+/*	text-align: left;*/
 	color:#4d91cb;
-	padding-left:24%;
+/*	padding-left:24%;*/
+}
+.special-title ul li{
+	list-style: none;
 }
 .acqTitle h3{
 	color:#1e518c !important;
