@@ -1690,6 +1690,9 @@ h3.expressGreen {
 h3.expressGreen:after{
 	content: url(../images/@stock/goldArrow.png);
 }
+.expressBold{
+	font-weight:bold;
+}
 .expressButton{
     background: #ffffff;
     border: 3px solid #3b7840;
@@ -1810,9 +1813,21 @@ h4.about {
 	width: 90%;
 	padding-bottom:40px;
 }
-.expressServices{}
+.expressServices img{
+	float: left;
+    padding-right: 5%;
+}
+.expressServices{
+	padding-bottom:0px;
+}
 .serviceColor{
 	background: #ccc480;
+}
+.serviceColor h3{    
+	margin-left: 95px;
+}
+.leftPad{
+	padding-left: 105px;
 }
 /* 508 Compliance Code DO NOT REMOVE */
 .hidden 
