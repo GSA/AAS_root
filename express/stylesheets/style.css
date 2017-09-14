@@ -1688,6 +1688,7 @@ ul.info i:hover {
 }
 h3.expressGreen {
 	font-size: 36pt;
+/*	text-align: center;*/
 }
 h3.expressGreen:after{
 	content: url(../images/@stock/goldArrow.png);
