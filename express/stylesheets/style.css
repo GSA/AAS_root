@@ -814,10 +814,12 @@ body .socials i.grey:hover, body[class^=colorScheme] .socials i.grey:hover {
 .top-bar-section .dropdown li:not(.has-form) a:not(.button) {
   height: 60px;
   line-height: 60px;
+	color: #eeeeee;
+    background: #333333;
 }
 
 .top-bar-section .dropdown li:not(.has-form):hover > a:not(.button) {
-	background: #006699;
+	background: #3b7840;
 	color: #f1f1f1
 }
 
@@ -1701,9 +1703,9 @@ h3.expressGreen:after{
     padding: 15px 75px;
 }
 .expressButton:hover{
-    background: #ffffff;
+    background: #3b7840;
     border: 3px solid #3b7840;
-	color:#3b7840;
+	color:#ffffff;text-decoration: none;
 }
 .expressFront{
 	margin-top:7px;
@@ -1877,16 +1879,17 @@ dialog {
 	margin-top:40px;
 }
 .panel-body{
-	margin-left: 40px;
-    background-color: #f1f1f1;
+	margin-left: 20px;
+    background-color: #fff;
 /*    font-style: italic;*/
-    font-size: 20px;
+    font-size: 12pt;
     line-height: 30px;
 	font-family:  "droid serif", georgia;
 }
 .panel-default>.panel-heading {
-    background-color: #4B92CE;
+    background: #ccc480;
     border: 0px solid;
+    padding: 5px 30px;
 }
 .panel-titlearrow{
 	background-image:url(../images/@stock/faqarrow.png);
@@ -1901,10 +1904,43 @@ dialog {
 	margin-top:8px;
 }
 .panel-title>a {
-    color: #FFFFFF;
+    color: #363636;
 	font-weight: bold;
 	font-size: 20px;
 }
+/*---------------------*/
+/*
+ .panel-group .panel {
+        border-radius: 0;
+        box-shadow: none;
+        border-color: #EEEEEE;
+    }
+
+    .panel-default > .panel-heading {
+        padding: 0;
+        border-radius: 0;
+        color: #212121;
+    }
+
+    .panel-title {
+        font-size: 14px;
+    }
+
+    .panel-title > a {
+        display: block;
+        padding: 15px;
+        text-decoration: none;
+    }
+
+    .more-less {
+        float: left;
+        color: #212121;
+    }
+
+    .panel-default > .panel-heading + .panel-collapse > .panel-body {
+        border-top-color: #EEEEEE;
+    }
+*/
 /* Mobile Code DO NOT REMOVE */
 @media only screen 
   and (min-device-width: 320px) 
