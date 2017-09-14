@@ -1845,6 +1845,8 @@ h4.about {
 }
 .expressPlatform{
 	margin-top: 8px;
+	padding-right: 0px;
+    padding-left: 65px;
 }
 
 .usa-disclaimer {
