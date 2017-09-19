@@ -1684,6 +1684,9 @@ ul.info i:hover {
     font-size: 1.5rem;
   }
 }
+.panel-group .panel-heading+.panel-collapse>.list-group, .panel-group .panel-heading+.panel-collapse>.panel-body {
+    border-top: 0px solid;
+}
 .active, .expressGreen{
 	color:#3b7840 !important;
 }
@@ -1737,20 +1740,42 @@ h3.expressGreen:after{
 	color:#ffffff;
 	font-size: 18pt;
 	text-align: center;
-	padding-top:40px;
+/*	padding-top:40px;*/
 }
 .expressServicesWork ul.no-bullet{
 	list-style-type: none;
 	padding: 0;
 	margin: 0;
 }
-.expressServicesWork li.arrow{
+.expressServicesWork h4.arrow{
 	background: url(../images/@stock/goldArrowVert.png) no-repeat left top;
 	color: #ffffff;
 	font-size: 14pt;
-	padding: 5px 0 5px 40px;
-	margin-bottom: 15px;
+	padding: 5px 0 11px 40px;
+/*	margin-bottom: 15px;*/
 	
+}
+.expressServicesWork .panel-group{
+	margin-top:0px;
+}
+.expressServicesWork .panel{
+	background: transparent;
+}
+.expressServicesWork .panel-default>.panel-heading {
+    background: transparent;
+    border: 0px solid;
+}
+.expressServicesWork .panel-title>a {
+    color: #FFFFFF;
+}
+.expressServicesWork .panel-body {
+    margin-left: 20px;
+    background-color: transparent;
+    /* font-style: italic; */
+    font-size: 12pt;
+    line-height: 30px;
+	color: #ffffff;
+    font-family: "droid serif", georgia;
 }
 .titleHeader{
 	background-image: url(../images/@stock/titleHeader.png);
@@ -1883,6 +1908,9 @@ input#name, input#email, input#phone, textarea#overview, input#company, input#ag
     color: #838384;
     letter-spacing: 1px;
 	line-height: 20px;
+}
+.container{
+	width:100%;
 }
 .usa-disclaimer {
   background-color: #01538f;
