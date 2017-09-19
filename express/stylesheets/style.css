@@ -614,16 +614,16 @@ font-family: 'Source Sans Pro', sans-serif;
   visibility: visible;
 }
 input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
-  color: white;
+  color: #1f517f;
 }
 input:-moz-placeholder, textarea:-moz-placeholder {
-  color: white;
+  color: #1f517f;
 }
 input::-moz-placeholder, textarea::-moz-placeholder {
-  color: white;
+  color: #1f517f;
 }
 input:-ms-input-placeholder, textarea:-ms-input-placeholder {
-  color: white;
+  color: #1f517f;
 }
 
 body{background-color:#ffffff;}
@@ -654,7 +654,7 @@ h8 {
 }
 
 .form-bg {
-	background: #666666;
+	background: #1f517f;
 }
 
 .call-to-action-bg {
@@ -702,12 +702,13 @@ h8 {
   letter-spacing: 3px;
   font-size: 14px;
   padding: 13px 30px 10px;
-  background: #112e51;
-  border: 1px solid #112e51;
+  background: #cdb047;
+  border: 1px solid #cdb047;
+	font-weight: bold;
 }
 
 .button:hover {
-	background-color: rgba(1,83,143,1);
+	background-color: #ccc480;
 }
 
 body .icon-text .yellow, body[class^=colorScheme] .icon-text .yellow {
@@ -1799,8 +1800,16 @@ h4.about {
     text-align: center;
 }
 .expressVision{
-	background: #ccc480;
+	background: #1f5183;
 	text-align: center;
+}
+.expressVision h3{
+	color: #ffffff;
+	margin-top:25px;
+}
+.expressVision p{
+	text-align: left;
+	color: #ffffff;
 }
 .expressLeadership h3{
 	margin:10px 0;
@@ -1849,7 +1858,32 @@ h4.about {
 	padding-right: 0px;
     padding-left: 65px;
 }
-
+.agencyIcon{
+	margin-top:-15px;
+}
+.templatedIcon{
+	min-height:213px;
+	min-width:238px;
+}
+.leaderVision{
+	padding-left:30px;
+}
+input#name, input#email, input#phone, textarea#overview, input#company, input#agency {
+    background-color: #ffffff;
+    color: #004d8c;
+}
+.briefForm {
+    padding-left: 20px;
+}
+.paragraph {
+    font-style: italic;
+    font-weight: bold;
+    font-family: "droid serif", georgia;
+    font-size: 1.125rem;
+    color: #838384;
+    letter-spacing: 1px;
+	line-height: 20px;
+}
 .usa-disclaimer {
   background-color: #01538f;
   font-size: 1.2rem;
