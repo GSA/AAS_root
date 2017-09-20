@@ -1732,11 +1732,18 @@ ul.info i:hover {
 	padding-bottom:20px;
 }
 .services{
-	padding:40px;
+	padding:0px 40px 40px 40px;
+}
+.services h3{
+	font-size:1.55rem
 }
 .special-title ul{
 /*	text-align: left;*/
 	color:#4d91cb;
+	text-transform: none;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
 /*	padding-left:24%;*/
 }
 .special-title ul li{
@@ -1992,6 +1999,9 @@ color:#ffffff;}
 }
 .aasFront{
 	margin-top:154px;
+}
+.aasBackground{
+	background-color: rgba(17,47,110,0.5);
 }
   @media screen and (min-width: 481px) {
     .usa-disclaimer {
