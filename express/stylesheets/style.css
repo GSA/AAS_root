@@ -1687,10 +1687,10 @@ ul.info i:hover {
 .panel-group .panel-heading+.panel-collapse>.list-group, .panel-group .panel-heading+.panel-collapse>.panel-body {
     border-top: 0px solid;
 }
-.active, .expressGreen{
+.active, .expressGreen, .expressGreenNoArrow{
 	color:#3b7840 !important;
 }
-h3.expressGreen {
+h3.expressGreen, h3.expressGreenNoArrow {
 	font-size: 36pt;
 /*	text-align: center;*/
 }
@@ -1737,11 +1737,20 @@ h3.expressGreen:after{
 	margin-bottom: 40px;
 	    margin-top: 20px;
 }
+.expressServicesWork h3 {
+	font-size: 36pt;
+	color: #ffffff;
+	padding-top:20px;
+	padding-bottom:20px;
+}
 .expressServicesWork h4{
 	color:#ffffff;
-	font-size: 18pt;
-	text-align: center;
+/*	font-size: 18pt;
+	text-align: center;*/
 /*	padding-top:40px;*/
+}
+.expressServicesWork p{
+	color: #ffffff;
 }
 .expressServicesWork ul.no-bullet{
 	list-style-type: none;
@@ -1884,12 +1893,19 @@ h4.about {
 	padding-right: 0px;
     padding-left: 65px;
 }
+.features p{
+	text-align: left;
+}
 .agencyIcon{
 	margin-top:-15px;
 }
 .templatedIcon{
 	min-height:213px;
 	min-width:238px;
+}
+.platformIcon{
+	min-width:238px;
+	margin-left: -15px;
 }
 .leaderVision{
 	padding-left:30px;
