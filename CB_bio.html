@@ -3,23 +3,23 @@
 <!--[if IE 7]>    <html class="no-js ie7 oldie"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js ie8 oldie"> <![endif]-->
 <!--[if gt IE 8]><!-->
-<html lang="en" class="no-js">
+<html lang="en" class='no-js'>
   <!--<![endif]-->
   <head>
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="description">
-    <meta content="" name="author">
+    <meta charset='utf-8'>
+    <meta content='width=device-width, initial-scale=1.0' name='viewport'>
+    <meta content='' name='description'>
+    <meta content='' name='author'>
     <!--
       hash is 464e0fb146194482a3ab153fc11e6346175a63f0
     -->
-    <title>Assisted Acquisition Services (AAS) Home</title>
+    <title>Chris Bennethum Bio</title>
     <link href="stylesheets/framework.css" media="screen" rel="stylesheet" type="text/css" />
     <link href="stylesheets/style.css" media="screen" rel="stylesheet" type="text/css" />
     <link href="stylesheets/skins.css" media="screen" rel="stylesheet" type="text/css" />
     <link href="stylesheets/fontello.css" media="screen" rel="stylesheet" type="text/css" />
-    <script src="js/libs.js" type="text/javascript"></script>
-    <script src="js/app.js" type="text/javascript"></script>
+    <script src="javascripts/libs.js" type="text/javascript"></script>
+    <script src="javascripts/app.js" type="text/javascript"></script>
     <script>
       // terrificjs bootstrap
       (function($) {
@@ -27,7 +27,7 @@
               var $page = $('body');
               var config = {
                 dependencyPath: {
-                  plugin: 'js/'
+                  plugin: 'javascripts/'
                 }
               }
               var application = new Tc.Application($page, config);
@@ -42,7 +42,7 @@
   <script src="https://use.edgefonts.net/droid-sans:n4:default.js" type="text/javascript"></script>
   </head>
 <body class="">
-  <header role="banner">
+<header role="banner">
   <div class="usa-disclaimer">
     <div class="usa-disclaimer-official usa-grid">
       <img src="images/@stock/flag.png" alt="U.S. flag">
@@ -78,7 +78,7 @@
           </li>
             <li class="has-dropdown">
               <a href="#">About AAS</a>
-				<ul class="dropdown">
+<ul class="dropdown">
                 <li>
                   <a href="about.html">Who We Are</a>
                 </li>
@@ -87,6 +87,9 @@
                 </li>
                 <li>
                   <a href="process.html">Our Acquisition Process</a>
+                </li>
+                <li>
+                  <a href="leadership.html">Leadership</a>
                 </li>
                 <!-- <li>
                   <a href="howto.html">How to Use AAS</a>
@@ -108,106 +111,35 @@
         </section>
       </nav>
     </div>
-    <script>
-      jQuery(document).ready(function() {
-        var options = {
-          nextButton: true,
-          prevButton: true,
-          autoPlay: true,
-          autoPlayDelay: 5000,
-          pauseButton: true,
-          preloader: true,
-          animateStartingFrameIn: true,
-          pagination: true,
-          reverseAnimationsWhenNavigatingBackwards: true,
-          preventDelayWhenReversingAnimations: true,
-          fadeFrameWhenSkipped: false,
-          swipeEvents: {
-            left: "next",
-            right: "prev"
-          }
-        }
-        var sequence = jQuery("#sequence").sequence(options).data("sequence");
-        sequence.beforeCurrentFrameAnimatesOut = function() {
-          setTimeout(function() {
-            jQuery(".frame.static").removeClass('static');
-          }, 800);
-        }
-      
-      });
-    </script>
-    <div id='sequence'>
-      <ul class='sequence-canvas homeSlider'>
-        <li class='frame'>
-          <div class='bg' style='background-image: url(images/slider/slide-2.png);'>
-            <div class='info bottom-to-top centered'> </div>
-          </div>
-          <div class='title left-to-right'>
-            <div class='row'><br>
-                          <div class='large-12 columns'>
-                            <div class="medium-12 large-12 columns aasBackground">
-                             <h3>AAS is a full-scale, cradle-to-grave professional acquisitions, project and financial management services provider that individually tailors solutions to federal clients' mission goals, budgets and regulatory requirements.</h3></div>
-                             
-              </div>
-            </div>            
-          </div>
-</li>
-         <li class='frame'>
-          <div class='bg' style='background-image: url(images/slider/slide-1.png);'>
-            <div class='info bottom-to-top centered'> </div>
-          </div>
-          <div class='title left-to-right'>
-            <div class='row'><br>
-                          <div class='large-12 columns'>
-                            <div class="medium-12 large-12 columns aasFront">
-                             <h3>Strengthen your cybersecurity posture with our CDM Buying Program</h3>
-                              <a class='button boxed blue' href='https://www.gsa.gov/technology/technology-purchasing-programs/the-cdm-program' target="_blank">Learn More ></a></div>
-                             
-              </div>
-            </div>            
-          </div>
-</li>
-      </ul>
-      <a class='sequence-prev' href='javascript:void(0);'>
-        <span></span>
-      </a>
-      <a class='sequence-next' href='javascript:void(0);'>
-        <span></span>
-      </a>
-      <ul class='sequence-pagination'>
-        <li></li>
-        <li></li>
-      </ul>
-</div>
-<div class='members'>
-  <div class='full call-to-action-bg-alt no-padding'>
-<div class='special-title centered-text'>
-    <h9> </h9>
-</div>        
-  </div>
+    <div class='spacing'></div>
+      <div class='row'>
+     <div class='medium-3 large-3 columns leaderImg'>
+            <img src='images/@stock/bioplaceholder.png' alt="Chris Bennethum standing in front of the American Flag">
+        </div>
+      <div class='large-8 columns centered'>
+        <h3 class="leaderTitle">Chris Bennethum | Deputy Assistant Commissioner</h3>
+        <p>Chris Bennethum is the Deputy Assistant Commissioner for GSA’s Assisted Acquisition Services (AAS) organization in the Federal Acquisition Service.  Chris oversees the AAS Portfolio’s business strategy and operations, systems development, acquisition policy, financial management and workforce recruitment, development and engagement.</p>
+<p>Chris has served in numerous roles over his 25 years of service with various GSA components in several regional, central office and overseas locations.  Some of his previous roles include serving as FAS Chief of Staff, Deputy Regional Commissioner for the National Capital Region, Director for GSA’s Travel and Transportation Northeast Zone, and Director for Marketing and Business Development in GSA’s European office. </p>
  
-  <div class='two spacing'></div>
- <div class="row">
-	 <div class="special-title columns pagination-centered medium-12 large-12">
-		
-			<p>AAS will guide you through the procurement and acquisition process<br>
-and help you to make the best decisions for your agency needs.</p>
-	 </div>
-	 
-  <div class='two spacing'></div>
-	 <div class="special-title columns pagination-centered medium-12 large-12">
-	 		<div class="columns medium-4 large-4">&nbsp;</div>
-			<a href="process.html"><div class="columns button medium-4 large-4">Learn More</div></a>
-	 		<div class="columns medium-4 large-4">&nbsp;</div>
-	 </div>
- </div>   
-  <div class='two spacing'></div>
-   <script src='js/jquery.countTo.js'></script>
-    <script src='js/jquery.appear.js'></script>
-    <script src='js/jquery.sequence-min.js'></script>
-    <script src='js/jquery.validate.js'></script>
-    <script src="js/app.js" type="text/javascript"></script>
+ <div class="spacing"></div>
+              </div>
+              <div class='large-1 columns'>
+            
+    </div>
+      </div>
+      
+     
+    </div>
+    <div class='two spacing'></div>
     <div class='footer left-text'>
+<div class='row'> </div>
+    </div>
+    <script src='javascripts/jquery.countTo.js'></script>
+    <script src='javascripts/jquery.appear.js'></script>
+    <script src='javascripts/jquery.sequence-min.js'></script>
+    <script src='javascripts/jquery.validate.js'></script>
+    <script src="javascripts/app.js" type="text/javascript"></script>
+        <div class='footer left-text'>
 <div class='row'>
         <div class='columns pagination-centered'>
 <h1 class='light pagination-centered'>
@@ -217,7 +149,7 @@ and help you to make the best decisions for your agency needs.</p>
 <a href="mailto:assistedservices@gsa.gov">Contact GSA AAS</a>
         </h1> 
       </div>
+    </div>
   </div>
-</div>
-      </body>
+  </body>
 </html>
