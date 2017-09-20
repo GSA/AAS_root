@@ -1706,6 +1706,7 @@ h3.expressGreen:after{
 	color:#3b7840;
 	font-weight: bold;
     padding: 15px 75px;
+	margin-top: 40px;
 }
 .expressButton:hover, .expressPlatformbutton:hover{
     background: #3b7840;
@@ -1928,6 +1929,9 @@ input#name, input#email, input#phone, textarea#overview, input#company, input#ag
 }
 .container{
 	width:100%;
+}
+.padTop{
+	margin-top:40px;
 }
 .usa-disclaimer {
   background-color: #01538f;
