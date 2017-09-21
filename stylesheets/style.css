@@ -786,7 +786,13 @@ body .socials i.grey:hover, body[class^=colorScheme] .socials i.grey:hover {
 
 .bg-2 {
 	background-size: cover;
-	background-color: #666666;
+	background-color: #4B92CE;
+}
+.bg-2 .special-title h2{
+	color:#ffffff;
+}
+.testimonials {
+    padding-top: 30px;
 }
 .no-js body .testimonials.full.bg-2.light.centered-text {
 }
