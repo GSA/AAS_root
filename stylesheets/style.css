@@ -656,9 +656,15 @@ h8 {
 }
 
 .form-bg {
-	background: #666666;
+	background: #4B92CE;
 }
-
+input#name, input#email, input#phone, textarea#message, input#company, input#agency {
+    background-color: #ffffff;
+    color: #004d8c;
+}
+.briefForm {
+    padding-left: 20px;
+}
 .call-to-action-bg {
 	background: #EBEDEF;
 }
@@ -704,14 +710,18 @@ h8 {
   letter-spacing: 3px;
   font-size: 14px;
   padding: 20px 30px 18px;
-  background: #4B92CE;
+  background: #01538f;
+  border: 1px solid #01538f;
+/*
+    background: #4B92CE;
   border: 1px solid #4B92CE;
+*/
 	color: #ffffff;
 	font-weight: bold;
 }
 
 .button:hover {
-	background-color: rgba(1,83,143,1);
+	background-color: #01538f;
 	color:#ffffff;
 }
 
