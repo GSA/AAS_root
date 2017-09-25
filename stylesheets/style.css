@@ -616,16 +616,16 @@ font-family: 'Source Sans Pro', sans-serif;
   visibility: visible;
 }
 input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
-  color: white;
+  color: #01538f;
 }
 input:-moz-placeholder, textarea:-moz-placeholder {
-  color: white;
+  color: #01538f;
 }
 input::-moz-placeholder, textarea::-moz-placeholder {
-  color: white;
+  color: #01538f;
 }
 input:-ms-input-placeholder, textarea:-ms-input-placeholder {
-  color: white;
+  color: #01538f;
 }
 
 body{background-color:#ffffff;}
