@@ -1946,7 +1946,7 @@ ul.info i:hover {
 	max-width: 70rem;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 0;
+    margin-top: -60px;
     margin-bottom: 0;
 	font-size: 3rem;
 }
@@ -2011,7 +2011,7 @@ color:#ffffff;}
 }
 #sequence h3 {
 	color: #ffffff;
-	font-size: 2rem;
+	font-size: 3rem;
 }
 .aasFront{
 	margin-top:154px;
