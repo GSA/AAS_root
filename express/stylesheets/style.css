@@ -1831,6 +1831,7 @@ h4.about {
 }
 .palt{
 	margin-top:40px;
+	padding: 40px 0px;
 }
 .palt h3{
 	color:#0d5386;
@@ -1846,8 +1847,11 @@ h4.about {
 .paltRight{
 	margin-top:50px;
 }
-.expressAbout{
+.expressFeatures, .expressAboutOverview, .palt{
 	background: #f6f6f6;
+}
+.expressFeatures{
+	padding-top:50px;
 }
 .expressAbout h4{
     text-transform: none;
