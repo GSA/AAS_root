@@ -1697,6 +1697,12 @@ h3.expressGreen, h3.expressGreenNoArrow {
 h3.expressGreen:after{
 	content: url(../images/@stock/goldArrow.png);
 }
+.expressAbout p, .expressOverview p {
+    font-weight: bold;
+    color: #0d5386;
+    text-align: center;
+	font-size: 14pt;
+}
 .expressBold{
 	font-weight:bold;
 }
@@ -1811,6 +1817,17 @@ h4.about {
 	font-weight: bold;
 	font-size: 14pt;
 	margin-top:20px;
+	text-align:left;
+}
+.feature{
+	border-bottom: 2px solid #0d5386;
+	padding-bottom:20px;
+	margin-bottom: 40px;
+}
+.featureLast{
+/*	border-bottom: 2px solid #0d5386;*/
+	padding-bottom:20px;
+	margin-bottom: 40px;
 }
 .palt{
 	margin-top:40px;
@@ -1836,7 +1853,7 @@ h4.about {
     text-transform: none;
     color: #464646;
     font-size: 18px;
-    text-align: center;
+/*    text-align: center;*/
 }
 .expressVision{
 	background: #1f5183;
@@ -1904,7 +1921,7 @@ h4.about {
 	margin-top:-15px;
 }
 .templatedIcon{
-	min-height:213px;
+	min-height:122px;
 	min-width:238px;
 }
 .platformIcon{
@@ -2366,4 +2383,7 @@ dialog {
 	  .acqmgmt img, .finmgmt img {padding-left: 30%;}
 	  .special-title h2{padding: 0 1px;}
 	  .special-title p{padding:0 2px;}
+	  .expressPlatform{display:none;}
+	  .top-bar img{width:300px;}
+	  .usa-disclaimer-official p {font-size: .64rem;}
 }
