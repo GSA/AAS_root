@@ -1697,7 +1697,7 @@ h3.expressGreen, h3.expressGreenNoArrow {
 h3.expressGreen:after{
 	content: url(../images/@stock/goldArrow.png);
 }
-.expressAbout p, .expressOverview p {
+.expressAbout p, .expressOverview p, .expressAboutOverview p {
     font-weight: bold;
     color: #0d5386;
     text-align: center;
