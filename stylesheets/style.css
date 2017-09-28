@@ -2294,12 +2294,27 @@ color:#ffffff;}
 /*    padding: 20px;*/
 }
 .programs img{
+	width:75%;
+	padding:19px 0;
+}
+.prg img:hover{
 	width:100%;
-	padding:12px 0;
+	padding:16px 0;
+}
+.prg2 img:hover{
+	width:100%;
+	padding:18px 0;
+}
+.prg:hover, .prg2:hover{
+	background-color:#ffffff;
 }
 .currentSite{
 	background-color:#ffffff;
 /*	padding:21px;*/
+}
+.currentSite img{
+    width:100%;
+	padding:12px 0;
 }
 /* 508 Compliance Code DO NOT REMOVE */
 .hidden 
