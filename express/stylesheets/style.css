@@ -1751,13 +1751,13 @@ h3.expressGreen:after{
 	min-height: 418px;
 	margin-bottom: 40px;
 	margin-top: 20px;
-	padding-bottom: 54px;
+/*	padding-bottom: 54px;*/
 }
 .expressServicesWork h3 {
 	font-size: 36pt;
 	color: #ffffff;
 	padding-top:20px;
-	padding-bottom:20px;
+/*	padding-bottom:20px;*/
 }
 .expressServicesWork h4{
 	color:#ffffff;
