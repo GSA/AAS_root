@@ -1830,7 +1830,7 @@ h4.about {
 	padding-bottom:20px;
 	margin-bottom: 40px;
 }
-.feature img {
+.feature img, .featureLast img {
 	min-width: 163px;
 }
 .featureLast{
