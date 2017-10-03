@@ -1750,7 +1750,8 @@ h3.expressGreen:after{
 	background-image:url(../images/@stock/workservices.png);
 	min-height: 418px;
 	margin-bottom: 40px;
-	    margin-top: 40px;
+	margin-top: 20px;
+	padding-bottom: 54px;
 }
 .expressServicesWork h3 {
 	font-size: 36pt;
@@ -1829,10 +1830,8 @@ h4.about {
 	padding-bottom:20px;
 	margin-bottom: 40px;
 }
-.feature img, .featureLast img {
-	min-width: 180px;
-    margin-top: -20px;
-    margin-left: -15px;
+.feature img {
+	min-width: 163px;
 }
 .featureLast{
 /*	border-bottom: 2px solid #0d5386;*/
@@ -1927,6 +1926,9 @@ h4.about {
 	margin-top: 8px;
 	padding-right: 0px;
     padding-left: 65px;
+}
+.expressPlatformpage{
+	padding-bottom:10px;
 }
 .features p{
 	text-align: left;
