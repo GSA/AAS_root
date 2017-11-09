@@ -2422,4 +2422,5 @@ dialog {
 	  .special-title h2{padding: 0 1px;}
 	  .special-title p{padding:0 2px;}
 	  .last{display:none;}
+	  .usa-disclaimer-official p {font-size: .65rem;}
 }
