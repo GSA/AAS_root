@@ -2423,6 +2423,7 @@ dialog {
 	  .special-title p{padding:0 2px;}
 	  .last{display:none;}
 	  .usa-disclaimer-official p {font-size: .65rem;}
+	  .usa-disclaimer-official img {width: 1.1rem;}
 	  .programs {display:none;}
 	  .successCDC{padding-left:0px !important;}
 	  .successCDC h2, .successDoL h2{font-size: 1.1rem;}
