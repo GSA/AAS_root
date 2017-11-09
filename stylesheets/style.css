@@ -2433,6 +2433,7 @@ dialog {
 	  .briefForm {padding-left: 0px;}
 	  .aboutColor{padding-top:10px;}
 	  .about p{padding-right: 0; font-size: .9rem;}
+	  .region {padding-left:0.4rem;}
 	  .region h2{font-size:2.25rem;}
 	  .region h3{font-size:1rem;}
 }
