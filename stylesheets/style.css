@@ -2424,4 +2424,6 @@ dialog {
 	  .last{display:none;}
 	  .usa-disclaimer-official p {font-size: .65rem;}
 	  .programs {display:none;}
+	  .successCDC{padding-left:0px !important;}
+	  .top {padding-bottom:0;}
 }
