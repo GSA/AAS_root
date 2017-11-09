@@ -2428,5 +2428,5 @@ dialog {
 	  .successCDC h2, .successDoL h2{font-size: 1.1rem;}
 	  .top {padding-bottom:0;}
 	  .regionBox {margin-left: 0;}
-	  .usa-grid {padding-left: .5rem;}
+	  .usa-grid {padding-left: .5rem; padding-right: .5rem;}
 }
