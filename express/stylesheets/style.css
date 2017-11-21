@@ -2410,4 +2410,6 @@ dialog {
   and (min-device-width: 501px) 
   and (max-device-width: 768px)  {
       .expressFront h3 {font-size: 26pt; margin-top: -90px;}
+      .title-area {width: 38%;}
+	  .top-bar img{width:95%;}
 }
