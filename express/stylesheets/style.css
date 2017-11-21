@@ -2378,7 +2378,7 @@ dialog {
   and (max-device-width: 500px)  {
 	  .shaping, #sequence, .aboutFEDSIM, .gutter{width: 100%; margin-left:0;}
 	  .homeSlider h3 {font-size: 26px;}
-      .expressFront h3 {font-size: 30pt; margin-top: -80px;}
+      .expressFront h3 {font-size: 26pt; margin-top: -90px;}
 	  .mainTitleNorm {font-size: 1.5rem;}
 	  .aboutFEDSIM{padding:20px 25px;}
 	  .icon-text h3{margin-left:0px;text-align: center !important;}
