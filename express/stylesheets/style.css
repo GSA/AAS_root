@@ -2404,4 +2404,5 @@ dialog {
 	  .expressPlatform{display:none;}
 	  .top-bar img{width:300px;}
 	  .usa-disclaimer-official p {font-size: .64rem;}
+      .briefForm {padding-left: 0px;}
 }
