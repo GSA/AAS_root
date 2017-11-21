@@ -2406,3 +2406,8 @@ dialog {
 	  .usa-disclaimer-official p {font-size: .64rem;}
       .briefForm {padding-left: 0px;}
 }
+@media only screen 
+  and (min-device-width: 501px) 
+  and (max-device-width: 768px)  {
+      .expressFront h3 {font-size: 26pt; margin-top: -90px;}
+}
