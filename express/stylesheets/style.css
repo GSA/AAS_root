@@ -2412,4 +2412,5 @@ dialog {
       .expressFront h3 {font-size: 36pt; margin-top: -90px;}
       .title-area {width: 32%;}
 	  .top-bar img{width:95%;}
+	  .expressPlatform{display:none;}
 }
