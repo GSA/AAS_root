@@ -2418,7 +2418,7 @@ dialog {
 	  .top-bar img{width:60%;}
 	  .usa-disclaimer-official p {font-size: .64rem;}
       .briefForm {padding-left: 0px;}
-      .currentSite img{width:100%; padding:23px 0;}
+      .currentSite img{width:100%; padding:25px 0;}
 }
 @media only screen 
   and (min-device-width: 501px) 
