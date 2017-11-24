@@ -1978,7 +1978,7 @@ color:#ffffff;}
 	color:#7ba8ce;
 	font-weight: bold;
 }
-@media screen and (min-width: 481px) {
+ @media screen and (min-width: 481px) {
     .usa-disclaimer {
       font-size: 1.2rem; } }
 .usa-disclaimer-official {
@@ -2000,12 +2000,10 @@ color:#ffffff;}
 }
 .usa-grid,
 .usa-grid-full {
-/*
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  max-width: 1040px; */}
-
+  max-width: 1040px; }
   .usa-grid::after,
   .usa-grid-full::after {
     clear: both;
@@ -2229,10 +2227,8 @@ color:#ffffff;}
   padding-left: 1.5rem; }
   @media screen and (min-width: 600px) {
     .usa-grid {
-/*
       padding-right: 3rem;
-      padding-left: 3rem; */} }
-
+      padding-left: 3rem; } }
 
 .usa-grid-full {
   padding: 0; }
@@ -2251,16 +2247,33 @@ color:#ffffff;}
       padding-left: 3rem; } }
 .programs{
     background-color: #f1f1f1;
-    height: 48px;
+    height: 60px;
 /*    padding: 20px;*/
 }
 .programs img{
+	width:75%;
+	padding:19px 0;
+}
+.prg img:hover{
 	width:100%;
-	padding:12px 0;
+	padding:16px 0;
+}
+.prg2 img:hover{
+	width:100%;
+	padding:18px 0;
+}
+.prg:hover, .prg2:hover{
+	background-color:#f9f9f9;
+    border-left: 4px solid #f1f1f1;
+    padding-bottom: 1px;
 }
 .currentSite{
 	background-color:#ffffff;
 /*	padding:21px;*/
+}
+.currentSite img{
+    width:100%;
+	padding:18px 0;
 }
 /* 508 Compliance Code DO NOT REMOVE */
 .hidden 
