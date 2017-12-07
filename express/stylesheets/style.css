@@ -2427,4 +2427,5 @@ dialog {
       .title-area {width: 32%;}
 	  .top-bar img{width:95%;}
 	  .expressPlatform{display:none;}
+	  .currentSite img {padding: 22px 0;}
 }
