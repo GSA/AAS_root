@@ -1856,6 +1856,13 @@ h4.about {
 .paltRight{
 	margin-top:50px;
 }
+.paltText ul{
+	margin-left:2.5rem;
+}
+.paltText p{
+	text-align: left;
+	margin-bottom:0px;
+}
 .expressFeatures, .expressAboutOverview, .palt{
 	background: #f6f6f6;
 }
@@ -1917,7 +1924,7 @@ h4.about {
     text-transform: uppercase;
     letter-spacing: 3px;
     font-size: 14px;
-    padding: 3px 15px 3px;
+    padding: 3px 10px 3px;
     background: #112e51;
     border: 3px solid #112e51;
     
@@ -1978,7 +1985,7 @@ color:#ffffff;}
 	color:#7ba8ce;
 	font-weight: bold;
 }
-@media screen and (min-width: 481px) {
+ @media screen and (min-width: 481px) {
     .usa-disclaimer {
       font-size: 1.2rem; } }
 .usa-disclaimer-official {
@@ -2000,12 +2007,10 @@ color:#ffffff;}
 }
 .usa-grid,
 .usa-grid-full {
-/*
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  max-width: 1040px; */}
-
+  max-width: 1040px; }
   .usa-grid::after,
   .usa-grid-full::after {
     clear: both;
@@ -2229,10 +2234,8 @@ color:#ffffff;}
   padding-left: 1.5rem; }
   @media screen and (min-width: 600px) {
     .usa-grid {
-/*
       padding-right: 3rem;
-      padding-left: 3rem; */} }
-
+      padding-left: 3rem; } }
 
 .usa-grid-full {
   padding: 0; }
@@ -2251,16 +2254,33 @@ color:#ffffff;}
       padding-left: 3rem; } }
 .programs{
     background-color: #f1f1f1;
-    height: 48px;
+    height: 60px;
 /*    padding: 20px;*/
 }
 .programs img{
+	width:75%;
+	padding:19px 0;
+}
+.prg img:hover{
 	width:100%;
-	padding:12px 0;
+	padding:16px 0;
+}
+.prg2 img:hover{
+	width:100%;
+	padding:16px 0;
+}
+.prg:hover, .prg2:hover{
+	background-color:#f9f9f9;
+    border-left: 4px solid #f1f1f1;
+    padding-bottom: 1px;
 }
 .currentSite{
 	background-color:#ffffff;
 /*	padding:21px;*/
+}
+.currentSite img{
+    width:100%;
+	padding:18px 0;
 }
 /* 508 Compliance Code DO NOT REMOVE */
 .hidden 
@@ -2378,6 +2398,8 @@ dialog {
   and (max-device-width: 500px)  {
 	  .shaping, #sequence, .aboutFEDSIM, .gutter{width: 100%; margin-left:0;}
 	  .homeSlider h3 {font-size: 26px;}
+      .expressFront h3 {font-size: 26pt; margin-top: -90px;}
+      .usa-grid {padding-left: .5rem; padding-right: 0;}
 	  .mainTitleNorm {font-size: 1.5rem;}
 	  .aboutFEDSIM{padding:20px 25px;}
 	  .icon-text h3{margin-left:0px;text-align: center !important;}
@@ -2400,6 +2422,17 @@ dialog {
 	  .special-title h2{padding: 0 1px;}
 	  .special-title p{padding:0 2px;}
 	  .expressPlatform{display:none;}
-	  .top-bar img{width:300px;}
+	  .top-bar img{width:60%;}
 	  .usa-disclaimer-official p {font-size: .64rem;}
+      .briefForm {padding-left: 0px;}
+      .currentSite img{width:100%; padding:22px 0;}
+}
+@media only screen 
+  and (min-device-width: 501px) 
+  and (max-device-width: 768px)  {
+      .expressFront h3 {font-size: 36pt; margin-top: -90px;}
+      .title-area {width: 32%;}
+	  .top-bar img{width:95%;}
+	  .expressPlatform{display:none;}
+	  .currentSite img {padding: 22px 0;}
 }
