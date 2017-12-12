@@ -1883,6 +1883,13 @@ h4.about {
 .paltRight{
 	margin-top:50px;
 }
+.paltText ul{
+	margin-left:2.5rem;
+}
+.paltText p{
+	text-align: left;
+	margin-bottom:0px;
+}
 .expressFeatures, .expressAboutOverview, .palt{
 	background: #f6f6f6;
 }
