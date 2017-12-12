@@ -1711,6 +1711,7 @@ h3.expressGreen:after, h3.expressGold:after{
 }
 p.createExpress{
     font-size: 11pt;
+    margin-top: 40px;
 }
 .expressBold{
 	font-weight:bold;
@@ -1723,10 +1724,37 @@ p.createExpress{
     padding: 15px 75px;
 	margin-top: 40px;
 }
-.expressButton:hover, .expressPlatformbutton:hover{
+.expressButton:hover, .expressPlatformbutton:hover, .expressButton3:hover{
     background: #3b7840;
     border: 3px solid #3b7840;
-	color:#ffffff;text-decoration: none;
+	color:#ffffff;
+	text-decoration: none;
+}
+.expressButton2{
+    background: #3b7840;
+    border: 3px solid #3b7840;
+	color:#ffffff;
+	font-weight: bold;
+    padding: 15px 75px;
+	margin-bottom: 30px;
+}
+.expressBriefing{
+	font-weight: bold;
+    padding: 15px 75px;
+	margin-top: 0px;
+}
+.expressButton2:hover{
+    background: #ffffff;
+    border: 3px solid #3b7840;
+	color:#3b7840;text-decoration: none;
+}
+.expressButton3{
+    background: #ffffff;
+    border: 3px solid #3b7840;
+	color:#3b7840;
+	font-weight: bold;
+    padding: 15px 75px;
+/*	margin-top: 40px;*/
 }
 .services .expressButton{
 /*	margin-bottom: 40px;*/
@@ -2264,7 +2292,7 @@ color:#ffffff;}
 }
 .programs img{
 	width:75%;
-	padding:19px 0;
+	padding:16px 0;
 }
 .prg img:hover{
 	width:100%;
@@ -2287,6 +2315,68 @@ color:#ffffff;}
     width:100%;
 	padding:18px 0;
 }
+.join{
+	background-color:#01538f;
+	max-width: none;
+	width:95%;
+}
+.join h4{
+    color: #ffffff;
+/*    font-style: italic;*/
+	padding-right: 30%;
+	margin-top: 60px;
+	font-size: 24px;
+	font-family:"droid serif", georgia;
+}
+.generalImage{
+	background-image: url(../images/@stock/generalarrow.gif);
+	min-height:435px;
+	color:#ffffff;
+	text-align: right;
+	background-repeat:no-repeat;
+	width:40%;
+}
+.generalColor p{
+	font-size: 20px;
+	font-style: italic;
+	padding-top:16%;
+    padding-right: 10%;
+}
+.generalColor{
+	background-color:#01538f;
+	padding-top:0px;
+	padding-right:22px;
+	color: #ffffff;
+	font-style:italic;
+	width:58%;
+}
+.sbImage{
+	background-image: url(../images/@stock/sbarrow.gif);
+	min-height:435px;
+	color:#ffffff;
+	text-align: right;
+	background-repeat:no-repeat;
+	width:40%;
+}
+.advImage{
+	background-image: url(../images/@stock/advarrow.gif);
+	min-height:435px;
+	color:#ffffff;
+	text-align: right;
+	background-repeat:no-repeat;
+	width:40%;
+}
+/*
+.top-bar .title-area {
+    position: absolute;
+}
+.top-bar-section ul {
+	position:absolute !important;
+}
+.top-bar-section ul {
+	margin-right: -90px;
+}
+*/
 /* 508 Compliance Code DO NOT REMOVE */
 .hidden 
 {position:absolute;
@@ -2426,8 +2516,8 @@ dialog {
 	  .acqmgmt img, .finmgmt img {padding-left: 30%;}
 	  .special-title h2{padding: 0 1px;}
 	  .special-title p{padding:0 2px;}
-	  .expressPlatform{display:none;}
-	  .top-bar img{width:60%;}
+	  .expressPlatform, .programs{display:none;}
+	  .top-bar img{width:60%; !important}
 	  .usa-disclaimer-official p {font-size: .64rem;}
       .briefForm {padding-left: 0px;}
       .currentSite img{width:100%; padding:22px 0;}
