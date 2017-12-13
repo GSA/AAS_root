@@ -23,7 +23,8 @@
     <script src="js/app.js" type="text/javascript"></script>
     <link href="https://fonts.googleapis.com/css?family=Droid+Sans|PT+Sans" rel="stylesheet">
 
- 
+ <style>
+        #gform h2{color:#ffffff; text-align: center;}</style>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script>
       // terrificjs bootstrap
@@ -58,7 +59,7 @@
 
    <div class="usa-disclaimer programs">
     <div class="usa-disclaimer-official usa-grid">
-      <div class="medium-1 large-1 small-2 columns prg"><img src="images/AAS_Logo.png" width="60px"></div>
+      <div class="medium-1 large-1 small-2 columns prg"><a href="https://aas.gsa.gov"><img src="images/AAS_Logo.png" width="60px"></a></div>
       <div class="medium-2 large-2 small-3 columns prg2"><a href="http://fedsim.gsa.gov"><img src="images/Logo_Fedsim.png" width="60px"></a></div>
       <div class="medium-2 large-2 small-3 columns currentSite"><a href="express/"><img src="images/Express_Logo.png" width="60px"></a></div>
       <div class="medium-7 large-7 small-4">&nbsp;</div>
@@ -66,7 +67,7 @@
   </div>
 
    </header>
-    <div class="contain-to-grid sticky">
+   <div class="contain-to-grid sticky">
       <nav class="top-bar" data-options="sticky_on: large" data-topbar="">
         <ul class="title-area">
           <li class="name">
@@ -84,7 +85,7 @@
           <a href='index.html'>Home</a>
           </li>
             <li class='has-dropdown'>
-              <a aria-haspopup="true">About</a>
+              <a aria-haspopup="true" class="active">About</a>
               <ul class='dropdown'>
                 <li>
                   <a href='services.html'>Services</a>
@@ -120,8 +121,22 @@
                 </li>
               </ul>
             </li>
+            <li class='has-dropdown'>
+              <a aria-haspopup="true" class="active expressGreen">Industry</a>
+                            <ul class='dropdown'>
+                <li>
+                  <a href='general.html'>General Partner Information</a>
+                </li>
+                <li>
+                  <a href='advisory.html'>Advisory Council</a>
+                </li>
+                <!-- <li>
+                  <a href='smallbusiness.html'>Small Business</a>
+                </li> -->
+              </ul>
+            </li>
               <li>
-              <a class="active" href="contact.html">Contact Us</a>
+              <a href="contact.html">Contact Us</a>
 			  </li>     
           </ul>
         </section>
@@ -143,7 +158,25 @@
     <div class='full form-bg gutter'>
       <div class='form'>
         <div class='row'>
-          <form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSeDoMMPuTYofhj8JcSquDTOXMuMjStGOy4y9DALcDan4EF0dw/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
+<!--          <form class="Form" method="post" action="contact.html" target="_top" enctype="text/plain">
+            <div class='large-12 columns'>
+            </div>
+            <div align="left" class='medium-6 large-6 columns no-padding'>
+<input id="name" type="text" name="First Name" placeholder="First Name" required>
+<input id="name" type="text" name="Last Name" placeholder="Last Name" required>
+			<input id="email" type="text" name="Email" placeholder="Email" required>
+			  </div>
+			<div align="left" class='medium-6 large-6 columns briefForm no-padding'>
+<input id="phone" type="text" name="Phone" placeholder="Phone (Optional)">
+<textarea id="overview" type="text" name="Project Overview" placeholder="Project Overview"required></textarea>                     
+				<br>
+            </div>
+             <div class="columns medium-12 large-12 pagination-centered">
+              <input id="submit" class='button blue medium-7 large-7 medium-centered large-centered columns submit' type='submit' value='Submit'>
+			  </div>
+            </div>
+          </form>-->
+        <form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSeDoMMPuTYofhj8JcSquDTOXMuMjStGOy4y9DALcDan4EF0dw/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
 <div class='large-12 columns'>
             </div>
             <div align="left" class='medium-6 large-6 columns no-padding'>

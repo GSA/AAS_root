@@ -3,7 +3,7 @@
 <!--[if IE 7]>    <html class="no-js ie7 oldie"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js ie8 oldie"> <![endif]-->
 <!--[if gt IE 8]><!-->
-<html class='no-js'>
+<html lang="en" class='no-js'>
   <!--<![endif]-->
   <head>
     <meta charset='utf-8'>
@@ -13,13 +13,19 @@
     <!--
       hash is 464e0fb146194482a3ab153fc11e6346175a63f0
     -->
-    <title>Industry Partner Information</title>
+    <title>Request A Briefing</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link href="stylesheets/framework.css" media="screen" rel="stylesheet" type="text/css" />
     <link href="stylesheets/style.css" media="screen" rel="stylesheet" type="text/css" />
     <link href="stylesheets/skins.css" media="screen" rel="stylesheet" type="text/css" />
     <link href="stylesheets/fontello.css" media="screen" rel="stylesheet" type="text/css" />
-    <script src="javascripts/libs.js" type="text/javascript"></script>
-    <script src="javascripts/app.js" type="text/javascript"></script>
+    <script src="js/libs.js" type="text/javascript"></script>
+    <script src="js/app.js" type="text/javascript"></script>
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans|PT+Sans" rel="stylesheet">
+
+ <style>
+        #gform h2{color:#ffffff; text-align: center;}</style>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script>
       // terrificjs bootstrap
       (function($) {
@@ -27,7 +33,7 @@
               var $page = $('body');
               var config = {
                 dependencyPath: {
-                  plugin: 'javascripts/'
+                  plugin: 'js/'
                 }
               }
               var application = new Tc.Application($page, config);
@@ -76,7 +82,7 @@
         <section class="top-bar-section">
           <ul class="right">
                     <li>
-          <a href='index.html' class="active">Home</a>
+          <a href='index.html'>Home</a>
           </li>
             <li class='has-dropdown'>
               <a aria-haspopup="true">About</a>
@@ -130,74 +136,102 @@
               </ul>
             </li>
               <li>
-              <a href="contact.html">Contact Us</a>
+              <a class="active" href="contact.html">Contact Us</a>
 			  </li>     
           </ul>
         </section>
       </nav>
     </div>
-<div class='members'>
-  <div class='full call-to-action-bg-alt no-padding'>
-<div class='special-title centered-text'>
-    <h9> </h9>
-</div>        
-  </div>
-<div class="bodyText">
-          <div class='members'>
+    <div class='members'>
   <div class='full call-to-action-bg-alt no-padding'>
 <!--    <div class='two spacing'></div>-->
         <div class='titleHeader'>
           <h9>
-            <h2 class="titleHeaderText">Advisory Council</h2>
+            <h2 class="titleHeaderText">Request A Briefing</h2>
           </h9>
 <!--              <div class='two spacing'></div>-->
-    </div>          
+    </div>        
       </div>
-</div> 
-     <div class="row join">
-              <div class='medium-12 large-12 columns no-padding'>
-              	<div class="medium-6 large-6 columns advImage">
-              		
-              	</div>
-              	<div class="medium-6 large-6 columns generalColor">
-              		<p>Express created the Industry Advisory Council to ensure ongoing communication with industry leaders. The advisory council brings together members of the government contracting community to advise Express and provide an invaluable feedback loop within the federal acquisition community. </p>
-              	</div>
-              </div>
-</div>
+      <br>
+      <br>
+       <p class="aligncenter pagination-centered paragraph" style="text-align: center;">Our team is available to brief partners about our available services. <br><br>
+		  Please fill out the form below and our team will reach out to you to schedule a briefing.</p>
+    <div class='full form-bg gutter'>
+      <div class='form'>
+        <div class='row'>
+<!--          <form class="Form" method="post" action="contact.html" target="_top" enctype="text/plain">
+            <div class='large-12 columns'>
+            </div>
+            <div align="left" class='medium-6 large-6 columns no-padding'>
+<input id="name" type="text" name="First Name" placeholder="First Name" required>
+<input id="name" type="text" name="Last Name" placeholder="Last Name" required>
+			<input id="email" type="text" name="Email" placeholder="Email" required>
+			  </div>
+			<div align="left" class='medium-6 large-6 columns briefForm no-padding'>
+<input id="phone" type="text" name="Phone" placeholder="Phone (Optional)">
+<textarea id="overview" type="text" name="Project Overview" placeholder="Project Overview"required></textarea>                     
+				<br>
+            </div>
+             <div class="columns medium-12 large-12 pagination-centered">
+              <input id="submit" class='button blue medium-7 large-7 medium-centered large-centered columns submit' type='submit' value='Submit'>
+			  </div>
+            </div>
+          </form>-->
+        <form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSeDoMMPuTYofhj8JcSquDTOXMuMjStGOy4y9DALcDan4EF0dw/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
+<div class='large-12 columns'>
+            </div>
+            <div align="left" class='medium-6 large-6 columns no-padding'>
+  <label class="hidden" for="entry.1504065561">First Name *</label>
+  <input id="name"  type="text" name="entry.1504065561" maxlength="50" size="30" placeholder="First Name">
+ 
+  <label class="hidden" for="entry.1383279077">Last Name *</label>
 
-      <div class='one spacing'></div>
-      <div class='row'>
-        <div class='call-to-action'>
-          <div class='medium-12 large-12 columns pagination-centered'>
-          <div class="joinBlurb medium-12 large-12 medium-centered large-centered">
-          <br><br>
-          
-<!--
-          <div class='medium-12 large-12 columns pagination-centered no-padding'>
-          <h4 class="medium-10 large-10 columns medium-centered large-centered ">Learn more about our service offerings and opportunities:</h4>
+  <input id="name"  type="text" name="entry.1383279077" maxlength="50" size="30" placeholder="Last Name">
+ 
+  <label class="hidden" for="entry.1913413042">Email Address *</label>
+
+  <input id="email"  type="text" name="entry.1913413042" maxlength="80" size="30" placeholder="Email">
+  </div>
+			<div align="left" class='medium-6 large-6 columns briefForm no-padding'>
+  <label class="hidden" for="entry.883358419">Phone</label>
+ 
+  <input id="phone"  type="text" name="entry.883358419" maxlength="30" size="30" placeholder="Phone (Optional)">
+ 
+  <label class="hidden" for="entry.994613322">Project Overview *</label>
+ 
+  <textarea id="overview"  name="entry.994613322" maxlength="1000" cols="25" rows="5" style="padding-bottom: 19px;" placeholder="Project Overview"></textarea>
+ <br>
+            </div>
+             <div class="columns medium-12 large-12 pagination-centered">
+              <input type="submit" value="Submit" class='button blue medium-7 large-7 medium-centered large-centered columns submit'>
 			  </div>
--->
-          <div class='medium-12 large-12 columns pagination-centered no-padding'>
-          <a class="button medium-5 large-5 columns medium-centered large-centered expressButton2" href="contact.html">Contact Us</span></a>
-<!--          <a class='button medium-5 large-5 columns medium-centered large-centered expressBriefing' href='#'>Request a Briefing</a>-->
+            </div>
+  
+
+</form>
           
-			  </div>
-			</div>
-     		
-      		
-          </div>
+
+<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+          <script src="https://aas.gsa.gov/express/js/jquery-1.11.3.min.js" type="text/javascript"></script>
+      <script type="text/javascript">var submitted=false;</script>
+<script type="text/javascript">
+$('#gform').on('submit', function(e) {
+  $('#gform *').fadeOut(2000);
+  $('#gform').prepend('<h2>Thank you for your submission! We will be in touch shortly.</h2>');
+  });
+</script>
         </div>
-  	  </div>
-  	  
-      <div class='one spacing'></div>
-
+      </div>
+<div class='row'>
+    <div class='special-title centered-text'> </div>
 </div>
-<script src='javascripts/jquery.countTo.js'></script>
-    <script src='javascripts/jquery.appear.js'></script>
-    <script src='javascripts/jquery.sequence-min.js'></script>
-    <script src='javascripts/jquery.validate.js'></script>
-    <script src="javascripts/app.js" type="text/javascript"></script>
-    <div class='footer left-text'>
+
+<script src='js/jquery.countTo.js'></script>
+    <script src='js/jquery.appear.js'></script>
+    <script src='js/jquery.sequence-min.js'></script>
+    <script src='js/jquery.validate.js'></script>
+    <script src="js/app.js" type="text/javascript"></script>
+        <div class='footer left-text'>
 <div class='row'>
         <div class='columns pagination-centered'>
 <h1 class='light pagination-centered'>
@@ -207,7 +241,7 @@
 <a href="contact.html">express@gsa.gov</a>
         </h1> 
       </div>
+    </div>
   </div>
-</div>
   </body>
 </html>
