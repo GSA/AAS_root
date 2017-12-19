@@ -786,7 +786,7 @@ body .socials i.grey:hover, body[class^=colorScheme] .socials i.grey:hover {
 
 .bg-2 {
 	background-size: cover;
-	background-color: #666666;
+	background-color: #01538f;
 }
 .no-js body .testimonials.full.bg-2.light.centered-text {
 }
@@ -1895,6 +1895,7 @@ h4.about {
 .paltText p{
 	text-align: left;
 	margin-bottom:0px;
+	margin-left:20px;
 }
 .expressFeatures, .expressAboutOverview, .palt{
 	background: #f6f6f6;
@@ -2296,7 +2297,7 @@ color:#ffffff;}
 }
 .prg img:hover{
 	width:100%;
-	padding:16px 0;
+	padding:12px 0;
 }
 .prg2 img:hover{
 	width:100%;
@@ -2356,7 +2357,7 @@ color:#ffffff;}
 	color:#ffffff;
 	text-align: right;
 	background-repeat:no-repeat;
-	width:40%;
+	width:51%;
 }
 .advImage{
 	background-image: url(../images/@stock/advarrow.gif);
@@ -2364,7 +2365,7 @@ color:#ffffff;}
 	color:#ffffff;
 	text-align: right;
 	background-repeat:no-repeat;
-	width:40%;
+	width:51%;
 }
 /*
 .top-bar .title-area {
@@ -2377,6 +2378,10 @@ color:#ffffff;}
 	margin-right: -90px;
 }
 */
+#gform h2{color:#ffffff;}
+.testimonials .active{
+	color:#ffffff !important;
+}
 /* 508 Compliance Code DO NOT REMOVE */
 .hidden 
 {position:absolute;
