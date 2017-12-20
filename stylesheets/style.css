@@ -658,7 +658,7 @@ h8 {
 .form-bg {
 	background: #4B92CE;
 }
-input#name, input#email, input#phone, textarea#message, input#company, input#agency {
+input#name, input#email, input#phone, textarea#message, input#company, input#agency, input#state, input#city, input#zip {
     background-color: #ffffff;
     color: #004d8c;
 }
