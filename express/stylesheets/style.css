@@ -2442,6 +2442,8 @@ dialog {
   padding: .5em;
   text-align: left;
   line-height: 1.3;
+  font-size: 14px;
+  font-family: "PT sans";
 }
 .simpletooltip,
 .minimalist-simpletooltip {
