@@ -1959,9 +1959,9 @@ h4.about {
     letter-spacing: 3px;
     font-size: 14px;
     padding: 3px 10px 3px;
-    background: #112e51;
-    border: 3px solid #112e51;
-    
+    background: #3b7840;
+    border: 3px solid #3b7840;
+	color:#ffffff !important;   
 }
 .expressPlatform{
 	margin-top: 8px;
@@ -2443,6 +2443,8 @@ dialog {
   padding: .5em;
   text-align: left;
   line-height: 1.3;
+  font-size: 14px;
+  font-family: "PT sans";
 }
 .simpletooltip,
 .minimalist-simpletooltip {
