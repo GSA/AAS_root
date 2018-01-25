@@ -1098,7 +1098,8 @@ form input.error, form textarea.error {
 
 /*footer */
 .footer {
-  background: #3b7840;
+/*  background: #3b7840; */
+  background: #01538f;
   padding: 40px 0 20px;
 }
 .footer h1 {
@@ -1526,7 +1527,7 @@ margin-bottom:30px;
   transition-duration: 2s;
 }
 #sequence .animate-in .title.left-to-right {
-  top: 100px;
+  top: 10px;
   left: 0;
   -webkit-transition-duration: 1s;
   -moz-transition-duration: 1s;
@@ -1738,6 +1739,14 @@ p.createExpress{
     padding: 15px 75px;
 	margin-bottom: 30px;
 }
+.expressOverview .expressButton2{
+    background: #3b7840;
+    border: 3px solid #3b7840;
+	color:#ffffff;
+	font-weight: bold;
+    padding: 15px 75px;
+	margin-top: 40px;
+}
 .expressBriefing{
 	font-weight: bold;
     padding: 15px 75px;
@@ -1768,22 +1777,32 @@ p.createExpress{
     color: #ffffff;
     font-weight: lighter
 }
-.expressFront h3 span{
-	color:#cdb047;
-	font-style: italic;
+.expressFront h3 img{
+    padding-left: 5px;
+    margin-top: -45px;
+}
+.expressFront h3 span p{
+/*	color:#cdb047;*/
+/*	font-style: italic;*/
 	font-weight: normal;
+    font-size: 17pt !important;
+    text-transform: none;
+    margin-top: -20px;
+    padding-left: 5px;
 }
 .expressOverview p{
 	font-weight: bold;
 }
 .expressOverview img {
     margin-bottom: 60px;
+    height: 170px;
 }
 .expressServicesWork{
-	background-image:url(../images/@stock/workservices.png);
+	background-image:url(../images/@stock/workservices2.jpg);
 	min-height: 418px;
 	margin-bottom: 40px;
 	margin-top: 20px;
+    background-size: cover;
 /*	padding-bottom: 54px;*/
 }
 .expressServicesWork h3 {
