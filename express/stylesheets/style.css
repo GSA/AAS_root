@@ -1857,8 +1857,9 @@ p.createExpress{
     font-family: "droid serif", georgia;
 }
 .titleHeader{
-	background-image: url(../images/@stock/titleHeader.png);
-	min-height:160px;
+	background-image: url(../images/@stock/ExpressRebrandAssets-12.jpg);
+	min-height:170px;
+    background-size: cover;
 }
 .titleHeaderText{
 	color: #cdb047;
