@@ -2289,9 +2289,14 @@ color:#ffffff;}
     .usa-grid-full .hero-callout,
     .usa-grid-full .hero-callout-full {
       padding-left: 3rem; } }
+.programs{
+    background-color: #f1f1f1;
+    height: 60px;
+/*    padding: 20px;*/
+}
 .programs img{
 	width:75%;
-	padding:16px 0;
+	padding:19px 0;
 }
 .prg1 img{
     width: 85%;
@@ -2299,11 +2304,11 @@ color:#ffffff;}
 }
 .prg img:hover{
 	width:100%;
-	padding:12px 0;
+	padding:16px 0;
 }
 .prg2 img:hover{
 	width:100%;
-	padding:16px 0;
+	padding:18px 0;
 }
 .prg1 img:hover{
 	width:100%;
@@ -2325,7 +2330,7 @@ color:#ffffff;}
 }
 .currentSite img{
     width:100%;
-	padding:18px 0;
+	padding:12px 0;
 }
 #gform h2{color:#ffffff;}
 /* 508 Compliance Code DO NOT REMOVE */
