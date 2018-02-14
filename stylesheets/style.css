@@ -2324,13 +2324,17 @@ color:#ffffff;}
     border-left: 4px solid #f1f1f1;
     padding-bottom: 1px;
 }
-.currentSite{
+.currentSite, .currentSite2{
 	background-color:#ffffff;
 /*	padding:21px;*/
 }
 .currentSite img{
     width:100%;
 	padding:12px 0;
+}
+.currentSite2 img{
+    width:100%;
+	padding:21px 0;
 }
 #gform h2{color:#ffffff;}
 /* 508 Compliance Code DO NOT REMOVE */
