@@ -1098,7 +1098,8 @@ form input.error, form textarea.error {
 
 /*footer */
 .footer {
-  background: #3b7840;
+/*  background: #3b7840; */
+  background: #01538f;
   padding: 40px 0 20px;
 }
 .footer h1 {
@@ -1762,28 +1763,39 @@ p.createExpress{
 }
 .expressFront{
 	margin-top:7px;
+	padding-left:40px;
 }
 .expressFront h3{
 	font-size: 46pt;
     color: #ffffff;
     font-weight: lighter
 }
-.expressFront h3 span{
-	color:#cdb047;
-	font-style: italic;
+.expressFront h3 img{
+    padding-left: 5px;
+    margin-top: -45px;
+}
+.expressFront h3 span p{
+/*	color:#cdb047;*/
+/*	font-style: italic;*/
 	font-weight: normal;
+    font-size: 16pt !important;
+    text-transform: none;
+    margin-top: -20px;
+    padding-left: 5px;
 }
 .expressOverview p{
 	font-weight: bold;
 }
 .expressOverview img {
     margin-bottom: 60px;
+    height: 170px;
 }
 .expressServicesWork{
-	background-image:url(../images/@stock/workservices.png);
+	background-image:url(../images/@stock/workservices2.jpg);
 	min-height: 418px;
 	margin-bottom: 40px;
 	margin-top: 20px;
+    background-size: cover;
 /*	padding-bottom: 54px;*/
 }
 .expressServicesWork h3 {
@@ -1837,8 +1849,9 @@ p.createExpress{
     font-family: "droid serif", georgia;
 }
 .titleHeader{
-	background-image: url(../images/@stock/titleHeader.png);
-	min-height:160px;
+	background-image: url(../images/@stock/ExpressRebrandAssets-12.jpg);
+	min-height:170px;
+    background-size: cover;
 }
 .titleHeaderText{
 	color: #cdb047;
