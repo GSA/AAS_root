@@ -2306,7 +2306,7 @@ color:#ffffff;}
 	width:75%;
 	padding:16px 0;
 }
-.prg img:hover, .prg3 img:hover{
+.prg img:hover{
 	width:100%;
 	padding:16px 0;
 }
@@ -2317,6 +2317,10 @@ color:#ffffff;}
 .prg1 img:hover{
 	width:100%;
 	padding:21px 0;
+}
+.prg3 img:hover{
+	width:100%;
+	padding:12px 0;
 }
 .prg:hover, .prg2:hover, .prg3:hover{
 	background-color:#f9f9f9;
