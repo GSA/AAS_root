@@ -2450,3 +2450,22 @@ dialog {
 	  .region h2{font-size:1.5rem; margin-left:-30px;}
 	  .region h3{font-size:1rem; margin-left:-30px;}
 }
+@media only screen 
+  and (min-device-width: 501px) 
+  and (max-device-width: 768px)  {
+
+	  #gform{margin: 0 20px;}
+	  .shaping, #sequence, .aboutFEDSIM, .gutter{width: 100%; margin-left:0;}
+	  .milestone strong, .milestone h3{font-size: 40px;}
+	  .currentSite img{padding:20px 0 !important;}
+	  .currentSite2 img{padding:24px 0 !important;}
+	  .programs img, .prg1 img{width:100%;}
+		  
+}
+@media only screen 
+  and (min-device-width: 769px) 
+  and (max-device-width: 1024px)  {
+	  #gform{margin: 0 20px;}
+	  .shaping, #sequence, .aboutFEDSIM, .gutter{width: 100%; margin-left:0;}
+	  .currentSite2 img{padding:16px 0 !important;
+}
