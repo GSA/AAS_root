@@ -2658,3 +2658,30 @@ dialog {
 	  .expressPlatform{display:none;}
 	  .currentSite img {padding: 22px 0;}
 }
+@media only screen 
+  and (min-device-width: 501px) 
+  and (max-device-width: 768px)  {
+	  #sequence{height:327px;}
+      .expressFront h3 {font-size: 32pt;}
+	  ul.title-area{width:23%;}
+	  .bg {background-size:contain !important; background-repeat:no-repeat!important;}
+	  .members{margin-top:-40px;}
+      .title-area {width: 32%;}
+	  .top-bar img{width:95%;}
+	  .feature img, .featureLast img{margin-left:-40px;}
+	  .expressPlatform{display:none;}
+	  .currentSite img {padding: 22px 0;}
+	  .currentSite2 img{padding:24px 0 !important;}
+	  .programs img, .prg1 img{width:100%;}
+	  #gform{margin: 0 20px;}
+}
+@media only screen 
+  and (min-device-width: 769px) 
+  and (max-device-width: 1024px)  {
+	  #sequence{height:436px;}
+	  .bg {background-size:contain !important; background-repeat:no-repeat!important;}
+	  #gform{margin: 0 20px;}
+	  .shaping, #sequence, .aboutFEDSIM, .gutter{width: 100%; margin-left:0;}
+	  .currentSite2 img{padding:21px 0 !important;}
+		  
+}
