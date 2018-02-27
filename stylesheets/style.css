@@ -2467,5 +2467,5 @@ dialog {
   and (max-device-width: 1024px)  {
 	  #gform{margin: 0 20px;}
 	  .shaping, #sequence, .aboutFEDSIM, .gutter{width: 100%; margin-left:0;}
-	  .currentSite2 img{padding:16px 0 !important;
+	  .currentSite2 img{padding:21px 0 !important;
 }
