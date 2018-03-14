@@ -1977,7 +1977,7 @@ h4.about {
 	background: #a1a1a1;
 }
 .expressLeadership p{
-	color: #a1a1a1;
+	color: #6d6d6d;
 	width: 90%;
 	padding-bottom:40px;
 }
@@ -2439,7 +2439,7 @@ color:#ffffff;}
 .testimonials .active{
 	color:#ffffff !important;
 }
-hr {color:#6d6d6d;}
+hr {border: solid #6d6d6d;}
 .contain-to-grid .top-bar{max-width:80rem;}
 
 .aaCopy p{
