@@ -2439,7 +2439,7 @@ color:#ffffff;}
 .testimonials .active{
 	color:#ffffff !important;
 }
-hr {border: solid #6d6d6d;}
+hr {border: solid #6d6d6d; border-width: 1px 0 0; height: 0;}
 .contain-to-grid .top-bar{max-width:80rem;}
 
 .aaCopy p{
