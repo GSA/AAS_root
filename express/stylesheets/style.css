@@ -706,8 +706,12 @@ h8 {
   letter-spacing: 3px;
   font-size: 14px;
   padding: 13px 30px 10px;
+/*
   background: #cdb047;
   border: 1px solid #cdb047;
+*/
+  background: #dac578;
+  border: 1px solid #dac578;
 	font-weight: bold;
 }
 
@@ -1115,7 +1119,7 @@ form input.error, form textarea.error {
 	color:#ffffff;
 }
 .footer a{
-	color:#cdb047;
+	color:#dac578;
 	font-weight: bold;
 }
 
@@ -1854,7 +1858,7 @@ p.createExpress{
     background-size: cover;
 }
 .titleHeaderText{
-	color: #cdb047;
+	color: #dac578;
 	font-weight:lighter;
 	font-size: 40pt;
 	max-width: 70rem;
@@ -2013,7 +2017,7 @@ input#name, input#email, input#phone, textarea#overview, input#company, input#ag
     font-weight: bold;
     font-family: "droid serif", georgia;
     font-size: 1.125rem;
-    color: #838384;
+    color: #757575;
     letter-spacing: 1px;
 	line-height: 20px;
 }
@@ -2029,7 +2033,7 @@ input#name, input#email, input#phone, textarea#overview, input#company, input#ag
   height: 2.3rem;
 color:#ffffff;}
 .usa-disclaimer a{
-	color:#7ba8ce;
+	color:#edf4f8;
 	font-weight: bold;
 }
  @media screen and (min-width: 481px) {
