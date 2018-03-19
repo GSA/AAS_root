@@ -858,7 +858,7 @@ body .socials i.grey:hover, body[class^=colorScheme] .socials i.grey:hover {
   text-transform: none;
     font-style: italic;
 	font-weight: bold;
-    color: #858585;
+    color: #656565;
     font-size: 18px;
 /*    font-family: "droid serif", georgia;*/
     text-align: center;
@@ -1699,7 +1699,7 @@ ul.info i:hover {
   }
 }
 .about{
-	background-color:#5d92c5;
+	background-color:#3c74a8;
 	max-width: none;
 	width:100%;
 }
@@ -1719,7 +1719,7 @@ ul.info i:hover {
 	width:51%;
 }
 .aboutColor{
-	background-color:#5d92c5;
+	background-color:#3c74a8;
 	padding-top:115px;
 	padding-right:22px;
 	color: #ffffff;
@@ -1755,7 +1755,7 @@ ul.info i:hover {
 }
 .special-title ul{
 /*	text-align: left;*/
-	color:#4d91cb;
+	color:#2a6191;
 	text-transform: none;
     font-style: italic;
     font-weight: bold;
@@ -1771,7 +1771,7 @@ ul.info i:hover {
 	margin-bottom:0px;
 }
 .acqTitle h4{
-	color: #4d91cb;
+	color: #2a6191;
 	margin-top:0px;
 }
 .acqTitle h5{
@@ -1787,10 +1787,10 @@ ul.info i:hover {
 	padding:20px 0;
 }
 .howto h4{
-	color: #4d91cb;
+	color: #2a6191;
 }
 .howto p{
-	color:#858585;
+	color:#656565;
 	font-weight:bold;
 	font-style: italic;
 }
@@ -1833,11 +1833,11 @@ ul.info i:hover {
 }
 .bottom{padding-bottom:10px;}
 .grey h3{
-	color:#4d91cb;
+	color:#2a6191;
 	margin-bottom:0px;
 }
 .blueText{
-	color:#4d91cb !important;
+	color:#2a6191 !important;
 }
 .regionBox{margin-left:10%;}
 .region .top{padding-bottom:15%;}
