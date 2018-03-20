@@ -2467,6 +2467,30 @@ hr {border: solid #6d6d6d; border-width: 1px 0 0; height: 0;}
 .aaTop{
     margin-top:40px;
 }
+.aaRibbon{
+    margin-top: -31px;
+    padding: 0px;
+    margin-right: -8px;
+}
+.aaStep{
+    background-color: #2f6d9f;
+}
+.aaRibbon2{
+    margin-top: -31px;
+    padding: 0px;
+    margin-right: -8px;
+}
+.aaStep2{
+    background-color: #2f6d9f;
+}
+.aaStep p{
+    padding: 30px 10px;
+    font-family: 'Roboto', sans-serif;
+}
+.aaStep2 p{
+    padding: 20px 10px;
+    font-family: 'Roboto', sans-serif;
+}
 .aaCopy h3{
     color: #0a548e;
     font-size: 34px;
