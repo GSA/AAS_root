@@ -2428,7 +2428,8 @@ color:#ffffff;}
 	font-size: 16px;
 	font-style: italic;
 	padding-top:4%;
-    padding-right: 10%;
+    padding-right: 5%;
+    padding-left:2%;
 }
 .generalColor2 a, .generalColor2 a:hover, .generalColor2 a:focus, .generalColor2 a:visited{
     color:#9ad2fa;
