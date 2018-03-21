@@ -2424,12 +2424,30 @@ color:#ffffff;}
 	font-style:italic;
 	width:49%;
 }
+.generalColor2 p{
+	font-size: 16px;
+	font-style: italic;
+	padding-top:5%;
+    padding-right: 10%;
+}
+.generalColor2 a, .generalColor2 a:hover, .generalColor2 a:focus, .generalColor2 a:visited{
+    color:#42A9F5;
+}
+.generalColor2{
+	background-color:#01538f;
+	padding-top:0px;
+	padding-right:22px;
+	color: #ffffff;
+	font-style:italic;
+	width:49%;
+}
 .sbImage{
-	background-image: url(../images/@stock/open1.png);
-	min-height:435px;
+	background-image: url(../images/@stock/SB_Collage_1.jpg);
+	min-height:351px;
 	color:#ffffff;
 	text-align: right;
 	background-repeat:no-repeat;
+    background-size: contain;
 	width:51%;
 }
 .advImage{
@@ -2472,6 +2490,11 @@ hr {border: solid #6d6d6d; border-width: 1px 0 0; height: 0;}
     padding: 0px;
     margin-right: -8px;
 }
+.aaBlue{
+    background-color: #1f5183;
+    min-height:90px;
+    padding:0;
+}
 .aaStep{
     background-color: #2f6d9f;
 }
@@ -2483,13 +2506,25 @@ hr {border: solid #6d6d6d; border-width: 1px 0 0; height: 0;}
 .aaStep2{
     background-color: #2f6d9f;
 }
-.aaStep p{
-    padding: 30px 10px;
+.aaStep p, .aaStep2 p{
+    padding: 20px 0px 20px 160px;
+    margin-bottom: 0px;
     font-family: 'Roboto', sans-serif;
 }
+/*
 .aaStep2 p{
-    padding: 20px 10px;
+    padding: 10px 80px;
     font-family: 'Roboto', sans-serif;
+}
+*/
+.stepGraphic img{
+    width: 84px;
+}
+.step1, .step2, .step3{
+    margin-bottom: 60px;
+    min-height:90px;
+    background-color: #2f6d9f;
+    padding:0px;
 }
 .aaCopy h3{
     color: #0a548e;
@@ -2498,6 +2533,18 @@ hr {border: solid #6d6d6d; border-width: 1px 0 0; height: 0;}
     text-align: center;
     margin-bottom: -10px;
     text-transform: none;
+}
+.aaProcess h3{
+    color: #FFFFFF;
+    font-size: 34px;
+    font-weight: 100;
+    text-align: center;
+    margin-bottom: -10px;
+    text-transform: none;
+    margin:40px 0px;
+}
+.aaProcess{
+    padding: 0px;
 }
 .aaButton{
     background: #ffffff;
@@ -2732,7 +2779,7 @@ dialog {
 	  p.quote{padding:20px 0px;}
 	  .homeNum{max-width: 100%; margin-right: 0;}
 	  .join{width:100%;}
-	  .joinColor, .generalColor, .fiacColor{padding-top:0; width:100%;}
+	  .joinColor, .generalColor, .generalColor2, .fiacColor{padding-top:0; width:100%;}
 	  .joinImage{width:100%;}
 	  .joinBlurb{margin-left:0;}
 	  .joinColor p{padding-top:5%;}
@@ -2753,6 +2800,7 @@ dialog {
       .briefForm {padding-left: 0px;}
       .currentSite img{width:100%; padding:22px 0;}
 	  .sbImage{min-height:236px; background-repeat:no-repeat; background-size:contain; width:100%;}
+      .aaBlue{display:none;}
 }
 @media only screen 
   and (min-device-width: 501px) 
