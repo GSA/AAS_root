@@ -2828,7 +2828,8 @@ dialog {
 	  .currentSite2 img{padding:24px 0 !important;}
 	  .programs img, .prg1 img{width:100%;}
 	  #gform{margin: 0 20px;}
-	  .sbImage{background-position-x: center; background-repeat:no-repeat;}
+	  .sbImage {min-height: 413px; background-size: cover; width: 100%;}
+      .generalColor2{width: 100%;}
 	  .join {width:100%;}
 	  .generalColor p{padding-top:10%; padding-right:2%;}
 }
@@ -2840,6 +2841,6 @@ dialog {
 	  #gform{margin: 0 20px;}
 	  .shaping, #sequence, .aboutFEDSIM, .gutter{width: 100%; margin-left:0;}
 	  .currentSite2 img{padding:21px 0 !important;}
-	  .sbImage{background-position-x: center;}
-		  
+	  .sbImage{background-position-x: right;min-height: 366px; background-size: cover;}
+      .generalColor2 p{font-size: 14px;}
 }
