@@ -2381,12 +2381,31 @@ color:#ffffff;}
 	font-style:italic;
 	width:49%;
 }
+.generalColor2 p{
+	font-size: 15px;
+	font-style: italic;
+	padding-top:3%;
+    padding-right: 12%;
+    padding-left:10px;
+}
+.generalColor2 a, .generalColor2 a:hover, .generalColor2 a:focus, .generalColor2 a:visited{
+    color:#9ad2fa;
+}
+.generalColor2{
+	background-color:#01538f;
+	padding-top:0px;
+	padding-right:22px;
+	color: #ffffff;
+	font-style:italic;
+	width:49%;
+}
 .sbImage{
-	background-image: url(../images/@stock/sbarrow.gif);
-	min-height:435px;
+	background-image: url(../images/@stock/SB_Collage_1.jpg);
+	min-height:351px;
 	color:#ffffff;
 	text-align: right;
 	background-repeat:no-repeat;
+    background-size: contain;
 	width:51%;
 }
 .advImage{
@@ -2653,6 +2672,7 @@ dialog {
 	  .usa-disclaimer-official p {font-size: .64rem;}
       .briefForm {padding-left: 0px;}
       .currentSite img{width:100%; padding:22px 0;}
+	  .sbImage{min-height:236px; background-repeat:no-repeat; background-size:contain; width:100%;}
 }
 @media only screen 
   and (min-device-width: 501px) 
@@ -2679,6 +2699,8 @@ dialog {
 	  .currentSite2 img{padding:24px 0 !important;}
 	  .programs img, .prg1 img{width:100%;}
 	  #gform{margin: 0 20px;}
+	  .sbImage {min-height: 413px; background-size: cover; width: 100%;}
+      .generalColor2{width: 100%;}
 }
 @media only screen 
   and (min-device-width: 769px) 
@@ -2688,5 +2710,6 @@ dialog {
 	  #gform{margin: 0 20px;}
 	  .shaping, #sequence, .aboutFEDSIM, .gutter{width: 100%; margin-left:0;}
 	  .currentSite2 img{padding:21px 0 !important;}
-		  
+	  .sbImage{background-position-x: right;min-height: 366px; background-size: cover;}
+      .generalColor2 p{font-size: 14px;}	  
 }
