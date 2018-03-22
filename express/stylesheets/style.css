@@ -2548,7 +2548,7 @@ hr {border: solid #6d6d6d; border-width: 1px 0 0; height: 0;}
     background-color: #2f6d9f;
     padding:0px;
 }
-.aaCopy h3{
+.aaCopy h3, .aaFAQ h3{
     color: #0a548e;
     font-size: 34px;
     font-weight: 100;
@@ -2829,6 +2829,20 @@ dialog {
       .aaStep p, .aaStep2 p{padding: 20px 0px 20px 102px;}
 }
 @media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 374px)  {
+      .stepRibbon1{margin-left:-100px;padding-left:0;}
+      .stepRibbon2{margin-left:-100px;padding-left:0;margin-top:150px;}
+      .stepRibbon3{margin-left:-100px;padding-left:0;margin-top:369px;}
+}
+@media only screen 
+  and (min-device-width: 425px) 
+  and (max-device-width: 495px)  {
+      .stepRibbon1{margin-left:-148px;padding-left:0;}
+      .stepRibbon2{margin-left:-148px;padding-left:0;margin-top:104px;}
+      .stepRibbon3{margin-left:-148px;padding-left:0;margin-top:270px;}
+}
+@media only screen 
   and (min-device-width: 501px) 
   and (max-device-width: 768px)  {
       .expressFront h3 {font-size: 36pt; margin-top: -90px;}
@@ -2836,6 +2850,11 @@ dialog {
 	  .top-bar img{width:95%;}
 	  .expressPlatform{display:none;}
 	  .currentSite img {padding: 22px 0;}
+      .aaBlue{min-height: 115px;}
+      .stepRibbon1{padding-left:157px;}
+      .stepRibbon2{padding-left:157px;margin-top:104px;}
+      .stepRibbon3{padding-left:157px;margin-top:245px;}
+      .aaStep2 p{padding: 20px 0px 20px 120px;}
 }
 @media only screen 
   and (min-device-width: 501px) 
@@ -2868,4 +2887,5 @@ dialog {
 	  .currentSite2 img{padding:21px 0 !important;}
 	  .sbImage{background-position-x: right;min-height: 366px; background-size: cover;}
       .generalColor2 p{font-size: 14px;}
+      .aaBlue{min-height: 90px;}
 }
