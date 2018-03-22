@@ -2556,6 +2556,9 @@ hr {border: solid #6d6d6d; border-width: 1px 0 0; height: 0;}
     margin-bottom: -10px;
     text-transform: none;
 }
+.aaFAQ h3{
+    margin-bottom:40px;   
+}
 .aaProcess h3{
     color: #FFFFFF;
     font-size: 34px;
@@ -2567,6 +2570,7 @@ hr {border: solid #6d6d6d; border-width: 1px 0 0; height: 0;}
 }
 .aaProcess{
     padding: 0px;
+    margin-bottom:60px;
 }
 .aaButton{
     background: #ffffff;
@@ -2728,12 +2732,12 @@ dialog {
 	margin-left: 20px;
     background-color: #fff;
 /*    font-style: italic;*/
-    font-size: 12pt;
+    font-size: 11pt;
     line-height: 30px;
-	font-family:  "droid serif", georgia;
+	font-family:  "Roboto", sans-serif;
 }
 .panel-default>.panel-heading {
-    background: #ccc480;
+    background: #1f5183;
     border: 0px solid;
     padding: 5px 30px;
 }
@@ -2750,7 +2754,7 @@ dialog {
 	margin-top:8px;
 }
 .panel-title>a {
-    color: #363636;
+    color: #ffffff;
 	font-weight: bold;
 	font-size: 20px;
 }
@@ -2787,6 +2791,22 @@ dialog {
         border-top-color: #EEEEEE;
     }
 */
+
+.panel-title > a:before {
+    float: left !important;
+    font-family: FontAwesome;
+    content:"\f068";
+    padding-right: 5px;
+}
+.panel-title > a.collapsed:before {
+    float: left !important;
+    content:"\f067";
+}
+.panel-title > a:hover, 
+.panel-title > a:active, 
+.panel-title > a:focus  {
+    text-decoration:none;
+}
 /* Mobile Code DO NOT REMOVE */
 @media only screen 
   and (min-device-width: 320px) 
