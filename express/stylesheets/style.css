@@ -2933,13 +2933,15 @@ dialog {
 @media only screen 
   and (min-device-width: 501px) 
   and (max-device-width: 768px)  {
+      .top-bar-section li:not(.has-form) a:not(.button){padding: 0 4px !important;}
+      .top-bar-section .has-dropdown > a:after{margin-right:0px !important;}
 	  #sequence{height:327px;}
       .expressFront h3 {font-size: 32pt;}
 	  ul.title-area{width:23%;}
 	  .bg {background-size:contain !important; background-repeat:no-repeat!important;}
 	  .members{margin-top:-40px;}
       .title-area {width: 32%;}
-	  .top-bar img{width:95%;}
+	  .top-bar img{width:65%;}
 	  .feature img, .featureLast img{margin-left:-40px;}
 	  .expressPlatform{display:none;}
 	  .currentSite img {padding: 22px 0;}
