@@ -2586,6 +2586,60 @@ hr {border: solid #6d6d6d; border-width: 1px 0 0; height: 0;}
 	color:#ffffff;
 	text-decoration: none;
 }
+.solution p{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.lookingFor p{
+    margin-top:20px;
+}
+.lookingFor{
+    margin-bottom: 30px;
+}
+.lookingFor h4{
+    font-size: 20px;
+    color:#0a548e;
+}
+.lookingFor .medium-10, .lookingFor .large-10{
+    padding-left:0px;
+}
+.solutionCompanies{
+    background: #1f5183;
+	text-align: center;
+}
+.solutionCompanies h3{
+	color: #ffffff;
+	margin-top:-40px;
+    font-size: 36px;
+    font-weight: lighter;
+}
+.solutionCompanies ol{
+	text-align: left;
+	color: #ffffff;
+    padding: 0px 60px;
+}
+
+.submitSolution p{
+    margin-top:20px;
+    text-align: left;
+	font-size: 14pt;
+}
+.submitSolution{
+    margin:40px 0;
+}
+.submitSolution h3{
+    color: #0a548e;
+    font-size: 34px;
+    font-weight: 100;
+    text-align: center;
+    margin-bottom: -10px;
+    text-transform: none;
+}
+/*
+.lookingFor h4::before{
+    //content:url(../images/@stock/bluearrow.png);
+}*/
 /* 508 Compliance Code DO NOT REMOVE */
 .hidden 
 {position:absolute;
