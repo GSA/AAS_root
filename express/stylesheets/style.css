@@ -2957,6 +2957,7 @@ dialog {
   and (min-device-width: 769px) 
   and (max-device-width: 1024px)  {
 	  #sequence{height:436px;}
+	  ul.title-area{width:17%;}
 	  .bg {background-size:contain !important; background-repeat:no-repeat!important;}
 	  #gform{margin: 0 20px;}
 	  .shaping, #sequence, .aboutFEDSIM, .gutter{width: 100%; margin-left:0;}
