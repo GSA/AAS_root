@@ -2925,6 +2925,7 @@ dialog {
   and (min-device-width: 501px) 
   and (max-device-width: 768px)  {
       .mobile{display: none;}
+      .solutionCompanies ol{padding:0px;}
       .expressFront h3 {font-size: 36pt; margin-top: -90px;}
       .title-area {width: 32%;}
 	  .top-bar img{width:95%;}
