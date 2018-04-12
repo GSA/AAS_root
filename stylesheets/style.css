@@ -2469,3 +2469,9 @@ dialog {
 	  .shaping, #sequence, .aboutFEDSIM, .gutter{width: 100%; margin-left:0;}
 	  .currentSite2 img{padding:21px 0 !important;
 }
+@media only screen
+    and (max-device-width: 800px) 
+    and (orientation: portrait) {
+        .about p{padding-right:0 !important;}
+        .aboutColor{padding-top:0px;}
+}
