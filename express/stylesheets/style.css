@@ -2991,6 +2991,7 @@ dialog {
   and (-webkit-min-device-pixel-ratio: 2) {
       .expressFront h3 {font-size: 35pt !important;}
       .expressFront {padding-left: 0px !important;}
+      .top-bar-section ul {margin-top: 10px; margin-left: 20px;}
 }
 @media only screen 
   and (min-device-width: 768px) 
