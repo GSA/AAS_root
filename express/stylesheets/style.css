@@ -2976,24 +2976,6 @@ dialog {
         .tablet{width:10%; margin-right:10px;}
 }
 @media only screen 
-  and (min-device-width: 834px) 
-  and (max-device-width: 834px) 
-  and (orientation: portrait) 
-  and (-webkit-min-device-pixel-ratio: 2) {
-      .expressPlatform.medium-3 {width: 30%;}
-      .expressFront h3 {font-size: 35pt;}
-      .currentSite img {padding: 21px 0;}
-}
-@media only screen 
-  and (min-device-width: 1112px) 
-  and (max-device-width: 1112px) 
-  and (orientation: landscape) 
-  and (-webkit-min-device-pixel-ratio: 2) {
-      .expressFront h3 {font-size: 35pt !important;}
-      .expressFront {padding-left: 0px !important;}
-      .top-bar-section ul {margin-top: 10px; margin-left: 20px;}
-}
-@media only screen 
   and (min-device-width: 768px) 
   and (max-device-width: 1024px) 
   and (orientation: landscape) 
@@ -3041,6 +3023,25 @@ and (orientation : landscape) {
  	  .top-bar-section .has-dropdown > a:after{margin-right:6px !important;}
 	   .top-bar-section .has-dropdown > a{padding-right: 18px !important;}
 	  .contain-to-grid .top-bar {max-width: 80rem;}
+}
+
+@media only screen 
+  and (min-device-width: 834px) 
+  and (max-device-width: 834px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+      .expressPlatform.medium-3 {width: 30%;}
+      .expressFront h3 {font-size: 35pt;}
+      .currentSite img {padding: 21px 0;}
+}
+@media only screen 
+  and (min-device-width: 1112px) 
+  and (max-device-width: 1112px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+      .expressFront h3 {font-size: 35pt !important;}
+      .expressFront {padding-left: 0px !important;}
+      ul.right {margin-top: 10px; margin-left: 20px;}
 }
 @media only screen 
     and (min-device-width: 1025px){
