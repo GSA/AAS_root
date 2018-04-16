@@ -2490,4 +2490,4 @@ dialog {
   and (orientation: landscape) 
   and (-webkit-min-device-pixel-ratio: 2) {
       .aboutColor {padding-top:5px;padding-right: 0px; }
-      .aboutColor p{padding-right:0px;}
+      .aboutColor p{padding-right:0px;padding-top:0px;}
