@@ -2982,6 +2982,7 @@ dialog {
   and (-webkit-min-device-pixel-ratio: 2) {
       .expressPlatform.medium-3 {width: 30%;}
       .expressFront h3 {font-size: 35pt;}
+      .currentSite img {padding: 21px 0;}
 }
 @media only screen 
   and (min-device-width: 1112px) 
