@@ -2980,7 +2980,7 @@ dialog {
   and (max-device-width: 834px) 
   and (orientation: portrait) 
   and (-webkit-min-device-pixel-ratio: 2) {
-      .currentSite img {padding: 19px 0;}
+      .currentSite img {padding: 25px 0;}
 }
 @media only screen 
   and (min-device-width: 1112px) 
