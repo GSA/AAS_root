@@ -2989,8 +2989,8 @@ dialog {
   and (max-device-width: 1112px) 
   and (orientation: landscape) 
   and (-webkit-min-device-pixel-ratio: 2) {
-      .expressFront h3 {font-size: 35pt;}
-      .expressFront {padding-left: 10px;}
+      .expressFront h3 {font-size: 35pt !important;}
+      .expressFront {padding-left: 0px !important;}
 }
 @media only screen 
   and (min-device-width: 768px) 
