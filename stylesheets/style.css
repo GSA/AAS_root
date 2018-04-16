@@ -2480,7 +2480,7 @@ dialog {
   and (max-device-width: 834px) 
   and (orientation: portrait) 
   and (-webkit-min-device-pixel-ratio: 2) {
-      .currentSite img {padding: 25px 0;!important}
+      .currentSite img {padding: 19px 0;!important}
       .aboutColor {padding-top: 65px;padding-right: 0px; }
       .aboutColor p{padding-right:0px;}
 }
@@ -2489,5 +2489,5 @@ dialog {
   and (max-device-width: 1112px) 
   and (orientation: landscape) 
   and (-webkit-min-device-pixel-ratio: 2) {
-      .aboutColor {padding-top: 65px;padding-right: 0px; }
+      .aboutColor {padding-top:5px;padding-right: 0px; }
       .aboutColor p{padding-right:0px;}
