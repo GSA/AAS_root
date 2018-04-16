@@ -3041,7 +3041,7 @@ and (orientation : landscape) {
   and (-webkit-min-device-pixel-ratio: 2) {
       .expressFront h3 {font-size: 35pt !important;}
       .expressFront {padding-left: 0px !important;}
-      ul.right {margin-top: 10px; margin-left: 20px;}
+      ul.right {margin-top: 10px !important; margin-left: 20px !important;}
 }
 @media only screen 
     and (min-device-width: 1025px){
