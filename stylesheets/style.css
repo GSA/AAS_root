@@ -2473,7 +2473,7 @@ dialog {
     and (min-device-width: 667px)
     and (max-device-width: 720px) {
         .about p{padding-right:0 !important;}
-        .aboutColor{padding-top:0px !important;}
+        .aboutColor{padding-top:0px !important;background-color: #444444;}
 }
 @media only screen
     and (max-device-width: 800px) 
