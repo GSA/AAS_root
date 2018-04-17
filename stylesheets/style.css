@@ -2469,15 +2469,11 @@ dialog {
 	  .shaping, #sequence, .aboutFEDSIM, .gutter{width: 100%; margin-left:0;}
 	  .currentSite2 img{padding:21px 0 !important;
 }
-@media only screen
-    and (min-device-width: 500px)
-    and (max-device-width: 740px) { 
-      .about p{padding-right:0 !important;}
-        .aboutColor{padding-top:0px !important;}
-}
+
 @media only screen
     and (max-device-width: 800px) 
-    and (orientation: portrait) {
+    and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 1) {
         .about p{padding-right:0 !important;}
         .aboutColor{padding-top:0px !important;}
 }
