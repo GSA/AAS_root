@@ -2472,8 +2472,8 @@ dialog {
 @media only screen  
 and (max-device-width : 667px) 
 and (orientation : landscape) {  
-/*    ul.title-area{width:14%;}*/
-    .top-bar .name h1 img {width:30%;}
+    ul.title-area{width:14% !important;}
+/*    .top-bar .name h1 img {width:30%;}*/
     .top-bar-section li:not(.has-form) a:not(.button) {padding: 0 10px !important;}
       }
 @media only screen
