@@ -3040,7 +3040,7 @@ and (orientation : landscape) {
   and (orientation: landscape) 
   and (-webkit-min-device-pixel-ratio: 2) {
       .expressFront h3 {font-size: 35pt !important;}
-      .expressFront {padding-left: 0px !important;}
+      .expressFront {/*padding-left: 0px !important;*/ float:left !important;}
 /*      ul.right {margin-top: 10px !important; margin-left: 20px !important;}*/
       #sequence .bg{left:0 !important;}
 }
