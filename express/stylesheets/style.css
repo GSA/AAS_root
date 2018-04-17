@@ -3042,6 +3042,7 @@ and (orientation : landscape) {
       .expressFront h3 {font-size: 35pt !important;}
       .expressFront {padding-left: 0px !important;}
 /*      ul.right {margin-top: 10px !important; margin-left: 20px !important;}*/
+      #sequence .bg{left:0 !important;}
 }
 @media only screen 
     and (min-device-width: 1025px){
