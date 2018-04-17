@@ -2470,8 +2470,9 @@ dialog {
 	  .currentSite2 img{padding:21px 0 !important;
 }
 @media only screen  
-and (max-device-width : 667px) 
-and (orientation : landscape) {  
+  and (max-device-width : 667px)
+  and (-webkit-min-device-pixel-ratio: 2) 
+  and (orientation : landscape) {  
     ul.title-area{width:14% !important;}
 /*    .top-bar .name h1 img {width:30%;}*/
     .top-bar-section li:not(.has-form) a:not(.button) {padding: 0 10px !important;}
