@@ -2474,7 +2474,7 @@ dialog {
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {  
-    ul.title-area{width:14%;}
+    ul.title-area{width:10%;}
     .top-bar-section li:not(.has-form) a:not(.button) {padding: 0 10px !important;}
       }
 @media only screen
