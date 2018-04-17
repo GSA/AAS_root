@@ -2469,12 +2469,11 @@ dialog {
 	  .shaping, #sequence, .aboutFEDSIM, .gutter{width: 100%; margin-left:0;}
 	  .currentSite2 img{padding:21px 0 !important;
 }
-@media only screen 
-  and (min-device-width: 375px) 
+@media only screen  
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {  
-    ul.title-area{width:10%;}
+    ul.title-area{width:14%;}
     .top-bar-section li:not(.has-form) a:not(.button) {padding: 0 10px !important;}
       }
 @media only screen
