@@ -2472,7 +2472,7 @@ dialog {
 @media only screen  
 and (max-device-width : 667px) 
 and (orientation : landscape) { 
-    ul.title-area{width:18%;}
+    ul.title-area{width:14%;}
       }
 @media only screen
     and (max-device-width: 800px) 
