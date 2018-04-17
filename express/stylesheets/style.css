@@ -3033,7 +3033,7 @@ and (orientation : landscape) {
       .expressPlatform.medium-3 {width: 30%;}
       .expressFront h3 {font-size: 35pt;}
       .currentSite img {padding: 21px 0;}
-      .top-bar-section ul li > a{padding: 0 7px 0 7pxpx !important;}
+      .top-bar-section li:not(.has-form) a:not(.button){padding: 0 7px 0 7px !important;}
 }
 @media only screen 
   and (min-device-width: 1112px) 
@@ -3044,6 +3044,7 @@ and (orientation : landscape) {
       .expressFront {/*padding-left: 0px !important;*/ float:left !important;}
 /*      ul.right {margin-top: 10px !important; margin-left: 20px !important;}*/
       .top-bar-section ul li > a{padding: 0 7px 0 7px !important;}
+      .top-bar-section li:not(.has-form) a:not(.button){padding: 0 7px 0 7px !important;}
 }
 @media only screen 
     and (min-device-width: 1025px){
