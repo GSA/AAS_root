@@ -3024,6 +3024,9 @@ and (orientation : landscape) {
  	  .top-bar-section .has-dropdown > a:after{margin-right:6px !important;}
 	   .top-bar-section .has-dropdown > a{padding-right: 18px !important;}
 	  .contain-to-grid .top-bar {max-width: 80rem;}
+    .feature img, .featureLast img {margin-left: -68px;}
+    .paltRight {margin-top: 20px;}
+    .palt h3 {font-size: 30pt;}
 }
 
 @media only screen 
