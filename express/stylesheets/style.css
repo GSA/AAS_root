@@ -2798,6 +2798,7 @@ and (orientation : landscape) {
  	  .top-bar-section .has-dropdown > a:after{margin-right:6px !important;}
 	   .top-bar-section .has-dropdown > a{padding-right: 18px !important;}
 	  .contain-to-grid .top-bar {max-width: 80rem;}
+    .feature img, .featureLast img {margin-left: -68px;}
 }
 
 @media only screen 
