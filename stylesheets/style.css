@@ -2426,7 +2426,7 @@ dialog {
   and (min-device-width: 320px) 
   and (max-device-width: 500px)  {
 	  .shaping, #sequence, .aboutFEDSIM, .gutter{width: 100%; margin-left:0;}
-	  .homeSlider h3 {font-size: 26px !important;}
+	  .homeSlider h3 {font-size: 26px; !important}
 	  .mainTitleNorm {font-size: 1.5rem;}
 	  .aboutFEDSIM{padding:20px 25px;}
 	  .icon-text h3{margin-left:0px;text-align: center !important;}
@@ -2480,5 +2480,37 @@ dialog {
   and (max-device-width: 1024px)  {
 	  #gform{margin: 0 20px;}
 	  .shaping, #sequence, .aboutFEDSIM, .gutter{width: 100%; margin-left:0;}
-	  .currentSite2 img{padding:21px 0 !important;
+      .currentSite2 img{padding:21px 0 !important;}
+          
 }
+@media only screen  
+  and (max-device-width : 667px)
+  and (-webkit-min-device-pixel-ratio: 2) 
+  and (orientation : landscape) {  
+    ul.title-area{width:14% !important;}
+/*    .top-bar .name h1 img {width:30%;}*/
+    .top-bar-section li:not(.has-form) a:not(.button) {padding: 0 10px !important;}
+      }
+@media only screen
+    and (max-device-width: 800px) 
+    and (orientation: portrait) {
+        .about p{padding-right:0 !important;}
+        .aboutColor{padding-top:0px !important;}
+}
+      /*iPad Pro 10.5" */
+@media only screen 
+  and (min-device-width: 834px) 
+  and (max-device-width: 834px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+      .currentSite img {padding: 18px 0;!important}
+      .aboutColor {padding-top: 65px;padding-right: 0px; }
+      .aboutColor p{padding-right:0px;}
+}
+@media only screen 
+  and (min-device-width: 1112px) 
+  and (max-device-width: 1112px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+      .aboutColor {padding-top:5px;padding-right: 0px; }
+      .aboutColor p{padding-right:0px;padding-top:0px;}
