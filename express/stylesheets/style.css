@@ -2642,6 +2642,8 @@ dialog {
 @media only screen 
   and (min-device-width: 320px) 
   and (max-device-width: 500px)  {
+      .solutionCompanies ol{padding:0px;}
+      .tablet {display: none;}
 	  .shaping, #sequence, .aboutFEDSIM, .gutter{width: 100%; margin-left:0;}
 	  .homeSlider h3 {font-size: 26px;}
       .expressFront h3 {font-size: 26pt; margin-top: -90px;}
@@ -2652,7 +2654,7 @@ dialog {
 	  p.quote{padding:20px 0px;}
 	  .homeNum{max-width: 100%; margin-right: 0;}
 	  .join{width:100%;}
-	  .joinColor, .generalColor, .fiacColor{padding-top:0; width:100%;}
+	  .joinColor, .generalColor, .generalColor2, .fiacColor{padding-top:0; width:100%;}
 	  .joinImage{width:100%;}
 	  .joinBlurb{margin-left:0;}
 	  .joinColor p{padding-top:5%;}
@@ -2673,22 +2675,58 @@ dialog {
       .briefForm {padding-left: 0px;}
       .currentSite img{width:100%; padding:22px 0;}
 	  .sbImage{min-height:236px; background-repeat:no-repeat; background-size:contain; width:100%;}
+      .aaBlue{display:none;}
+      .stepRibbon1{margin-left:-126px;padding-left:0;}
+      .stepRibbon2{margin-left:-126px;padding-left:0;margin-top:127px;}
+      .stepRibbon3{margin-left:-126px;padding-left:0;margin-top:307px;}
+      .aaStep p, .aaStep2 p{padding: 20px 0px 20px 102px;}
+}
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 374px)  {
+      .stepRibbon1{margin-left:-100px;padding-left:0;}
+      .stepRibbon2{margin-left:-100px;padding-left:0;margin-top:150px;}
+      .stepRibbon3{margin-left:-100px;padding-left:0;margin-top:369px;}
+}
+@media only screen 
+  and (min-device-width: 425px) 
+  and (max-device-width: 495px)  {
+      .stepRibbon1{margin-left:-148px;padding-left:0;}
+      .stepRibbon2{margin-left:-148px;padding-left:0;margin-top:104px;}
+      .stepRibbon3{margin-left:-148px;padding-left:0;margin-top:270px;}
 }
 @media only screen 
   and (min-device-width: 501px) 
   and (max-device-width: 768px)  {
+      .mobile{display: none;}
+      .solutionCompanies ol{padding:0px;}
       .expressFront h3 {font-size: 36pt; margin-top: -90px;}
       .title-area {width: 32%;}
 	  .top-bar img{width:95%;}
 	  .expressPlatform{display:none;}
 	  .currentSite img {padding: 22px 0;}
+      .aaBlue{min-height: 115px;}
+      .stepRibbon1{padding-left:157px;}
+      .stepRibbon2{padding-left:157px;margin-top:104px;}
+      .stepRibbon3{padding-left:157px;margin-top:245px;}
+      .aaStep2 p{padding: 20px 0px 20px 120px;}
 }
 @media only screen 
   and (min-device-width: 501px) 
   and (max-device-width: 768px)  {
+      ul.nav, ul.title-area{width:10%;}
+      section.top-bar-section img {width: 170px !important;}
+      .mobile{display: none;}
+       ul.right{background-color:#ffffff;}
+ 	  .top-bar .name h1 a{padding-right:0px;}
+ 	  .top-bar-section ul li > a{padding: 0 0 0 10px !important; font-size:.95rem !important;}
+ 	  .top-bar-section .has-dropdown > a:after{margin-right:6px !important;}
+	   .top-bar-section .has-dropdown > a{padding-right: 18px !important;}
+	  .contain-to-grid .top-bar {max-width: 80rem;}
+       .tablet {width:15%; background-color:#ffffff;}
 	  #sequence{height:327px;}
       .expressFront h3 {font-size: 32pt;}
-	  ul.title-area{width:23%;}
+	  ul.title-area{width:17%;}
 	  .bg {background-size:contain !important; background-repeat:no-repeat!important;}
 	  .members{margin-top:-40px;}
       .title-area {width: 32%;}
@@ -2701,15 +2739,90 @@ dialog {
 	  #gform{margin: 0 20px;}
 	  .sbImage {min-height: 413px; background-size: cover; width: 100%;}
       .generalColor2{width: 100%;}
+	  .join {width:100%;}
+	  .generalColor p{padding-top:10%; padding-right:2%;}
+}
+@media only screen
+    and (min-device-width: 500px)
+    and (max-device-width: 740px) {
+        
+      ul.right{background-color:#ffffff;}
+        .tablet{width:10%; margin-right:10px;}
+}
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+      
+	ul.nav, ul.title-area{width:14%;}
+      section.top-bar-section img {width: 170px !important;}
+      ul.right{float: left !important; background-color:#ffffff; margin-left: 30px;/*margin-top:-10px;*/}
+      .mobile{display: none;}
+      .tablet{background-color:#ffffff; margin-right:35px;}
+ 	  .top-bar .name h1 a{padding-right:0px;}
+ 	  .top-bar-section ul li > a{padding: 0 0 0 10px !important; font-size:.95rem !important;}
+ 	  .top-bar-section .has-dropdown > a:after{margin-right:6px !important;}
+	   .top-bar-section .has-dropdown > a{padding-right: 18px !important;}
+	  .contain-to-grid .top-bar {max-width: 80rem;}
+	  #gform{margin: 0 20px;}
 }
 @media only screen 
   and (min-device-width: 769px) 
   and (max-device-width: 1024px)  {
 	  #sequence{height:436px;}
+	  ul.title-area{width:17%;}
+      .mobile{display: none;}
+      .tablet{background-color:#ffffff; margin-right:60px;}
+ 	  .top-bar .name h1 a{padding-right:0px;}
+ 	  .top-bar-section ul li > a{padding: 0 0 0 10px !important; font-size:.95rem !important;}
+ 	  .top-bar-section .has-dropdown > a:after{margin-right:6px !important;}
+	   .top-bar-section .has-dropdown > a{padding-right: 18px !important;}
 	  .bg {background-size:contain !important; background-repeat:no-repeat!important;}
 	  #gform{margin: 0 20px;}
 	  .shaping, #sequence, .aboutFEDSIM, .gutter{width: 100%; margin-left:0;}
 	  .currentSite2 img{padding:21px 0 !important;}
 	  .sbImage{background-position-x: right;min-height: 366px; background-size: cover;}
-      .generalColor2 p{font-size: 14px;}	  
+      .generalColor2 p{font-size: 14px;}
+      .aaBlue{min-height: 90px;}
+      .solutionCompanies ol{padding:0px;}
+}
+@media only screen  
+and (max-device-width : 667px) 
+and (orientation : landscape) { 
+      .tablet{width:10%;}
+      .mobile{display: none;}
+       ul.right{background-color:#bbbbbb;}
+       ul.title-area{width:30%;}
+ 	  .top-bar-section ul li > a{padding: 0 0 0 10px !important; font-size:.95rem !important;}
+ 	  .top-bar-section .has-dropdown > a:after{margin-right:6px !important;}
+	   .top-bar-section .has-dropdown > a{padding-right: 18px !important;}
+	  .contain-to-grid .top-bar {max-width: 80rem;}
+}
+
+@media only screen 
+  and (min-device-width: 834px) 
+  and (max-device-width: 834px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+      .expressPlatform.medium-3 {width: 30%;}
+      .expressFront h3 {font-size: 35pt;}
+      .currentSite img {padding: 21px 0;}
+      .top-bar-section li:not(.has-form) a:not(.button){padding: 0 7px 0 7px !important;}
+}
+@media only screen 
+  and (min-device-width: 1112px) 
+  and (max-device-width: 1112px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+      .expressFront h3 {font-size: 35pt !important;}
+      .expressFront {/*padding-left: 0px !important;*/ float:left !important;}
+/*      ul.right {margin-top: 10px !important; margin-left: 20px !important;}*/
+      .top-bar-section ul li > a{padding: 0 7px 0 7px !important;}
+      .top-bar-section li:not(.has-form) a:not(.button){padding: 0 7px 0 7px !important;}
+}
+@media only screen 
+    and (min-device-width: 1025px){
+      .mobile{display: none;}
+      .tablet{background-color:#ffffff; padding-right:40px;}
 }
