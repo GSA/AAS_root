@@ -2669,10 +2669,8 @@ li a{text-decoration: none;}
 .mainnav li ul li:hover a,.mainnav li ul li ul li:hover a{transition: ease-in-out .35s;-moz-transition: ease-in-out .35s;-webkit-transition: ease-in-out .35s;}
 */
 /*Second Level*/
-/*
 .hassubs .hassubs .dropdown .subs{position: relative;top: 0px;width:250px;}
 .hassubs .hassubs .dropdown{position: absolute;width: 150px !important;left: 100% !important;top: 4px !important;opacity: 0;visibility: hidden;transition: ease-out .35s;-moz-transition: ease-out .35s;-webkit-transition: ease-out .35s;}
-*/
 	  
 /* 508 Compliance Code DO NOT REMOVE */
 .hidden 
