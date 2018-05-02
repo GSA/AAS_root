@@ -2559,6 +2559,10 @@ hr {border: solid #6d6d6d; border-width: 1px 0 0; height: 0;}
     background-color: #2f6d9f;
     padding:0px;
 }
+.step1 a, .step2 a, .step3 a{
+    color:#ffffff !important;
+    font-weight: bold;
+}
 .step4 {margin-bottom:60px;}
 .aaCopy h3, .aaFAQ h3{
     color: #0a548e;
