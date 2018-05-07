@@ -2659,6 +2659,8 @@ ol.sub{list-style-type: lower-roman;}
 .expressChecklist{background-color:#ffffff;margin: 0 auto;max-width: 65.8rem;}
 .expressCont{background-color:#479CC8;}
 .expressContText{margin: 0 auto; max-width: 65.8rem; color:#ffffff;}
+.progLine{border-bottom:4px solid #ccc480; padding:0px;}
+.progLineLast{padding:0px;}
 /*
 .lookingFor h4::before{
     //content:url(../images/@stock/bluearrow.png);
