@@ -2654,7 +2654,7 @@ hr {border: solid #6d6d6d; border-width: 1px 0 0; height: 0;}
 }
 ol.sub{list-style-type: lower-roman;}
 .contBot{background-color:#479CC8;margin: 0 auto;max-width: 65.8rem;margin-top: -76px;}
-.expressProg{background-color:#EBEBEB;margin-top: 40px;}
+.expressProg{background-color:#EBEBEB;}
 .full.expressProg{padding-bottom:0px !important;}
 .expressChecklist{background-color:#ffffff;margin: 0 auto;max-width: 65.8rem;}
 .expressChecklist h3{color:#265486;margin-top: -20px;margin-left: 20px;font-size: 18pt;text-transform: capitalize;}
@@ -2668,6 +2668,8 @@ ol.sub{list-style-type: lower-roman;}
 .progLineLast{padding:0px;}
 .progLine .medium-1, .progLine .large-1, .progLineLast .medium-1, .progLineLast .large-1{width:4%;}
 .progLine .medium-11, .progLine .large-11, .progLineLast .medium-11, .progLineLast .large-11{width:94.66667%;}
+.listBot{margin-bottom:15px;}
+.expressAccord{margin-bottom: 40px;}
 /*
 .lookingFor h4::before{
     //content:url(../images/@stock/bluearrow.png);
