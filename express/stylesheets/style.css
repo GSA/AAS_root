@@ -2657,6 +2657,7 @@ ol.sub{list-style-type: lower-roman;}
 .expressProg{background-color:#EBEBEB;margin-top: 40px;}
 .full.expressProg{padding-bottom:0px !important;}
 .expressChecklist{background-color:#ffffff;margin: 0 auto;max-width: 65.8rem;}
+.expressChecklist h3{color:#265486;margin-top: -20px;margin-left: 20px;font-size: 18pt;text-transform: capitalize;}
 .expressCont{background-color:#479CC8;}
 .expressContText{margin: 0 auto; max-width: 65.8rem; color:#ffffff;}
 .progLine{border-bottom:4px solid #ccc480; padding:0px;}
