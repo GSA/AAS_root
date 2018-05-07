@@ -2658,10 +2658,16 @@ ol.sub{list-style-type: lower-roman;}
 .full.expressProg{padding-bottom:0px !important;}
 .expressChecklist{background-color:#ffffff;margin: 0 auto;max-width: 65.8rem;}
 .expressChecklist h3{color:#265486;margin-top: -20px;margin-left: 20px;font-size: 18pt;text-transform: capitalize;}
+.expressChecklist h4{color:#479CC8; font-size: 16pt;text-transform: capitalize;margin-bottom:0px;}
 .expressCont{background-color:#479CC8;}
 .expressContText{margin: 0 auto; max-width: 65.8rem; color:#ffffff;}
+.expressContText h3{color:#ffffff;text-transform:capitalize;font-size:20pt;}
+.expressContText a{color:#ffffff;}
 .progLine{border-bottom:4px solid #ccc480; padding:0px;}
+.progLine i, .progLineLast i{font-size: 24pt;margin-top: 7px;}
 .progLineLast{padding:0px;}
+.progLine .medium-1, .progLine .large-1, .progLineLast .medium-1, .progLineLast .large-1{width:4%;}
+.progLine .medium-11, .progLine .large-11, .progLineLast .medium-11, .progLineLast .large-11{width:94.66667%;}
 /*
 .lookingFor h4::before{
     //content:url(../images/@stock/bluearrow.png);
