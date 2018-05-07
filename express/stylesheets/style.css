@@ -2653,6 +2653,12 @@ hr {border: solid #6d6d6d; border-width: 1px 0 0; height: 0;}
     text-transform: none;
 }
 ol.sub{list-style-type: lower-roman;}
+.contBot{background-color:#479CC8;margin: 0 auto;max-width: 65.8rem;margin-top: -76px;}
+.expressProg{background-color:#EBEBEB;margin-top: 40px;}
+.full.expressProg{padding-bottom:0px !important;}
+.expressChecklist{background-color:#ffffff;margin: 0 auto;max-width: 65.8rem;}
+.expressCont{background-color:#479CC8;}
+.expressContText{margin: 0 auto; max-width: 65.8rem; color:#ffffff;}
 /*
 .lookingFor h4::before{
     //content:url(../images/@stock/bluearrow.png);
