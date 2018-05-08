@@ -2674,6 +2674,7 @@ table tr.odd{background:#E6E6E6;}
 .noBorder {border:0;}
 .table-bordered>tbody>tr>th, .table-bordered {border:0;}
 .table-bordered>tbody>tr>th {color:#265486;font-size: 16pt;text-transform: capitalize;}
+.table-bordered>tbody>tr>td {color:#479CC8; font-size: 12pt;text-transform: capitalize;font-weight:bold;}
 
 /*
 .lookingFor h4::before{
