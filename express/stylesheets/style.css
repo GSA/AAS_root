@@ -2670,6 +2670,11 @@ ol.sub{list-style-type: lower-roman;}
 .progLine .medium-11, .progLine .large-11, .progLineLast .medium-11, .progLineLast .large-11{width:94.66667%;}
 .listBot{margin-bottom:15px;}
 .expressAccord{margin-bottom: 40px;}
+table tr.odd{background:#E6E6E6;}
+.noBorder {border:0;}
+.table-bordered>tbody>tr>th, .table-bordered {border:0;}
+.table-bordered>tbody>tr>th {color:#265486;font-size: 16pt;text-transform: capitalize;}
+
 /*
 .lookingFor h4::before{
     //content:url(../images/@stock/bluearrow.png);
