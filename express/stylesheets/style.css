@@ -1115,7 +1115,7 @@ form input.error, form textarea.error {
 	color:#ffffff;
 }
 .footer a{
-	color:#cdb047;
+	color:#dac578;
 	font-weight: bold;
 }
 /*AA footer */
@@ -2653,13 +2653,13 @@ hr {border: solid #6d6d6d; border-width: 1px 0 0; height: 0;}
     text-transform: none;
 }
 ol.sub{list-style-type: lower-roman;}
-.contBot{background-color:#479CC8;margin: 0 auto;max-width: 65.8rem;margin-top: -76px;}
+.contBot{background-color:#307ca2;margin: 0 auto;max-width: 65.8rem;margin-top: -76px;}
 .expressProg{background-color:#EBEBEB;}
 .full.expressProg{padding-bottom:0px !important;}
 .expressChecklist{background-color:#ffffff;margin: 0 auto;max-width: 65.8rem;}
 .expressChecklist h3{color:#265486;margin-top: -20px;margin-left: 20px;font-size: 18pt;text-transform: capitalize;}
-.expressChecklist h4{color:#479CC8; font-size: 16pt;text-transform: capitalize;margin-bottom:0px;}
-.expressCont{background-color:#479CC8;}
+.expressChecklist h4{color:#307ca2; font-size: 16pt;text-transform: capitalize;margin-bottom:0px;}
+.expressCont{background-color:#307ca2;}
 .expressContText{margin: 0 auto; max-width: 65.8rem; color:#ffffff;}
 .expressContText h3{color:#ffffff;text-transform:capitalize;font-size:20pt;}
 .expressContText a{color:#ffffff;}
@@ -2674,7 +2674,7 @@ table tr.odd{background:#E6E6E6;}
 .noBorder {border:0;}
 .table-bordered>tbody>tr>th, .table-bordered {border:0;}
 .table-bordered>tbody>tr>th {color:#265486;font-size: 16pt;text-transform: capitalize;}
-.table-bordered>tbody>tr>td {color:#479CC8; font-size: 12pt;text-transform: capitalize;font-weight:bold;}
+.table-bordered>tbody>tr>td {color:#307ca2; font-size: 12pt;text-transform: capitalize;font-weight:bold;}
 
 /*
 .lookingFor h4::before{
