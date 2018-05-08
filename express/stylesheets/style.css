@@ -2080,7 +2080,7 @@ input#name, input#email, input#phone, textarea#overview, input#company, input#ag
   height: 2.3rem;
 color:#ffffff;}
 .usa-disclaimer a{
-	color:#7ba8ce;
+	color:#aac8e0;
 	font-weight: bold;
 }
  @media screen and (min-width: 481px) {
@@ -2674,7 +2674,7 @@ table tr.odd{background:#E6E6E6;}
 .noBorder {border:0;}
 .table-bordered>tbody>tr>th, .table-bordered {border:0;}
 .table-bordered>tbody>tr>th {color:#265486;font-size: 16pt;text-transform: capitalize;}
-.table-bordered>tbody>tr>td {color:#307ca2; font-size: 12pt;text-transform: capitalize;font-weight:bold;}
+.table-bordered>tbody>tr>td {color:#296988; font-size: 12pt;text-transform: capitalize;font-weight:bold;}
 
 /*
 .lookingFor h4::before{
