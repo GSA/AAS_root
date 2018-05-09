@@ -2680,6 +2680,7 @@ dialog {
       .stepRibbon1{margin-left:-126px;padding-left:0;}
       .stepRibbon2{margin-left:-126px;padding-left:0;margin-top:127px;}
       .stepRibbon3{margin-left:-126px;padding-left:0;margin-top:307px;}
+      .stepRibbon4{margin-left:-126px;padding-left:0;margin-top:307px;}
       .aaStep p, .aaStep2 p{padding: 20px 0px 20px 102px;}
 }
 @media only screen 
@@ -2688,6 +2689,7 @@ dialog {
       .stepRibbon1{margin-left:-100px;padding-left:0;}
       .stepRibbon2{margin-left:-100px;padding-left:0;margin-top:150px;}
       .stepRibbon3{margin-left:-100px;padding-left:0;margin-top:369px;}
+      .stepRibbon4{margin-left:-100px;padding-left:0;margin-top:369px;}
 }
 @media only screen 
   and (min-device-width: 425px) 
@@ -2720,7 +2722,7 @@ dialog {
       .mobile{display: none;}
        ul.right{background-color:#ffffff;}
  	  .top-bar .name h1 a{padding-right:0px;}
- 	  .top-bar-section ul li > a{padding: 0 0 0 10px !important; font-size:.95rem !important;}
+ 	  .top-bar-section ul li > a{padding: 0 5px 0 7px !important; font-size:.95rem !important;}
  	  .top-bar-section .has-dropdown > a:after{margin-right:6px !important;}
 	   .top-bar-section .has-dropdown > a{padding-right: 18px !important;}
 	  .contain-to-grid .top-bar {max-width: 80rem;}
@@ -2812,7 +2814,9 @@ and (orientation : landscape) {
       .expressPlatform.medium-3 {width: 30%;}
       .expressFront h3 {font-size: 35pt;}
       .currentSite img {padding: 21px 0;}
-      .top-bar-section li:not(.has-form) a:not(.button){padding: 0 7px 0 7px !important;}
+ 	  .top-bar-section ul li > a{padding: 0 0 0 10px !important; font-size:.95rem !important;}
+ 	  .top-bar-section .has-dropdown > a:after{margin-right:6px !important;}
+	   .top-bar-section .has-dropdown > a{padding-right: 18px !important;}
 }
 @media only screen 
   and (min-device-width: 1112px) 
@@ -2822,8 +2826,9 @@ and (orientation : landscape) {
       .expressFront h3 {font-size: 35pt !important;}
       .expressFront {/*padding-left: 0px !important;*/ float:left !important;}
 /*      ul.right {margin-top: 10px !important; margin-left: 20px !important;}*/
-      .top-bar-section ul li > a{padding: 0 7px 0 7px !important;}
-      .top-bar-section li:not(.has-form) a:not(.button){padding: 0 7px 0 7px !important;}
+ 	  .top-bar-section ul li > a{padding: 0 0 0 10px !important; font-size:.95rem !important;}
+ 	  .top-bar-section .has-dropdown > a:after{margin-right:6px !important;}
+	   .top-bar-section .has-dropdown > a{padding-right: 18px !important;}
 }
 @media only screen 
     and (min-device-width: 1025px){
