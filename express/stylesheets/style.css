@@ -3104,7 +3104,6 @@ dialog {
  	  .top-bar-section .has-dropdown > a:after{margin-right:6px !important;}
 	   .top-bar-section .has-dropdown > a{padding-right: 18px !important;}
 	  .contain-to-grid .top-bar {max-width: 80rem;}
-      .feature img, .featureLast img {margin-left:-60px;}
 	  #gform{margin: 0 20px;}
 }
 @media only screen 
@@ -3126,7 +3125,7 @@ dialog {
       .generalColor2 p{font-size: 14px;}
       .aaBlue{min-height: 90px;}
       .solutionCompanies ol{padding:0px;}
-      .feature img, .featureLast img {margin-right:20px;}
+      .feature img, .featureLast img {margin-left:-60px;}
 }
 @media only screen  
 and (max-device-width : 667px) 
