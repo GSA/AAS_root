@@ -3125,7 +3125,7 @@ dialog {
       .generalColor2 p{font-size: 14px;}
       .aaBlue{min-height: 90px;}
       .solutionCompanies ol{padding:0px;}
-      .feature img, .featureLast img {margin-left:-60px;}
+      .feature img, .featureLast img {margin-left:-50px;}
 }
 @media only screen  
 and (max-device-width : 667px) 
