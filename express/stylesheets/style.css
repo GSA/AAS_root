@@ -3101,6 +3101,14 @@ and (orientation : landscape) {
  	  .top-bar-section .has-dropdown > a:after{margin-right:6px !important;}
 	   .top-bar-section .has-dropdown > a{padding-right: 18px !important;}
 }
+@media only screen
+    and (min-device-width: 834px)
+    and (max-device-width: 834px)
+    and (orientation: portrait)
+    and (-webkit-min-device-pixel-ratio:2){
+        
+      .aaStep p, .aaStep2 p{padding: 20px 0px 20px 102px;}
+}
 @media only screen 
   and (min-device-width: 1112px) 
   and (max-device-width: 1112px) 
