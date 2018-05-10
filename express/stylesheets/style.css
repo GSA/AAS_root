@@ -3138,5 +3138,9 @@ and (orientation : landscape) {
   and (-webkit-min-device-pixel-ratio: 2)
   and (min-resolution: 192dpi) { 
       .aaBlue{min-height: 120px;}
-      .aaBlue4{min-height:140px;}
+      .aaBlue4{min-height:170px;}
+      .stepRibbon1{padding-left:137px;}
+      .stepRibbon2{padding-left:137px;margin-top:104px;}
+      .stepRibbon3{padding-left:137px;margin-top:245px;}
+      .stepRibbon4{padding-left:137px;margin-top:445px;}
 }
