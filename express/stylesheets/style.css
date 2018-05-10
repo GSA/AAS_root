@@ -3046,8 +3046,8 @@ dialog {
 	   .top-bar-section .has-dropdown > a{padding-right: 18px !important;}
 	  .contain-to-grid .top-bar {max-width: 80rem;}
 	  #gform{margin: 0 20px;}
-      .aaStep p{padding: 20px 0px 20px 120px;}
-      .aaStep2 p{padding: 8px 0px 7px 120px;}
+      .aaStep p{padding: 20px 0px 20px 140px;}
+      .aaStep2 p{padding: 8px 0px 7px 140px;}
 }
 @media only screen 
   and (min-device-width: 769px) 
