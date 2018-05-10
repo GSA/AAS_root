@@ -1122,7 +1122,28 @@ form input.error, form textarea.error {
 	color:#dac578;
 	font-weight: bold;
 }
-
+/*AA footer */
+.aafooter {
+background: #3b7840; 
+  /*  background: #01538f;*/
+  padding: 40px 0 20px;
+}
+.aafooter h1 {
+  color: #ffffff;
+  font-size: 48px;
+}
+.aafooter p.copyright {
+  padding: 40px 0 0;
+  color: #ffffff;
+  font-size: 14px;
+}
+.aafooter h6{
+	color:#ffffff;
+}
+.aafooter a{
+	color:#cdb047;
+	font-weight: bold;
+}
 /* slider customization */
 .orbit-container .orbit-timer, .orbit-container .orbit-slide-number {
   display: none;
