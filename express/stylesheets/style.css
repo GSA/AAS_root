@@ -3108,6 +3108,12 @@ and (orientation : landscape) {
     and (-webkit-min-device-pixel-ratio:2){
         
       .aaStep p, .aaStep2 p{padding: 20px 0px 20px 102px;}
+      .aaBlue{min-height: 115px;}
+      .aaBlue4{min-height:140px;}
+      .stepRibbon1{padding-left:157px;}
+      .stepRibbon2{padding-left:157px;margin-top:104px;}
+      .stepRibbon3{padding-left:157px;margin-top:245px;}
+      .stepRibbon4{padding-left:157px;margin-top:445px;}
 }
 @media only screen 
   and (min-device-width: 1112px) 
