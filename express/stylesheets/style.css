@@ -3139,6 +3139,7 @@ and (orientation : landscape) {
   and (max-device-width: 1368px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (min-resolution: 192dpi) { 
+      .expressFront h3 {font-size: 35pt !important; margin-top: -30px;}
       .aaBlue{min-height: 120px;}
       .aaBlue4{min-height:170px;}
       .stepRibbon1{padding-left:137px;}
