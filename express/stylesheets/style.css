@@ -3132,6 +3132,8 @@ and (orientation : landscape) {
       .mobile{display: none;}
       .tablet{background-color:#ffffff; padding-right:40px;}
 }
+
+/* Surface Pro 12.5" */
 @media screen 
   and (min-device-width: 912px) 
   and (max-device-width: 1368px) 
