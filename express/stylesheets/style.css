@@ -2815,6 +2815,49 @@ dialog {
 	font-weight: bold;
 	font-size: 20px;
 }
+
+.inno .panel {
+	border: 0px solid;
+    margin-bottom: 1.25rem;
+    padding: .5rem 1.25rem 0 1.25rem;
+    background: #ffffff; 
+}
+.inno .panel-default{
+	border: 0px solid;
+}
+.inno .panel-group{
+	margin-top:40px;
+}
+.inno .panel-body{
+	margin-left: 20px;
+    background-color: #fff;
+/*    font-style: italic;*/
+    font-size: 11pt;
+    line-height: 30px;
+	font-family:  "Roboto", sans-serif;
+}
+.inno .panel-default>.panel-heading {
+    background: #1f5183;
+    border: 0px solid;
+    padding: 5px 30px;
+}
+.inno .panel-titlearrow{
+	background-image:url(../images/@stock/faqarrow.png);
+	background-repeat: no-repeat;
+	min-height: 30px;
+	margin-left:20px;
+	float:left;
+    min-width: 42px;
+}
+.inno .panel-title {
+    text-transform: none;
+	margin-top:8px;
+}
+.inno .panel-title>a {
+    color: #ffffff;
+	font-weight: bold;
+	font-size: 20px;
+}
 /*---------------------*/
 /*
  .panel-group .panel {
