@@ -2524,28 +2524,28 @@ hr {border: solid #6d6d6d; border-width: 1px 0 0; height: 0;}
     position:absolute;
     margin-top:-32px;
     margin-bottom:-70px;
-    z-index:100;
+    z-index:98;
 }
 .stepRibbon2{
     padding-left:220px;
     position:absolute;
     margin-top:82px;
     margin-bottom:-70px;
-    z-index:100;
+    z-index:98;
 }
 .stepRibbon3{
     padding-left:220px;
     position:absolute;
     margin-top:194px;
     margin-bottom:-70px;
-    z-index:100;
+    z-index:98;
 }
 .stepRibbon4{
     padding-left:220px;
     position:absolute;
     margin-top:329px;
     margin-bottom:-70px;
-    z-index:100;
+    z-index:98;
 }
 .step1, .step2, .step3, .step4{
     margin-bottom: 60px;
@@ -2951,7 +2951,7 @@ dialog {
       .briefForm {padding-left: 0px;}
       .currentSite img{width:100%; padding:22px 0;}
 	  .sbImage{min-height:236px; background-repeat:no-repeat; background-size:contain; width:100%;}
-      .aaBlue{display:none;}
+      .aaBlue, .aaBlue4{display:none;}
       .stepRibbon1{margin-left:-126px;padding-left:0;}
       .stepRibbon2{margin-left:-126px;padding-left:0;margin-top:127px;}
       .stepRibbon3{margin-left:-126px;padding-left:0;margin-top:307px;}
@@ -2984,6 +2984,7 @@ dialog {
 	  .expressPlatform{display:none;}
 	  .currentSite img {padding: 22px 0;}
       .aaBlue{min-height: 115px;}
+      .aaBlue4{min-height:140px;}
       .stepRibbon1{padding-left:157px;}
       .stepRibbon2{padding-left:157px;margin-top:104px;}
       .stepRibbon3{padding-left:157px;margin-top:245px;}
@@ -3063,6 +3064,7 @@ dialog {
 	  .sbImage{background-position-x: right;min-height: 366px; background-size: cover;}
       .generalColor2 p{font-size: 14px;}
       .aaBlue{min-height: 90px;}
+      .aaBlue4{min-height:115px;}
       .solutionCompanies ol{padding:0px;}
       .feature img, .featureLast img {margin-left:-50px;}
 }
