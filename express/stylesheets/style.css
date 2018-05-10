@@ -3137,6 +3137,6 @@ and (orientation : landscape) {
   and (max-device-width: 1368px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (min-resolution: 192dpi) { 
-      .aaBlue{min-height: 115px;}
+      .aaBlue{min-height: 120px;}
       .aaBlue4{min-height:140px;}
 }
