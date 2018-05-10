@@ -2891,6 +2891,21 @@ dialog {
         border-top-color: #EEEEEE;
     }
 */
+.panel-title > a:before {
+    float: left !important;
+    font-family: FontAwesome;
+    content:"\f068";
+    padding-right: 5px;
+}
+.panel-title > a.collapsed:before {
+    float: left !important;
+    content:"\f067";
+}
+.panel-title > a:hover, 
+.panel-title > a:active, 
+.panel-title > a:focus  {
+    text-decoration:none;
+}
 /* Mobile Code DO NOT REMOVE */
 @media only screen 
   and (min-device-width: 320px) 
