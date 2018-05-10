@@ -2956,7 +2956,7 @@ dialog {
       .stepRibbon2{margin-left:-126px;padding-left:0;margin-top:127px;}
       .stepRibbon3{margin-left:-126px;padding-left:0;margin-top:307px;}
       .stepRibbon4{margin-left:-126px;padding-left:0;margin-top:427px;}
-      .aaStep p, .aaStep2 p{padding: 20px 0px 20px 102px;}
+      .aaStep p, .aaStep2 p{padding: 15px 0px 15px 102px;}
 }
 @media only screen 
   and (min-device-width: 320px) 
