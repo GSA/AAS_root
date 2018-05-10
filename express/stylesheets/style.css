@@ -1858,8 +1858,24 @@ p.createExpress{
 	min-height:170px;
     background-size: cover;
 }
+.titleHeader2{
+	background-image: url(../images/@stock/innovHeader.png);
+	min-height:170px;
+    background-size: cover;
+}
+.titleHeaderText2{
+	color: #ffffff;
+	font-weight:lighter;
+	font-size: 40pt;
+	max-width: 70rem;
+    margin: 0 auto;
+    margin-bottom: 0;
+	padding-top:40px;
+    text-align: center;
+    text-transform: none;
+}
 .titleHeaderText{
-	color: #dac578;
+	color: #cdb047;
 	font-weight:lighter;
 	font-size: 40pt;
 	max-width: 70rem;
