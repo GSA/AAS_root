@@ -2657,8 +2657,8 @@ ol.sub{list-style-type: lower-roman;}
 .expressProg{background-color:#EBEBEB;}
 .full.expressProg{padding-bottom:0px !important;}
 .expressChecklist{background-color:#ffffff;margin: 0 auto;max-width: 65.8rem;}
-.expressChecklist h3{color:#265486;margin-top: -20px;margin-left: 20px;font-size: 18pt;text-transform: capitalize;}
-.expressChecklist h4{color:#307ca2; font-size: 16pt;text-transform: capitalize;margin-bottom:0px;}
+.expressChecklist h3{color:#265486;margin-top: -20px;margin-left: 20px;font-size: 18pt;/*text-transform: capitalize;*/}
+.expressChecklist h4{color:#307ca2; font-size: 16pt;/*text-transform: capitalize;*/margin-bottom:0px;}
 .expressCont{background-color:#307ca2;}
 .expressContText{margin: 0 auto; max-width: 65.8rem; color:#ffffff;}
 .expressContText h3{color:#ffffff;text-transform:capitalize;font-size:20pt;}
