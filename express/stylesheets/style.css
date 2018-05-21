@@ -2795,7 +2795,7 @@ table tr.odd{background:#E6E6E6;}
 .path span span{width:20em; background-color:#f1f1f1; color:#000; border:1px solid #000000; font-family: "Roboto", sans-serif;}
 .carousel {
     margin-bottom: 0;
-    padding: 0 40px 30px 40px;
+    padding: 0 40px 0px 40px;
     margin-top:375px;
 }
 /* The controlsy */
