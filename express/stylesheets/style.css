@@ -2796,6 +2796,7 @@ table tr.odd{background:#E6E6E6;}
 .carousel {
     margin-bottom: 0;
     padding: 0 40px 30px 40px;
+    margin-top:375px;
 }
 /* The controlsy */
 .carousel-control {
