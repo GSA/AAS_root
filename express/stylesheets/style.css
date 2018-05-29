@@ -2742,6 +2742,7 @@ table tr.odd{background:#E6E6E6;}
     border: 1px solid #1D5187;
     font-weight: bold;
 }
+.SBIRBot .button:hover, .SBIRBot .button:focus{background-color: #2f73ab;border: 1px solid #1D5187}
 .SBIRBot button, .SBIRBot button:visited, .SBIRBot button:active, .SBIRBot button:hover, .SBIRBot button:focus {color:#ffffff;}
 .sectionTopCSO{
 	background-color:#424143;
@@ -2763,6 +2764,7 @@ table tr.odd{background:#E6E6E6;}
     border: 1px solid #424143;
     font-weight: bold;
 }
+.CSOBot .button:hover, .CSOBot .button:focus{background-color: #5E5D5F;border: 1px solid #424143}
 .CSOBot button, .CSOBot button:visited, .CSOBot button:active, .CSOBot button:hover, .CSOBot button:focus {color:#ffffff;}
 .sectionTopOther{
 	background-color:#4B92CE;
@@ -2773,17 +2775,18 @@ table tr.odd{background:#E6E6E6;}
 	text-transform: uppercase;
 	text-align: center;
 }
-.OtherBot button{background-color:#3A7A3B;}
+.OtherBot button{background-color:#2f73ab;}
 .OtherBot button{margin-left:7%;}
 .OtherBot .button {
     text-transform: uppercase;
     letter-spacing: 3px;
     font-size: 14px;
     padding: 13px 30px 10px;
-    background: #4B92CE;
-    border: 1px solid #4B92CE;
+    background: #2f73ab;
+    border: 1px solid #2f73ab;
     font-weight: bold;
 }
+/*.OtherBot .button:hover, .OtherBot .button:focus{}*/
 .OtherBot button, .OtherBot button:visited, .OtherBot button:active, .OtherBot button:hover, .OtherBot button:focus {color:#ffffff;}
 .sectionBottom{
 	background-color:#e7e8e8;
