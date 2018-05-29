@@ -2765,7 +2765,7 @@ table tr.odd{background:#E6E6E6;}
 }
 .CSOBot button, .CSOBot button:visited, .CSOBot button:active, .CSOBot button:hover, .CSOBot button:focus {color:#ffffff;}
 .sectionTopOther{
-	background-color:#3A7A3B;
+	background-color:#4B92CE;
 	color:#ffffff;
 	font-weight: bold;
 	padding:15px;
@@ -2780,8 +2780,8 @@ table tr.odd{background:#E6E6E6;}
     letter-spacing: 3px;
     font-size: 14px;
     padding: 13px 30px 10px;
-    background: #3A7A3B;
-    border: 1px solid #3A7A3B;
+    background: #4B92CE;
+    border: 1px solid #4B92CE;
     font-weight: bold;
 }
 .OtherBot button, .OtherBot button:visited, .OtherBot button:active, .OtherBot button:hover, .OtherBot button:focus {color:#ffffff;}
