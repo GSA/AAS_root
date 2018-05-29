@@ -2792,6 +2792,7 @@ table tr.odd{background:#E6E6E6;}
     line-height: 18px;
     text-align: left;
 }
+.OtherBot, .CSOBot, .SBIRBot{min-height: 262px;}
 .path span span{width:20em; background-color:#f1f1f1; color:#000; border:1px solid #000000; font-family: "Roboto", sans-serif;}
 .carousel {
     margin-bottom: 0;
