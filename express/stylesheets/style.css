@@ -2848,6 +2848,7 @@ background: #428bca;
     padding-top:15px;
     margin-bottom:20px;
 }
+.carousel-inner a:hover {cursor:default;}
 #Carousel .sectionBottom h3{color:#ffffff; font-size:16px;}
 .hoverH .sectionBottom, .hoverP .sectionBottom, .hoverH2 .sectionBottom, .hoverP2 .sectionBottom, .hoverH3 .sectionBottom, .hoverP3 .sectionBottom, .hoverH4 .sectionBottom, .hoverP4 .sectionBottom, .hoverH5 .sectionBottom, .hoverP5 .sectionBottom, .hoverH6 .sectionBottom, .hoverP6 .sectionBottom, .hoverH7 .sectionBottom, .hoverP7 .sectionBottom, .hoverH8 .sectionBottom, .hoverP8 .sectionBottom {min-height:290px !important;}
 .hoverP, .hoverP2, .hoverP3, .hoverP4, .hoverP5, .hoverP6, .hoverP7, .hoverP8{display: none;}
