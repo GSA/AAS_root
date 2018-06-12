@@ -2858,6 +2858,10 @@ background: #428bca;
 .proj{color:#4B91CD;}
 .hoverBG p{text-transform: uppercase;}
 .hoverBG .dollar{margin-bottom:0px;}
+.sbir .button.boxed {background: #ffffff; color:#01538f;}
+.sbir {text-align:center;}
+.sbir h3{color:#ffffff;
+	font-size: 3rem;}
 /*
 .lookingFor h4::before{
     //content:url(../images/@stock/bluearrow.png);
