@@ -2436,7 +2436,7 @@ color:#ffffff;}
 }
 .step1 .left, .step2 .left, .step3 .left,  .step1 .right, .step2 .right, .step3 .right{max-height: 100px; min-height:100px; color:#fff;}
 .step4 .left, .step4 .right{min-height:200px;}
-.step1 .left, .step3 .left{border-right: 2px dashed #fff; background-color:#1D5187; padding-top:35px;}
+.step1 .left, .step3 .left{border-right: 2px dashed #fff; background-color:#1D5187; padding-top:35px; padding-left:36px;}
 .step1 .right, .step3 .right{background-color:#4b92ce;}
 .step2, .step4 {background-color:#424143; color:#fff;}
 .step2 .text{text-align:center; padding-top: 35px;}
