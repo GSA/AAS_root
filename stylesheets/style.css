@@ -2496,9 +2496,9 @@ dialog {
 	margin-left: 40px;
     background-color: #f1f1f1;
 /*    font-style: italic;*/
-    font-size: 20px;
+    font-size: 16px;
     line-height: 30px;
-	font-family:  "droid serif", georgia;
+/*	font-family:  "droid serif", georgia;*/
 }
 .panel-default>.panel-heading {
     background-color: #4B92CE;
