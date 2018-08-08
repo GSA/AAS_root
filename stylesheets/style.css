@@ -2345,6 +2345,100 @@ color:#ffffff;}
 	padding:21px 0 !important;
 }
 #gform h2{color:#ffffff;}
+.aaCopy p{
+/*	font-weight: bold;*/
+    text-align: left;
+	font-size: 14pt;
+	margin-top: 60px;
+}
+.aaTop{
+    margin-top:40px;
+}
+.aaRibbon{
+/*    margin-top: -31px;*/
+    padding-left: 45px;
+/*    margin-right: -8px;*/
+}
+.aaRibbon img{max-height:102px;}
+.aaBlue{
+    background-color: #1f5183;
+    min-height:90px;
+    padding:0;
+}
+.aaStep{
+    background-color: #2f6d9f;
+}
+.aaStep2{
+    background-color: #2f6d9f;
+}
+.aaStep p, .aaStep2 p{
+    padding: 20px 0px 20px 160px;
+    margin-bottom: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.stepRibbon4{
+    padding-left:45px;
+    position:absolute;
+    margin-top:315px;
+/*    margin-bottom:-70px;*/
+    z-index:100;
+}
+.stepRibbon4 img{max-height: 102px;}
+.step4Top{padding-top:25px;margin-bottom:.5rem;}
+.step4Text{font-style: italic; font-size:.75rem;}
+.step1, .step2, .step3, .step4{
+    margin-bottom: 10px;
+    max-height:100px;
+    background-color: #2f6d9f;
+    padding:0px;
+}
+.step1 a, .step2 a, .step3 a, .aalink a{
+    color:#ffffff !important;
+    font-weight: bold;
+}
+.sbirBot h3, .aaFAQ h3{
+/*    color: #0a548e;*/
+    font-size: 34px;
+    font-weight: 100;
+/*    text-align: center;*/
+/*    margin-bottom: -10px;*/
+    text-transform: none;
+}
+.aaFAQ h3{
+    margin-bottom:40px;   
+}
+.aaProcess h3{
+    color: #FFFFFF;
+    font-size: 34px;
+    font-weight: 100;
+    text-align: center;
+    margin-bottom: -10px;
+    text-transform: none;
+    margin:40px 0px;
+}
+.aaProcess{
+    padding: 0px;
+    margin-bottom:60px;
+}
+.agency{
+}
+
+.agency .ag1{border-right: 2px dashed #fff;}
+.agency .ag1, .agency .ag2{
+    background-color:#BBBDBF;
+    color: #1D5187;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 0;
+}
+.step1 .left, .step2 .left, .step3 .left,  .step1 .right, .step2 .right, .step3 .right{max-height: 100px; min-height:100px; color:#fff;}
+.step4 .left, .step4 .right{min-height:200px;}
+.step1 .left, .step3 .left{border-right: 2px dashed #fff; background-color:#1D5187; padding-top:35px; padding-left:36px;}
+.step1 .right, .step3 .right{background-color:#4b92ce;}
+.step2, .step4 {background-color:#424143; color:#fff;}
+.step2 .text{text-align:center; padding-top: 35px;}
+.step3 .right{padding-top:25px;}
 /* 508 Compliance Code DO NOT REMOVE */
 .hidden 
 {position:absolute;
@@ -2396,9 +2490,9 @@ dialog {
 	margin-left: 40px;
     background-color: #f1f1f1;
 /*    font-style: italic;*/
-    font-size: 20px;
+    font-size: 16px;
     line-height: 30px;
-	font-family:  "droid serif", georgia;
+/*	font-family:  "droid serif", georgia;*/
 }
 .panel-default>.panel-heading {
     background-color: #2f73ab;
