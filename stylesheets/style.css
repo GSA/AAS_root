@@ -2021,7 +2021,10 @@ color:#ffffff;}
 .aasBackground{
 	background-color: rgba(17,47,110,0.5);
 }
-.aasBackground .button.boxed {background: #ffffff; color:#01538f;}
+.aasBackground .button.boxed, .sbir .button.boxed {background: #ffffff; color:#01538f;}
+.sbir {
+    text-align: center;
+}
   @media screen and (min-width: 481px) {
     .usa-disclaimer {
       font-size: 1.2rem; } }
