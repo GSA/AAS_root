@@ -2429,7 +2429,7 @@ color:#ffffff;}
 .agency .ag1{border-right: 2px dashed #fff;}
 .agency .ag1, .agency .ag2{
     background-color:#BBBDBF;
-    color: #1D5187;
+    color: #17406c;
     font-size: 20px;
     font-weight: bold;
     text-align: center;
@@ -2438,7 +2438,7 @@ color:#ffffff;}
 .step1 .left, .step2 .left, .step3 .left,  .step1 .right, .step2 .right, .step3 .right{max-height: 100px; min-height:100px; color:#fff;}
 .step4 .left, .step4 .right{min-height:200px;}
 .step1 .left, .step3 .left{border-right: 2px dashed #fff; background-color:#1D5187; padding-top:35px; padding-left:36px;}
-.step1 .right, .step3 .right{background-color:#4b92ce;}
+.step1 .right, .step3 .right{background-color:#2f73ab;}
 .step2, .step4 {background-color:#424143; color:#fff;}
 .step2 .text{text-align:center; padding-top: 35px;}
 .step3 .right{padding-top:25px;}
