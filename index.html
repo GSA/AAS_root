@@ -27,7 +27,7 @@
     <link href="stylesheets/style.css" media="screen" rel="stylesheet" type="text/css" />
     <link href="stylesheets/skins.css" media="screen" rel="stylesheet" type="text/css" />
     <link href="stylesheets/fontello.css" media="screen" rel="stylesheet" type="text/css" />
-    <!-- <script src="js/libs.js" type="text/javascript"></script> -->
+    <script src="js/libs.js" type="text/javascript"></script>
     <script src="js/app.js" type="text/javascript"></script>
     <script>
       // terrificjs bootstrap
@@ -45,67 +45,6 @@
           });
       })(Tc.$);
     </script>
-    
-    <style>
-      /* override css props for new slideshow w/o jquery */
-      .title{
-        position: absolute !important;
-        left: 0px !important;
-      }
-      #slides {
-          position: relative;
-          height: 465px;
-          padding: 0px;
-          margin: 0px;
-          list-style-type: none;
-      }
-      .slide {
-          position: absolute;
-          left: 0px;
-          top: 0px;
-          width: 100%;
-          height: 100%;
-          opacity: 0;
-          z-index: 1;
-          -webkit-transition: opacity 1s;
-          -moz-transition: opacity 1s;
-          -o-transition: opacity 1s;
-          transition: opacity 1s;
-      }
-      .showing {
-          opacity: 1;
-          z-index: 2;
-      }
-      .slideImg {
-        background-size: cover;
-        width: 100%;
-        height: 100%;
-        background-repeat: no-repeat;
-      }
-      .imgSlideText {
-        color: #01538f;
-        font-size: 36px;
-      }
-      .imgSlideWrapper{
-        position: absolute;
-        /* top:150px; */
-        right: 0px;
-      }
-      .buttonSlide{
-        /* background: #01538f !important;
-        border: 1px solid #fff !important; */
-      }
-      .buttonSlide:hover{
-        background: #fff !important;
-        color: #000 !important;
-      }
-      .blue-text{
-        color: #01538f !important
-      }
-      .white-text{
-        color: #fff !important;
-      }
-    </style>
     <link href="https://fonts.googleapis.com/css?family=Droid+Sans%7CDroid+Serif:400,400italic%7CPT+Sans:400,700" media="screen" rel="stylesheet" type="text/css" />
   <!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
   <script>var __adobewebfontsappname__="dreamweaver"</script>
@@ -169,9 +108,11 @@
             <li>
               <a href="success.html">Success Stories</a>
 			</li>
+<!--
            <li>
            	<a href="tools.html">Tools and Templates</a>
            </li>
+-->
             <li>
               <a href="contactus.html">Contact Us</a>
             </li>
@@ -179,37 +120,66 @@
         </section>
       </nav>
     </div>
-    
+    <script>
+      jQuery(document).ready(function() {
+        var options = {
+          nextButton: true,
+          prevButton: true,
+          autoPlay: true,
+          autoPlayDelay: 10000,
+          pauseButton: true,
+          preloader: true,
+          animateStartingFrameIn: true,
+          pagination: true,
+          reverseAnimationsWhenNavigatingBackwards: true,
+          preventDelayWhenReversingAnimations: true,
+          fadeFrameWhenSkipped: false,
+          swipeEvents: {
+            left: "next",
+            right: "prev"
+          }
+        }
+        var sequence = jQuery("#sequence").sequence(options).data("sequence");
+        sequence.beforeCurrentFrameAnimatesOut = function() {
+          setTimeout(function() {
+            jQuery(".frame.static").removeClass('static');
+          }, 800);
+        }
+      
+      });
+    </script>
     <div id='sequence'>
-      <ul id='slides'>
-        <li class="slide showing slideImg">
-          <div class="slideImg" style='background-image: url(images/slider/slide-2.png);'>
+      <ul class='sequence-canvas homeSlider'>
+        <li class='frame'>
+          <div class='bg' style='background-image: url(images/slider/slide-2.png);'>
             <div class='info bottom-to-top centered'> </div>
           </div>
           <div class='title left-to-right'>
             <div class='row'><br>
-              <div class='large-12 columns'>
-                <div class="medium-12 large-12 columns aasBackground">
-                  <h3>AAS IS A Full Spectrum, CRADLE-TO-GRAVE ACQUISITION, PROJECT AND FINANCIAL MANAGEMENT SERVICES PROVIDER.</h3>
-                  <a class='button boxed blue right' href='services.html'>Explore Our Services</a></div>      
+                          <div class='large-12 columns'>
+                            <div class="medium-12 large-12 columns aasBackground">
+                             <h3>AAS IS A Full Spectrum, CRADLE-TO-GRAVE ACQUISITION, PROJECT AND FINANCIAL MANAGEMENT SERVICES PROVIDER.</h3>
+                             <a class='button boxed blue right' href='services.html'>Explore Our Services</a></div>
+                             
               </div>
             </div>            
           </div>
-        </li> 
-        <li class="slide">
-          <div class="slideImg" style='background-image: url(images/slider/aas_SBIR.jpg);'>
+</li>
+        <li class='frame'>
+          <div class='bg' style='background-image: url(images/slider/aas_SBIR.jpg);'>
             <div class='info bottom-to-top centered'> </div>
           </div>
           <div class='title left-to-right'>
             <div class='row'><br>
-              <div class='large-12 columns imgSlideWrapper'>
-                <div class="medium-12 large-12 columns sbir">
-                  <h3>GSA AAS NOW SUPPORTS WORK WITH SBIR PARTICIPATING AGENCIES!</h3>
-                  <a class='button boxed blue buttonSlide' href='sbir.html'>LEARN MORE</a></div>    
+                          <div class='large-12 columns'>
+                            <div class="medium-12 large-12 columns sbir">
+                             <h3>GSA AAS NOW SUPPORTS WORK WITH SBIR PARTICIPATING AGENCIES!</h3>
+                             <a class='button boxed blue' href='sbir.html'>LEARN MORE</a></div>
+                             
               </div>
             </div>            
           </div>
-        </li>
+</li>
 <!--
          <li class='frame'>
           <div class='bg' style='background-image: url(images/slider/slide-1.png);'>
@@ -228,6 +198,12 @@
 </li>
 -->
       </ul>
+      <a class='sequence-prev' href='javascript:void(0);'>
+        <span></span>
+      </a>
+      <a class='sequence-next' href='javascript:void(0);'>
+        <span></span>
+      </a>
       <ul class='sequence-pagination'>
         <li></li>
         <li></li>
@@ -315,18 +291,5 @@ at DHS."</p>
       </div>
   </div>
 </div>
-    <script>
-      var slides = document.querySelectorAll('#slides .slide');
-      
-      var currentSlide = 1;
-      var slideInterval = setInterval(nextSlide,4000);
-  
-      function nextSlide() {
-          slides[currentSlide].className = 'slide';
-          currentSlide = (currentSlide+1)%slides.length;
-          slides[currentSlide].className = 'slide showing';
-      }
-    </script>
       </body>
-      
 </html>
