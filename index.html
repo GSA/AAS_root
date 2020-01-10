@@ -83,6 +83,12 @@
   <style>
     .title{
       position: absolute !important;
+      top:0px !important;
+    }
+    .banner{
+      position: absolute;
+      top: 0px;
+      left: 100%;
     }
     .row {
       width: 100%;
@@ -91,8 +97,8 @@
       margin-top: 0;
       margin-bottom: 0;
       max-width: 70rem;
-      position: absolute;
-      left: 100%;
+      /* position: absolute;
+      left: 100%; */
     }
 
     .imgSlideText {
@@ -214,9 +220,9 @@
           <div class='info bottom-to-top centered'> </div>
         </div>
         <div class='title left-to-right'>
-          <div class='row'><br>
+          <div class='row banner'><br>
             <div class='large-12 columns'>
-              <div class="medium-12 large-12 columns ">
+              <div class="medium-12 large-12 columns aasBackground">
                 <h3>AAS IS A Full Spectrum, CRADLE-TO-GRAVE ACQUISITION, PROJECT AND FINANCIAL MANAGEMENT SERVICES
                   PROVIDER.</h3>
                 <a class='button boxed blue right' href='services.html'>Explore Our Services</a>
@@ -225,12 +231,12 @@
           </div>
         </div>
       </li>
-      <li class="slide showing slideImg">
+      <li class="slide ">
         <div class='slideImg' style='background-image: url(images/slider/aas_SBIR.jpg);'>
           <div class='info bottom-to-top centered'> </div>
         </div>
         <div class='title left-to-right'>
-          <div class='row'><br>
+          <div class='row banner'><br>
             <div class='large-12 columns'>
               <div class="medium-12 large-12 columns sbir">
                 <h3>GSA AAS NOW SUPPORTS WORK WITH SBIR PARTICIPATING AGENCIES!</h3>
@@ -332,7 +338,7 @@
         var slides = document.querySelectorAll('#slides .slide');
         
         var currentSlide = 0;
-        // var slideInterval = setInterval(nextSlide,4000);
+        var slideInterval = setInterval(nextSlide,4000);
     
         function nextSlide() {
             slides[currentSlide].className = 'slide';
