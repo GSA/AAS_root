@@ -1455,7 +1455,7 @@ ul.info i:hover {
 
 /* layered slider with animated blocks */
 #sequence {
-  height: 600px;
+  /* height: 600px; */
   position: relative;
   width: 100%;
   color: white;
