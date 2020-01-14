@@ -656,7 +656,7 @@ h8 {
 }
 
 .form-bg {
-	background: #2f73ab;
+	background: #4B92CE;
 }
 input#name, input#email, input#phone, textarea#message, input#company, input#agency, input#state, input#city, input#zip {
     background-color: #ffffff;
@@ -713,8 +713,8 @@ input#name, input#email, input#phone, textarea#message, input#company, input#age
   background: #01538f;
   border: 1px solid #01538f;
 /*
-    background: #2f73ab;
-  border: 1px solid #2f73ab;
+    background: #4B92CE;
+  border: 1px solid #4B92CE;
 */
 	color: #ffffff;
 	font-weight: bold;
@@ -796,7 +796,7 @@ body .socials i.grey:hover, body[class^=colorScheme] .socials i.grey:hover {
 
 .bg-2 {
 	background-size: cover;
-	background-color: #2f73ab;
+	background-color: #4B92CE;
 }
 .bg-2 .special-title h2{
 	color:#ffffff;
@@ -858,7 +858,7 @@ body .socials i.grey:hover, body[class^=colorScheme] .socials i.grey:hover {
   text-transform: none;
     font-style: italic;
 	font-weight: bold;
-    color: #656565;
+    color: #838384;
     font-size: 18px;
 /*    font-family: "droid serif", georgia;*/
     text-align: center;
@@ -1699,7 +1699,7 @@ ul.info i:hover {
   }
 }
 .about{
-	background-color:#3c74a8;
+	background-color:#5d92c5;
 	max-width: none;
 	width:100%;
 }
@@ -1719,7 +1719,7 @@ ul.info i:hover {
 	width:51%;
 }
 .aboutColor{
-	background-color:#3c74a8;
+	background-color:#5d92c5;
 	padding-top:115px;
 	padding-right:22px;
 	color: #ffffff;
@@ -1728,6 +1728,9 @@ ul.info i:hover {
 }
 .aasButton{
 	padding:20px 0;
+}
+.lastIcons{
+    margin-bottom:60px;
 }
 .grey{
 	background-color:#e6e6e6;
@@ -1755,7 +1758,7 @@ ul.info i:hover {
 }
 .special-title ul{
 /*	text-align: left;*/
-	color:#2a6191;
+	color:#4d91cb;
 	text-transform: none;
     font-style: italic;
     font-weight: bold;
@@ -1771,7 +1774,7 @@ ul.info i:hover {
 	margin-bottom:0px;
 }
 .acqTitle h4{
-	color: #2a6191;
+	color: #4d91cb;
 	margin-top:0px;
 }
 .acqTitle h5{
@@ -1787,10 +1790,10 @@ ul.info i:hover {
 	padding:20px 0;
 }
 .howto h4{
-	color: #2a6191;
+	color: #4d91cb;
 }
 .howto p{
-	color:#656565;
+	color:#838384;
 	font-weight:bold;
 	font-style: italic;
 }
@@ -1833,11 +1836,11 @@ ul.info i:hover {
 }
 .bottom{padding-bottom:10px;}
 .grey h3{
-	color:#2a6191;
+	color:#4d91cb;
 	margin-bottom:0px;
 }
 .blueText{
-	color:#2a6191 !important;
+	color:#4d91cb !important;
 }
 .regionBox{margin-left:10%;}
 .region .top{padding-bottom:15%;}
@@ -1975,7 +1978,7 @@ ul.info i:hover {
 	margin: 5px;
 }
 .region2c, .region5c, .region9c{
-	background-color:#206fa1;
+	background-color:#46a1da;
 	padding: 10px;
 	font-weight: bold;
 	margin: 5px;
@@ -1998,17 +2001,16 @@ ul.info i:hover {
 	font-weight: bold;
 	margin: 5px;
 }
-.region1c a, .region3c a, .region4c a, .region6c a, .region7c a, .region8c a, .region10c a, .region11c a{
-	color:#003c5b;
+.region2c a, .region3c a, .region4c a, .region5c a, .region8c a, .region9c a, .region10c a, .region11c a{
+	color:#ffffff;
 }
-.region2c a, .region5c a, .region9c a{color:#ffffff;}
 .usa-disclaimer {
   background-color: #01538f;
   font-size: 1.2rem;
   height: 2.3rem;
 color:#ffffff;}
 .usa-disclaimer a{
-	color:#98d0ff;
+	color:#7ba8ce;
 	font-weight: bold;
 }
 #sequence h3 {
@@ -2022,9 +2024,7 @@ color:#ffffff;}
 	background-color: rgba(17,47,110,0.5);
 }
 .aasBackground .button.boxed, .sbir .button.boxed {background: #ffffff; color:#01538f;}
-.sbir {
-    text-align: center;
-}
+.sbir {text-align:center;}
   @media screen and (min-width: 481px) {
     .usa-disclaimer {
       font-size: 1.2rem; } }
@@ -2305,10 +2305,6 @@ color:#ffffff;}
     width: 85%;
     padding: 22px 0;
 }
-.prg3 img{
-	width:75%;
-	padding:16px 0;
-}
 .prg img:hover{
 	width:100%;
 	padding:16px 0;
@@ -2321,11 +2317,7 @@ color:#ffffff;}
 	width:100%;
 	padding:21px 0;
 }
-.prg3 img:hover{
-	width:100%;
-	padding:12px 0;
-}
-.prg:hover, .prg2:hover, .prg3:hover{
+.prg:hover, .prg2:hover{
 	background-color:#f9f9f9;
     border-left: 4px solid #f1f1f1;
     padding-bottom: 1px;
@@ -2335,17 +2327,13 @@ color:#ffffff;}
     border-left: 4px solid #f1f1f1;
     padding-bottom: 1px;
 }
-.currentSite, .currentSite2{
+.currentSite{
 	background-color:#ffffff;
 /*	padding:21px;*/
 }
 .currentSite img{
     width:100%;
 	padding:12px 0;
-}
-.currentSite2 img{
-    width:100%;
-	padding:21px 0 !important;
 }
 #gform h2{color:#ffffff;}
 .aaCopy p{
@@ -2423,13 +2411,27 @@ color:#ffffff;}
     padding: 0px;
     margin-bottom:60px;
 }
+.aaButton{
+    background: #ffffff;
+    border: 3px solid #01538f;
+	color:#01538f;
+	font-weight: bold;
+    padding: 15px 70px;
+	margin-top: 40px;
+}
+.aaButton:hover{
+    background: #01538f;
+    border: 3px solid #01538f;
+	color:#ffffff;
+	text-decoration: none;
+}
 .agency{
 }
 
 .agency .ag1{border-right: 2px dashed #fff;}
 .agency .ag1, .agency .ag2{
     background-color:#BBBDBF;
-    color: #17406c;
+    color: #1D5187;
     font-size: 20px;
     font-weight: bold;
     text-align: center;
@@ -2438,10 +2440,11 @@ color:#ffffff;}
 .step1 .left, .step2 .left, .step3 .left,  .step1 .right, .step2 .right, .step3 .right{max-height: 100px; min-height:100px; color:#fff;}
 .step4 .left, .step4 .right{min-height:200px;}
 .step1 .left, .step3 .left{border-right: 2px dashed #fff; background-color:#1D5187; padding-top:35px; padding-left:36px;}
-.step1 .right, .step3 .right{background-color:#2f73ab;}
+.step1 .right, .step3 .right{background-color:#4b92ce;}
 .step2, .step4 {background-color:#424143; color:#fff;}
 .step2 .text{text-align:center; padding-top: 35px;}
 .step3 .right{padding-top:25px;}
+
 /* 508 Compliance Code DO NOT REMOVE */
 .hidden 
 {position:absolute;
@@ -2498,7 +2501,7 @@ dialog {
 /*	font-family:  "droid serif", georgia;*/
 }
 .panel-default>.panel-heading {
-    background-color: #2f73ab;
+    background-color: #4B92CE;
     border: 0px solid;
 }
 .panel-titlearrow{
