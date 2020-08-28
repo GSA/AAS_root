@@ -182,13 +182,22 @@
           
 
 <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
-      <script type="text/javascript">var submitted=false;</script>
-<script type="text/javascript">
-$('#gform').on('submit', function(e) {
-  $('#gform *').fadeOut(2000);
-  $('#gform').prepend('<h2>Thank you for your submission! We will be in touch shortly.</h2>');
-  });
-</script>
+          <script type="text/javascript">
+            var submitted = false;
+            // $('#gform').on('submit', function (e) {
+            //   $('#gform *').fadeOut(2000);
+            //   $('#gform').prepend('<h2>Thank you for your submission! We will be in touch shortly.</h2>');
+            // });
+            var formElem = document.getElementById('gform *');
+            // debugger;
+            function runValidation() {
+              submitted=true;
+              if(submitted){
+                document.getElementById("gform").classList.toggle('hidden');
+                document.getElementById("form-message").classList.toggle('hidden');
+              }
+            }
+          </script>
         </div>
       </div>
     </div>
