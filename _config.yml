@@ -19,10 +19,10 @@
 ##########################################################################################
 
 title: AAS
-email: contact@example.gov
+email: contact.aas@gsa.gov
 description: >- # this means to ignore newlines until "baseurl:"
-  Agency Name (EAC) Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-  Aenean et sapien a leo auctor scelerisque quis nec magna. Sed dictum ante a risus vehicula facilisis.
+  AAS is a full spectrum, cradle-to-grave acquisition, project and financial management service provider.
+
 baseurl: "" # the subpath of your site, e.g. /blog
 # url: "https://example.gov" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -30,7 +30,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 twitter: 18F
 
 # Configuration for Google Analytics, add your UA code here:
-google_analytics_ua: UA-????????-??
+google_analytics_ua: UA-110817706-1
 
 # Digital Analytics Program (DAP) configuration
 dap:
