@@ -8,14 +8,14 @@
 <div class="flex-wrapper-big">   
         
     <div class="member-two-heads">
-        <div class="memberblock-head one-fourth">
+        <div class="memberblock-head one-fourth" onclick="javascript:openBio('bioPopup_CB');">
             {% asset CB_pic.png class="member-pic" alt="Chris Bennethum" %}
             <br>
             <p class="allcaps">Chris Bennethum</p>
             <p>Assistant <br>Commissioner, AAS</p>
         </div>
 
-        <div class="memberblock-head one-fourth">
+        <div class="memberblock-head one-fourth" onclick="javascript:openBio('bioPopup_CN');">
             {% asset CN_pic.png class="member-pic" alt="Corey Nickens" %}
             <br>
             <p class="allcaps">Corey Nickens</p>
@@ -29,7 +29,7 @@
 
 <div class="flex-wrapper-big">
     <div class="one-fourth">
-        <div class="memberblock-head">
+        <div class="memberblock-head" onclick="javascript:openBio('bioPopup_CH');">
             {% asset CH_pic.png class="member-pic" alt="Chris Hamm" %}
             <br>
             <p class="allcaps">Chris Hamm</p>
@@ -38,7 +38,7 @@
     </div>
 
     <div class="one-fourth">
-        <div class="memberblock-head">
+        <div class="memberblock-head" onclick="javascript:openBio('bioPopup_MA');">
             {% asset MA_pic.png class="member-pic" alt="Michael Attachi" %}
             <br>
             <p class="allcaps">Michael Attachi</p>
@@ -47,7 +47,7 @@
     </div>
     
     <div class="one-fourth">
-        <div class="memberblock-head">
+        <div class="memberblock-head" onclick="javascript:openBio('bioPopup_TR');">
             {% asset TR_pic.png class="member-pic" alt="Theresa Ramos" %}
             <br>
             <p class="allcaps">Theresa Ramos</p>
@@ -56,7 +56,7 @@
     </div>
     
     <div class="one-fourth">
-        <div class="memberblock-head">
+        <div class="memberblock-head" onclick="javascript:openBio('bioPopup_KS');">
             {% asset KS_pic.png class="member-pic" alt="Kari Santoro" %}
             <br>
             <p class="allcaps">Kari Santoro</p>
@@ -69,7 +69,7 @@
 
 <div class="flex-wrapper-big">
     <div class="one-fourth">
-        <div class="memberblock-head">
+        <div class="memberblock-head" onclick="javascript:openBio('bioPopup_KH');">
             {% asset KH_pic.png class="member-pic" alt="Kelley Holocombe" %}
             <br>
             <p class="allcaps">Kelley Holocombe</p>
@@ -78,7 +78,7 @@
     </div>
 
     <div class="one-fourth">
-        <div class="memberblock-head">
+        <div class="memberblock-head" onclick="javascript:openBio('bioPopup_RC');">
             {% asset RC_pic.png class="member-pic" alt="Rodney Couick" %}
             <br>
             <p class="allcaps">Rodney Couick</p>
@@ -87,7 +87,7 @@
     </div>
     
     <div class="one-fourth">
-        <div class="memberblock-head">
+        <div class="memberblock-head" onclick="javascript:openBio('bioPopup_MJ');">
             {% asset MJ_pic.png class="member-pic" alt="Mark Johnson" %}
             <br>
             <p class="allcaps">Mark Johnson</p>
@@ -96,7 +96,7 @@
     </div>
     
     <div class="one-fourth">
-        <div class="memberblock-head">
+        <div class="memberblock-head" onclick="javascript:openBio('bioPopup_AS');">
             {% asset AS_pic.png class="member-pic" alt="Alan Searsy" %}
             <br>
             <p class="allcaps">Alan Searsy</p>
@@ -109,7 +109,7 @@
 
 <div class="flex-wrapper-big">
     <div class="one-fourth">
-        <div class="memberblock-head">
+        <div class="memberblock-head" onclick="javascript:openBio('bioPopup_SH');">
             {% asset SH_pic.png class="member-pic" alt="Sarah Hoffman" %}
             <br>
             <p class="allcaps">Sarah Hoffman</p>
@@ -118,7 +118,7 @@
     </div>
 
     <div class="one-fourth">
-        <div class="memberblock-head">
+        <div class="memberblock-head" onclick="javascript:openBio('bioPopup_BJ');">
             {% asset BJ_pic.png class="member-pic" alt="BJ Eldien" %}
             <br>
             <p class="allcaps">BJ Eldien</p>
@@ -127,7 +127,7 @@
     </div>
     
     <div class="one-fourth">
-        <div class="memberblock-head">
+        <div class="memberblock-head" onclick="javascript:openBio('bioPopup_KM');">
             {% asset KM_pic.png class="member-pic" alt="Kim McFall" %}
             <br>
             <p class="allcaps">Kim McFall</p>
@@ -136,7 +136,7 @@
     </div>
     
     <div class="one-fourth">
-        <div class="memberblock-head">
+        <div class="memberblock-head" onclick="javascript:openBio('bioPopup_TB');">
             {% asset TB_pic.png class="member-pic" alt="Tonya Butler" %}
             <br>
             <p class="allcaps">Tonya Butler</p>
@@ -146,3 +146,301 @@
 </div>
 
 <div class="v-buffer no-mobile"></div>
+
+
+
+<!-- CB popup -->
+<div id="bioPopup_CB" class="dialog-overlay" aria-hidden="true">
+    <div class="dialog" role="dialog" onclick="javascript:closeBio();">
+        <div class="modalblock"  tabindex="0">
+            <div class="flex-wrapper">
+                {% asset CB_pic.png class="member-pic" alt="Chris Bennethum" %}
+                <div class="infoblock">
+                    <span style="font-weight: bold;">
+                        <p class="allcaps">Chris Bennethum</p>
+                        <p>Assistant Commissioner, AAS</p>
+                    </span>
+                </div>
+            </div>
+            <p>Chris Bennethum is the Assistant Commissioner for GSA’s Office of Assisted Acquisition Services (AAS) within the Federal Acquisition Service (FAS). In this position, Mr. Bennethum is responsible for overseeing AAS’ delivery of over $9 billion in custom acquisition, project and financial management services, enabling customers’ missions worldwide. AAS specializes in complex, sensitive and mission-critical projects that are offered to federal clients on a fee-for-service basis through twelve nationally-located Client Support Centers (CSCs).
+            <br><br>
+            Previously, Mr. Bennethum served as the Deputy Assistant Commissioner for AAS. As Deputy Assistant Commissioner, he oversaw the AAS Portfolio’s business strategy and operations, systems development, acquisition policy, communications, financial management and workforce recruitment, development and engagement.
+            <br><br>
+            In his more than 25 years of service with various GSA components, Mr. Bennethum has held roles in several regional, central office and overseas locations. Some of his previous roles include serving as FAS Chief of Staff, Deputy Regional Commissioner for the National Capital Region, Director for GSA’s Travel and Transportation Northeast Zone, and Director for Marketing and Business Development in GSA’s European office.
+            </p>
+            <p style="font-style: italic;">Click anywhere on this box to close.</p>
+        </div>
+    </div>
+</div>
+
+<!-- CN popup -->
+<div id="bioPopup_CN" class="dialog-overlay" aria-hidden="true">
+    <div class="dialog" role="dialog" onclick="javascript:closeBio();">
+        <div class="modalblock"  tabindex="0">
+            <div class="flex-wrapper">
+                {% asset CN_pic.png class="member-pic" alt="Corey Nickens" %}
+                <div class="infoblock">
+                    <span style="font-weight: bold;">
+                        <p class="allcaps">Corey Nickens</p>
+                        <p>Deputy Assistant Commissioner, AAS</p>
+                    </span>
+                </div>
+            </div>
+            <p>Corey Nickens is the Deputy Assistant Commissioner for GSA’s Assisted Acquisition Services (AAS) organization in the Federal Acquisition Service. Corey previously served as FEDSIM's Acquisition Quality Director overseeing acquisition lifecycle activities. Corey is a member of various professional organizations seeking to maximize collaboration and success among the public and private sectors, including the American Council for Technology and Industry Advisory Council (ACT-IAC), the Armed Forces Communications and Electronics Association (AFCEA), and the National Contract Management Association (NCMA). He has participated in and held leadership roles in ACT-IAC’s professional development programs as well as the Executive Leadership Conference (ELC). He was a recipient of the inaugural Federal Computer Week (FCW) Rising Star award.
+            <br><br>
+            Corey earned a master’s degree in Library and Information Science from Drexel University and a bachelor’s degree in Information Systems from the University of Maryland Baltimore County (UMBC).
+            </p>
+            <p style="font-style: italic;">Click anywhere on this box to close.</p>
+        </div>
+    </div>
+</div>
+
+<!-- CH popup -->
+<div id="bioPopup_CH" class="dialog-overlay" aria-hidden="true" tabindex="1">
+    <div class="dialog" role="dialog" onclick="javascript:closeBio();">
+        <div class="modalblock">
+            <div class="flex-wrapper">
+                {% asset CH_pic.png class="member-pic" alt="Chris Hamm" %}
+                <div class="infoblock">
+                    <span style="font-weight: bold;">
+                        <p class="allcaps">Chris Hamm</p>
+                        <p>FEDSIM Director</p>
+                    </span>
+                </div>
+            </div>
+            <p>Chris Hamm is the Director for GSA FEDSIM where he oversees information technology and professional service contracts worth $7 billion. Mr. Hamm has over 15 years of experience in managing complex acquisitions and project delivery. He is a frequent speaker at conferences and panels on subjects including performance-based contracting, information technology service level agreements, and agile acquisition. He has been recognized as one of the "FED100" by Federal Computer Week and was Government Chair for the 2013 ACT IAC Partners Program.</p>
+            <p style="font-style: italic;">Click anywhere on this box to close.</p>
+        </div>
+    </div>
+</div>
+
+<!-- MA popup -->
+<div id="bioPopup_MA" class="dialog-overlay" aria-hidden="true" tabindex="1">
+    <div class="dialog" role="dialog" onclick="javascript:closeBio();">
+        <div class="modalblock">
+            <div class="flex-wrapper">
+                {% asset MA_pic.png class="member-pic" alt="Michael Attachi" %}
+                <div class="infoblock">
+                    <span style="font-weight: bold;">
+                        <p class="allcaps">Michael Attachi</p>
+                        <p>Region 1 Director</p>
+                    </span>
+                </div>
+            </div>
+            <p>Michael Attachi is the AAS Director and Deputy Regional Commissioner for Region 1 (New England). Mr. Attachi advises on the strategic leadership direction for AAS and cultivates long term relationships with stakeholders to manage and grow a portfolio of over $380M. Previously, he was the Director of Contracting/Deputy Regional Commissioner for Region 1 Federal Acquisition Service and was responsible for the management of day-to-day operations for award lifecycle services.
+            In the past, he was the Deputy Chief of Contracting for Cyber/Integration Division at Hanscom Air Force Base, an organization that delivers net-centric capabilities. He has also been part of the leadership team managing the Advisory and Assistance Services portfolio. Mr. Attachi began his federal career over 20 years ago at the U.S. Department of Transportation (DOT) where he eventually became a warranted Contracting Officer before transferring to the U.S. Air Force.</p>
+            <p style="font-style: italic;">Click anywhere on this box to close.</p>
+        </div>
+    </div>
+</div>
+
+<!-- TR popup -->
+<div id="bioPopup_TR" class="dialog-overlay" aria-hidden="true" tabindex="1">
+    <div class="dialog" role="dialog" onclick="javascript:closeBio();">
+        <div class="modalblock">
+            <div class="flex-wrapper">
+                {% asset TR_pic.png class="member-pic" alt="Theresa Ramos" %}
+                <div class="infoblock">
+                    <span style="font-weight: bold;">
+                        <p class="allcaps">Theresa Ramos</p>
+                        <p>Region 2 Director</p>
+                    </span>
+                </div>
+            </div>
+            <p>Theresa Ramos is the AAS Director for Region 2 (Northeast and Caribbean). She has extensive acquisition experience spanning over 20 years.  Ms. Ramos began her career in GSA as a Contract Specialist Trainee, before rising to positions of more responsibility including Director of Operations for both the Multiple Award Schedules program and the Global Supply program, and the Center Director of the Northeast Supply Operations Center.  Currently Ms. Ramos is serving in a dual capacity as both the Region 2 Director of the Acquisition Oversight Division and Director of the Assisted Acquisition Services Division.  She also serves as the FAS R2 Competition Advocate and Chairperson of the Regional Acquisition Board. Ms. Ramos holds a master’s degree in Business Administration and a Bachelor of Science in Marketing and Management from Long Island University.</p>
+            <p style="font-style: italic;">Click anywhere on this box to close.</p>
+        </div>
+    </div>
+</div>
+
+<!-- KS popup -->
+<div id="bioPopup_KS" class="dialog-overlay" aria-hidden="true" tabindex="1">
+    <div class="dialog" role="dialog" onclick="javascript:closeBio();">
+        <div class="modalblock">
+            <div class="flex-wrapper">
+                {% asset KS_pic.png class="member-pic" alt="Kari Santoro" %}
+                <div class="infoblock">
+                    <span style="font-weight: bold;">
+                        <p class="allcaps">Kari Santoro</p>
+                        <p>Region 3 Director</p>
+                    </span>
+                </div>
+            </div>
+            <p>Kari Santoro is the AAS Director for Region 3 (Mid-Atlantic). For nearly twenty years, Ms. Santoro has delivered high-impact acquisition solutions for IT and professional services from inception to completion. In her role as Director, she works with a team of specialists and the Director of the Acquisition Operations Division in support of multiple programs for the Department of Defense, defense agencies, and civilian agencies. Kari oversees 110 active orders with an aggregate ceiling of $4.16 Billion and total funded value of $1.93 billion at over 44 client organizations. In addition to GSA Region 3 and FEDSIM, Ms. Santoro’s career has included time with the FAA and TSA-OLE/FAMS contracting offices as well as developing contracts, designs, plans and specifications for engineering & infrastructure improvement projects for the USAF and the private sector.</p>
+            <p style="font-style: italic;">Click anywhere on this box to close.</p>
+        </div>
+    </div>
+</div>
+
+<!-- KH popup -->
+<div id="bioPopup_KH" class="dialog-overlay" aria-hidden="true" tabindex="1">
+    <div class="dialog" role="dialog" onclick="javascript:closeBio();">
+        <div class="modalblock">
+            <div class="flex-wrapper">
+                {% asset KH_pic.png class="member-pic" alt="Kelley Holcombe" %}
+                <div class="infoblock">
+                    <span style="font-weight: bold;">
+                        <p class="allcaps">Kelley Holcombe</p>
+                        <p>Region 4 Director</p>
+                    </span>
+                </div>
+            </div>
+            <p>Kelley Holcombe is the Director for GSA AAS Region 4 (Southeast Sunbelt), where he is responsible for full-service consulting and acquisition support for multiple federal agencies. Prior to this appointment, he served in numerous acquisitions roles before becoming Deputy Regional Commissioner and Acting Regional Commissioner for Region 4. Before coming to the Federal Acquisition Service, Mr. Holcombe served in the Public Buildings Service, Federal Protective Service and Small Business Administration Disaster Assistance Program.  He has also worked in the private sector in the construction and publishing industries. Mr. Holcombe is an Excellence in Government Acquisition Senior Fellow and holds a BBA degree from Mercer University in Management and Marketing and a MS in Management from Indiana Wesleyan University.</p>
+            <p style="font-style: italic;">Click anywhere on this box to close.</p>
+        </div>
+    </div>
+</div>
+
+<!-- RC popup -->
+<div id="bioPopup_RC" class="dialog-overlay" aria-hidden="true" tabindex="1">
+    <div class="dialog" role="dialog" onclick="javascript:closeBio();">
+        <div class="modalblock">
+            <div class="flex-wrapper">
+                {% asset RC_pic.png class="member-pic" alt="Rodney Couick" %}
+                <div class="infoblock">
+                    <span style="font-weight: bold;">
+                        <p class="allcaps">Rodney Couick</p>
+                        <p>Region 5 Director</p>
+                    </span>
+                </div>
+            </div>
+            <p>Rodney Couick is the AAS Director for Region 5 (Great Lakes). He became Director in 2011 and manages a portfolio of more than 700 contracts with an annual obligated value of approximately $1 billion. He has been recognized with a Small Business Technology Council Champion of Small Business Commercialization Award and the Small Business Administration Tibbetts Award for his Small Business Innovation Research/Small Business Technology Transfer (SBIR/STTR) Program accomplishments. Previously, Mr. Couick served as Deputy Director of Engineering and Technical Management at the Warner Robins Air Logistics Center and served for 29 years in the United States Air Force. He holds bachelor’s degrees in mathematics from High Point College and aeronautical engineering from the Air Force Institute of Technology.  At AFIT he also earned a master’s degree and doctorate in aeronautical engineering. He is certified at the highest level in four different defense acquisition DAWIA fields.  </p>
+            <p style="font-style: italic;">Click anywhere on this box to close.</p>
+        </div>
+    </div>
+</div>
+
+<!-- MJ popup -->
+<div id="bioPopup_MJ" class="dialog-overlay" aria-hidden="true" tabindex="1">
+    <div class="dialog" role="dialog" onclick="javascript:closeBio();">
+        <div class="modalblock">
+            <div class="flex-wrapper">
+                {% asset MJ_pic.png class="member-pic" alt="Mark Johnson" %}
+                <div class="infoblock">
+                    <span style="font-weight: bold;">
+                        <p class="allcaps">Mark Johnson</p>
+                        <p>Region 6 Director</p>
+                    </span>
+                </div>
+            </div>
+            <p>Mark Johnson is the AAS Director for Region 6 (Heartland). He has over 20 years of experience as an acquisition professional. Prior to taking on the Director role, he served as a Supply Acquisition Branch Chief for GSA and Supply Branch Chief for the Veterans Administration. He has extensive experience supporting the needs of military clients, including from time in the United States Army. In addition to his professional accomplishments, he holds a master’s degree in Procurement and Acquisition Management.</p>
+            <p style="font-style: italic;">Click anywhere on this box to close.</p>
+        </div>
+    </div>
+</div>
+
+<!-- AS popup -->
+<div id="bioPopup_AS" class="dialog-overlay" aria-hidden="true" tabindex="1">
+    <div class="dialog" role="dialog" onclick="javascript:closeBio();">
+        <div class="modalblock">
+            <div class="flex-wrapper">
+                {% asset AS_pic.png class="member-pic" alt="Alan Searsy" %}
+                <div class="infoblock">
+                    <span style="font-weight: bold;">
+                        <p class="allcaps">Alan Searsy</p>
+                        <p>Region 7 Director</p>
+                    </span>
+                </div>
+            </div>
+            <p>Alan Searsy is the Director for GSA AAS Region 7 (Greater Southwest). He has worked with acquisition services and contracting in GSA’s Federal Acquisition Service for over 32 years. He has been involved with assisted acquisition more than 20 years and takes pride in providing effective and creative assisted acquisition solutions to our customers. Mr. Searsy was awarded a Master of Business Administration degree from the University of Texas at Arlington in 1993 and has more than 20 years of experience serving as adjunct business administration faculty</p>
+            <p style="font-style: italic;">Click anywhere on this box to close.</p>
+        </div>
+    </div>
+</div>
+
+<!-- SH popup -->
+<div id="bioPopup_SH" class="dialog-overlay" aria-hidden="true" tabindex="1">
+    <div class="dialog" role="dialog" onclick="javascript:closeBio();">
+        <div class="modalblock">
+            <div class="flex-wrapper">
+                {% asset SH_pic.png class="member-pic" alt="Sarah Hoffman" %}
+                <div class="infoblock">
+                    <span style="font-weight: bold;">
+                        <p class="allcaps">Sarah Hoffman</p>
+                        <p>Region 8 Director</p>
+                    </span>
+                </div>
+            </div>
+            <p>Sarah Hoffman is the Acting Director for GSA AAS Region 8 (Rocky Mountain), overseeing a team of 15 project managers dedicated to a diverse portfolio of Civilian and Defense acquisition projects. Since 2019, Ms. Hoffman has served as the Deputy Federal Acquisition Service Regional Commissioner for Region 8. As the Deputy RC, she oversees the region’s internal control efforts and leads strategic initiatives. Prior to the Deputy position, Ms. Hoffman served as the Regional Director of the FAS Customer and Stakeholder Engagement (CaSE) Division for four years. Ms. Hoffman holds a Master of Business Administration and a Juris Doctorate from the University of Denver, as well as a Bachelor of Arts from Wesleyan University. She is a member of the Colorado State Bar and passionate volunteer for local legal organizations.</p>
+            <p style="font-style: italic;">Click anywhere on this box to close.</p>
+        </div>
+    </div>
+</div>
+
+<!-- BJ popup -->
+<div id="bioPopup_BJ" class="dialog-overlay" aria-hidden="true" tabindex="1">
+    <div class="dialog" role="dialog" onclick="javascript:closeBio();">
+        <div class="modalblock">
+            <div class="flex-wrapper">
+                {% asset BJ_pic.png class="member-pic" alt="BJ Eldien" %}
+                <div class="infoblock">
+                    <span style="font-weight: bold;">
+                        <p class="allcaps">BJ Eldien</p>
+                        <p>Region 9 Director</p>
+                    </span>
+                </div>
+            </div>
+            <p>BJ Eldien is the Director for GSA AAS Region 9 (Pacific Rim). She has over 30 years’ acquisition experience covering a multitude of roles and agencies. Prior to her current role, she supported deployments to Iraq, Qatar, and Afghanistan as the Deputy Director of Policy for the Combined-Joint Theater Support Contracting Command. She was also the Director of Policy for the U.S. Army Corps of Engineers, supporting operations in more than 20 contracting offices and operations in 133 countries. She joined the GSA AAS team as the Director of Contracting for Region 9 in 2016 and took on her current role as AAS Director in 2018.</p>
+            <p style="font-style: italic;">Click anywhere on this box to close.</p>
+        </div>
+    </div>
+</div>
+
+<!-- KM popup -->
+<div id="bioPopup_KM" class="dialog-overlay" aria-hidden="true" tabindex="1">
+    <div class="dialog" role="dialog" onclick="javascript:closeBio();">
+        <div class="modalblock">
+            <div class="flex-wrapper">
+                {% asset KM_pic.png class="member-pic" alt="Kimberly McFall" %}
+                <div class="infoblock">
+                    <span style="font-weight: bold;">
+                        <p class="allcaps">Kimberly McFall</p>
+                        <p>Region 10 Director</p>
+                    </span>
+                </div>
+            </div>
+            <p>Kimberly McFall is the AAS Director for Region 10 (Northwest Arctic). She has more than 27 years of contracting experience starting as a Contract Specialist with the Department of Defense and continuing to numerous contracting officer and supervisory contracting officer positions at GSA. Her wide-ranging expertise includes serving as a subject matter expert on professional services for federal agencies and experience leading complex negotiations. Ms. McFall received a FAS Excellence in Performance Award, a Coalition for Government Procurement Special Achievement Award and a Seattle Federal Executive Board Public Service Recognition Award for her work in consolidating eight Professional Services Schedules into a single Schedule. She holds a degree in Business Management and Marketing from St. Martins College and lives in Puyallup, Washington, with her husband, two kids, dog and cat.</p>
+            <p style="font-style: italic;">Click anywhere on this box to close.</p>
+        </div>
+    </div>
+</div>
+
+<!-- TB popup -->
+<div id="bioPopup_TB" class="dialog-overlay" aria-hidden="true" tabindex="1">
+    <div class="dialog" role="dialog" onclick="javascript:closeBio();">
+        <div class="modalblock">
+            <div class="flex-wrapper">
+                {% asset TB_pic.png class="member-pic" alt="Tonya Butler" %}
+                <div class="infoblock">
+                    <span style="font-weight: bold;">
+                        <p class="allcaps">Tonya Butler</p>
+                        <p>Region 11 Director</p>
+                    </span>
+                </div>
+            </div>
+            <p>Tonya Butler serves as the Director for GSA AAS Region 11 (National Capital), enabling client agencies to meet their mission with IT and professional services acquisition support. Prior to her appointment, Ms. Butler served as the Director of Customer and Stakeholder Engagement for Region 11. She also served as the Federal Acquisition Service Deputy Director of the GSA Presidential Transition Support and Inaugural Support Teams. In this role, she managed an integrated team of logistics and contracting professionals the 2016-17 Presidential election season. Her team also provided onboarding and IT support for candidate teams and the President-Elect’s staff. Tonya earned a Bachelor of Science in Business Administration from Towson University and a Master of Arts in Administration from Bowie State University. She earned FAC-P/PM Senior Level and FAC-COR Level II certifications and holds membership in the National Contract Management Association and Project Management Institute.</p>
+            <p style="font-style: italic;">Click anywhere on this box to close.</p>
+        </div>
+    </div>
+</div>
+
+
+
+<script type="text/javascript">
+
+    function openBio(memberInfo)
+    {
+        document.getElementById(memberInfo).setAttribute("aria-hidden", "false");
+        document.getElementById(memberInfo).setAttribute("tabindex", "0");
+    }
+
+    function closeBio()
+    {
+        var elements = document.getElementsByClassName("dialog-overlay");
+        for (var i = 0; i < elements.length; i++){
+            elements[i].setAttribute("aria-hidden", "true");
+            elements[i].setAttribute("tabindex", "1");
+        }
+    }
+
+</script>
