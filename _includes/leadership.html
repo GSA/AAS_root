@@ -151,8 +151,8 @@
 
 
 <!-- CB popup -->
-<div id="bioPopup_CB" class="dialog-overlay" aria-hidden="true">
-    <div class="dialog" role="dialog" onclick="javascript:closeBio();">
+<button id="bioPopup_CB" class="dialog-overlay" aria-hidden="true" onclick="javascript:closeBio();">
+    <div class="dialog" role="dialog" >
         <div class="modalblock">
             <div class="flex-wrapper">
                 {% asset CB_pic.png class="member-pic" alt="Chris Bennethum" %}
@@ -171,16 +171,17 @@
             </p>
             <p style="font-style: italic;">Click anywhere on this box to close.</p>
         </div>
-        <script>
-            this.addEventListener("keyup", function(event) {
-                if(event.keyCode === 13) {
-                    event.preventDefault();
-                    this.click();
-                }
-            });
-        </script>
+        
     </div>
-</div>
+    <script>
+        this.addEventListener("keyup", function(event) {
+            if(event.keyCode === 13) {
+                event.preventDefault();
+                this.click();
+            }
+        });
+    </script>
+</button>
 
 <!-- CN popup -->
 <div id="bioPopup_CN" class="dialog-overlay" aria-hidden="true">
