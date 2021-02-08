@@ -443,7 +443,7 @@
     {
         document.getElementById(memberInfo).setAttribute("aria-hidden", "false");
         document.getElementById(memberInfo).setAttribute("tabindex", "1");
-        document.getElementById(memberInfo).setAttribute("focused", "true");
+        document.getElementById(memberInfo).addEventListener('keydown', closeeBio());
     }
 
     function closeBio()
