@@ -171,7 +171,9 @@
             </p>
             <p style="font-style: italic;">Click anywhere on this box to close.</p>
         </div>
-        
+        <script>
+            document.getElementById("bioPopup_CB").addEventListener("keydown", closeBio());
+        </script>
     </div>
 </div>
 
@@ -433,9 +435,7 @@
 
     function openBio(memberInfo)
     {
-        document.getElementById(memberInfo).setAttribute("aria-hidden", "false");
-        document.addEventListener("keydown", closeBio());
-        
+        document.getElementById(memberInfo).setAttribute("aria-hidden", "false");        
     }
 
     function closeBio()
