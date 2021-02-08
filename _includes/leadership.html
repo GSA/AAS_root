@@ -434,7 +434,7 @@
     function openBio(memberInfo)
     {
         document.getElementById(memberInfo).setAttribute("aria-hidden", "false");
-        document.getElementById(memberInfo).addEventListener("keydown", closeBio());
+        document.addEventListener("keydown", closeBio());
         
     }
 
