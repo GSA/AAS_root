@@ -173,14 +173,6 @@
         </div>
         
     </div>
-    <script>
-        this.addEventListener("keyup", function(event) {
-            if(event.keyCode === 13) {
-                event.preventDefault();
-                this.click();
-            }
-        });
-    </script>
 </div>
 
 <!-- CN popup -->
@@ -442,8 +434,11 @@
     function openBio(memberInfo)
     {
         document.getElementById(memberInfo).setAttribute("aria-hidden", "false");
-        document.getElementById(memberInfo).setAttribute("tabindex", "1");
-        document.getElementById(memberInfo).addEventListener('keydown', closeBio());   
+        document.getElementById(memberInfo).setAttribute("tabindex", "1"); 
+        document.getElementById(memberInfo).addEventListener("keyup", function(event) {
+                this.click();
+                alert("clicked");
+        }); 
     }
 
     function closeBio()
