@@ -151,8 +151,8 @@
 
 
 <!-- CB popup -->
-<div id="bioPopup_CB" class="dialog-overlay" aria-hidden="true" onclick="javascript:closeBio();">
-    <div class="dialog" role="dialog" >
+<div id="bioPopup_CB" class="dialog-overlay" aria-hidden="true" >
+    <div class="dialog" role="dialog" onclick="javascript:closeBio();">
         <div class="modalblock">
             <div class="flex-wrapper">
                 {% asset CB_pic.png class="member-pic" alt="Chris Bennethum" %}
@@ -435,7 +435,7 @@
     {
         document.getElementById(memberInfo).setAttribute("aria-hidden", "false");
         document.getElementById(memberInfo).addEventListener("keydown", closeBio());
-        document.getElementById(memberInfo).focus(); 
+        
     }
 
     function closeBio()
