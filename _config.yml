@@ -82,7 +82,7 @@ primary_navigation:
   - name: Acquisition Process
     url: /process/
     
-  - name: SBIR
+  - name: SBIR/STTR
     url: /sbir/
 
   - name: Our Impact
