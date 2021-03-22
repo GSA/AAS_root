@@ -1,5 +1,5 @@
 ---
-title: SBIR
+title: SBIR/STTR
 layout: wide
 sidenav: false
 ---
