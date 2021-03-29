@@ -227,10 +227,6 @@ hr.media-line{
   margin: 0 40px 20px 40px;
 }
 
-.whiteLink{
-  color: #b8e5f8;
-}
-
 .withborder{
   border: solid 2px var(--fedsim-blue1);
 }
@@ -508,7 +504,7 @@ hr.footer-border{
 
 .darkblock a, .darkblock-alt a{
     text-decoration: none;
-    color: var(--fedsim-offwhite);
+    color: #b8e5f8 !important;
 }
 
 .darkblock a:visited, .darkblock-alt a:visited{
