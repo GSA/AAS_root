@@ -8,11 +8,11 @@ html{
 
 a{
   text-decoration: none;
-  color: var(--fedsim-blue3);
+  color: #004bbd;
 }
 
 a:visited{
-  color: var(--fedsim-blue3);
+  color: #004bbd;
 }
 
 /* FEDSIM COLORS */
@@ -420,7 +420,6 @@ hr.footer-border{
 
 .infoblock, .modalblock{
   display: flow-root;
-  color: var(--fedsim-blue1);
   background-color: white;
   margin: auto;
   padding: 10px;
