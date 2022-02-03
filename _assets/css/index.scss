@@ -131,6 +131,22 @@ img{
   display: block!important;
 }
 
+
+.returnLink{
+	font-size: 0.7em;
+	color: var(--fedsim-litegrey);
+	font-weight: none;
+}
+
+.camelCaseTex{
+	text-decoration: uppercase;
+}
+
+.centered{
+  margin: auto;
+  text-align: center!important;
+}
+
 hr.highlight-line, hr.highlight-line-sm, hr.media-line{
   border-top: 5px solid var(--fedsim-blue1);
   border-radius: 2px;
@@ -159,28 +175,67 @@ hr.media-line{
   padding: 0 20px;
 }
 
-.section-btn{
-  text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
+.section-icon p{
+  font-size: 1.2em;
+  font-weight: bold;
   margin: auto;
-  background-color: var(--fedsim-blue3);
-  color: white;
-  border-radius: 12px;
-  border: solid white 5px;
-  cursor: pointer;
+  text-align: center;
+  text-transform: uppercase;
 }
 
-.section-btn p{
+.section-icon-cell{
+  text-align: center;
+}
+
+.section-icon-cell img{
+  width: 75px;
+}
+
+.section-btn p, .section-btn-clear p{
   margin: auto;
 }
 
 .section-btn:hover{
- background-color: var(--fedsim-blue1);
+ background-color: var(--fedsim-blue3);
 }
 
 .section-btn a, .section-btn a:hover{
   color: white;
+  text-decoration: none;
+}
+
+.section-btn-clear{
+  height: 70px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: auto;
+  background-color: white;
+  color:  var(--fedsim-blue1);
+  border-radius: 36px;
+  border: solid var(--fedsim-blue1) 5px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 375px){
+  .section-btn-clear{
+    min-width: 250px;
+    margin-bottom: 24px;
+  }
+}
+
+
+.doubleLines{
+  padding-top: 16px!important;
+  padding-bottom: 16px!important;
+}
+
+.section-btn-clear:hover{
+ background-color: white;
+}
+
+.section-btn-clear a, .section-btn-clear a:hover{
+  color:  var(--fedsim-blue1);
   text-decoration: none;
 }
 
@@ -192,7 +247,7 @@ hr.media-line{
 .one-fourth{
   width: 24%;
   margin: auto;
-  text-align: center;
+  text-align: left;
 }
 
 .one-half{
@@ -259,7 +314,8 @@ hr.media-line{
 .usa-banner__inner {
   display: block;
   align-items: center;
-  text-align: center;
+  text-align: left;
+  padding-left: 20px;
 }
 
 .usa-navbar{
@@ -413,11 +469,6 @@ hr.footer-border{
   text-align: left;
 }
 
-.centered{
-  margin: auto;
-  text-align: center;
-}
-
 .infoblock, .modalblock{
   display: flow-root;
   background-color: white;
@@ -470,7 +521,7 @@ hr.footer-border{
 
 .darkblock, .darkblock-alt, .darkblock-numbered, .darkblock-alt-numbered{
   color: white;
-  text-align: center;
+  text-align: left;
   margin: auto;
   padding: 10px;
 }
@@ -556,14 +607,12 @@ hr.footer-border{
 
 .third-block{
   display: block;
-  text-align: center;
 }
 
 .fourth-block{
   display: block;
   width: 25%;
   margin: 0 4px;
-  text-align: center;
   padding-bottom: 16px;
 }
 
@@ -685,7 +734,6 @@ hr.footer-border{
 
 .learnblock{
   margin: 10px;
-  text-align: center;
   background-color: var(--fedsim-litegrey);
   border: solid 2px var(--fedsim-darkgrey);
   background-repeat: no-repeat;
@@ -1072,7 +1120,6 @@ hr.footer-border{
   font-size: 0.8em;
   font-weight: 600;
   padding: 8px;
-  text-align: center;
   vertical-align: top;
   display: inline-block;
   border-radius: 15px;
@@ -1117,7 +1164,6 @@ hr.footer-border{
 .sectorbar h3{
   font-size: 1.1em;
   text-transform: uppercase;
-  text-align: center;
   font-weight: 700;
   margin: 0;
 }
@@ -1143,7 +1189,6 @@ hr.footer-border{
   display: grid;
   width: 110px;
   padding: 10px 2px;
-  text-align: center;
 }
 
 .linebox{
@@ -1241,7 +1286,6 @@ hr.small-line{
 .dialog, .dialog-wide {
 	z-index: 3;
 	background-color: #fff;
-	text-align: center;
   padding: 30px;
 	position: fixed;
 	top: 50%;
