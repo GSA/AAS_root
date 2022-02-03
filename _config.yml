@@ -85,8 +85,6 @@ primary_navigation:
   - name: SBIR/STTR
     url: /sbir/
 
-  - name: ASTRO
-    url: /astro/
 
   - name: Our Impact
     url: /impact/
