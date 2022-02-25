@@ -15,7 +15,7 @@ a:visited{
   color: #004bbd;
 }
 
-/* FEDSIM COLORS */
+/* FEDSIM/AAS COLORS */
 :root{
   --fedsim-blue1: #1D5187;
   --fedsim-blue2: #4B92CE;
@@ -86,6 +86,39 @@ img{
 
 
 //General stylings
+
+.back-blue {
+  background-color: var(--fedsim-blue4);
+}
+
+.back-bluer {
+  background-color: var(--fedsim-blue3);
+  color: white;
+}
+
+.back-grey{
+  background-color: var(--fedsim-litegrey) !important;
+  font-weight: 600;
+}
+
+.back-darkgrey{
+  background-color: var(--fedsim-darkgrey);
+  font-weight: 600;
+  color: white;
+}
+
+.back-pink{
+  background-color: var(--fedsim-pink);
+}
+
+.back-litepink{
+  background-color: var(--fedsim-litepink);
+}
+
+.back-white{
+  background-color: white !important;
+}
+
 .big-titles{
   font-size: 4em;
   margin-block-start: auto;
