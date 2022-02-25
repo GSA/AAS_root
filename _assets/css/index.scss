@@ -1436,6 +1436,109 @@ li.input-li{
 }
 
 
+//Accordion collapsible styles
+.accordion {
+  margin-bottom: 1em;
+}
+
+.accordion > input[type="checkbox"]:checked ~ .content {
+  padding: 15px;
+  border: 1px solid #e8e8e8;
+  border-top: 0;
+}
+
+.accordion .handle {
+  margin: 0;
+  font-size: 1.125em;
+  line-height: 1.2em;
+}
+
+.accordion label {
+  color: #333;
+  cursor: pointer;
+  font-weight: normal;
+  padding: 15px;
+  background: #e8e8e8;
+}
+
+.accordion label:hover,
+.accordion label:focus {
+  background: #d8d8d8;
+}
+
+.accordion .handle label:before {
+  font-family: 'fontawesome';
+  content: "\f054";
+  display: inline-block;
+  margin-right: 10px;
+  font-size: .58em;
+  line-height: 1.556em;
+  vertical-align: middle;
+}
+
+.accordion > input[type="checkbox"]:checked ~ .handle label:before {
+  content: "\f078";
+}
+
+
+.accordion {
+  max-width: 65em;
+}
+
+.accordion p:last-child {
+  margin-bottom: 0;
+}
+
+/* ASTRO FAQ Tables */
+
+.faq_table {
+  width: 90%;
+  margin:auto;
+  border-spacing: 0;
+  border-collapse: separate;
+}
+
+.faq_table td {
+  border:1px solid var(--fedsim-darkgrey);
+  text-align: center;
+  padding: 10px;
+}
+
+.leftAlignedCells td{
+  text-align: left;
+}
+
+.border-only-top, .border-only-top td{
+  border-top: 3px solid var(--fedsim-darkgrey);
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+}
+
+.invertedCells {
+  background-color: var(--fedsim-blue3) !important;
+}
+
+.invertedCells td{
+  color: white;
+  font-weight: 600;
+  font-size: 0.7em;
+}
+
+.invertedCells td:first-child{
+  font-style: italic;
+  color: var(--fedsim-darkgrey); 
+  background-color:var(--fedsim-litegrey);
+}
+
+#questions li{
+  font-weight: 500;
+}
+
+#questions li::marker {
+  font-weight: bold;
+}
+
 /* Clearfix */
 .cf:before,
 .cf:after {
