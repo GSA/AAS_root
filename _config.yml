@@ -82,7 +82,7 @@ primary_navigation:
   - name: Acquisition Process
     url: /process/
   
-  - name: ASTROP
+  - name: ASTRO
     url: /astro/
     children:
       - name: ASTRO

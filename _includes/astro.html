@@ -8,32 +8,26 @@
     <div id="cso_banner1"> {% asset ASTRO-webpage-banner.jpg alt="ASTRO" %}  </div>
 </div>
 
+<div class="v-buffer"></div>
 
-<section class="accordion">
-  <input type="checkbox" name="collapse" id="handle1" checked="checked">
-  <h2 class="handle">
-    <label for="handle1">What is ASTRO?</label>
-  </h2>
-  <div class="content">
-    <p>ASTRO is a broadly scoped series of contract vehicles encompassing virtually all services supporting or involving manned, unmanned, or optionally manned platforms and robotics. ASTRO is administered by the General Services Administration’s (GSA) Office of Assisted Acquisition Service (AAS) FEDSIM Organization.</P>
-        <p>ASTRO is a family of ten separate, individual, Multiple Award (MA), Indefinite Delivery/Indefinite Quantity (IDIQ) contracts sponsored by the Department of Defense (DoD).</p>
-        
-    </div>  
-</section>
-
-
-<div class="flex-wrapper-big">
-    <div class="infoblock">
+<div class="flex-wrapper-big flexCols" >
+    <button id="title-1" class="dark-buttonbar" onclick="javascript:toggleBlock('o1','c1','block-1');">
+        <div id="o1" class="tic-opened">-</div><div id="c1" class="tic-closed">+</div><label>What is ASTRO?</label> 
+    </button>
+    <div id="block-1" class="c-sect">
         <h1>What is ASTRO?</h1>
-        <p>ASTRO is a broadly scoped series of contract vehicles encompassing virtually all services supporting or involving manned, unmanned, or optionally manned platforms and robotics. ASTRO is administered by the General Services Administration’s (GSA) Office of Assisted Acquisition Service (AAS) FEDSIM Organization.</P>
-        <p>ASTRO is a family of ten separate, individual, Multiple Award (MA), Indefinite Delivery/Indefinite Quantity (IDIQ) contracts sponsored by the Department of Defense (DoD).</p>
-        
+            <p>ASTRO is a broadly scoped series of contract vehicles encompassing virtually all services supporting or involving manned, unmanned, or optionally manned platforms and robotics. ASTRO is administered by the General Services Administration’s (GSA) Office of Assisted Acquisition Service (AAS) FEDSIM Organization.</P>
+            <p>ASTRO is a family of ten separate, individual, Multiple Award (MA), Indefinite Delivery/Indefinite Quantity (IDIQ) contracts sponsored by the Department of Defense (DoD).</p>
     </div>
 </div>
 
+<div class="v-buffer"></div>
 
-<div id="programs" class="flex-wrapper-big c-section">
-    <div class="infoblock">
+<div class="flex-wrapper-big flexCols" >
+    <button id="title-2" class="dark-buttonbar" onclick="javascript:toggleBlock('o2','c2','block-2');">
+        <div id="o2" class="tic-opened">-</div><div id="c2" class="tic-closed">+</div><label>ASTRO At A Glance</label> 
+    </button>
+    <div id="block-2" class="c-sect">
         <h1>ASTRO At A Glance</h1>
         <ul>
             <li><b>Who can order?</b> GSA FAS AAS Contracting Officers.</li>
@@ -48,106 +42,114 @@
             <li><b>Is Service Contract Act (SCA) support allowed?</b>  Yes.</li>
             <li><b>How do I know which pools to use?</b> In general, pools that contain the preponderance of the work should first be researched when considering an ASTRO solution.</li>
         </ul>
-        
     </div>
 </div>
 
+<div class="v-buffer"></div>
 
-<div class="flex-wrapper-big  c-section">
-    <div id="listTop" class="infoblock">
+<div class="flex-wrapper-big flexCols" >
+    <button id="title-3" class="dark-buttonbar" onclick="javascript:toggleBlock('o3','c3','block-3');">
+        <div id="o3" class="tic-opened">-</div><div id="c3" class="tic-closed">+</div><label>ASTRO Pools</label> 
+    </button>
+    <div id="block-3" class="c-sect">
         <h1>ASTRO Pools</h1>
         <p>ASTRO services are organized into ten functional Pools, with the appropriate Pool selected for task order solicitation based upon the preponderance of work in the requirement being solicited.<br>
-        To see vendors associated with each pool, select a pool icon. </p>
+            To see vendors associated with each pool, select a pool icon. </p>
+            <!-- begin pool icons  ROW 1-->
+        <div class="flex-wrapper">
+            <div class="section-icon-cell">
+                <div class="section-icon-astro">
+                    <a onclick="javascript:openPool('popup_DOP');">{% asset data-ops-icon-01.png alt="Data Operations" %}</a>
+                </div>
+                <p>Data<br>Operations</p>
+            </div>
+            
+            <div class="section-icon-cell">
+                <div class="section-icon-astro">
+                    <a onclick="javascript:openPool('popup_MOP');">{% asset mission-ops-icon-01.png alt="Mission Operations" %}</a>
+                </div>
+                <p>Mission<br>Operations</p>
+            </div>
         
-    </div>
+            <div class="section-icon-cell">
+                <div class="section-icon-astro">
+                   <a onclick="javascript:openPool('popup_AP');">{% asset aviation-icon-01.png alt="Aviation" %}</a>
+                </div>
+                <p>Aviation</p>
+            </div>
+        
+            <div class="section-icon-cell">
+                <div class="section-icon-astro">
+                    <a onclick="javascript:openPool('popup_GP');">{% asset ground-icon-01.png alt="Ground" %}</a>
+                </div>
+                <p>Ground</p>
+            </div>
 
+            <div class="section-icon-cell">
+                <div class="section-icon-astro">
+                    <a onclick="javascript:openPool('popup_SP');">{% asset space-icon-01.png alt="Space" %}</a>
+                </div>
+                <p>Space</p>
+            </div>
 
+        </div>
+<!-- begin pool icons  ROW 2-->
+        <div class="flex-wrapper">
+            
+            <div class="section-icon-cell">
+                <div class="section-icon-astro">
+                    <a onclick="javascript:openPool('popup_MP');">{% asset maritime-icon-01.png alt="Maritime" %}</a>
+                </div>
+                <p>Maritime</p>
+            </div>
+            
+            <div class="section-icon-cell">
+                <div class="section-icon-astro">
+                    <a onclick="javascript:openPool('popup_RP');">{% asset research-icon-01.png alt="Research" %}</a>
+                </div>
+                <p>Research</p>
+            </div>
+            
+            <div class="section-icon-cell">
+                <div class="section-icon-astro">
+                    <a onclick="javascript:openPool('popup_SUPP');">{% asset support-icon-01.png alt="Support" %}</a>
+                </div>
+                <p>Support</p>
+            </div>
+            <div class="section-icon-cell">
+                <div class="section-icon-astro">
+                    <a onclick="javascript:openPool('popup_TP');">{% asset training-icon-01.png alt="Training" %}</a>
+                </div>
+                <p>Training</p>
+            </div>
+            
+            <div class="section-icon-cell">
+                <div class="section-icon-astro">
+                    <a onclick="javascript:openPool('popup_DSIP');">{% asset development-systems-integration-icon-01.png alt="Development/Systems Integration" %}</a>
+                </div>
+                <p>Development/Systems<br>Integration</p>
+            </div>
+    
+        </div>
 </div>
 
-<!-- icons row 1 -->
-<div class="flex-wrapper-big big-v-buffer">
-    <div class="one-fourth section-icon centered">
-        <div class="section-icon-astro">
-            <a onclick="javascript:openPool('popup_DOP');">{% asset data-ops-icon-01.png alt="Data Operations" %}</a>
-        </div>
-        <p>Data<br>Operations</p>
-    </div>
-    
-    <div class="one-fourth section-icon centered">
-        <div class="section-icon-astro">
-            <a onclick="javascript:openPool('popup_MOP');">{% asset mission-ops-icon-01.png alt="Mission Operations" %}</a>
-        </div>
-        <p>Mission<br>Operations</p>
-    </div>
+<div class="v-buffer"></div>
 
-    <div class="one-fourth section-icon centered">
-        <div class="section-icon-astro">
-           <a onclick="javascript:openPool('popup_AP');">{% asset aviation-icon-01.png alt="Aviation" %}</a>
-        </div>
-        <p>Aviation</p>
-    </div>
-
-    <div class="one-fourth section-icon centered">
-        <div class="section-icon-astro">
-            <a onclick="javascript:openPool('popup_GP');">{% asset ground-icon-01.png alt="Ground" %}</a>
-        </div>
-        <p>Ground</p>
-    </div>
-    <div class="one-fourth section-icon centered">
-        <div class="section-icon-astro">
-            <a onclick="javascript:openPool('popup_SP');">{% asset space-icon-01.png alt="Space" %}</a>
-        </div>
-        <p>Space</p>
-    </div>
-</div>
-
-<!-- icons row 2 -->
-<div class="flex-wrapper-big big-v-buffer">
-    <div class="one-fourth section-icon centered">
-        <div class="section-icon-astro">
-            <a onclick="javascript:openPool('popup_MP');">{% asset maritime-icon-01.png alt="Maritime" %}</a>
-        </div>
-        <p>Maritime</p>
-    </div>
-    
-    <div class="one-fourth section-icon centered">
-        <div class="section-icon-astro">
-            <a onclick="javascript:openPool('popup_RP');">{% asset research-icon-01.png alt="Research" %}</a>
-        </div>
-        <p>Research</p>
-    </div>
-    
-    <div class="one-fourth section-icon centered">
-        <div class="section-icon-astro">
-            <a onclick="javascript:openPool('popup_SUPP');">{% asset support-icon-01.png alt="Support" %}</a>
-        </div>
-        <p>Support</p>
-    </div>
-    <div class="one-fourth section-icon centered">
-        <div class="section-icon-astro">
-            <a onclick="javascript:openPool('popup_TP');">{% asset training-icon-01.png alt="Training" %}</a>
-        </div>
-        <p>Training</p>
-    </div>
-    
-    <div class="one-fourth section-icon centered">
-        <div class="section-icon-astro">
-            <a onclick="javascript:openPool('popup_DSIP');">{% asset development-systems-integration-icon-01.png alt="Development/Systems Integration" %}</a>
-        </div>
-        <p>Development/Systems<br>Integration</p>
-    </div>
-    
-</div>
-
-
-<div class="flex-wrapper-big c-section">
-    <div id="listTop" class="infoblock">
+<div class="flex-wrapper-big flexCols" >
+    <button id="title-4" class="dark-buttonbar" onclick="javascript:toggleBlock('o4','c4','block-4');">
+        <div id="o4" class="tic-opened">-</div><div id="c4" class="tic-closed">+</div><label>Interested in ASTRO?</label> 
+    </button>
+    <div id="block-4" class="c-sect">
         <h1>Interested in ASTRO?</h1>
-         <p>Access to ASTRO is available through Assisted Acquisition specifically through GSA’s Office of Assisted Acquisition Services (AAS) FEDSIM organization and any GSA AAS Contracting Officer (CO) granted a Delegation of Procurement Authority (DPA).
-         <br><br><b>For more information, contact the ASTRO team at <a href="mailto:astro@gsa.gov?subject=Requesting Information">ASTRO@gsa.gov</a>.</b>
-    </p>
+        <p>Access to ASTRO is available through Assisted Acquisition specifically through GSA’s Office of Assisted Acquisition Services (AAS) FEDSIM organization and any GSA AAS Contracting Officer (CO) granted a Delegation of Procurement Authority (DPA).
+            <br><br><b>For more information, contact the ASTRO team at <a href="mailto:astro@gsa.gov?subject=Requesting Information">ASTRO@gsa.gov</a>.</b>
+       </p><p>Access to ASTRO is available through Assisted Acquisition specifically through GSA’s Office of Assisted Acquisition Services (AAS) FEDSIM organization and any GSA AAS Contracting Officer (CO) granted a Delegation of Procurement Authority (DPA).
+        <br><br><b>For more information, contact the ASTRO team at <a href="mailto:astro@gsa.gov?subject=Requesting Information">ASTRO@gsa.gov</a>.</b>
+        </p>
     </div>
 </div>
+
+<!-- begin POOLS popups -->
 
 <div id="popup_DOP" class="dialog-overlay" aria-hidden="true" onclick="javascript:closePool();">
     <div class="dialog" role="dialog">
@@ -663,6 +665,27 @@
         var elements = document.getElementsByClassName("dialog-overlay");
         for (var i = 0; i < elements.length; i++){
             elements[i].setAttribute("aria-hidden", "true");
+        }
+    }
+
+</script>
+
+<script type="text/javascript">
+
+    function toggleBlock(openedIcon, closedIcon, sectBlock)
+    {
+        var thisBlock = document.getElementById(sectBlock);
+        var thisOpened = document.getElementById(openedIcon);
+        var thisClosed = document.getElementById(closedIcon);
+
+        if(thisBlock.style.display === "block"){
+            thisBlock.style.display = "none";
+            thisOpened.style.display = "none";
+            thisClosed.style.display = "block";
+        }else{
+            thisOpened.style.display = "block";
+            thisClosed.style.display = "none";
+            thisBlock.style.display = "block";
         }
     }
 

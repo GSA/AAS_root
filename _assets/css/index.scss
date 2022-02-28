@@ -180,11 +180,27 @@ hr.media-line{
 }
 
 .section-icon-cell{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  min-width: 185px;
+}
+
+.section-icon-cell p{
+  font-size: 0.8em;
+  font-weight: bold;
+  margin: auto;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .section-icon-cell img{
   width: 75px;
+}
+
+.section-icon-astro {
+  max-width: 80px;
 }
 
 .section-btn p, .section-btn-clear p{
@@ -306,6 +322,7 @@ hr.media-line{
   }
 }
 
+
 //Header styles
 .usa-banner__inner {
   display: block;
@@ -423,11 +440,20 @@ hr.footer-border{
 .flex-wrapper {
   display: flex;
   flex-flow: row nowrap;
+  justify-content: center;
+  align-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  margin:auto;
 }
 
 .flex-wrapper-big, .flex-wrapper-full{
   margin: auto;
   display: flex;
+}
+
+.flexCols{
+  flex-direction: column;
 }
 
 .flex-wrapper-big{
@@ -1435,60 +1461,6 @@ li.input-li{
  }
 }
 
-
-//Accordion collapsible styles
-.accordion {
-  margin-bottom: 1em;
-}
-
-.accordion > input[type="checkbox"]:checked ~ .content {
-  padding: 15px;
-  border: 1px solid #e8e8e8;
-  border-top: 0;
-}
-
-.accordion .handle {
-  margin: 0;
-  font-size: 1.125em;
-  line-height: 1.2em;
-}
-
-.accordion label {
-  color: #333;
-  cursor: pointer;
-  font-weight: normal;
-  padding: 15px;
-  background: #e8e8e8;
-}
-
-.accordion label:hover,
-.accordion label:focus {
-  background: #d8d8d8;
-}
-
-.accordion .handle label:before {
-  font-family: 'fontawesome';
-  content: "\f054";
-  display: inline-block;
-  margin-right: 10px;
-  font-size: .58em;
-  line-height: 1.556em;
-  vertical-align: middle;
-}
-
-.accordion > input[type="checkbox"]:checked ~ .handle label:before {
-  content: "\f078";
-}
-
-
-.accordion {
-  max-width: 65em;
-}
-
-.accordion p:last-child {
-  margin-bottom: 0;
-}
-
 /* ASTRO FAQ Tables */
 
 .faq_table {
@@ -1548,6 +1520,60 @@ li.input-li{
 
 .cf:after {
    clear: both;
+}
+
+
+//Accordian Sections
+.dark-buttonbar{
+  display:flex;
+  flex-direction: row;
+  width: 100%;
+  min-width: 100%;
+  background-color: var(--fedsim-blue1);
+}
+
+.dark-buttonbar, .dark-buttonbar:hover, .dark-buttonbar:active{
+  border: 0px !important;
+  outline: 0px !important;
+}
+
+.dark-buttonbar label{
+  margin: 0.6rem;
+  font-size: 1.75em;
+  font-weight: 600;
+  color: white !important;
+}
+
+.c-sect {
+  background-color: var(--fedsim-offwhite);
+  margin: auto;
+  padding: 10px;
+  transition-timing-function: ease;
+}
+
+.c-sect, .tic-opened{
+  display: none;
+}
+
+.tic-opened, .tic-closed {
+  color: var(--aas-grey);
+  inset: 2rem;
+}
+
+.tic-opened{
+  font-size: 4em;
+  line-height: 0.75em;
+  margin-left: 5px;
+  margin-right: 7.4px;
+  transition-timing-function: ease;
+}
+
+.tic-closed {
+  display: block;
+  font-size: 4em;
+  line-height: 0.75em;
+  margin-top: 2px;
+  transition-timing-function: ease;
 }
 
 // default mode hide banner
