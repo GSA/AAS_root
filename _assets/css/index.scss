@@ -86,6 +86,40 @@ img{
 
 
 //General stylings
+
+
+.back-blue {
+  background-color: var(--fedsim-blue4);
+}
+
+.back-bluer {
+  background-color: var(--fedsim-blue3);
+  color: white;
+}
+
+.back-darkgrey{
+  background-color: var(--fedsim-darkgrey);
+  font-weight: 600;
+  color: white;
+}
+
+.back-pink{
+  background-color: var(--fedsim-pink);
+}
+
+.back-litepink{
+  background-color: var(--fedsim-litepink);
+}
+
+.back-white{
+  background-color: white !important;
+}
+
+.back-grey{
+  background-color: var(--fedsim-litegrey) !important;
+  font-weight: 600;
+}
+
 .big-titles{
   font-size: 4em;
   margin-block-start: auto;
@@ -656,31 +690,6 @@ hr.footer-border{
   margin: 7px 20px;
   padding: 5px;
   border-radius: 5px;
-}
-
-.backOrange{
-  background-color: var(--aas-orange);
-  color: white;
-}
-
-.backPale{
-  background-color: var(--aas-pale);
-  color: var(--fedsim-blue1);
-}
-
-.backGrey{
-  background-color: var(--aas-grey);
-  color: var(--fedsim-blue1);
-}
-
-.backBlue{
-  background-color: var(--aas-blue);
-  color: white;
-}
-
-.backLiteblue{
-  background-color: var(--aas-liteblue);
-  color: var(--fedsim-blue1);
 }
 
 .labelBox:hover{
