@@ -1485,6 +1485,19 @@ li.input-li{
   padding: 10px 4px;
 }
 
+.res_table {
+  width: 100%;
+  margin: 10px auto;
+  border-spacing: 0;
+  border-collapse: separate;
+}
+
+.res_table td{
+  border:1px solid var(--fedsim-darkgrey);
+  text-align: center;
+  padding: 10px 4px;
+}
+
 .leftAlignedCells td{
   text-align: left;
 }
