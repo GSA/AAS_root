@@ -89,6 +89,8 @@ primary_navigation:
         url: /astro/
       - name: ASTRO FAQ
         url: /astrofaq/
+      - name: ASTRO Resources
+        url: /astrores/
 
   - name: SBIR/STTR
     url: /sbir/
