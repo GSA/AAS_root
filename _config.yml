@@ -84,13 +84,6 @@ primary_navigation:
   
   - name: ASTRO
     url: /astro/
-    children:
-      - name: ASTRO
-        url: /astro/
-      - name: ASTRO FAQ
-        url: /astrofaq/
-      - name: ASTRO Resources
-        url: /astrores/
 
   - name: SBIR/STTR
     url: /sbir/
