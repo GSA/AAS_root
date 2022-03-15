@@ -81,10 +81,12 @@ primary_navigation:
     
   - name: Acquisition Process
     url: /process/
-    
+  
+  - name: ASTRO
+    url: /astro/
+
   - name: SBIR/STTR
     url: /sbir/
-
 
   - name: Our Impact
     url: /impact/
@@ -191,5 +193,7 @@ assets:
     - node_modules/uswds/dist/scss
     - node_modules/netlify-cms/dist
     - _assets/images
+    - _assets/images/favicons
+    - _assets/images/usa-icons-bg
     - _assets/images/members
     - _assets/fonts

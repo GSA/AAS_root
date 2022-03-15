@@ -87,10 +87,6 @@ img{
 
 //General stylings
 
-.back-blue {
-  background-color: var(--fedsim-blue4);
-}
-
 .back-bluer {
   background-color: var(--fedsim-blue3);
   color: white;
@@ -99,12 +95,6 @@ img{
 .back-grey{
   background-color: var(--fedsim-litegrey) !important;
   font-weight: 600;
-}
-
-.back-darkgrey{
-  background-color: var(--fedsim-darkgrey);
-  font-weight: 600;
-  color: white;
 }
 
 .back-pink{
@@ -213,11 +203,27 @@ hr.media-line{
 }
 
 .section-icon-cell{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  min-width: 185px;
+}
+
+.section-icon-cell p{
+  font-size: 0.8em;
+  font-weight: bold;
+  margin: auto;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .section-icon-cell img{
   width: 75px;
+}
+
+.section-icon-astro {
+  max-width: 80px;
 }
 
 .section-btn p, .section-btn-clear p{
@@ -339,6 +345,7 @@ hr.media-line{
   }
 }
 
+
 //Header styles
 .usa-banner__inner {
   display: block;
@@ -456,11 +463,20 @@ hr.footer-border{
 .flex-wrapper {
   display: flex;
   flex-flow: row nowrap;
+  justify-content: center;
+  align-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  margin:auto;
 }
 
 .flex-wrapper-big, .flex-wrapper-full{
   margin: auto;
   display: flex;
+}
+
+.flexCols{
+  flex-direction: column;
 }
 
 .flex-wrapper-big{
@@ -663,31 +679,6 @@ hr.footer-border{
   margin: 7px 20px;
   padding: 5px;
   border-radius: 5px;
-}
-
-.backOrange{
-  background-color: var(--aas-orange);
-  color: white;
-}
-
-.backPale{
-  background-color: var(--aas-pale);
-  color: var(--fedsim-blue1);
-}
-
-.backGrey{
-  background-color: var(--aas-grey);
-  color: var(--fedsim-blue1);
-}
-
-.backBlue{
-  background-color: var(--aas-blue);
-  color: white;
-}
-
-.backLiteblue{
-  background-color: var(--aas-liteblue);
-  color: var(--fedsim-blue1);
 }
 
 .labelBox:hover{
@@ -1468,6 +1459,69 @@ li.input-li{
  }
 }
 
+/* ASTRO FAQ Tables */
+
+.faq_table {
+  width: 90%;
+  margin:auto;
+  border-spacing: 0;
+  border-collapse: separate;
+}
+
+.faq_table td {
+  border:1px solid var(--fedsim-darkgrey);
+  text-align: center;
+  padding: 10px 4px;
+}
+
+.res_table {
+  width: 75%;
+  margin: 10px auto;
+  border-spacing: 0;
+  border-collapse: separate;
+}
+
+.res_table td{
+  border:1px solid var(--fedsim-darkgrey);
+  padding: 12px 18px;
+  font-size: smaller;
+  text-align: left;
+}
+
+.leftAlignedCells td{
+  text-align: left;
+}
+
+.border-only-top, .border-only-top td{
+  border-top: 3px solid var(--fedsim-darkgrey);
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+}
+
+.invertedCells {
+  background-color: var(--fedsim-blue3) !important;
+}
+
+.invertedCells td{
+  color: white;
+  font-weight: 600;
+  font-size: 0.7em;
+}
+
+.invertedCells td:first-child{
+  font-style: italic;
+  color: var(--fedsim-darkgrey); 
+  background-color:var(--fedsim-litegrey);
+}
+
+#questions li{
+  font-weight: 500;
+}
+
+#questions li::marker {
+  font-weight: bold;
+}
 
 /* Clearfix */
 .cf:before,
@@ -1478,6 +1532,59 @@ li.input-li{
 
 .cf:after {
    clear: both;
+}
+
+
+//Accordian Sections
+.dark-buttonbar{
+  display:flex;
+  flex-direction: row;
+  width: 100%;
+  min-width: 100%;
+  background-color: var(--fedsim-blue1);
+}
+
+.dark-buttonbar, .dark-buttonbar:hover, .dark-buttonbar:active{
+  border: 0px !important;
+  outline: 0px !important;
+}
+
+.dark-buttonbar label{
+  margin: 0.6rem;
+  font-size: 1.75em;
+  font-weight: 600;
+  color: white !important;
+}
+
+.c-sect {
+  background-color: var(--fedsim-offwhite);
+  padding: 10px;
+  transition-timing-function: ease;
+}
+
+.c-sect, .tic-opened{
+  display: none;
+}
+
+.tic-opened, .tic-closed {
+  color: var(--aas-grey);
+  inset: 2rem;
+}
+
+.tic-opened{
+  font-size: 4em;
+  line-height: 0.75em;
+  margin-left: 5px;
+  margin-right: 7.4px;
+  transition-timing-function: ease;
+}
+
+.tic-closed {
+  display: block;
+  font-size: 4em;
+  line-height: 0.75em;
+  margin-top: 2px;
+  transition-timing-function: ease;
 }
 
 // default mode hide banner
