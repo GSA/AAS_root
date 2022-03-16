@@ -146,6 +146,18 @@ img{
   visibility: hidden!important;
 }
 
+.hide-element {
+  border: 0;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px; 
+} 
+
 .hide{
   display: none!important;
 }
@@ -1546,7 +1558,10 @@ li.input-li{
 
 .dark-buttonbar, .dark-buttonbar:hover, .dark-buttonbar:active{
   border: 0px !important;
-  outline: 0px !important;
+}
+
+.dark-buttonbar:focus{
+  outline: 0.25rem solid var(--aas-blue);
 }
 
 .dark-buttonbar label{
@@ -1557,16 +1572,14 @@ li.input-li{
 }
 
 .c-sect {
+  display: block;
   background-color: var(--fedsim-offwhite);
   padding: 10px;
   transition-timing-function: ease;
 }
 
-.c-sect, .tic-opened{
-  display: none;
-}
-
 .tic-opened, .tic-closed {
+  display: block;
   color: var(--aas-grey);
   inset: 2rem;
 }
