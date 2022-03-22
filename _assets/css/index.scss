@@ -380,11 +380,11 @@ hr.media-line{
   border-radius: 5px 0 0 5px!important;
 }
 
-.usa-banner_button::after{
-   background: 0 0;
-   background-color: #005ea2;
-   -webkit-mask: url(https://www.gsa.gov/sites/gsa.gov/templates/styles/dist/img/usa-icons/expand_more.svg) no-repeat center/contain;
-   left: 110px;
+.usa-banner__button::after{
+	background: 0 0;
+	background-color: #005ea2;
+	-webkit-mask: url(https://www.gsa.gov/sites/gsa.gov/templates/styles/dist/img/usa-icons/expand_more.svg) no-repeat center/contain;
+	mask: url(https://www.gsa.gov/sites/gsa.gov/templates/styles/dist/img/usa-icons/expand_more.svg) no-repeat center/contain;
 }
 
 //Footer styles
