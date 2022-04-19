@@ -423,6 +423,13 @@ hr.footer-border{
   margin-top: 10px;
 }
 
+a.external_link::after{
+  background: 0 0;
+  background-color: white;
+  mask: url(launch.svg) no-repeat center/contain;
+  -webkit-mask: url(launch.svg) no-repeat center/contain;
+}
+
 @media screen and (max-width: 414px){
   .footer_side_left,
   .footer_side_right{
