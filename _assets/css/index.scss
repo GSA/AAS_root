@@ -355,6 +355,9 @@ hr.media-line{
   .no-mobile{
     display: none!important;
   }
+  .mobile-only{
+    display: block!important;
+  }
 }
 
 
@@ -983,6 +986,74 @@ a.external_link::after{
     width: 340px;
     padding: 10px;
   }
+}
+
+//Success Stories cards
+.storyCard{
+  display: flex;
+  height: 140px;
+  margin-left: 20px;
+}
+
+.storyCardHead{
+  background-color: var(--aas-orange);
+  width: 600px;
+  height: 100px;
+  padding: 10px;
+  margin-bottom: 40px;
+}
+
+.storyCardBody{
+  width: 800px;
+  height: 80px;
+  display: flex;
+  background-color: var(--fedsim-blue1);
+  z-index: 9;
+  position: absolute;
+  margin-left: 90px;
+  margin-top: 40px;
+  padding: 12px;
+}
+
+.storyPadding{
+  padding: 0 10px !important;
+  margin-top: 10px;
+}
+
+.storyNum{
+  font-size: xx-large;
+  padding-left: 9px;
+}
+
+.storyIcon{
+  right: 0;
+  position: absolute;
+  padding-right: 40px;
+}
+
+@media screen and (max-width:414px){
+  .storyCardHead{
+    width: 300px;
+    padding: 8px;
+  }
+  
+  .storyCardBody{
+    margin-left: 20px;
+    width: 300px;
+    padding: 10px;
+  }
+
+  .storyPadding{
+    margin-top: 4px;
+    max-width: 200px !important;
+  }
+
+  .storyIcon{
+    right: 0;
+    position: absolute;
+    padding-right: 8px;
+  }
+  
 }
 
 
