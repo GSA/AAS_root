@@ -11,6 +11,7 @@
   "dependencies": {
     "@uswds/uswds": "3.0.2",
     "netlify-cms": "^2.8.0",
+    "phantomjs-prebuilt": "^2.1.13",
     "uswds": "^2.13.1"
   },
   "devDependencies": {
