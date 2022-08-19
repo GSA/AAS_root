@@ -1,0 +1,930 @@
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+
+<head>
+  <!-- Basic Page Needs
+    ================================================== -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- Mobile Specific Metas
+    ================================================== -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Title and meta description
+    ================================================== -->
+  <title>AAS | ASTRO</title>
+  <meta property="og:title" content="AAS | ASTRO">
+  <meta name="description" content="AAS is a full spectrum, cradle-to-grave acquisition, project and financial management service provider.">
+  <meta property="og:description" content="AAS is a full spectrum, cradle-to-grave acquisition, project and financial management service provider.">
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@18F" />
+  <meta name="twitter:title" content="AAS" />
+  <meta name="twitter:description" content="AAS is a full spectrum, cradle-to-grave acquisition, project and financial management service provider." />
+
+  <meta property="og:type" content="article">
+  <link rel="canonical" href="http://localhost:4000/astrofaq/" />
+  <meta property="og:url" content="http://localhost:4000/astrofaq/" />
+  <!-- Favicons
+    ================================================== -->
+  <!-- 128x128 -->
+  <link rel="shortcut icon" type="image/ico" href="/assets/favicons/favicon-922758413fa0f6f025178998b1755dca82aa240b4edef5afec62910f983ec3d1.ico">
+  <link rel="icon" type="image/png" href="/assets/favicons/favicon-bb82a31199b02bba87f61eb9402e7f7bb13463322a5b53883c076e11b5e8e1ea.png">
+  <!-- 192x192, as recommended for Android
+    http://updates.html5rocks.com/2014/11/Support-for-theme-color-in-Chrome-39-for-Android
+    -->
+  <link rel="icon" type="image/png" sizes="192x192" href="/assets/favicons/favicon-192-91ae19573594cb510d8144b25b6027cfe5140d0d8a810e48c55b5c6e9c82acd3.png">
+  <!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+  <link rel="apple-touch-icon-precomposed" href="/assets/favicons/favicon-57-8c980d74c05a4ed953ef65662f3efc73e973ed27b5cd62bd2156d66f57642ed3.png">
+  <!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/favicons/favicon-72-66dc863641e9b20f1a3f081d8cab017eee1d75ff0b2a0e13c4b26ccfee8db4ff.png">
+  <!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/favicons/favicon-114-f60c2544b1348f31530dbd5e78b64e72b0aeba59587e1c1a1713680925196120.png">
+  <!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/favicons/favicon-144-d7f0e692fa746ad0b55e7e438c56db8db0be8859536579089cdd39a9dce410cb.png">
+  
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-167824001-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-167824001-1');
+</script>
+  
+<script async type="text/javascript" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=GSA" id="_fed_an_ua_tag"></script>
+  
+  <!-- CSS
+    ================================================== -->
+  <link rel="stylesheet" type="text/css" href="/assets/index-faa75e47ece55522079c05a21b48b5b14d19d73f8909e9a8a47f0f10087875a4.css">
+</head>
+
+
+<body>
+  
+
+<div class="page-landing-page layout-demo ">
+  <a class="usa-skipnav" href="#main-content">Skip to main content</a>
+  <div class="usa-banner">
+    <div class="usa-accordion">
+      <header class="usa-banner__header">
+        <div class="usa-banner__inner">
+          <!-- added custom styles to ensure header is centered -->
+          <div class="grid-col-auto" style="display: inline-flex;">
+            <img class="usa-banner__header-flag" alt="U.S. flag" src="/assets/us_flag_small-8a6f68dd8703ce4cb475c92fc1eefa84c41f4741ec4c6ca8403ef99b74b94d20.png">
+          </div>
+          <div class="grid-col-fill tablet:grid-col-auto" style="display: inline-flex;">
+            <p class="usa-banner__header-text">An official website of the United States government</p>
+          </div>
+          <div class="grid-col-fill tablet:grid-col-auto" style="display: inline-flex;">
+            <p class="usa-banner__header-action" aria-hidden="true">Here’s how you know</p>
+          </div>
+          <button class="usa-accordion__button usa-banner__button" aria-expanded="false" aria-controls="gov-banner" style="display: inline-flex;">
+            <span class="usa-banner__button-text">Here's how you know</span>
+          </button>
+        </div>
+      </header>
+      <div class="usa-banner__content usa-accordion__content" id="gov-banner">
+        <div class="grid-row grid-gap-lg">
+          <div class="usa-banner__guidance tablet:grid-col-6">
+            <img class="usa-banner__icon usa-media-block__img" alt="Dot gov" src="/assets/icon-dot-gov-54f6653a149c83b73515cc2ec032a18151b57d3ffe97ef04495ce6623e48d1bb.svg">
+            <div class="usa-media-block__body">
+              <p>
+                <strong>The .gov means it’s official.</strong>
+                <br>
+                A <strong>.gov</strong> website belongs to an official government organization in the United States.
+              </p>
+            </div>
+          </div>
+          <div class="usa-banner__guidance tablet:grid-col-6">
+            <img class="usa-banner__icon usa-media-block__img" alt="Https" src="/assets/icon-https-912daff95ce9cabae7d0195d39aa98d49c4bec3b975d404ac266534c069cee20.svg">
+            <div class="usa-media-block__body">
+              <p>
+                 <strong>Secure .gov websites use HTTPS</strong>
+              <br/>
+              A <strong>lock</strong> (
+<span class="icon-lock"><svg xmlns="http://www.w3.org/2000/svg" width="52" height="64" viewBox="0 0 52 64" class="usa-banner__lock-image" role="img" aria-labelledby="banner-lock-title banner-lock-description"><title id="banner-lock-title">Lock</title><desc id="banner-lock-description">A locked padlock</desc><path fill="#000000" fill-rule="evenodd" d="M26 0c10.493 0 19 8.507 19 19v9h3a4 4 0 0 1 4 4v28a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V32a4 4 0 0 1 4-4h3v-9C7 8.507 15.507 0 26 0zm0 8c-5.979 0-10.843 4.77-10.996 10.712L15 19v9h22v-9c0-6.075-4.925-11-11-11z"/></svg></span>
+) or <strong>https://</strong> means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="usa-overlay"></div>
+</div>
+
+
+  
+
+<header class="usa-header usa-header--extended" role="banner">
+  <div class="usa-navbar">
+    <div class="usa-logo" id="extended-logo">
+  <em class="usa-logo__text"><a href="/" title="Home" aria-label="Home">
+   <img alt="AAS" src="/assets/Logo_GSA_AAS-24fa490cf82b136367256ec09757db3bbe2b8e8429bda882a0b14d355b27c076.png"> </a></em>
+</div>
+
+    <button class="usa-menu-btn">Menu</button>
+  </div>
+  <nav role="navigation" class="usa-nav">
+    <div class="usa-nav__inner">
+      <button class="usa-nav__close"><img alt="close" src="/assets/close-4b533eb734d44fe36838c1f03df0133e725b742bc97ed213f413d9e267410b99.svg"></button>
+      <ul class="usa-nav__primary usa-accordion">
+        
+        
+        
+        
+        <li class="usa-nav__primary-item">
+          <a class="usa-nav__link"
+            href="/"><span>Home</span></a>
+        </li>
+        
+        
+        
+        
+        <li class="usa-nav__primary-item">
+          <button class="usa-accordion__button usa-nav__link" aria-expanded="false"
+            aria-controls="primary-nav-2"><span>About Us</span></button>
+          <ul id="primary-nav-2" class="usa-nav__submenu">
+            
+            <li class="usa-nav__submenu-item">
+              <a href="/aboutus/">About Us</a>
+            </li>
+            
+            <li class="usa-nav__submenu-item">
+              <a href="/leadership/">Leadership</a>
+            </li>
+            
+            <li class="usa-nav__submenu-item">
+              <a href="/regions/">Regional Offices</a>
+            </li>
+            
+          </ul>
+
+        </li>
+        
+        
+        
+        
+        
+        <li class="usa-nav__primary-item">
+          <a class="usa-nav__link"
+            href="/process/"><span>Acquisition Process</span></a>
+        </li>
+        
+        
+        
+        
+        
+        <li class="usa-nav__primary-item">
+          <a class="usa-nav__link"
+            href="/astro/"><span>ASTRO</span></a>
+        </li>
+        
+        
+        
+        
+        <li class="usa-nav__primary-item">
+          <button class="usa-accordion__button usa-nav__link" aria-expanded="false"
+            aria-controls="primary-nav-5"><span>SBIR/STTR</span></button>
+          <ul id="primary-nav-5" class="usa-nav__submenu">
+            
+            <li class="usa-nav__submenu-item">
+              <a href="/sbir/">SBIR/STTR</a>
+            </li>
+            
+            <li class="usa-nav__submenu-item">
+              <a href="/stories/">Success Stories</a>
+            </li>
+            
+          </ul>
+
+        </li>
+        
+        
+        
+        
+        
+        <li class="usa-nav__primary-item">
+          <a class="usa-nav__link"
+            href="/impact/"><span>Our Impact</span></a>
+        </li>
+        
+        
+        
+        
+        
+        <li class="usa-nav__primary-item">
+          <a class="usa-nav__link"
+            href="/contact/"><span>Contact Us</span></a>
+        </li>
+        
+        
+      </ul>
+      <div class="usa-nav__secondary">
+        
+
+
+  
+    <form id="search_form" class="usa-search usa-search--small" action="/search/" accept-charset="UTF-8" method="get">
+  
+    
+  
+    <input name="utf8" type="hidden" value="&#x2713;" />
+    <input name="affiliate" type="hidden" value="aas.gsa.gov" />
+  
+    <div role="search">
+      <label class="usa-sr-only" for="extended-search-field-small">Search small</label>
+      <input class="usa-input usagov-search-autocomplete" id="extended-search-field-small" type="search" name="query" autocomplete="off">
+      <button class="usa-button" type="submit">
+        <img class="usa_search__submit-icon" alt="Search" src="/assets/usa-icons-bg/search--white-85be1f76ce73e5e3a68fc28a6897ad8c910a7d02e057986711264f19ec3f36c6.svg">
+      </button>
+    </div>
+  </form>
+
+
+      </div>
+    </div>
+  </nav>
+</header>
+
+  <main id="main-content">
+    
+
+<div class="flex-wrapper-big">
+    <div class="infoblock">
+        <h1>ASTRO FAQ</h1>
+    </div>
+</div>
+
+<div class="flex-wrapper-big">
+    <div id="cso_banner1"> <img alt="ASTRO" src="/assets/ASTRO-webpage-banner-0a863c610b833d7ee14296d0cf0c2f536925f702402e328de3b679794ee5a99d.jpg" />  </div>
+</div>
+
+<div class="flex-wrapper-big"> 
+    <div class="infoblock">
+        <h1>ASTRO Frequently Asked Questions (FAQ)</h1>
+    </div>
+</div>
+
+<div class="flex-wrapper-big">
+    <div class="infoblock">
+        <ol id="questions">
+            <!-- <li><a href="#q_1">What is ASTRO?</a></li>  -->
+            <li><a href="#question_1">What does ASTRO stand for?</a></li>
+            <li><a href="#question_2">What is the value proposition for using ASTRO?</a></li>
+            <li><a href="#question_3">What is the ceiling of the ASTRO contracts?</a></li>
+            <li><a href="#question_4">What are some relevant ASTRO milestones and information?</a></li>
+<li><a href="#question_5">What contract types are available for task orders under the ASTRO contracts?</a></li>
+<li><a href="#question_6">What is the preferred contract type for ASTRO? Do orders have to be firm-fixed price, performance based?</a></li>
+            <li><a href="#question_7">Can I purchase tools, equipment or other commodities as part of my service-based solution?</a></li>
+<li><a href="#question_8">Who can place orders under the ASTRO contracts?</a></li>
+<li><a href="#question_9">Must I provide fair opportunity to all ASTRO contractors for each and every order?</a></li>
+            <li><a href="#question_10">Are there dollar limitations or percentages on each order for ancillary support?</a></li>
+<li><a href="#question_11">Can an order be protested?</a></li>
+            <li><a href="#question_12">Are construction services allowed under the ASTRO contracts?</a></li>
+            <li><a href="#question_13">Are leases allowed under the ASTRO contracts?</a></li>
+            <li><a href="#question_14">Are ASTRO contractors required to meet a minimum facility security clearance?</a></li>
+            
+
+            <li><a href="#question_15">What NAICS (North American Industry Classification System) code was used to award the ASTRO contracts and do I need to use this code on my order?</a></li>
+            
+            
+            <li><a href="#question_16">What part of the FAR governs the ordering process? Do I follow FAR 15.3 source selection procedures when issuing an order under the ASTRO contracts?</a></li>
+
+            <li><a href="#question_17">How do I place an order or issue market research?</a></li>
+        </ol>
+        <br />
+        <hr class="faqLine" />
+        <br />
+    </div>
+</div>
+
+<div class="flex-wrapper-big">
+    <div class="infoblock">
+        <h3 id="question_1">1) QUESTION: What does ASTRO stand for?
+        </h3>
+        <p><b>RESPONSE: </b>The ASTRO name is not an acronym.</p>
+        <p><i><a href="#questions">Back to Top</a></i></p>
+        <hr class="faqLine" />
+        <br />
+
+        <h3 id="question_2">2) QUESTION: What is the value proposition for using ASTRO?</h3>
+        <p><b>RESPONSE: </b>ASTRO provides a streamlined acquisition platform for leveraged buying of platform related services. Taxpayers, Federal agencies, and Industry will benefit in cost savings from consistent, standardized terms and conditions; a reduction in the numbers of master contracts requiring award and administration, streamlined and flexible ordering procedures, standardized labor categories, and robust competition.</p>
+        <p><i><a href="#questions">Back to Top</a></i></p>
+        <hr class="faqLine" />
+        <br />
+
+        <h3 id="question_3">3) QUESTION: What is the ceiling of the ASTRO contracts?</h3>
+        <p><b>RESPONSE: </b>The ASTRO contracts were awarded on authority of an approved FAR deviation from the requirement to establish a contract maximum orders value or ceiling. There is no ceiling and agencies can safely assume ASTRO will cover all of their in-scope service requirements, no matter the aggregate value.</p>
+        <p><i><a href="#questions">Back to Top</a></i></p>
+        <hr class="faqLine" />
+        <br />
+        
+        <h3 id="question_4">4) QUESTION: What are some relevant ASTRO milestones and information?</h3>
+        <p><b>RESPONSE: </b>Please see the tables provided here:
+        </p>
+    </div>
+</div>
+
+<!-- tables -->
+<div class="flex-wrapper-big">
+    <table class="faq_table">
+        <thead>
+            <tr>
+                <th style="width: 33%;">Ordering Period</th>
+                <th>Begin</th>
+                <th>End</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><!-- new row -->
+                <td class="back-bluer left-aligned">Base Period</td>
+                <td>11/15/2021</td>
+                <td>11/14/2026</td>
+            </tr>
+            <td class="back-bluer left-aligned">Option Period</td>
+                <td>11/15/2026</td>
+                <td>11/14/2031</td>
+        </tbody>
+    </table>
+</div>
+
+<div class="h-spacer"></div>
+
+<div class="flex-wrapper-big">
+    <table class="faq_table">
+        <tbody>
+            <tr><!-- top row -->
+                <td colspan="2" class="back-grey">Milestone Data</td>
+            </tr>
+            <tr><!-- first row -->
+                <td class="back-bluer left-aligned" style="width: 33%;">Issued Solicitation</td>
+                <td>8/24/2020</td>
+            </tr>
+            <tr><!-- new row -->
+                <td class="back-bluer left-aligned">Closed Solicitation</td>
+                <td>10/21/2020</td>
+            </tr>
+            <tr><!-- new row -->
+                <td class="back-bluer left-aligned">Award Date</td>
+                <td>7/28/2021</td>
+            </tr>
+            <tr><!-- new row -->
+                <td class="back-bluer left-aligned">Notice to Proceed</td>
+                <td>11/15/2021</td>
+            </tr>
+
+        </tbody>
+    </table>
+</div>
+
+<div class="h-spacer"></div>
+
+<div class="flex-wrapper-big">
+        <table class="faq_table">
+            <tbody>
+                <tr><!-- top row -->
+                    <td colspan="2" class="back-grey">Contract Data</td>
+                </tr>
+                <tr><!-- first row -->
+                    <td class="back-bluer left-aligned" style="width: 33%">Total Contracts</td>
+                    <td>379</td>
+                </tr>
+                <tr><!-- new row -->
+                    <td class="back-bluer left-aligned">Awardees</td>
+                    <td>128</td>
+                </tr>
+                <tr><!-- new row -->
+                    <td class="back-bluer left-aligned">Small Business Contracts</td>
+                    <td>48</td>
+                </tr>
+                <tr><!-- new row -->
+                    <td class="back-bluer left-aligned">Small Business Awardees</td>
+                    <td>37</td>
+                </tr>
+
+            </tbody>
+        </table>
+</div>
+
+<div class="h-spacer"></div>
+
+<div class="flex-wrapper-big">
+    <table class="faq_table">
+        <tbody>
+            <tr><!-- top row -->
+                <td colspan="12" class="back-grey">Small Business Socio Economic Categories</td>
+            </tr>
+            <tr class="text-small"><!-- first row -->
+                <td style="width: 20%"><!--first cell of first row is blank --></td>
+                <td>DATA OPS</td>
+                <td>MIS OPS</td>
+                <td>Aviation</td>
+                <td>Ground</td>
+                <td>Space</td>
+                <td>Maritime</td>
+                <td>DEVSI</td>
+                <td>Research</td>
+                <td>Support</td>
+                <td>Training</td>
+                <td>Total</td>
+            </tr>
+
+            <tr class="back-litegrey"><!-- new row -->
+                <td class="text-small">SBA Certified Hub Zone Firm</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>1</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td style="font-weight:600;">2</td>
+            </tr>
+
+            <tr class="back-litegrey"><!-- new row -->
+                <td class="text-small">Service Disabled Veteran Owned Business</td>
+                <td>1</td>
+                <td style="font-weight:600;">2</td>
+                <td style="font-weight:600;">2</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td style="font-weight:600;">2</td>
+                <td style="font-weight:600;">2</td>
+                <td>1</td>
+                <td style="font-weight:600;">2</td>
+                <td style="font-weight:600;">12</td>
+            </tr>
+
+            <tr class="back-litegrey"><!-- new row -->
+                <td class="text-small">Women-Owned Small Business</td>
+                <td>1</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>1</td>
+                <td>1</td>
+                <td style="font-weight:600;">3</td>
+                <td>1</td>
+                <td>0</td>
+                <td style="font-weight:600;">8</td>
+            </tr>
+
+            <tr class="back-litegrey"><!-- new row -->
+                <td class="text-small">Women-Owned Small Business - Economically Disadvantaged</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<div class="h-spacer"></div>
+
+<div class="flex-wrapper-big">
+    <table class="faq_table">
+        <tbody>
+            <tr><!-- top row -->
+                <td colspan="12" class="back-grey">Facility Clearance Statistics</td>
+            </tr>
+            <tr class="invertedCells"><!-- first row -->
+                <td style="width: 15%;">Security Level</td>
+                <td style="width: 20%">DATA OPS</td>
+                <td style="width: 6.5%">MIS OPS</td>
+                <td style="width: 6.5%">Aviation</td>
+                <td style="width: 6.5%">Ground</td>
+                <td style="width: 6.5%">Space</td>
+                <td style="width: 6.5%">Maritime</td>
+                <td style="width: 6.5%">DEVSI</td>
+                <td style="width: 6.5%">Research</td>
+                <td style="width: 6.5%">Support</td>
+                <td style="width: 6.5%">Training</td>
+                <td style="width: 6.5%">Total</td>
+            </tr>
+
+            <tr><!-- new row -->
+                <td class="text-small">None</td>
+                <td>1</td>
+                <td>4</td>
+                <td>6</td>
+                <td>1</td>
+                <td></td>
+                <td></td>
+                <td>1</td>
+                <td></td>
+                <td></td>
+                <td>3</td>
+                <td>16</td>
+            </tr>
+
+            <tr><!-- new row -->
+                <td class="text-small">Secret</td>
+                <td></td>
+                <td>4</td>
+                <td>4</td>
+                <td>1</td>
+                <td></td>
+                <td>3</td>
+                <td>2</td>
+                <td>2</td>
+                <td></td>
+                <td>1</td>
+                <td>17</td>
+            </tr>
+
+            <tr><!-- new row -->
+                <td class="text-small">Top Secret</td>
+                <td>35</td>
+                <td>29</td>
+                <td>35</td>
+                <td>23</td>
+                <td>25</td>
+                <td>26</td>
+                <td>42</td>
+                <td>43</td>
+                <td>47</td>
+                <td>41</td>
+                <td>346</td>
+            </tr>
+
+            <tr class="back-litegrey border-only-top" style="font-weight: bold;"><!-- new row -->
+                <td class="text-small">Grand Total</td>
+                <td>36</td>
+                <td>37</td>
+                <td>45</td>
+                <td>25</td>
+                <td>25</td>
+                <td>29</td>
+                <td>45</td>
+                <td>45</td>
+                <td>47</td>
+                <td>45</td>
+                <td>379</td>
+            </tr>
+
+        
+        </tbody>
+    </table>
+</div>
+
+<div class="flex-wrapper-big">
+    <div class="infoblock">
+        <p><i><a href="#questions">Back to Top</a></i></p>
+        <hr class="faqLine" />
+        <br />
+
+        <h3 id="question_5">5) QUESTION: What contract types are available under the ASTRO contracts?</h3>
+        <p><b>RESPONSE: </b>All contract pricing types in FAR Part 16, fixed-price (F-P) with and without incentives, cost-reimbursement (C-R) with and without incentives, time-and-materials (T&amp;M), and labor-hour (L-H) contract as well as hybrids of these types, are permissible for orders. OCO's may also utilize more than one contract type in an order by identifying a CLIN for F-P, C-R and/or T&amp;M, as appropriate.</p>
+        <p><i><a href="#questions">Back to Top</a></i></p>
+        <hr class="faqLine" />
+        <br />
+
+        <h3 id="question_6">6) QUESTION: What is the preferred contract type for ASTRO? Do orders have to be firm-fixed price, performance based?</h3>
+        <p><b>RESPONSE: </b>No. Choosing an appropriate contract type for each order is essential to successful performance. The type of contract determines the pricing methodology as well as the cost and performance risks placed on the contractor. If appropriate, the order should be firm-fixed price. However, the goal is to select the contract type and acquisition approach that will optimize risk sharing between the parties and result in the most favorable outcome.</p>
+        <p>The FAR 37.102 based order of precedence is:
+            <ol type="i">
+                <li>A firm-fixed price performance-based task order.</li>
+                <li>A performance-based task order that is not firm-fixed price.</li>
+                <li>A task order that is not performance-based.</li>
+            </ol>
+            </p>
+            <p><i><a href="#questions">Back to Top</a></i></p>
+            <hr class="faqLine" />
+        <br />
+
+        <h3 id="question_7">7) QUESTION: Can I purchase tools, equipment or other commodities as part of my service-based solution?</h3>
+        <p><b>RESPONSE: </b>Yes, the ASTRO contracts allow ancillary support to include tools, equipment, hardware, software and other commodities such as licenses, maintenance, etc. to be acquired under one order if integral to and necessary for the in-scope service-based solution.
+        </p>
+        <p><i><a href="#questions">Back to Top</a></i></p>
+        <hr class="faqLine" />
+        <br />
+
+        <h3 id="question_8">8) QUESTION: Who can place orders under the ASTRO contracts?</h3>
+        <p><b>RESPONSE: </b>Currently, the ASTRO contracts are available for use by all General Services Administration (GSA) Assisted Acquisition Ordering Officers who have obtained a Delegation of Procurement Authority (DPA) from the ASTRO Program Office. Contract Specialists/Contracting Officers who have received training from the applicable ASTRO contracting officer or his/her duly authorized representative are authorized to use the ASTRO contracts. However, only a duly warranted Contracting Officer with an ASTRO DPA can sign the ASTRO task order.</p>
+        <p>ASTRO training must be completed as part of the delegation process.</p>
+        <p><i><a href="#questions">Back to Top</a></i></p>
+        <hr class="faqLine" />
+        <br />
+
+        <h3 id="question_9">9) QUESTION: Must I provide fair opportunity to all ASTRO contractors for each and every order?</h3>
+        <p><b>RESPONSE: </b>No. You must provide fair opportunity to all ASTRO contractors within the Pool applicable to your task order requirement for every order exceeding $3,000 unless one of the exceptions to fair opportunity as listed in FAR subpart 16.505(b)(2)(i)(A) through (F) applies.</p>
+        <p><i><a href="#questions">Back to Top</a></i></p>
+        <hr class="faqLine" />
+        <br />
+
+        <h3 id="question_10">10) QUESTION: Are there dollar limitations or percentages on each order for ancillary support?
+        </h3>
+        <p><b>RESPONSE: </b>No. The ASTRO contracts do not contain any dollar or percentage (based on the total order value) limitations for ancillary support. While this offers tremendous flexibility, the OCO must remember that the primary purpose/outcome of the task order must be an in-scope services-based solution and the ancillary support must be integral and necessary to the requirement.
+        </p>
+        <p><i><a href="#questions">Back to Top</a></i></p>
+        <hr class="faqLine" />
+        <br />
+
+        <h3 id="question_11">11) QUESTION: Can an order be protested?</h3>
+        <p><b>RESPONSE: </b>In accordance with FAR 16.505(a)(9) and Subpart 33, no protest under Subpart 33.1 is authorized in connection with the issuance or proposed issuance of an order under a task-order contract or delivery-order contract, except for:
+            <ol type="A">
+                <li>A protest on the grounds that the order increases the scope, period, or maximum value of the contract; or</li>
+                <li>A protest of an order valued in excess of $10 million. Protests of orders in excess of $10 million may only be filed with the Government Accountability Office, in accordance with the procedures at 33.104.</li>
+            </ol></p>
+            <p><i><a href="#questions">Back to Top</a></i></p>
+            <hr class="faqLine" />
+        <br />
+
+        <h3 id="question_12">12) QUESTION: Are construction services allowed under the ASTRO contracts?</h3>
+        <p><b>RESPONSE: </b>Yes, so long as the work is integral and necessary to the in-scope services requirement. Please bear in mind that ASTRO is not a construction contract and that services that fall under the Brooks Act are not authorized under ASTRO.</p>
+        <p><i><a href="#questions">Back to Top</a></i></p>
+        <hr class="faqLine" />
+        <br />
+        <h3 id="question_13">13) QUESTION: Are leases allowed under the ASTRO contracts?</h3>
+        <p><b>RESPONSE: </b>Yes. The Government contemplates that leases may be part of a task order solution offered by a Contractor, but the Government, where the Contractor's solution includes leasing, must not be the Lessee. Under no circumstances on any task order awarded under ASTRO shall the Government be deemed to have privity-of-contract with the Owner/Lessor of the Leased Items; or, the Government be held liable for early Termination/Cancellation damages if the Government decides not to exercise an option period under a task order unless the Contractor has specifically disclosed the amount of such damages (or the formula by which such damages would be calculated) as part of its proposal and the OCO for the task order has specifically approved/allowed such damages as part of the task order terms and conditions.</p>
+        <p><i><a href="#questions">Back to Top</a></i></p>
+        <hr class="faqLine" />
+        <br />
+        <h3 id="question_14">14) QUESTION: Are ASTRO contractors required to meet a minimum facility security clearance?</h3>
+        <p><b>RESPONSE: </b>No, however, OCO's (Ordering Contracting Officer) may specify any level of facility or personnel clearance required for their order. In addition, OCOs should clearly identify any clearance level required as a condition for award and request appropriate verification as part of their Request for Proposal (RFP).</p>
+        <p><i><a href="#questions">Back to Top</a></i></p>
+        <hr class="faqLine" />
+        <br />
+        
+        <h3 id="question_15">15) QUESTION: What NAICS (North American Industry Classification System) code was used to award the ASTRO contracts and do I need to use this code on my order?</h3>
+        <p><b>RESPONSE: </b>Each of the ASTRO Pools has a primary NAICS code identified for that pool as shown in the table here:</p>
+    </div>
+</div>
+
+<div class="flex-wrapper-big">
+    <table class="faq_table leftAlignedCells">
+        <tbody>
+            <tr><!-- title row -->
+                <td class="back-grey forcedCenter">Data Operations Pool</td>
+            </tr>
+            <tr><!-- new row -->
+                <td>Function: Performance of Data Operations including all data collection, processing, exploitation, and dissemination activities associated with manned, unmanned, and optionally manned platforms and robotics supporting mission performance. This includes traditional labor services as well as “as a service” support.</td>
+            </tr>
+            <tr><!-- new row -->
+                <td>NAICS Code and Title: 541990 – All Other Professional, Scientific, and Technical Services</td>
+            </tr>
+            <tr><!-- new row -->
+                <td>Small Business Size Standard: $16.5 Million</td>
+            </tr>
+            <tr><!-- title row -->
+                <td class="back-grey forcedCenter">Mission Operations Pool</td>
+            </tr>
+            <tr><!-- new row -->
+                <td>Function: Mission Operations includes performance of operational services not included in Data Operations associated with manned, unmanned, and optionally manned platforms and robotics supporting mission performance. This includes traditional labor services as well as “as a service” support.</td>
+            </tr>
+            <tr><!-- new row -->
+                <td>NAICS Code and Title: 541990 – All Other Professional, Scientific, and Technical Services</td>
+            </tr>
+            <tr><!-- new row -->
+                <td>Small Business Size Standard: $16.5 Million</td>
+            </tr>
+            <tr><!-- title row -->
+                <td class="back-grey forcedCenter">Aviation Pool</td>
+            </tr>
+            <tr><!-- new row -->
+                <td>Function: Maintenance, repair, and overhaul of manned, optionally manned, and
+                    unmanned aircraft.</td>
+            </tr>
+            <tr><!-- new row -->
+                <td>NAICS Code and Title: 488190 – Other Support Activities for Air Transportation</td>
+            </tr>
+            <tr><!-- new row -->
+                <td>Small Business Size Standard: $35 Million</td>
+            </tr>
+            <tr><!-- title row -->
+                <td class="back-grey forcedCenter">Ground Pool</td>
+            </tr>
+            <tr><!-- new row -->
+                <td>Function: Maintenance, repair, and overhaul of manned, optionally manned, and
+                    unmanned ground platforms and industrial machinery.</td>
+            </tr>
+            <tr><!-- new row -->
+                <td>NAICS Code and Title: 488999 – All Other Support Activities for Transportation</td>
+            </tr>
+            <tr><!-- new row -->
+                <td>Small Business Size Standard: $8 Million</td>
+            </tr>
+            <tr><!-- title row -->
+                <td class="back-grey forcedCenter">Space Pool</td>
+            </tr>
+            <tr><!-- new row -->
+                <td>Function: Maintenance, repair, and overhaul of manned, optionally manned, and
+                    unmanned space platforms.</td>
+            </tr>
+            <tr><!-- new row -->
+                <td>NAICS Code and Title: 488190 – Other Support Activities for Air Transportation</td>
+            </tr>
+            <tr><!-- new row -->
+                <td>Small Business Size Standard: $35 Million</td>
+            </tr>
+            <tr><!-- title row -->
+                <td class="back-grey forcedCenter">Maritime Pool</td>
+            </tr>
+            <tr><!-- new row -->
+                <td>Function: Maintenance, repair, and overhaul of manned, optionally manned, and
+                    unmanned maritime platforms.</td>
+            </tr>
+            <tr><!-- new row -->
+                <td>NAICS Code and Title: 336611 – Ship Building and Repairing</td>
+            </tr>
+            <tr><!-- new row -->
+                <td>Small Business Size Standard: 1,250 Employees</td>
+            </tr>
+            <tr><!-- title row -->
+                <td class="back-grey forcedCenter">Development/Systems Integration Pool</td>
+            </tr>
+            <tr><!-- new row -->
+                <td>Function: Systems integration, improvement, and/or engineering associated with
+                    manned, unmanned, and optionally manned platforms.</td>
+            </tr>
+            <tr><!-- new row -->
+                <td>NAICS Code and Title: 541330 – Engineering Services</td>
+            </tr>
+            <tr><!-- new row -->
+                <td>Small Business Size Standard: $41.5 Million (based on the 541330 exceptions)</td>
+            </tr>
+            <tr><!-- title row -->
+                <td class="back-grey forcedCenter">Research Pool</td>
+            </tr>
+            <tr><!-- new row -->
+                <td>Function: All Research and Development (R&amp;D) associated with manned, unmanned, optionally manned, and
+                    counter Unmanned Systems (UxS) platforms</td>
+            </tr>
+            <tr><!-- new row -->
+                <td>NAICS Code and Title: 541715 – R&amp;D in the Physical,
+                    Engineering, and Life Sciences (except Nanotechnology and Biotechnology)</td>
+            </tr>
+            <tr><!-- new row -->
+                <td>Small Business Size Standard: 1,000 Employees</td>
+            </tr>
+            <tr><!-- title row -->
+                <td class="back-grey forcedCenter">Support Pool</td>
+            </tr>
+            <tr><!-- new row -->
+                <td>Function: All support services (except training) required for successful execution
+                    of a product, program, project, or process regarding platforms and robotics for
+                    land, air, sea, or space; the planning necessary to support operational missions;
+                    and the analysis of the results of an operational mission.</td>
+            </tr>
+            <tr><!-- new row -->
+                <td>NAICS Code and Title: 541990 - All Other Professional, Scientific, and Technical
+                    Services</td>
+            </tr>
+            <tr><!-- new row -->
+                <td>Small Business Size Standard: $16.5 Million</td>
+            </tr>
+            <tr><!-- title row -->
+                <td class="back-grey forcedCenter">Training Pool</td>
+            </tr>
+            <tr><!-- new row -->
+                <td>Function: All training (the providing of instruction) services required for successful
+                    execution of a product, program, project, or process regarding platforms and/or
+                    robotics for land, air, sea, or space.</td>
+            </tr>
+            <tr><!-- new row -->
+                <td>NAICS Code and Title: 611699 – All other Miscellaneous Schools and Instruction</td>
+            </tr>
+            <tr><!-- new row -->
+                <td>Small Business Size Standard: $12 Million</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<div class="flex-wrapper-big">
+    <div class="infoblock">
+        <p><i><a href="#questions">Back to Top</a></i></p>
+        <hr class="faqLine" />
+        <br />
+        <h3 id="question_16">16) QUESTION: What part of the FAR governs the ordering process? Do I follow FAR 15.3 source selection procedures when issuing an order under the ASTRO contracts?</h3>
+        <p><b>RESPONSE: </b>The streamlined procedures found at FAR 16.505 govern the ASTRO ordering process. In accordance with FAR 16.505(b) (1) (ii), the Contracting Officer may exercise broad discretion in developing appropriate order placement procedures and the policies in Subpart 15.3 source selection are not applicable.</p>
+        <p><i><a href="#questions">Back to Top</a></i></p>
+        <hr class="faqLine" />
+        <br />
+        
+        <h3 id="question_17">17) QUESTION: How do I place an order or issue market research?</h3>
+        <p><b>RESPONSE: </b>OCOs must use the ASTRO Ordering Portal at <a href="https://astro.app.cloud.gov/" onclick="return confirm('This link will take you to ASTRO application website, which is managed by GSA.')" class="external" target="_new">https://astro.app.cloud.gov/</a> for distributing all ASTRO solicitations, market research, and communicating with ASTRO Industry Partners.</p>
+        <p><i><a href="#questions">Back to Top</a></i></p>
+    </div>
+</div>
+
+
+  </main>
+
+  <footer class="usa-footer site-footer" role="contentinfo">
+  <hr class="footer-border">
+  <div class="usa-identifier site-identifier">
+    <section class="usa-identifier__section usa-identifier__section--masthead" aria-label="Agency identifier">
+        <div class="usa-identifier__container">
+            <div class="usa-identifier__logos">
+                <a href="javascript:void(0);" class="usa-identifier__logo">
+                    <img class="usa-identifier__logo-img" src="../gsa-logo.svg" alt="GSA logo" role="img">
+                </a>
+            </div>
+            <div class="usa-identifier__identity" aria-label="Agency description">
+                <p class="usa-identifier__identity-domain">aas.gsa.gov</p>
+                <p class="usa-identifier__identity-disclaimer">
+                    An official website of the <a class="external_link" href="https://gsa.gov">General Services Administration</a>
+                </p>
+            </div>
+        </div>
+    </section>
+    <nav class="usa-identifier__section usa-identifier__section--required-links" aria-label="Important links">
+        <div class="usa-identifier__container">
+            <ul class="usa-identifier__required-links-list">
+                <li class="usa-identifier__required-links-item">
+                    <a href="https://www.gsa.gov/about-us" class="usa-identifier__required-link">
+                        About GSA
+                    </a>
+                </li>
+                <li class="usa-identifier__required-links-item">
+                    <a href="https://www.gsa.gov/website-information/accessibility-aids" class="usa-identifier__required-link">
+                        Accessibility support
+                    </a>
+                </li>
+                <li class="usa-identifier__required-links-item">
+                    <a href="https://www.gsa.gov/reference/freedom-of-information-act-foia" class="usa-identifier__required-link usa-link">
+                        FOIA requests
+                    </a>
+                </li>
+                <li class="usa-identifier__required-links-item">
+                    <a href="https://www.gsa.gov/reference/civil-rights-programs/notification-and-federal-employee-antidiscrimination-and-retaliation-act-of-2002" class="usa-identifier__required-link usa-link">
+                        No FEAR Act data
+                    </a>
+                </li>
+                <li class="usa-identifier__required-links-item">
+                    <a href="https://www.gsaig.gov/" class="usa-identifier__required-link usa-link">
+                        Office of the Inspector General
+                    </a>
+                </li>
+                <li class="usa-identifier__required-links-item">
+                    <a href="https://www.gsa.gov/reference/reports/budget-performance" class="usa-identifier__required-link usa-link">
+                        Performance reports
+                    </a>
+                </li>
+                <li class="usa-identifier__required-links-item">
+                    <a href="https://www.gsa.gov/website-information/website-policies" class="usa-identifier__required-link usa-link">
+                        Privacy policy
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section class="usa-identifier__section usa-identifier__section--usagov" aria-label="Government information and services">
+        <div class="usa-identifier__container">
+            <div class="usa-identifier__usagov-description">Looking for U.S. government information and services?</div>
+            <a href="https://www.usa.gov/" class="external_link">Visit USA.gov</a>
+        </div>
+    </section>
+  </div>
+</footer>
+
+
+  <!-- Digital Analytics Program roll-up, see https://analytics.usa.gov for data -->
+<script
+  id="_fed_an_ua_tag"
+  src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=GSA"
+></script>
+
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110817706-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
+
+  gtag('config', 'UA-110817706-1');
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script type="text/javascript" src="/assets/uswds.min-a54759a8320c34ca31eabf66135ac6c8600343b62256c25516e7ed060ac4f43f.js"></script>
+<script type="text/javascript" src="/assets/app-01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b.js"></script>
+
+</body>
+
+</html>
