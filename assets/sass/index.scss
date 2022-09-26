@@ -381,7 +381,7 @@ hr.media-line{
   border-radius: 5px 0 0 5px!important;
 }
 
-.usa-banner__button::after{
+.usa-banner__button::after, .usa-banner__button[aria-expanded=true]::after{
 	background-color: #005ea2;
   position: relative;
 	-webkit-mask: url(./img/usa-icons/expand_more.svg) no-repeat center/contain;
@@ -1428,28 +1428,8 @@ hr.small-line{
 	display: block;
 }
 
-.chart-btn{
-  height: 100px;
-  margin: auto;
-  padding: 20px;
-  background-image: asset-url("chart.png");
-  border: 2px solid var(--fedsim-blue1);
-}
-
-.chart-btn h4{
-  color: white;
-}
-
-.chart-btn{
-  width: 500px;
-  display: block;
-}
-
 
 @media screen and (max-width: 414px){
-  .chart-btn{
-    display: none;
-  }  
   
   .dialog{
     overflow-y: scroll;
