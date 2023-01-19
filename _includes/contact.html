@@ -2,13 +2,7 @@
     <div class="infoblock">
         <h1>Contact Us</h1>
     </div>
-</div>    
-
-<div id="formConfirmation" class="flex-wrapper-big hide">
-    <div class="infoblock">
-       <h4> Form has been submitted successfully.</h4>
-    </div>
-</div>
+</div>  
 
 <div id="contactFormText" class="flex-wrapper-big">
     <div class="infoblock">
@@ -17,85 +11,105 @@
     </div> 
 </div>
 
-<div id="contactForm" class="flex-wrapper-big">
-    <form 
-    name="gform" 
-    id="gform" 
-    enctype="text/plain"
-    action="https://docs.google.com/forms/d/e/1FAIpQLSeCBdXbapVv7YDDgK3pA-ft9b7rIPu0YHc8jn7PTOPD6fuA3Q/formResponse?"
-    target="hidden_iframe" 
-    onsubmit="submitForm(this)"
-    >
-        
-    <div class="flex-wrapper">
-        <div class="half left cf">
-
-            <label for="entry.1248298072">First Name <span class="req">*</span></label>
-            <input id="firstname" type="text" aria-label="first name field" name="entry.1248298072" maxlength="50" size="30" required>
-
-            <label for="entry.2130392404">Last Name <span class="req">*</span></label>
-            <input id="lastname" type="text" aria-label="last name field" name="entry.2130392404" maxlength="50" size="30" required>
-
-            <label for="entry.1398641644">Agency</label>
-            <input id="agency" type="text" aria-label="agency field" name="entry.1398641644" maxlength="50" size="30">
-
-            <label for="entry.1038294161">Company Name</label>
-            <input id="company" type="text" aria-label="company name field" name="entry.1038294161" maxlength="50" size="30">                    
-        
-            </div>
-        <div class="half right cf">
-
-            <label for="entry.1766108790">Email <span class="req">*</span></label>
-            <input id="email" type="email" aria-label="email field" name="entry.1766108790" maxlength="50" size="30" required>
-
-            <label for="entry.990130042">Phone</label>
-            <input id="phone" type="text" aria-label="phone field" name="entry.990130042" maxlength="50" size="30">
-
-            <label for="entry.890780386">City <span class="req">*</span></label>
-            <input required id="city" aria-label="city field" type="text" name="entry.890780386" maxlength="50" size="30">
-                
-            <div class="flex-wrapper">
-                  <div>
-                    <label for="entry.120904074">State <span class="req">*</span></label>
-                    <input required id="state" aria-label="state field" type="text" name="entry.120904074" maxlength="50" size="20" style="width: 92%!important;">
-                  </div>
-                  <div>
-                      <label for="entry.1778725785">Zip Code <span class="req">*</span></label>
-                <input required id="zip" aria-label="zip code field" type="text" name="entry.1778725785" maxlength="50" size="20">
-                  </div>
-            </div>
-        </div>              
-    </div>  
-    <label for="entry.1215864887">Project Overview <span class="req">*</span></label>
-            <textarea id="message" aria-label="project overview field" name="entry.1215864887" maxlength="1000" cols="25" rows="5"
-                style="padding-bottom: 19px; border-radius: 12px;" required></textarea>  
-                <br><br>
-    <div class="flex-wrapper">
-        <input id="input-submit" type="submit" value="Submit">
-    </div>
-
-    </form>
-
-    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+<div class="flex-wrapper-full">
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeCBdXbapVv7YDDgK3pA-ft9b7rIPu0YHc8jn7PTOPD6fuA3Q/viewform?embedded=true" width="1000" height="1624" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 </div>
 
-<script type="text/javascript">
-    var submitted = false;
 
-    function submitForm(e) {
-        document.getElementById("formConfirmation").classList.remove('hide');
-        document.getElementById("contactForm").classList.add('hide');
-        document.getElementById("contactFormText").classList.add('hide');
+<!-- OLD FORM
 
-        submitted=true;
-    }
+    <div id="formConfirmation" class="flex-wrapper-big hide">
+        <div class="infoblock">
+        <h4> Form has been submitted successfully.</h4>
+        </div>
+    </div>
 
-    $('#gform').on('submit', function (e) {
-        $('#gform *').fadeOut(2000);
-        $('#gform').prepend('<h2>Thank you for your submission! We will be in touch shortly.</h2>');
-    });
+    <div id="contactFormText" class="flex-wrapper-big">
+        <div class="infoblock">
+            <p>We are ready to help you achieve your mission. Complete the form and a team member will contact you.</p>
+            <br>
+        </div> 
+    </div>
 
-</script>
+    <div id="contactForm" class="flex-wrapper-big">
+        <form 
+        name="gform" 
+        id="gform" 
+        enctype="text/plain"
+        action="https://docs.google.com/forms/d/e/1FAIpQLSeCBdXbapVv7YDDgK3pA-ft9b7rIPu0YHc8jn7PTOPD6fuA3Q/formResponse?"
+        target="hidden_iframe" 
+        onsubmit="submitForm(this)"
+        >
+            
+        <div class="flex-wrapper">
+            <div class="half left cf">
 
+                <label for="entry.1248298072">First Name <span class="req">*</span></label>
+                <input id="firstname" type="text" aria-label="first name field" name="entry.1248298072" maxlength="50" size="30" required>
+
+                <label for="entry.2130392404">Last Name <span class="req">*</span></label>
+                <input id="lastname" type="text" aria-label="last name field" name="entry.2130392404" maxlength="50" size="30" required>
+
+                <label for="entry.1398641644">Agency</label>
+                <input id="agency" type="text" aria-label="agency field" name="entry.1398641644" maxlength="50" size="30">
+
+                <label for="entry.1038294161">Company Name</label>
+                <input id="company" type="text" aria-label="company name field" name="entry.1038294161" maxlength="50" size="30">                    
+            
+                </div>
+            <div class="half right cf">
+
+                <label for="entry.1766108790">Email <span class="req">*</span></label>
+                <input id="email" type="email" aria-label="email field" name="entry.1766108790" maxlength="50" size="30" required>
+
+                <label for="entry.990130042">Phone</label>
+                <input id="phone" type="text" aria-label="phone field" name="entry.990130042" maxlength="50" size="30">
+
+                <label for="entry.890780386">City <span class="req">*</span></label>
+                <input required id="city" aria-label="city field" type="text" name="entry.890780386" maxlength="50" size="30">
+                    
+                <div class="flex-wrapper">
+                    <div>
+                        <label for="entry.120904074">State <span class="req">*</span></label>
+                        <input required id="state" aria-label="state field" type="text" name="entry.120904074" maxlength="50" size="20" style="width: 92%!important;">
+                    </div>
+                    <div>
+                        <label for="entry.1778725785">Zip Code <span class="req">*</span></label>
+                    <input required id="zip" aria-label="zip code field" type="text" name="entry.1778725785" maxlength="50" size="20">
+                    </div>
+                </div>
+            </div>              
+        </div>  
+        <label for="entry.1215864887">Project Overview <span class="req">*</span></label>
+                <textarea id="message" aria-label="project overview field" name="entry.1215864887" maxlength="1000" cols="25" rows="5"
+                    style="padding-bottom: 19px; border-radius: 12px;" required></textarea>  
+                    <br><br>
+        <div class="flex-wrapper">
+            <input id="input-submit" type="submit" value="Submit">
+        </div>
+
+        </form>
+
+        <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+    </div>
+
+    <script type="text/javascript">
+        var submitted = false;
+
+        function submitForm(e) {
+            document.getElementById("formConfirmation").classList.remove('hide');
+            document.getElementById("contactForm").classList.add('hide');
+            document.getElementById("contactFormText").classList.add('hide');
+
+            submitted=true;
+        }
+
+        $('#gform').on('submit', function (e) {
+            $('#gform *').fadeOut(2000);
+            $('#gform').prepend('<h2>Thank you for your submission! We will be in touch shortly.</h2>');
+        });
+
+    </script>
+-->
 <hr>
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeCBdXbapVv7YDDgK3pA-ft9b7rIPu0YHc8jn7PTOPD6fuA3Q/viewform?embedded=true" width="960" height="1624" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
