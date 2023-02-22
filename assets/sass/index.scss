@@ -358,6 +358,18 @@ hr.media-line{
   }
 }
 
+.textLinkBold {
+  color: #004bbd;
+  cursor: pointer;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.textLink {
+  color: #004bbd;
+  cursor: pointer;
+  font-style: italic;
+}
 
 //Header styles
 .usa-banner__inner {
