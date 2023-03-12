@@ -326,6 +326,10 @@ hr.media-line{
   font-weight: bold;
 }
 
+.greyBack{
+  background-color: var(--fedsim-offwhite);
+}
+
 .with-side-buffer{
   margin: 0 40px 20px 40px;
 }
@@ -352,9 +356,16 @@ hr.media-line{
   background-color: var(--fedsim-darkgrey);
 }
 
+.mobile-only{
+  display: none !important;
+}
+
 @media screen and (max-width: 414px){
   .no-mobile{
-    display: none!important;
+    display: none !important;
+  }
+  .mobile-only{
+    display: block !important;
   }
 }
 
@@ -911,7 +922,7 @@ a.external_link::after{
 }
 
 #SBIR_Chart_Block img{
-	width: 1000px;
+	width: 940px;
 }
 	
 
@@ -1015,7 +1026,7 @@ a.external_link::after{
 
 .storyCardBody{
   width: 800px;
-  height: 80px;
+  height: 100px;
   display: flex;
   background-color: var(--fedsim-blue1);
   z-index: 9;
@@ -1041,27 +1052,44 @@ a.external_link::after{
   padding-right: 40px;
 }
 
+.nestedSize{
+  width: 45%!important;
+  margin-left: 0 !important;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+}
+
 @media screen and (max-width:414px){
   .storyCardHead{
     width: 300px;
+    height: auto;
     padding: 8px;
   }
   
   .storyCardBody{
-    margin-left: 20px;
+    margin-left: 0;
     width: 300px;
     padding: 10px;
   }
 
   .storyPadding{
+    padding: 0 !important;
     margin-top: 4px;
-    max-width: 240px !important;
+    max-width: 240px!important;
+    margin-left: 0;
   }
 
   .storyIcon{
-    right: 0;
-    position: absolute;
-    padding-right: 8px;
+    display: none !important;
+  }
+
+  .nestedSize{
+    width: 340px!important;
+    margin-left: 0 !important;
+
+  }
+  .smallerTextMobile{
+    font-size: smaller;
   }
   
 }
