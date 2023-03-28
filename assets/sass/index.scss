@@ -614,7 +614,7 @@ a.external_link::after{
   }
 }
 
-.darkblock, .darkblock-alt, .darkblock-numbered, .darkblock-alt-numbered{
+.darkblock, .darkblock-alt, .darkblock-numbered, .darkblock-alt-numbered, .darkblock-sm, .darkblock-alt-sm{
   color: white;
   text-align: left;
   margin: auto;
@@ -629,11 +629,16 @@ a.external_link::after{
   height: 620px;
 }
 
-.darkblock{
+.darkblock-sm, .darkblock-alt-sm{
+  width: 85%;
+  margin-left: 10px;
+}
+
+.darkblock, .darkblock-sm{
   background-color: var(--fedsim-blue1);
 }
 
-.darkblock-alt{
+.darkblock-alt, .darkblock-alt-sm{
   background-color: var(--aas-orange);
 }
 
