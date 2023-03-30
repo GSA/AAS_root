@@ -383,6 +383,14 @@ hr.media-line{
   font-style: italic;
 }
 
+.spacedList li{
+  margin-bottom: 10px;
+}
+
+.spacedList li b{
+  color: var(--fedsim-blue1);
+}
+
 //Header styles
 .usa-banner__inner {
   display: block;
