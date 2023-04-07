@@ -90,7 +90,7 @@ primary_navigation:
     children:
       - name: SBIR/STTR
         url: /sbir/
-      - name: SBIR Event
+      - name: SBIR Events
         url: /sbirevents/
 
   - name: Our Impact
