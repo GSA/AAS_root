@@ -1541,19 +1541,6 @@ li.input-li{
    margin-left: 40px;
  }
 
- #input-submit {
-    border: 0;
-    border-radius: 12px;
-    color: white; 
-    font-weight: 700;
-    background: var(--aas-orange);
-    cursor: pointer;
- }
-
- #input-submit:hover{
-   background: var(--fedsim-blue1);
- }
-
  .input-text{
    margin-block-end: 2px;
  }
@@ -1716,6 +1703,33 @@ li.input-li{
   line-height: 0.75em;
   margin-top: 2px;
   transition-timing-function: ease;
+}
+
+// SBIR events register
+
+.register-link {
+  display: block;
+  border: 0;
+  border-radius: 12px;
+  width: 300px;
+  height: 35px;
+  padding: 6px;
+  text-align: center;
+  font-weight: 700;
+  background-color: var(--fedsim-blue1);
+  cursor: pointer;
+}
+
+.register-link a{
+  color: white !important;
+  font-weight: 600 !important;
+  font-size: 1.2em;
+  margin-block-start: 0.8em;
+  margin-block-end: 0.8em;
+}
+
+.register-link:hover{
+ background-color: var(--aas-orange);
 }
 
 // default mode hide banner
