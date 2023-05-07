@@ -1705,7 +1705,122 @@ li.input-li{
   transition-timing-function: ease;
 }
 
-// SBIR events register
+// SBIR Events
+
+.event-card p, .event-card h1, .event-card h2, .event-card h3, .event-card h4{
+  margin: auto;
+  padding: auto;
+}
+
+.event-card{
+  min-width: 95%;
+  display:flex;
+  position: relative;
+  border: 1px solid var(--fedsim-blue1);
+  margin: 10px;
+  padding: 10px;
+}
+
+.event-card-main{
+  display: block;
+  width: 75%;
+}
+
+.event-card-main h3, .event-card-main p{
+  font-weight: 500;
+}
+
+.event-card-main h3{
+  margin-bottom: 8px;
+}
+
+.event-card-side{
+  border-left: 1px solid var(--fedsim-darkgrey);
+  display: block;
+  text-align: center;
+  width: 25%;
+}
+
+.event-card-foot{
+  border-top: 1px solid var(--fedsim-darkgrey);
+  display: block;
+  text-align: center;
+}
+
+.event-card-side h1, .event-card-side h3{
+  color: var(--fedsim-darkgrey);
+}
+
+.event-card-side h1{
+  font-size: 3em !important;
+  font-weight: 500;
+  margin-top: 8px;
+}
+
+.event-card-side-link,
+.event-card-foot-link{
+  display: block;
+  border: 1px solid var(--fedsim-blue1);
+  font-weight: 500;
+  height: 32px;
+  padding: 4px;
+  margin: 0 20px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 10px;
+  width: -webkit-fill-available;
+}
+
+.event-card-foot,
+.event-card-foot-link{
+  display: none;
+}
+
+@media screen and (max-width: 414px) {
+.event-card{
+  display: block;
+}
+
+  .event-card-main {
+    width: auto;
+    display: block;
+    margin-bottom: 4px;
+  }
+
+  .event-card-side h1, 
+  .event-card-side h3 {
+    font-size: 1.4em !important;
+    color: var(--fedsim-darkgrey);
+    margin-left: 30px;
+    padding-right: 10px;
+  }
+
+  .event-card-side,
+  .event-caerd-side-link{
+    display: none;
+  }
+
+  .event-card-foot{
+    display: block;
+    text-align: left;
+    margin: 0;
+  }
+
+  .event-card-foot p{
+    font-size: 1em;
+    color: var(--fedsim-darkgrey);
+    font-weight: 600;
+  }
+
+  .event-card-foot-link{
+    display: block;
+    margin: 10px auto;
+    position: inherit;
+    text-align: center;
+  }
+
+
+ }
 
 .register-link {
   display: block;
