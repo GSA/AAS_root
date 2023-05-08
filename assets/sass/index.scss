@@ -1467,6 +1467,10 @@ hr.small-line{
   max-width: 700px;
 }
 
+.dialog-wide{
+  width: 80vw;
+}
+
 .dialog p{
   line-height: 1.11em;
   padding: 12px 0 12px 0;
@@ -1723,6 +1727,7 @@ li.input-li{
 
 .event-card-main{
   display: block;
+  text-align: left;
   width: 75%;
 }
 
@@ -1754,7 +1759,7 @@ li.input-li{
 .event-card-side h1{
   font-size: 3em !important;
   font-weight: 500;
-  margin-top: 8px;
+  margin: 8px;
 }
 
 .event-card-side-link,
