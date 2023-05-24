@@ -30,12 +30,12 @@
             <p>
                 <ol class="spacedList">
                     <li><b>Signed Interagency Agreement(IA) Part A</b><br>
-                    Please see the <a href="https://docs.google.com/document/d/1e2tyZ6i3GtTKH23JtUGLDZ0Uwz4nBSjnZLrLomUUHbo/edit" onClick="return confirm('This link will open a Google document.')" class="external" target="_new">AAS 7600A GT&C Client Quick Reference Guide</a> for information that the requesting agency organization must provide. The GSA PM will inform a client if an existing Part A is in place for the requesting agency organization.
+                    Please see the <a href="../pdf_docs/Appendix C_ AAS 7600A GT&C Client Quick Reference Guide.pdf" target="_new">AAS 7600A GT&C Client Quick Reference Guide</a> for information that the requesting agency organization must provide. The GSA PM will inform a client if an existing Part A is in place for the requesting agency organization.
                     </li>
                     <li><b>Signed IA Part B</b><br>
-                    Please see the <a href="https://docs.google.com/document/d/1_ThwFcXaCHFo3oJI2n_MmTiZcgib4cmfXFxRHTvJmlo/edit" onClick="return confirm('This link will open a Google document.')" class="external" target="_new">AAS 7600B Client Quick Reference Guide</a> for information that the requesting agency organization must provide.
+                    Please see the <a href="../pdf_docs/Appendix D_ AAS 7600B Client Quick Reference Guide.pdf" target="_new">AAS 7600B Client Quick Reference Guide</a> for information that the requesting agency organization must provide.
                     </li>
-                    <li><b><a href="../DEC_Statement_Contracts.pdf" target="_new">DEC Statement</a></b><br>
+                    <li><b><a href="../pdf_docs/DEC_Statement_Contracts.pdf" target="_new">DEC Statement</a></b><br>
                     This is a document in which the client technical expert will work with the assigned GSA POC to document how the work to be performed on the Phase III contract derives from, extends or completes (DEC) prior SBIR efforts. The GSA PM will assist with the form to some extent, but the client must provide the narrative and lineage to prior Phase I/II/III efforts.
                    </li>
                     <li><b>Unique Documentation if the Phase III awardee is not the original Phase I/II awardee</b><br>
@@ -45,7 +45,7 @@
                     All awards that were included in the signed scope determination must be provided.</li>
                     <li><b>Independent Government Estimate (IGCE)</b></li>
                     <li><b>Performance Work Statement/Statement of Work</b></li>
-                    <li><b><a href="https://docs.google.com/document/d/1hcTFd7BnU0an15AG4n-lI0oDefrcxtDy2CAxY0v-_T8/edit" onClick="return confirm('This link will open a Google document.')" class="external" target="_new">Quality Assurance Surveillance Plan</a></b></li>
+                    <li><b><a href="../pdf_docs/QASP_Template_FINAL_19Sep22.pdf" target="_new">Quality Assurance Surveillance Plan</a></b></li>
                     <li><b>DD Form 254 or Security Requirements Documentation</b></li>
                 </ol>
             </p>
@@ -240,13 +240,24 @@
 </div>
 <br>
 
+
+<!-- code for link:   <a href="javascript:openFAQ();" >                -->
+<div id="faq_popup" class="dialog-overlay" aria-hidden="true" onclick="javascript:closeFAQ();">
+    <div class="dialog" role="dialog">
+        <div class="modalblock">
+            <h1>SBIR Frequently Asked Questions</h1>
+            <h3>Q 01: 
+            </h3>
+            <p>Answer</p>
+            <p style="font-style: italic;">Click anywhere to close this window.</p>
+        </div>
+    </div>
+</div>
+
 <!--  javascript functions -->
 <script type="text/javascript">
 
-    function openPool(poolInfo)
-    {
-        document.getElementById(poolInfo).setAttribute("aria-hidden", "false");        
-    }
+    function openPool(poolInfo) {document.getElementById(poolInfo).setAttribute("aria-hidden", "false");}
 
     function closePool()
     {
@@ -255,6 +266,10 @@
             elements[i].setAttribute("aria-hidden", "true");
         }
     }
+
+    function openFAQ() {document.getElementById("faq_popup").setAttribute("aria-hidden", "false");}
+
+    function closeFAQ() {document.getElementById("faq_popup").setAttribute("aria-hidden", "true");}
 
 </script>
 
