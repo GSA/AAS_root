@@ -89,6 +89,11 @@ img{
 
 //General stylings
 
+.back-blue {
+  background-color: var(--fedsim-blue1) !important;
+  color: white;
+}
+
 .back-bluer {
   background-color: var(--fedsim-blue3);
   color: white;
@@ -130,6 +135,12 @@ img{
 .h-spacer{
   background-color: white;
   height: 20px;
+}
+
+.h-spacer-blue{
+  background-color: var(--fedsim-blue1);
+  height: 20px;
+  width: 50px;
 }
 
 .v-buffer{
@@ -265,6 +276,26 @@ hr.media-line{
   border: solid var(--fedsim-blue1) 5px;
   cursor: pointer;
 }
+
+.section-btn-orange{
+  height: 40px;
+  width: 200px;
+  text-align: center;
+  font-weight: 700;
+  padding-top: 15px;
+  padding-bottom: 30px;
+  background-color: var(--aas-orange);
+  color:  white;
+  cursor: pointer;
+}
+
+.section-btn-orange a{
+  color: white;
+}
+
+.section-btn-orange a:hover, .section-btn-orange a:active, .section-btn-orange a:visited{
+  border: 0 !important;
+} 
 
 @media screen and (max-width: 375px){
   .section-btn-clear{
