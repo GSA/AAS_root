@@ -66,8 +66,6 @@ primary_navigation:
         url: /aboutus/
       - name: Leadership
         url: /leadership/
-      - name: Regional Offices
-        url: /regions/
   - name: Our Work
     url: /ourwork/
   - name: Acquisition Process

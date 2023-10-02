@@ -406,19 +406,6 @@ hr.media-line{
   background-color: var(--fedsim-darkgrey);
 }
 
-.mobile-only{
-  display: none !important;
-}
-
-@media screen and (max-width: 414px){
-  .no-mobile{
-    display: none !important;
-  }
-  .mobile-only{
-    display: block !important;
-  }
-}
-
 .textLinkBold {
   color: #004bbd;
   cursor: pointer;
@@ -876,21 +863,23 @@ a.external_link::after{
    width: 297px;
 }
 
-.learnblock, .learn-top{
-  width: 960px;
-  padding-left: 120px;
-  display: block;
-}
-
 .learnblock{
+  width: 960px;
+  padding-left: 146px;
+  display: block;
   margin: 10px;
-  background-color: var(--fedsim-litegrey);
+  background-color: var(--aas-pale);
   border: solid 2px var(--fedsim-darkgrey);
   background-repeat: no-repeat;
 }
 
-.learnblock h4, .learnblock p{
-  padding: 10px;
+.learnblock p{
+  padding: 8px;
+}
+
+.learnblock h4{
+  padding: 6px 0 0 20px;
+  font-size: 1.4em;
 }
 
 @media screen and (max-width: 414px){
@@ -899,8 +888,16 @@ a.external_link::after{
   }
 
   .learnblock{
+    padding: 4px;
     margin: auto;
     width: 360px;
+    background-image: none !important;
+    background-color: var(--aas-pale);
+  }
+
+  .learnblock h4{
+      padding: 6px;
+      font-size: 1.2em;
   }
 
   .learnmore-full{
@@ -913,10 +910,13 @@ a.external_link::after{
 }
 
 
-.learn-01{ background-image: url(../assets/img/IT_SERVICES.png);}
-.learn-02{ background-image: url(../assets/img/IT_SECURITY.png);}
-.learn-03{ background-image: url(../assets/img/IT_CONSULTING.png);}
+.learn-01{ background-image: url(../assets/img/icon_itservices.png);}
+.learn-02{ background-image: url(../assets/img/icon_professional.png);}
+.learn-03{ background-image: url(../assets/img/icon_RnD.png);}
 
+.learn-01, .learn-02, .learn-03{
+  background-position-x: left;
+}
 
 .block-text-med, .block-text-big, .block-num-med, .block-num-big{
   margin: 0;
@@ -1435,15 +1435,16 @@ a.external_link::after{
   }
 
   .memberblock{
-    width: 160px;
+    width: 150px;
     height: 150px;
+    margin-top: 8px;
   }
 
   .memberblock-head{
     margin-bottom: 10px;
-    width: 167px;
-    height: 164px;
-    margin: 0 10px 20px 10px;
+    width: 160px;
+    height: 160px;
+    margin: 0 10px 10px 10px;
   }
   
   .memberblock p, .memberblock-head p{
@@ -1930,6 +1931,20 @@ li.input-li{
   }
   .paginate-button {
     display: block;
+  }
+}
+
+/* mobile settings */
+.mobile-only{
+  display: none !important;
+}
+
+@media screen and (max-width: 414px){
+  .no-mobile{
+    display: none !important;
+  }
+  .mobile-only{
+    display: block !important;
   }
 }
 

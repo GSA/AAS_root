@@ -34,6 +34,9 @@
   "icon.png": "/assets/img/icon-talk.png",
   "icon-dot.svg": "/assets/img/icon-dot-gov.svg",
   "icon.svg": "/assets/img/icon-https.svg",
+  "icon_itservice.png": "/assets/img/icon_itservices.png",
+  "icon_professiona.png": "/assets/img/icon_professional.png",
+  "icon_Rn.png": "/assets/img/icon_RnD.png",
   "iitico.png": "/assets/img/iiticon.png",
   "itico.png": "/assets/img/iticon.png",
   "itsico.png": "/assets/img/itsicon.png",
@@ -125,6 +128,6 @@
   "SBIR FAQ.pdf": "/assets/pdf_docs/SBIR FAQs.pdf",
   "SBIR_STTR Initial Inf.pdf": "/assets/pdf_docs/SBIR_STTR Initial Info.pdf",
   "SBIR_STTR Intake Document.pdf": "/assets/pdf_docs/SBIR_STTR Intake Documents.pdf",
-  "styles.css": "/assets/styles/styles-TC3OCJR7.css",
-  "styles.map": "/assets/styles/styles-TC3OCJR7.css.map"
+  "styles.css": "/assets/styles/styles-6CIQL27V.css",
+  "styles.map": "/assets/styles/styles-6CIQL27V.css.map"
 }
