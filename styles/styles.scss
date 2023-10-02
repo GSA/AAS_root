@@ -342,6 +342,12 @@ hr.media-line{
   text-align: left;
 }
 
+.one-fifth{
+  width: 18%;
+  margin: auto;
+  text-align: left;
+}
+
 .one-half{
   width: 50%;
 }
@@ -871,8 +877,8 @@ a.external_link::after{
 }
 
 .learnblock, .learn-top{
-  width: 230px;
-  height: 300px;
+  width: 960px;
+  padding-left: 120px;
   display: block;
 }
 
@@ -894,7 +900,7 @@ a.external_link::after{
 
   .learnblock{
     margin: auto;
-    width: 220px;
+    width: 360px;
   }
 
   .learnmore-full{
@@ -906,31 +912,10 @@ a.external_link::after{
   }
 }
 
-.learn-top{
-  width: 216px;
-  height: 296px;
-  z-index: 9;
-  position: absolute;
-  opacity: 100%;
-}
-
-.learn-top:hover{
-  opacity: 0;
-}
-
 
 .learn-01{ background-image: url(../assets/img/IT_SERVICES.png);}
 .learn-02{ background-image: url(../assets/img/IT_SECURITY.png);}
 .learn-03{ background-image: url(../assets/img/IT_CONSULTING.png);}
-.learn-04{ background-image: url(../assets/img/RnD.png);}
-.learn-05{ background-image: url(../assets/img/FAC_MAINTENANCE.png);}
-.learn-06{ background-image: url(../assets/img/ENG_SERVICES.png);}
-.learn-07{ background-image: url(../assets/img/FINANCIAL.png);}
-.learn-08{ background-image: url(../assets/img/IT_SUPPORT.png);}
-.learn-09{ background-image: url(../assets/img/LOGISTICS.png);}
-.learn-10{ background-image: url(../assets/img/TELECOMM.png);}
-.learn-11{ background-image: url(../assets/img/AD_MARK_SERVICES.png);}
-.learn-12{ background-image: url(../assets/img/LANGUAGE.png);}
 
 
 .block-text-med, .block-text-big, .block-num-med, .block-num-big{
@@ -1344,31 +1329,35 @@ a.external_link::after{
 }
 
 .memberblock, .memberblock-head{
-  background-color: var(--fedsim-blue1);
-  color: white;
+  color: var(--fedsim-darkgrey);
+  background-color: var(--aas-grey);
   font-size: 0.8em;
   font-weight: 600;
   padding: 8px;
   vertical-align: top;
   display: inline-block;
-  border-radius: 15px;
+  margin: 0 8px;
+  border: 0px;
 }
 
 .memberblock{
-  width: 150px;
+  width: 194px;
   height: 220px;
 }
 
 .memberblock-head{
-  width: 160px;
-  height: 220px;
-  margin: 0 36px;
+    width: 220px !important;
+    height: 240px !important;
 }
 
-.memberblock p, .memberblock-head p{
+.memberblock p{
   margin-top: 6px;
   margin-bottom: 0;
   line-height: 1.15em!important;
+}
+
+.memberblock:focused{
+	border: 0px;
 }
 
 .member-pic{
@@ -1376,9 +1365,20 @@ a.external_link::after{
   width: 140px;
 }
 
-.member-two-heads{
-  display: block;
-  margin: auto;
+.level-1 {
+  width: 50%;
+  margin: 0 auto 40px;
+  background: var(--aas-grey);
+}
+.level-1::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2px;
+  height: 20px;
+  background: var(--black);
 }
 
 .sectorbar{
