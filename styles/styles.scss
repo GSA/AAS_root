@@ -992,15 +992,11 @@ a.external_link::after{
 }
 
 #card2{
-  height: 300px;
+  height: 420px;
 }
 
 #card3{
-  height: 240px;
-}
-
-#card3 .roundedCard-blue{
-  margin-top: 50px!important;
+  height: 340px;
 }
 
 .roundedCardHolder{
@@ -1012,26 +1008,23 @@ a.external_link::after{
   width: 600px;
   height: 180px;
   padding: 10px 20px;
+  border-radius: 12px;
 }
 
 .roundedCard-blue{
   background-color: var(--fedsim-blue1);
   z-index: 9;
+  color: white;
   position: absolute;
   margin-left: 20px;
   margin-top: 70px;
   width: 900px;
   padding: 20px;
+  border-radius: 12px;
 }
 
 .roundedCard-orange h4{
-  color: white;
-  margin-block-start: 0.2em;
-}
-
-.roundedCard-orange, .roundedCard-blue{
-  color: white;
-  border-radius: 12px;
+  color: var(--fedsim-darkgrey);
 }
 
 @media screen and (max-width:414px){
