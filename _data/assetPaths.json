@@ -15,6 +15,7 @@
   "correct8.svg": "/assets/img/correct8-alt.svg",
   "correct.svg": "/assets/img/correct8.svg",
   "cso.jpg": "/assets/img/cso-back.jpg",
+  "cso.png": "/assets/img/cso2.png",
   "CSO_CHART_FINA.png": "/assets/img/CSO_CHART_FINAL.png",
   "data-ops-icon.png": "/assets/img/data-ops-icon-01.png",
   "debu.log": "/assets/img/debug.log",
@@ -124,10 +125,12 @@
   "contractor": "/assets/pdf_docs/contractors",
   "DEC_Statement_Contract.pdf": "/assets/pdf_docs/DEC_Statement_Contracts.pdf",
   "Official ASTRO Ordering Guide 25FEB202.pdf": "/assets/pdf_docs/Official ASTRO Ordering Guide 25FEB2022.pdf",
+  "PIRC_CSO_Solicitation_Terms-and-Conditions_Sections_6.pdf": "/assets/pdf_docs/PIRC_CSO_Solicitation_Terms-and-Conditions_Sections_6-7.pdf",
+  "PIRC_Launch_CA_CSO_Solicitation_Terms-and-Conditions_Sections_6.pdf": "/assets/pdf_docs/PIRC_Launch_CA_CSO_Solicitation_Terms-and-Conditions_Sections_6-7.pdf",
   "QASP_Template_FINAL_19Sep2.pdf": "/assets/pdf_docs/QASP_Template_FINAL_19Sep22.pdf",
   "SBIR FAQ.pdf": "/assets/pdf_docs/SBIR FAQs.pdf",
   "SBIR_STTR Initial Inf.pdf": "/assets/pdf_docs/SBIR_STTR Initial Info.pdf",
   "SBIR_STTR Intake Document.pdf": "/assets/pdf_docs/SBIR_STTR Intake Documents.pdf",
-  "styles.css": "/assets/styles/styles-7HI6WIA3.css",
-  "styles.map": "/assets/styles/styles-7HI6WIA3.css.map"
+  "styles.css": "/assets/styles/styles-OHGKYR2X.css",
+  "styles.map": "/assets/styles/styles-OHGKYR2X.css.map"
 }

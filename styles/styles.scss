@@ -261,6 +261,19 @@ hr.media-line{
   max-width: 80px;
 }
 
+//Section buttons
+.section-btn{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: auto;
+  background-color: var(--fedsim-blue1);
+  color: white;
+  border-radius: 12px;
+  border: solid white 5px;
+  cursor: pointer;
+}
+
 .section-btn p, .section-btn-clear p{
   margin: auto;
 }
@@ -863,7 +876,7 @@ a.external_link::after{
    width: 297px;
 }
 
-.learnblock{
+.about-block{
   width: 960px;
   padding-left: 146px;
   display: block;
@@ -873,11 +886,11 @@ a.external_link::after{
   background-repeat: no-repeat;
 }
 
-.learnblock p{
+.about-block p{
   padding: 8px;
 }
 
-.learnblock h4{
+.about-block h4{
   padding: 6px 0 0 20px;
   font-size: 1.4em;
 }
@@ -887,7 +900,7 @@ a.external_link::after{
     margin: 10px auto;
   }
 
-  .learnblock{
+  .about-block{
     padding: 4px;
     margin: auto;
     width: 360px;
@@ -895,26 +908,18 @@ a.external_link::after{
     background-color: var(--aas-pale);
   }
 
-  .learnblock h4{
+  .about-block h4{
       padding: 6px;
       font-size: 1.2em;
-  }
-
-  .learnmore-full{
-    display: none;
-  }
-
-  .learnmore-mobile{
-    display: flex;
   }
 }
 
 
-.learn-01{ background-image: url(../assets/img/icon_itservices.png);}
-.learn-02{ background-image: url(../assets/img/icon_professional.png);}
-.learn-03{ background-image: url(../assets/img/icon_RnD.png);}
+.about-01{ background-image: url(../assets/img/icon_itservices.png);}
+.about-02{ background-image: url(../assets/img/icon_professional.png);}
+.about-03{ background-image: url(../assets/img/icon_RnD.png);}
 
-.learn-01, .learn-02, .learn-03{
+.about-01, .about-02, .about-03{
   background-position-x: left;
 }
 
@@ -1144,6 +1149,114 @@ a.external_link::after{
     font-size: smaller;
   }
   
+}
+
+//CSO
+
+.learnblock_cso{
+  width: 440px;
+  height: 230px;
+  margin: 10px;
+  display: block;
+}
+
+.learnblock_cso p{
+	margin-left: 20px;
+}
+
+.learnblock{
+  width: 440px;
+  height: 190px;
+  margin: 10px;
+  display: block;
+}
+
+@media screen and (max-width: 414px){
+  .learnblock{
+    width: 380px;
+    height: auto;
+    margin: 4px;
+    color: var(--fedsim-blue1);
+  }
+
+  .learnblock_cso{
+    width: 360px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 375px){
+  .learnblock{
+    width: 355px;
+    height: auto;
+    margin: 4px;
+  }
+
+  .learnblock_cso{
+    width: 350px;
+    height: auto;
+  }
+}
+
+.learnblock ol, .learnblock ul{
+  width: 60%;
+  text-align: left;
+  margin: auto;
+}
+
+.learnblock p{
+  margin-block-start: 0.4em;
+  font-size: 1.1em;
+}
+
+.learnblock-hover-text{
+  font-size: 1em!important;
+}
+
+.learn-text{
+  font-size: 0.9em!important;
+  margin-block-end: 0.7em;
+}
+
+.learn-gov{
+  background-image: url(../assets/img/cso1.png);
+  background-color: var(--fedsim-blue1);
+}
+
+.learn-ind{
+  background-image: url(../assets/img/cso2.png);
+  background-color: var(--fedsim-darkgrey);
+}
+
+.learnmore-mobile{
+display: none;
+}
+
+@media screen and (max-width: 414px){
+  .learnmore-full{
+    display: none;
+  }
+
+  .learnmore-mobile{
+    display: flex;
+  }
+}
+
+.stack-top{
+  z-index: 9;
+  position: absolute;
+  opacity: 0;
+  padding: 0 10px;
+  font-size: 1.1em;
+}
+
+.stack-top:hover{
+  opacity: 100%;
+}
+
+.stack-top h2{
+  color: var(--fedsim-darkgrey);
+  margin: 10px;
 }
 
 
