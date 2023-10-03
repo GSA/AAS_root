@@ -67,7 +67,7 @@ h4{
 
 h5{
   font-size: 1.2em;
-  color: var(--fedsim-blue4);
+  color: var(--fedsim-blue3);
 }
 
 p{
@@ -1259,30 +1259,6 @@ display: none;
 }
 
 
-//Numbered Block Sections
-.numberCircle {
-  border: 8px solid var(--fedsim-blue1);
-  color: var(--fedsim-blue1);
-}
-
-.numberCircle-alt {
-  border: 8px solid var(--aas-orange);
-  color: var(--aas-orange);
-}
-
-
-.numberCircle, .numberCircle-alt {
-  border-radius: 50%;
-  width: 120px;
-  height: 120px;
-  margin: 20px auto;
-  background: white;
-  font-size: 4em;
-  font-weight: 600;
-  padding: 15px;
-}
-
-
 //Join Us sections
 
 .careerpath-banner{
@@ -1294,33 +1270,12 @@ display: none;
 }
 
 .careerpath-icon{
-  width: 25%; 
+  width: 140px;
   padding-top: 20px;
 }
 
-.careerpath-icon-PM{
-  padding-left: 80px;
-}
-
 .careerpath-block{
-  width: 75%
-}
-
-.careerpath-leftside{
-  width: 58%;
-}
-
-.careerpath-rightside{
-  width: 42%;
-  padding-left: 30px;
-}
-
-.careerpath-rightside h5{
-  margin-top: 10px;
-}
-
-.careerpath-wrapper-PM{
-  display: inline-block;
+  width: 360px
 }
 
 .icon-cell{
@@ -1360,34 +1315,14 @@ display: none;
     margin-bottom: 10px;
   }
   
-  .careerpath-icon, .careerpath-icon-PM{
+  .careerpath-icon{
     width: 25%; 
     padding-top: 20px;
   }
   
-  .careerpath-block, .careerpath-block-PM{
+  .careerpath-block{
     width: 75%;
-  }
-
-  .careerpath-icon-PM{
-    padding-left: 0!important;
-  }
-  
-  .careerpath-leftside{
-    width: auto;
-  }
-  
-  .careerpath-rightside{
-    width: auto;
-  }
-  
-  .careerpath-rightside h5{
-    margin-top: 10px;
-  }
-
-  .careerpath-wrapper-PM{
-    display: flex;
-    flex-flow: row;
+    padding-right: 5px;
   }
 
   .perks-half{
@@ -1407,8 +1342,8 @@ display: none;
   }
 
   .section-btn{
-    font-size: 0.8rem;
-    padding: 10px;
+    font-size: 0.9rem;
+    padding: 24px, 10px, 24px, 10px;
   }
 
   .submenubar{
@@ -1416,6 +1351,28 @@ display: none;
   }
 }
 
+//Numbered Block Sections
+.numberCircle {
+  border: 8px solid var(--fedsim-blue1);
+  color: var(--fedsim-blue1);
+}
+
+.numberCircle-alt {
+  border: 8px solid var(--aas-orange);
+  color: var(--aas-orange);
+}
+
+
+.numberCircle, .numberCircle-alt {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  margin: 20px auto;
+  background: white;
+  font-size: 4em;
+  font-weight: 600;
+  padding: 15px;
+}
 
 //Members and leadership
 
