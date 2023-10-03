@@ -263,7 +263,7 @@ hr.media-line{
 
 //Section buttons
 .section-btn{
-  text-align: center;
+  text-align: center !important;
   padding-top: 20px;
   padding-bottom: 20px;
   margin: auto;
@@ -352,7 +352,6 @@ hr.media-line{
 .one-fourth{
   width: 24%;
   margin: auto;
-  text-align: left;
 }
 
 .one-fifth{
