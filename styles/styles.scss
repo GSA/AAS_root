@@ -1005,7 +1005,7 @@ a.external_link::after{
 //Rounded Cards
 
 #card1{
-  height: 320px;
+  height: 310px;
 }
 
 #card2{
@@ -1046,11 +1046,11 @@ a.external_link::after{
 
 @media screen and (max-width:414px){
   #card1{
-    height: 600px;
+    height: 530px;
   }
   
   #card2{
-    height: 780px;
+    height: 810px;
   }
 
   #card3{
@@ -1063,11 +1063,15 @@ a.external_link::after{
   }
   
   #card2 .roundedCard-blue{
-    margin-top: 100px;
+    margin-top: 80px;
+  }
+
+  #card2 .roundedCard-orange h4{
+    margin-top:10px;
   }
 
   #card3 .roundedCard-blue{
-    margin-top: 55px!important;
+    margin-top: 50px!important;
   }
   
   .roundedCard-blue{
