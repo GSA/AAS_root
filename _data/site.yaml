@@ -66,8 +66,8 @@ primary_navigation:
         url: /aboutus/
       - name: Leadership
         url: /leadership/
-      - name: Regional Offices
-        url: /regions/
+  - name: Our Work
+    url: /ourwork/
   - name: Acquisition Process
     url: /process/
   - name: ASTRO
@@ -79,8 +79,10 @@ primary_navigation:
         url: /sbir/
       - name: SBIR Events
         url: /sbirevents/
-  - name: Our Impact
-    url: /impact/
+  - name: CSO
+    url: /cso/
+  - name: Careers
+    url: /careers/
   - name: Contact Us
     url: /contact/
 #

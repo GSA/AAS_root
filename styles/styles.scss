@@ -67,7 +67,7 @@ h4{
 
 h5{
   font-size: 1.2em;
-  color: var(--fedsim-blue4);
+  color: var(--fedsim-blue3);
 }
 
 p{
@@ -261,6 +261,19 @@ hr.media-line{
   max-width: 80px;
 }
 
+//Section buttons
+.section-btn{
+  text-align: center !important;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: auto;
+  background-color: var(--fedsim-blue1);
+  color: white;
+  border-radius: 12px;
+  border: solid white 5px;
+  cursor: pointer;
+}
+
 .section-btn p, .section-btn-clear p{
   margin: auto;
 }
@@ -339,6 +352,11 @@ hr.media-line{
 .one-fourth{
   width: 24%;
   margin: auto;
+}
+
+.one-fifth{
+  width: 18%;
+  margin: auto;
   text-align: left;
 }
 
@@ -400,19 +418,6 @@ hr.media-line{
   background-color: var(--fedsim-darkgrey);
 }
 
-.mobile-only{
-  display: none !important;
-}
-
-@media screen and (max-width: 414px){
-  .no-mobile{
-    display: none !important;
-  }
-  .mobile-only{
-    display: block !important;
-  }
-}
-
 .textLinkBold {
   color: #004bbd;
   cursor: pointer;
@@ -432,6 +437,11 @@ hr.media-line{
 
 .spacedList li b{
   color: var(--fedsim-blue1);
+}
+
+.lnk_icon{
+  font-size: 1.2em;
+  font-weight: 950;
 }
 
 //Header styles
@@ -474,6 +484,10 @@ hr.media-line{
 
 .usa-prose{
   font-family: "proxima-nova", sans-serif !important;
+}
+
+.usa-section{
+  padding-top:0 !important;
 }
 
 //Footer styles
@@ -537,23 +551,27 @@ a.external_link::after{
   font-family: "proxima-nova", sans-serif !important;
 }
 
-.usa-hero__callout{
-  min-width: 550px;
-  background-color: white;
+.usa-hero_aas{
+  width: 450px;
+  background-color: var(--fedsim-blue1);
+  color: white;
   border-radius: 15px;
-  padding: 1rem 1rem 1rem 1rem;
-  margin-left: 60px;
+  border: 0.2rem solid var(--aas-orange);
+  padding: 1rem 1rem 1.2rem 1.8rem;
+  margin-left: 40px;
+  margin-top: 100px;
 }
 
-.usa-hero__callout, .usa-hero__heading{
+.usa-hero__heading{
   color: var(--fedsim-blue1);
 }
 
-.usa-hero__callout h1{
+.usa-hero_aas h1{
   margin-block-start: 10px;
   font-size: 1.3rem;
   font-weight: 500;
   text-transform: uppercase;
+  color:white !important;
 }
 
 
@@ -563,15 +581,15 @@ a.external_link::after{
     height: auto;
   }
 
-  .usa-hero__callout{
-    min-width: 300px;
+  .usa-hero_aas{
+    width: 380px;
     background-color: var(--fedsim-blue1);
     border-radius: 15px;
     padding: 10px;
     margin: auto;
   }
 
-  .usa-hero__callout, .usa-hero__callout h1{
+  .usa-hero_aas, .usa-hero_aas h1{
     color: white;
   }
 
@@ -870,21 +888,23 @@ a.external_link::after{
    width: 297px;
 }
 
-.learnblock, .learn-top{
-  width: 230px;
-  height: 300px;
+.about-block{
+  width: 960px;
+  padding-left: 146px;
   display: block;
-}
-
-.learnblock{
   margin: 10px;
-  background-color: var(--fedsim-litegrey);
+  background-color: var(--aas-pale);
   border: solid 2px var(--fedsim-darkgrey);
   background-repeat: no-repeat;
 }
 
-.learnblock h4, .learnblock p{
-  padding: 10px;
+.about-block p{
+  padding: 8px;
+}
+
+.about-block h4{
+  padding: 6px 0 0 20px;
+  font-size: 1.4em;
 }
 
 @media screen and (max-width: 414px){
@@ -892,46 +912,28 @@ a.external_link::after{
     margin: 10px auto;
   }
 
-  .learnblock{
+  .about-block{
+    padding: 4px;
     margin: auto;
-    width: 220px;
+    width: 360px;
+    background-image: none !important;
+    background-color: var(--aas-pale);
   }
 
-  .learnmore-full{
-    display: none;
-  }
-
-  .learnmore-mobile{
-    display: flex;
+  .about-block h4{
+      padding: 6px;
+      font-size: 1.2em;
   }
 }
 
-.learn-top{
-  width: 216px;
-  height: 296px;
-  z-index: 9;
-  position: absolute;
-  opacity: 100%;
+
+.about-01{ background-image: url(../assets/img/icon_itservices.png);}
+.about-02{ background-image: url(../assets/img/icon_professional.png);}
+.about-03{ background-image: url(../assets/img/icon_RnD.png);}
+
+.about-01, .about-02, .about-03{
+  background-position-x: left;
 }
-
-.learn-top:hover{
-  opacity: 0;
-}
-
-
-.learn-01{ background-image: url(../assets/img/IT_SERVICES.png);}
-.learn-02{ background-image: url(../assets/img/IT_SECURITY.png);}
-.learn-03{ background-image: url(../assets/img/IT_CONSULTING.png);}
-.learn-04{ background-image: url(../assets/img/RnD.png);}
-.learn-05{ background-image: url(../assets/img/FAC_MAINTENANCE.png);}
-.learn-06{ background-image: url(../assets/img/ENG_SERVICES.png);}
-.learn-07{ background-image: url(../assets/img/FINANCIAL.png);}
-.learn-08{ background-image: url(../assets/img/IT_SUPPORT.png);}
-.learn-09{ background-image: url(../assets/img/LOGISTICS.png);}
-.learn-10{ background-image: url(../assets/img/TELECOMM.png);}
-.learn-11{ background-image: url(../assets/img/AD_MARK_SERVICES.png);}
-.learn-12{ background-image: url(../assets/img/LANGUAGE.png);}
-
 
 .block-text-med, .block-text-big, .block-num-med, .block-num-big{
   margin: 0;
@@ -1003,19 +1005,15 @@ a.external_link::after{
 //Rounded Cards
 
 #card1{
-  height: 320px;
+  height: 310px;
 }
 
 #card2{
-  height: 300px;
+  height: 420px;
 }
 
 #card3{
-  height: 240px;
-}
-
-#card3 .roundedCard-blue{
-  margin-top: 50px!important;
+  height: 340px;
 }
 
 .roundedCardHolder{
@@ -1027,39 +1025,36 @@ a.external_link::after{
   width: 600px;
   height: 180px;
   padding: 10px 20px;
+  border-radius: 12px;
 }
 
 .roundedCard-blue{
   background-color: var(--fedsim-blue1);
   z-index: 9;
+  color: white;
   position: absolute;
   margin-left: 20px;
   margin-top: 70px;
   width: 900px;
   padding: 20px;
+  border-radius: 12px;
 }
 
 .roundedCard-orange h4{
-  color: white;
-  margin-block-start: 0.2em;
-}
-
-.roundedCard-orange, .roundedCard-blue{
-  color: white;
-  border-radius: 12px;
+  color: var(--fedsim-darkgrey);
 }
 
 @media screen and (max-width:414px){
   #card1{
-    height: 600px;
+    height: 530px;
   }
   
   #card2{
-    height: 520px;
+    height: 810px;
   }
 
   #card3{
-    height: 480px;
+    height: 580px;
   }
   
   .roundedCard-orange{
@@ -1068,11 +1063,15 @@ a.external_link::after{
   }
   
   #card2 .roundedCard-blue{
-    margin-top: 100px;
+    margin-top: 80px;
+  }
+
+  #card2 .roundedCard-orange h4{
+    margin-top:10px;
   }
 
   #card3 .roundedCard-blue{
-    margin-top: 55px!important;
+    margin-top: 50px!important;
   }
   
   .roundedCard-blue{
@@ -1168,28 +1167,112 @@ a.external_link::after{
   
 }
 
+//CSO
 
-//Numbered Block Sections
-.numberCircle {
-  border: 8px solid var(--fedsim-blue1);
-  color: var(--fedsim-blue1);
+.learnblock_cso{
+  width: 440px;
+  height: 230px;
+  margin: 10px;
+  display: block;
 }
 
-.numberCircle-alt {
-  border: 8px solid var(--aas-orange);
-  color: var(--aas-orange);
+.learnblock_cso p{
+	margin-left: 20px;
 }
 
+.learnblock{
+  width: 440px;
+  height: 190px;
+  margin: 10px;
+  display: block;
+}
 
-.numberCircle, .numberCircle-alt {
-  border-radius: 50%;
-  width: 120px;
-  height: 120px;
-  margin: 20px auto;
-  background: white;
-  font-size: 4em;
-  font-weight: 600;
-  padding: 15px;
+@media screen and (max-width: 414px){
+  .learnblock{
+    width: 380px;
+    height: auto;
+    margin: 4px;
+    color: var(--fedsim-blue1);
+  }
+
+  .learnblock_cso{
+    width: 360px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 375px){
+  .learnblock{
+    width: 355px;
+    height: auto;
+    margin: 4px;
+  }
+
+  .learnblock_cso{
+    width: 350px;
+    height: auto;
+  }
+}
+
+.learnblock ol, .learnblock ul{
+  width: 60%;
+  text-align: left;
+  margin: auto;
+}
+
+.learnblock p{
+  margin-block-start: 0.4em;
+  font-size: 1.1em;
+}
+
+.learnblock-hover-text{
+  font-size: 1em!important;
+}
+
+.learn-text{
+  font-size: 0.9em!important;
+  margin-block-end: 0.7em;
+}
+
+.learn-gov{
+  background-image: url(../assets/img/cso1.png);
+  background-color: var(--fedsim-blue1);
+}
+
+.learn-ind{
+  background-image: url(../assets/img/cso2.png);
+  background-color: var(--fedsim-darkgrey);
+}
+
+.learnmore-mobile{
+display: none;
+}
+
+@media screen and (max-width: 414px){
+  .learnmore-full{
+    display: none;
+  }
+
+  .learnmore-mobile{
+    display: flex;
+  }
+}
+
+.stack-top{
+  z-index: 9;
+  position: absolute;
+  opacity: 0;
+  padding: 0 10px;
+  font-size: 1.1em;
+}
+
+.stack-top:hover{
+  opacity: 100%;
+}
+
+.stack-top h2{
+  color: var(--fedsim-darkgrey);
+  margin: 10px;
 }
 
 
@@ -1204,33 +1287,12 @@ a.external_link::after{
 }
 
 .careerpath-icon{
-  width: 25%; 
+  width: 140px;
   padding-top: 20px;
 }
 
-.careerpath-icon-PM{
-  padding-left: 80px;
-}
-
 .careerpath-block{
-  width: 75%
-}
-
-.careerpath-leftside{
-  width: 58%;
-}
-
-.careerpath-rightside{
-  width: 42%;
-  padding-left: 30px;
-}
-
-.careerpath-rightside h5{
-  margin-top: 10px;
-}
-
-.careerpath-wrapper-PM{
-  display: inline-block;
+  width: 360px
 }
 
 .icon-cell{
@@ -1270,34 +1332,14 @@ a.external_link::after{
     margin-bottom: 10px;
   }
   
-  .careerpath-icon, .careerpath-icon-PM{
+  .careerpath-icon{
     width: 25%; 
     padding-top: 20px;
   }
   
-  .careerpath-block, .careerpath-block-PM{
+  .careerpath-block{
     width: 75%;
-  }
-
-  .careerpath-icon-PM{
-    padding-left: 0!important;
-  }
-  
-  .careerpath-leftside{
-    width: auto;
-  }
-  
-  .careerpath-rightside{
-    width: auto;
-  }
-  
-  .careerpath-rightside h5{
-    margin-top: 10px;
-  }
-
-  .careerpath-wrapper-PM{
-    display: flex;
-    flex-flow: row;
+    padding-right: 5px;
   }
 
   .perks-half{
@@ -1317,15 +1359,37 @@ a.external_link::after{
   }
 
   .section-btn{
-    font-size: 0.8rem;
-    padding: 10px;
+    font-size: 0.9rem;
+    padding: 24px, 10px, 24px, 10px;
   }
 
   .submenubar{
-    flex-flow: row;
+    display: contents;
   }
 }
 
+//Numbered Block Sections
+.numberCircle {
+  border: 8px solid var(--fedsim-blue1);
+  color: var(--fedsim-blue1);
+}
+
+.numberCircle-alt {
+  border: 8px solid var(--aas-orange);
+  color: var(--aas-orange);
+}
+
+
+.numberCircle, .numberCircle-alt {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  margin: 20px auto;
+  background: white;
+  font-size: 4em;
+  font-weight: 600;
+  padding: 15px;
+}
 
 //Members and leadership
 
@@ -1344,31 +1408,35 @@ a.external_link::after{
 }
 
 .memberblock, .memberblock-head{
-  background-color: var(--fedsim-blue1);
-  color: white;
+  color: var(--fedsim-darkgrey);
+  background-color: var(--aas-grey);
   font-size: 0.8em;
   font-weight: 600;
   padding: 8px;
   vertical-align: top;
   display: inline-block;
-  border-radius: 15px;
+  margin: 0 8px;
+  border: 0px;
 }
 
 .memberblock{
-  width: 150px;
+  width: 194px;
   height: 220px;
 }
 
 .memberblock-head{
-  width: 160px;
-  height: 220px;
-  margin: 0 36px;
+    width: 220px !important;
+    height: 240px !important;
 }
 
-.memberblock p, .memberblock-head p{
+.memberblock p{
   margin-top: 6px;
   margin-bottom: 0;
   line-height: 1.15em!important;
+}
+
+.memberblock:focused{
+	border: 0px;
 }
 
 .member-pic{
@@ -1376,9 +1444,20 @@ a.external_link::after{
   width: 140px;
 }
 
-.member-two-heads{
-  display: block;
-  margin: auto;
+.level-1 {
+  width: 50%;
+  margin: 0 auto 40px;
+  background: var(--aas-grey);
+}
+.level-1::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2px;
+  height: 20px;
+  background: var(--black);
 }
 
 .sectorbar{
@@ -1435,15 +1514,16 @@ a.external_link::after{
   }
 
   .memberblock{
-    width: 160px;
+    width: 150px;
     height: 150px;
+    margin-top: 8px;
   }
 
   .memberblock-head{
     margin-bottom: 10px;
-    width: 167px;
-    height: 164px;
-    margin: 0 10px 20px 10px;
+    width: 160px;
+    height: 160px;
+    margin: 0 10px 10px 10px;
   }
   
   .memberblock p, .memberblock-head p{
@@ -1930,6 +2010,20 @@ li.input-li{
   }
   .paginate-button {
     display: block;
+  }
+}
+
+/* mobile settings */
+.mobile-only{
+  display: none !important;
+}
+
+@media screen and (max-width: 414px){
+  .no-mobile{
+    display: none !important;
+  }
+  .mobile-only{
+    display: block !important;
   }
 }
 
