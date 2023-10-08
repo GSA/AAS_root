@@ -32,7 +32,7 @@ a:visited{
   --fedsim-blue2: #4B92CE;
   --fedsim-blue3: #4D7999;
   --fedsim-blue4: #90CBE4;
-  --fedsim-darkgrey: #424143;
+  --fedsim-darkgrey: #3b3b3b;
   --fedsim-litegrey: #B3B4B4;
   --fedsim-purple: #570A3B;
   --fedsim-pink: #AA839D;
@@ -310,7 +310,7 @@ hr.media-line{
   border-radius: 8px;
   margin: 8px;
   background-color: var(--aas-orange);
-  color:  white;
+  color: var(--fedsim-darkgrey);
   cursor: pointer;
 }
 
@@ -386,6 +386,10 @@ hr.media-line{
   color: white;
   margin: 20px auto;
   font-weight: bold;
+}
+
+.darktext{
+color: var(--fedsim-darkgrey);
 }
 
 .greyBack{
@@ -1107,11 +1111,13 @@ a.external_link::after{
   margin-left: 90px;
   margin-top: 40px;
   padding: 12px;
+  color: white;
 }
 
 .storyPadding{
   padding: 0 10px !important;
   margin-top: 10px;
+  font-weight: 600;
 }
 
 .storyNum{
@@ -1292,7 +1298,8 @@ display: none;
 }
 
 .careerpath-block{
-  width: 360px
+  width: 360px;
+  height: 260px;
 }
 
 .icon-cell{
