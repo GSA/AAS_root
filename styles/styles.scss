@@ -663,10 +663,11 @@ a.external_link::after{
 }
 
 .block-header, .block-header-grey{
-  padding: 10px;
+  padding: 10px 8px;
   color: white;
   font-weight: 600;
   text-transform: uppercase;
+  height: 60px;
 }
 .block-header{
   background-color: var(--fedsim-blue1);
