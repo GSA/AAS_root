@@ -706,7 +706,7 @@ a.external_link::after{
 }
 
 .darkblock, .darkblock-alt, .darkblock-numbered, .darkblock-alt-numbered, .darkblock-sm, .darkblock-alt-sm{
-  color: white;
+  color: var(--fedsim-darkgrey);
   text-align: left;
   margin: auto;
   padding: 10px;
@@ -1379,11 +1379,13 @@ display: none;
 .numberCircle {
   border: 8px solid var(--fedsim-blue1);
   color: var(--fedsim-blue1);
+  background: white;
 }
 
 .numberCircle-alt {
   border: 8px solid var(--aas-orange);
   color: var(--aas-orange);
+  background: var(--fedsim-darkgrey);
 }
 
 
@@ -1392,7 +1394,6 @@ display: none;
   width: 120px;
   height: 120px;
   margin: 20px auto;
-  background: white;
   font-size: 4em;
   font-weight: 600;
   padding: 15px;
