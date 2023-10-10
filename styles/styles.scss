@@ -322,26 +322,26 @@ hr.media-line{
   border: 0 !important;
 } 
 
+.section-btn-clear:hover{
+  background-color: white;
+ }
+ 
+ .section-btn-clear a, .section-btn-clear a:hover{
+   color:  var(--fedsim-blue1);
+   text-decoration: none;
+ }
+
 @media screen and (max-width: 375px){
   .section-btn-clear{
     min-width: 250px;
     margin-bottom: 24px;
   }
-}
 
+}
 
 .doubleLines{
   padding-top: 16px!important;
   padding-bottom: 16px!important;
-}
-
-.section-btn-clear:hover{
- background-color: white;
-}
-
-.section-btn-clear a, .section-btn-clear a:hover{
-  color:  var(--fedsim-blue1);
-  text-decoration: none;
 }
 
 .one-third{
@@ -646,8 +646,12 @@ a.external_link::after{
     margin: auto;
   }
 
-  .one-third, .one-half, .one-fourth{
+  .one-third, .one-half{
     width: auto;
+  }
+
+  .one-fourth{
+    width: 320px;
   }
 }
 
@@ -1178,27 +1182,30 @@ a.external_link::after{
 
 .cso_table{
   max-width: 960px;
-    text-transform: uppercase;
-    border: solid black 2px;
-    margin-top: 20px;
-    text-align: center;
+  text-transform: uppercase;
+  border: solid black 2px;
+  margin-top: 20px;
+  text-align: center;
 }
 
 .cso_cell_head, .cso_cell_grey_head, .cso_cell, .cso_cell_grey{
-  padding: 6px;
-  border: solid black 2px;
+  padding: 8px;
+  height: 90px;
 }
 
 .cso_cell_head, .cso_cell_grey_head{
   background-color: white;
+  font-weight: 800;
 }
 
 .cso_cell_head{
   color: var(--fedsim-blue1);
+  border: solid var(--fedsim-blue1) 2px;
 }
 
 .cso_cell_grey_head{
   color: var(--fedsim-darkgrey);
+  border: solid var(--fedsim-darkgrey) 2px;
 }
 
 .cso_cell, .cso_cell_grey{
@@ -1232,6 +1239,11 @@ a.external_link::after{
 }
 
 @media screen and (max-width: 414px){
+
+  .cso_table{
+    width: 380px;
+  }
+  
   .learnblock{
     width: 380px;
     height: auto;
@@ -1401,11 +1413,6 @@ display: none;
 
   .icon-cell{
     display: none!important;
-  }
-
-  .section-btn{
-    font-size: 0.9rem;
-    padding: 24px, 10px, 24px, 10px;
   }
 
   .submenubar{
