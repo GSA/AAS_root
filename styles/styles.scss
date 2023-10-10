@@ -1176,6 +1176,43 @@ a.external_link::after{
 
 //CSO
 
+.cso_table{
+  max-width: 960px;
+    text-transform: uppercase;
+    border: solid black 2px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.cso_cell_head, .cso_cell_grey_head, .cso_cell, .cso_cell_grey{
+  padding: 6px;
+  border: solid black 2px;
+}
+
+.cso_cell_head, .cso_cell_grey_head{
+  background-color: white;
+}
+
+.cso_cell_head{
+  color: var(--fedsim-blue1);
+}
+
+.cso_cell_grey_head{
+  color: var(--fedsim-darkgrey);
+}
+
+.cso_cell, .cso_cell_grey{
+  color: white;
+}
+
+.cso_cell{
+  background-color: var(--fedsim-blue1);
+}
+
+.cso_cell_grey{
+  background-color: var(--fedsim-darkgrey);
+}
+
 .learnblock_cso{
   width: 440px;
   height: 230px;
