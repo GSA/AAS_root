@@ -1,4 +1,5 @@
 {
+  "aas-home.png": "/assets/img/aas-home-m.png",
   "aas.png": "/assets/img/aas-home.png",
   "AAS_log.png": "/assets/img/AAS_logo.png",
   "aas_SBI.jpg": "/assets/img/aas_SBIR.jpg",
@@ -136,6 +137,6 @@
   "SBIR FAQ.pdf": "/assets/pdf_docs/SBIR FAQs.pdf",
   "SBIR_STTR Initial Inf.pdf": "/assets/pdf_docs/SBIR_STTR Initial Info.pdf",
   "SBIR_STTR Intake Document.pdf": "/assets/pdf_docs/SBIR_STTR Intake Documents.pdf",
-  "styles.css": "/assets/styles/styles-5TD6AEXS.css",
-  "styles.map": "/assets/styles/styles-5TD6AEXS.css.map"
+  "styles.css": "/assets/styles/styles-7RTGCACP.css",
+  "styles.map": "/assets/styles/styles-7RTGCACP.css.map"
 }

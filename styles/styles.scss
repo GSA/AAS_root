@@ -474,8 +474,17 @@ color: var(--fedsim-darkgrey);
   border-radius: 5px 0 0 5px!important;
 }
 
-.usa-banner__button::after, .usa-banner__button[aria-expanded=true]::after{
+.usa-banner__button::after, 
+.usa-banner__button[aria-expanded=true]::after{
 	background-color: #005ea2;
+  position: relative;
+	-webkit-mask: url(../assets/img/usa-icons/expand_more.svg) no-repeat center/contain;
+	mask: url(../assets/img/usa-icons/expand_more.svg) no-repeat center/contain;
+}
+
+.usa-banner__button:hover::after, 
+.usa-banner__button[aria-expanded=true]:hover::after{
+  background-color: #1a4480;
   position: relative;
 	-webkit-mask: url(../assets/img/usa-icons/expand_more.svg) no-repeat center/contain;
 	mask: url(../assets/img/usa-icons/expand_more.svg) no-repeat center/contain;
@@ -581,8 +590,9 @@ a.external_link::after{
 
 @media screen and (max-width: 414px){
   .usa-hero{
-    background-image: none;
+    background-image: url(../assets/img/aas-home-m.png);
     height: auto;
+    margin-bottom: 18px;
   }
 
   .usa-hero_aas{
@@ -1014,11 +1024,11 @@ a.external_link::after{
 //Rounded Cards
 
 #card1{
-  height: 310px;
+  height: 360px;
 }
 
 #card2{
-  height: 420px;
+  height: 410px;
 }
 
 #card3{
@@ -1055,11 +1065,11 @@ a.external_link::after{
 
 @media screen and (max-width:414px){
   #card1{
-    height: 530px;
+    height: 710px;
   }
   
   #card2{
-    height: 810px;
+    height: 800px;
   }
 
   #card3{
@@ -1072,7 +1082,7 @@ a.external_link::after{
   }
   
   #card2 .roundedCard-blue{
-    margin-top: 80px;
+    margin-top: 75px;
   }
 
   #card2 .roundedCard-orange h4{
