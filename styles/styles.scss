@@ -556,7 +556,7 @@ a.external_link::after{
 }
 
 .usa-hero_aas{
-  width: 450px;
+  width: 650px;
   background-color: var(--fedsim-blue1);
   color: white;
   border-radius: 15px;
@@ -1243,6 +1243,12 @@ a.external_link::after{
   .cso_table{
     width: 380px;
   }
+
+  .cso_cell_head, .cso_cell_grey_head, .cso_cell, .cso_cell_grey{
+    padding: 8px;
+    height: auto;
+    width: 190px;
+  }
   
   .learnblock{
     width: 380px;
@@ -1645,7 +1651,7 @@ hr.small-line{
 	background-color: rgba(0,0,0,0.7);
 }
 
-.dialog, .dialog-wide {
+.dialog{
 	z-index: 3;
 	background-color: #fff;
   padding: 30px;
@@ -1654,14 +1660,7 @@ hr.small-line{
   left: 50%;
   border-radius: 20px;
 	transform: translate(-50%,-50%);
-}
-
-.dialog{
-  max-width: 700px;
-}
-
-.dialog-wide{
-  width: 80vw;
+  max-width: 820px;
 }
 
 .dialog p{
