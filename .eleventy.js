@@ -1,3 +1,4 @@
+'use strict'
 const { DateTime } = require('luxon');
 const fs = require('fs');
 const pluginRss = require('@11ty/eleventy-plugin-rss');
@@ -7,8 +8,14 @@ const markdownItAnchor = require('markdown-it-anchor');
 const yaml = require("js-yaml");
 const svgSprite = require("eleventy-plugin-svg-sprite");
 const { imageShortcode, imageWithClassShortcode } = require('./config');
+const format = require('date-fns/format')
 
 module.exports = function (config) {
+  // add `date` filter
+  config.addFilter('date', function (date, dateFormat) {
+    return format(date, dateFormat)
+  })
+
   // Set pathPrefix for site
   let pathPrefix = '/';
 
