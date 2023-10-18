@@ -830,82 +830,8 @@ a.external_link::after{
 
 }
 
-//Map blocks
+//About Us
 
-.labelBox{
-  display: block;
-  font-weight: 600;
-  width: 200px;
-  height: 28px;
-  margin: 7px 20px;
-  padding: 5px;
-  border-radius: 5px;
-}
-
-.labelBox:hover{
-  cursor: pointer;
-}
-
-.mapblock-base{
-  display: block;
-}
-
-.mapblock{
-  display:none;
-  z-index: 999;
-}
-
-.contactBlock{
-  display: block;
-  border: solid 2px var(--aas-orange);
-  width: 300px;
-  height: 270px;
-  margin: 10px;
-}
-
-.contactBar{
-  background-color: var(--aas-orange);
-  height: 71px;
-  margin-top: 0;
-  padding: 0 10px;
-}
-
-.contactBar h3{
-  color: white;
-  font-weight: bold;
-  margin-block-start: 0;
-  margin-block-end: 0;
-}
-
-.contactContainer{
-  display: block;
-}
-
-.contactData{
-  background-color: white;
-  color: var(--fedsim-darkgrey);
-  display: block;
-  position: relative;
-  z-index: 999;
-  padding: 14px;
-  height: 199px;
-  top: -203px;
-  opacity: 0;
-}
-
-.contactData:hover{
-  opacity: 0.92;
-}
-
-.contactPic{
-  display: block;
-  position: relative;
-}
-
-.contactPic img{
-  height: 196px;
-   width: 297px;
-}
 
 .about-block{
   width: 960px;
@@ -927,9 +853,6 @@ a.external_link::after{
 }
 
 @media screen and (max-width: 414px){
-  .contactBlock{
-    margin: 10px auto;
-  }
 
   .about-block{
     padding: 4px;
