@@ -96,7 +96,7 @@ GEM
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (4.0.4)
-    rack (2.0.8)
+    rack (2.2.8.1)
     rainbow (3.0.0)
     rb-fsevent (0.10.3)
     rb-inotify (0.10.1)
@@ -118,7 +118,6 @@ GEM
       thread_safe (~> 0.1)
     tzinfo-data (1.2020.1)
       tzinfo (>= 1.0.0)
-    wdm (0.1.1)
     yell (2.2.2)
 
 PLATFORMS
@@ -136,7 +135,6 @@ DEPENDENCIES
   jekyll-sitemap
   sprockets (~> 3.7)
   tzinfo-data
-  wdm (~> 0.1.0)
 
 RUBY VERSION
    ruby 2.6.3p62
