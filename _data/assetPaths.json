@@ -78,10 +78,11 @@
   "SBIR_headphone.png": "/assets/img/SBIR_headphones.png",
   "SBIR_Programs_PD.png": "/assets/img/SBIR_Programs_PDF.png",
   "SBIR_STTR_SAF.jpg": "/assets/img/SBIR_STTR_SAFY.jpg",
+  "SBIR_STTR_SAFY_ol.jpg": "/assets/img/SBIR_STTR_SAFY_old.jpg",
   "SBIR_STTR_SSE.jpg": "/assets/img/SBIR_STTR_SSEC.jpg",
+  "SBIR_STTR_SSEC_ol.jpg": "/assets/img/SBIR_STTR_SSEC_old.jpg",
   "SBIR_SuccessStorie.png": "/assets/img/SBIR_SuccessStories.png",
   "SBIR_SuccessStory_.png": "/assets/img/SBIR_SuccessStory_2.png",
-  "SBIR_table_.png": "/assets/img/SBIR_table_2.png",
   "space-icon.png": "/assets/img/space-icon-01.png",
   "sprit.svg": "/assets/img/sprite.svg",
   "SS_01.png": "/assets/img/SS_01a.png",
@@ -129,6 +130,6 @@
   "SBIR FAQ.pdf": "/assets/pdf_docs/SBIR FAQs.pdf",
   "SBIR_STTR Initial Inf.pdf": "/assets/pdf_docs/SBIR_STTR Initial Info.pdf",
   "SBIR_STTR Intake Document.pdf": "/assets/pdf_docs/SBIR_STTR Intake Documents.pdf",
-  "styles.css": "/assets/styles/styles-YOCOY26F.css",
-  "styles.map": "/assets/styles/styles-YOCOY26F.css.map"
+  "styles.css": "/assets/styles/styles-RDN3LHTN.css",
+  "styles.map": "/assets/styles/styles-RDN3LHTN.css.map"
 }
