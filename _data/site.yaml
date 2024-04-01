@@ -81,6 +81,8 @@ primary_navigation:
         url: /sbirevents/
   - name: CSO
     url: /cso/
+  - name: Industry
+    url: /industry/
   - name: Careers
     url: /careers/
   - name: Contact Us

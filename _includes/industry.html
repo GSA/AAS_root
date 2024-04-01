@@ -1,0 +1,101 @@
+<div class="flex-wrapper-big infoblock">
+    <h1>Industry</h1>
+</div>
+<div class="flex-wrapper-big">
+    <div class="one-third section-btn" onclick="document.location='#opp';">
+        <b>Opportunities</b>
+    </div>
+    <div class="one-third section-btn" onclick="document.location='#meetings';">
+        <b>First Fridays</b>
+    </div>
+    <div class="one-third section-btn" onclick="document.location='#toolkit';">
+        <b>Industry Toolkit</b>
+    </div>
+</div>
+<div class="v-buffer"><br></div>         
+<div class="flex-wrapper-big">
+    <div id="opp" class="infoblock-fixed darkblock"> 
+        <h2 class="whitetext">Opportunities</h2>
+        <p class="whitetext">Active procurements listed are in the stage of collecting requirements and solicitation development with the client. All official notifications will be transmitted
+via the FEDSIM Contracting Officer. For updates, visit our Leadership page to identify the designated point of contact.</p>
+        <iframe class="d2d_frame" src="https://d2d.gsa.gov/tableau-report-for-embed/9211"></iframe> <!-- new link: 10725  -->
+        <p class="whitetext">Partnership opportunities with private sector clients are critical for FEDSIM's ongoing development and understanding of the private sector. Throughout our evolution, FEDSIM has maintained an open, mutually beneficial relationship with industry partners based on transparency and clear communication. </p>      
+    </div>
+    <div id="opp_m" class="infoblock-fixed darkblock">
+        <h2 class="whitetext">Opportunities</h2>
+        <p class="whitetext">Active procurements listed are in the stage of collecting requirements and solicitation development with the client. All official notifications will be transmitted via the FEDSIM Contracting Officer. For updates, visit our Leadership page to identify the designated point of contact.</p>
+        <p class="whitetext"><i>On mobile view, rotate device to landscape for full data display.</p>
+        <iframe class="d2d_frame_m" src="https://d2d.gsa.gov/tableau-report-for-embed/9209"></iframe>
+        <p class="whitetext">Partnership opportunities with private sector clients are critical for FEDSIM's ongoing development and understanding of the private sector. Throughout our evolution, FEDSIM has maintained an open, mutually beneficial relationship with industry partners based on transparency and clear communication. </p>      
+    </div>
+</div>
+<div class="v-buffer"><br></div>
+<div class="flex-wrapper-big darkblock">
+    <div id="meetings" class="infoblock darkblock">
+        <div style="display: flex; align-items: flex-start;">
+            <div style="margin-left: 10px; margin-top: 10px;">
+                <h1 class="whitetext" style="margin: 0;">AAS First Friday Pipeline Review</h1>
+                <p class="whitetext" style="margin-top: 8px;">Please select the appropriate AAS business unit logo to find specific First Friday Pipeline Review information.</p>
+            </div>
+            <div class="bio-spacer"></div>
+            <button class="icon-btn" onclick="javascript:revealBox('box_01');" style="border-color: white !important; border-radius: 12px; border-width: 2px;"><img src="../assets/img/BrandAssets_202311_APEX1_Army_White.png"></button>
+            <button class="icon-btn" onclick="javascript:revealBox('box_02');"><img src="../assets/img/BrandAssets_20240131_APEX2_AirForceNavySpaceForce_White.png"></button>
+            <button class="icon-btn" onclick="javascript:revealBox('box_03');"><img src="../assets/img/BrandAssets_202311_APEX3_Civilian_White.png"></button>
+            <button class="icon-btn" onclick="javascript:revealBox('box_04');"><img src="../assets/img/BrandAssets_202311_APEX4_Innovation_White.png"></button>
+            <button class="icon-btn" onclick="javascript:revealBox('box_05');"><img src="../assets/img/BrandAssets_202311_APEX5_Defense_White.png"></button>
+        </div>
+        <div id="box_01" class="dash_box">
+         <p>This is the content for ARMY</p>
+        </div>
+        <div id="box_02" class="dash_box">
+        <p>This is the content for Air Force/Navy/Space Force</p>
+        </div>
+        <div id="box_03" class="dash_box">
+        <p>This is the content for Civilian</p>
+        </div>
+        <div id="box_04" class="dash_box">
+        <p>This is the content for Innovation</p>
+        </div>
+        <div id="box_05" class="dash_box">
+        <p>This is the content for Defense</p>
+        </div>
+    </div>
+</div>
+<div class="v-buffer"><br></div>
+<div class="flex-wrapper-big">
+    <div id="toolkit" class="infoblock-fixed withborder">
+        <h2>Industry Toolkit</h2>
+        <p>FEDSIM pursues ongoing communication with industry leaders by providing relevant opportunities and creating forums to further dialogue. </p>
+         <h4>FEDSIM Market Assessment Discussion (MAD)</h4>
+        <iframe class="vidThumb" src="https://www.youtube.com/embed/uv9UBHyFIB0" frameborder="0" aria-label="FEDSIM Market Assessment Discussion"  
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h4>FEDSIM Due Diligence for Industry Partners</h4>
+        <iframe class="vidThumb" src="https://www.youtube.com/embed/y4PtAs0LPKs" frameborder="0" aria-label="FEDSIM Due Diligence for Industry Partners"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</div>
+<script type="text/javascript">
+    function runValidation() {
+        document.getElementById("form-wrapper").classList.add('hide');
+        document.getElementById("form-message").classList.toggle('hide');
+        return true;
+    }
+    function revealBox(boxnum){
+      //hide all
+      document.getElementById("box_01").classList.add('hide');
+      document.getElementById("box_02").classList.add('hide');
+      document.getElementById("box_03").classList.add('hide');
+      document.getElementById("box_04").classList.add('hide');
+      document.getElementById("box_05").classList.add('hide');
+      document.getElementById("box_01").classList.remove('show');
+      document.getElementById("box_02").classList.remove('show');
+      document.getElementById("box_03").classList.remove('show');
+      document.getElementById("box_04").classList.remove('show');
+      document.getElementById("box_05").classList.remove('show');
+      //Show selected
+      document.getElementById(boxnum).classList.remove('hide');
+      document.getElementById(boxnum).classList.add('show'); 
+    }
+</script>
+
+

@@ -624,6 +624,17 @@ a.external_link::after{
   text-align: left;
 }
 
+.infoblock-fixed{
+  display: flow-root;
+  margin: auto;
+  padding: 10px;
+}
+
+.infoblock-fixed{
+  background-color: white;
+}
+
+
 .infoblock, .modalblock{
   display: flow-root;
   background-color: white;
@@ -682,10 +693,6 @@ a.external_link::after{
   padding: 10px;
 }
 
-.darkblock, .darkblock-alt{
-  height: 265px;
-}
-
 .darkblock-numbered, .darkblock-alt-numbered{
   height: 620px;
 }
@@ -713,9 +720,8 @@ a.external_link::after{
   background: linear-gradient(to bottom,  white 0%,white 15%, var(--aas-orange) 15%, var(--aas-orange) 100%);
 }
 
-.darkblock a, .darkblock-alt a{
+.darkblock a, .darkblock-alt a, .darkblock p, .darkblock-alt p{
     text-decoration: none;
-    color: #b8e5f8 !important;
 }
 
 .darkblock a:visited, .darkblock-alt a:visited{
@@ -1928,6 +1934,68 @@ li.input-li{
 .register-link:hover{
  background-color: var(--aas-orange);
 }
+
+//Industry and Opportunities
+
+#opp{
+  display: block!important;
+}
+
+#opp_m{
+  display: none!important;
+}
+
+@media screen and (max-width: 414px)
+{
+  #opp{
+    display: none!important;
+  }
+  
+  #opp_m{
+    display: block!important;
+  }
+}
+
+.icon-btn{
+  display: block;
+  padding: 10px;
+  margin: 4px;
+  align-items: center;
+  width: 80px;
+  background:none;
+  border: none;
+  border-radius: 12px;
+}
+
+.icon-btn img{
+  max-width: 82px;
+}
+
+.dash_box{
+  display: none;
+  width: inherit;
+  overflow-x: auto;
+  overflow-y: scroll;
+  padding: 10px;
+  background-color: white;
+  color: var(--fedsim-darkgrey);
+}
+
+
+.d2d_frame{
+  width: 940px;
+  height: 880px;
+}
+
+.d2d_frame_m{
+  width: 356px;
+  height: 560px;
+}
+
+.d2d_frame html, .d2d_frame_m html{
+  overflow: hidden;
+}
+
 
 // default mode hide banner
 .usa-banner__content {
