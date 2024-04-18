@@ -79,6 +79,8 @@ primary_navigation:
         url: /sbir/
       - name: SBIR Events
         url: /sbirevents/
+  - name: Industry
+    url: /industry/
   - name: CSO
     url: /cso/
   - name: Careers
