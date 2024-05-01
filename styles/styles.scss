@@ -1945,17 +1945,6 @@ li.input-li{
   display: none!important;
 }
 
-@media screen and (max-width: 414px)
-{
-  #opp{
-    display: none!important;
-  }
-  
-  #opp_m{
-    display: block!important;
-  }
-}
-
 .icon-btn{
   display: block;
   align-items: center;
@@ -1993,6 +1982,25 @@ li.input-li{
   overflow: hidden;
 }
 
+@media screen and (max-width: 414px)
+{
+  #opp{
+    display: none!important;
+  }
+  
+  #opp_m{
+    display: block!important;
+  }
+ 
+  .icon-btn img{
+    max-width: 58px;
+    margin: 10px 0;
+  }
+
+  .dash_box{
+   margin: 6px 8px 0 2px;
+  }
+}
 
 // default mode hide banner
 .usa-banner__content {
