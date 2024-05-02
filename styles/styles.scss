@@ -1978,6 +1978,14 @@ li.input-li{
   color: var(--fedsim-darkgrey);
 }
 
+#pipeline_review_box{
+  display: flex; 
+  align-items: flex-start;
+}
+
+#apex_icons_box{
+  display: flex;
+}
 
 .d2d_frame{
   width: 940px;
@@ -1993,6 +2001,17 @@ li.input-li{
   overflow: hidden;
 }
 
+@media screen and (max-width: 414px)
+{
+  #pipeline_review_box{
+    display: block; 
+  }
+
+  .icon-btn img{
+    max-width: 54px;
+  }
+  
+}
 
 // default mode hide banner
 .usa-banner__content {

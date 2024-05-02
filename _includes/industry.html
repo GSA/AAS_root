@@ -31,17 +31,19 @@
 <div class="v-buffer"><br></div>
 <div class="flex-wrapper-big darkblock">
     <div id="meetings" class="infoblock darkblock">
-        <div style="display: flex; align-items: flex-start;">
+        <div id="pipeline_review_box">
             <div style="margin-left: 10px; margin-top: 10px;">
                 <h1 class="whitetext" style="margin: 0;">AAS Pipeline Review</h1>
                 <p class="whitetext" style="font-size: small; margin-top: 8px;">Please select the appropriate business unit logo to find specific Pipeline Review information.</p>
             </div>
-            <div class="bio-spacer"></div>
-            <button class="icon-btn" onclick="javascript:revealBox('box_01');" style="border-color: white !important; border-radius: 12px; border-width: 2px;"><img src="../assets/img/BrandAssets_202311_APEX1_Army_White.png" alt="APEX Army"></button>
-            <button class="icon-btn" onclick="javascript:revealBox('box_02');"><img src="../assets/img/BrandAssets_20240131_APEX2_AirForceNavySpaceForce_White.png" alt="APEX Air Force/Navy/Space Force"></button>
-            <button class="icon-btn" onclick="javascript:revealBox('box_03');"><img src="../assets/img/BrandAssets_202311_APEX3_Civilian_White.png" alt="APEX Civilian"></button>
-            <button class="icon-btn" onclick="javascript:revealBox('box_04');"><img src="../assets/img/BrandAssets_202311_APEX4_Innovation_White.png" alt="APEX Innovation"></button>
-            <button class="icon-btn" onclick="javascript:revealBox('box_05');"><img src="../assets/img/BrandAssets_202311_APEX5_Defense_White.png" alt="APEX Defense"></button>
+            <div class="bio-spacer no-mobile"></div>
+            <div id="apex_icons_box">
+                <button class="icon-btn" onclick="javascript:revealBox('box_01');" style="border-color: white !important; border-radius: 12px; border-width: 2px;"><img src="../assets/img/BrandAssets_202311_APEX1_Army_White.png" alt="APEX Army"></button>
+                <button class="icon-btn" onclick="javascript:revealBox('box_02');"><img src="../assets/img/BrandAssets_20240131_APEX2_AirForceNavySpaceForce_White.png" alt="APEX Air Force/Navy/Space Force"></button>
+                <button class="icon-btn" onclick="javascript:revealBox('box_03');"><img src="../assets/img/BrandAssets_202311_APEX3_Civilian_White.png" alt="APEX Civilian"></button>
+                <button class="icon-btn" onclick="javascript:revealBox('box_04');"><img src="../assets/img/BrandAssets_202311_APEX4_Innovation_White.png" alt="APEX Innovation"></button>
+                <button class="icon-btn" onclick="javascript:revealBox('box_05');"><img src="../assets/img/BrandAssets_202311_APEX5_Defense_White.png" alt="APEX Defense"></button>
+            </div>
         </div>
         <div id="box_01" class="dash_box">
          <p>AAS Army pipeline review information will be forthcoming in Q3/Q4 2024.</p>
