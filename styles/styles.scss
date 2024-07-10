@@ -41,7 +41,7 @@ a:visited{
   --aas-orange: #E65722;
   --aas-pale: #d4e2ed;
   --aas-grey: #99b9ce;
-  --aas-blue: #28a1d8;
+  --aas-blue: #366699;
   --aas-liteblue: #b8e5f8;
   --aas-red: #861111;
 }
@@ -436,6 +436,21 @@ color: var(--fedsim-darkgrey);
   font-weight: normal !important;
 }
 
+//updated style for 2024
+.usa-nav__link:hover, .usa-nav__link:active, 
+.usa-accordian__button:hover, 
+.usa-accordian__button:active,
+.usa-nav__primary button[aria-expanded=false]:hover,
+.usa-nav__primary button[aria-expanded=false]:active  {
+  background-color: var(--aas-orange);
+}
+
+.usa-header--extended .usa-nav__primary-item > .usa-current::after, 
+.usa-nav__link:after,
+.usa-accordian__button:after{
+  display: none !important;
+}
+
 //overrides default template styels
 .usa-nav__primary button[aria-expanded=false] span::after {
   background-color: white;
@@ -491,14 +506,20 @@ hr.footer-border{
   line-height: 1.4rem;
   font-family: "proxima-nova", sans-serif !important;
   font-size: 0.80rem;
+  background-color: var(--aas-blue) !important;
 }
 
 .usa-identifier{
   font-family: "proxima-nova", sans-serif !important;
+  background-color: var(--aas-blue) !important;
+}
+
+//updated style for 2024
+.usa-identifier__required-link, .usa-identifier__identity-domain{
+  color: white !important;
 }
 
 .footer_side_left, .footer_side_right{
-  color: var(--fedsim-blue1);
   margin-right: 20px;
 }
 
