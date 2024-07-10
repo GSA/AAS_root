@@ -37,6 +37,8 @@
   "fla.png": "/assets/img/flag.png",
   "fmico.png": "/assets/img/fmicon.png",
   "ground-icon.png": "/assets/img/ground-icon-01.png",
+  "GSA_AAS_logo.png": "/assets/img/GSA_AAS_logos.png",
+  "GSA_AAS_logos_s.png": "/assets/img/GSA_AAS_logos_sm.png",
   "her.jpg": "/assets/img/hero.jpg",
   "her.webp": "/assets/img/hero.webp",
   "icon.png": "/assets/img/icon-talk.png",
@@ -64,7 +66,7 @@
   "Logo_Fedsim_s.png": "/assets/img/Logo_Fedsim_sm.png",
   "Logo_GS.png": "/assets/img/Logo_GSA.png",
   "Logo_GSAFedsi.png": "/assets/img/Logo_GSAFedsim.png",
-  "Logo_GSA_AA.png": "/assets/img/Logo_GSA_AAS.png",
+  "Logo_GSA_AAS_ori.png": "/assets/img/Logo_GSA_AAS_orig.png",
   "lsico.png": "/assets/img/lsicon.png",
   "maritime-icon.png": "/assets/img/maritime-icon-01.png",
   "member": "/assets/img/members",
@@ -125,6 +127,6 @@
   "SBIR FAQ.pdf": "/assets/pdf_docs/SBIR FAQs.pdf",
   "SBIR_STTR Initial Inf.pdf": "/assets/pdf_docs/SBIR_STTR Initial Info.pdf",
   "SBIR_STTR Intake Document.pdf": "/assets/pdf_docs/SBIR_STTR Intake Documents.pdf",
-  "styles.css": "/assets/styles/styles-GT5L5GLL.css",
-  "styles.map": "/assets/styles/styles-GT5L5GLL.css.map"
+  "styles.css": "/assets/styles/styles-L3STBCJJ.css",
+  "styles.map": "/assets/styles/styles-L3STBCJJ.css.map"
 }

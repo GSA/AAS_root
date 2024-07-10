@@ -404,6 +404,46 @@ color: var(--fedsim-darkgrey);
 }
 
 //Header styles
+//updated styles for 2024
+.usa-header--extended{
+  background-color: var(--fedsim-blue1);
+}
+
+.usa-navbar{
+  background-color: var(--fedsim-blue1);
+  height: 80px!important;
+  overflow: visible!important;
+}
+
+#extended-logo{
+  margin: 0;
+  padding-top: 6px;
+}
+
+.usa-button{
+  background-color: var(--aas-orange) !important;
+  border-radius: 0 22px 22px 0!important;
+}
+
+.usa-input{
+  border-radius: 22px 0 0 22px!important;
+  border: white;
+}
+
+.usa-nav__link, .usa-nav__primary{
+  font-family: "proxima-nova", sans-serif !important;
+  color: white !important;
+  font-weight: normal !important;
+}
+
+//overrides default template styels
+.usa-nav__primary button[aria-expanded=false] span::after {
+  background-color: white;
+    -webkit-mask-image: url(../assets/img/usa-icons/expand_more.svg);
+    mask-image: url(../assets/img/usa-icons/expand_more.svg);
+}
+
+//original header styles
 .usa-banner__inner {
   display: block;
   align-items: center;
@@ -411,22 +451,9 @@ color: var(--fedsim-darkgrey);
   padding-left: 20px;
 }
 
-.usa-navbar{
-  height: 80px!important;
-  overflow: visible!important;
-}
-
-.usa-nav__link{
-  font-family: "proxima-nova", sans-serif !important;
-}
-
 .usa-menu-btn{
   padding: 8px;
   margin: 10px;
-}
-
-.usa-input{
-  border-radius: 5px 0 0 5px!important;
 }
 
 .usa-banner__button::after, 
@@ -443,11 +470,6 @@ color: var(--fedsim-darkgrey);
   position: relative;
 	-webkit-mask: url(../assets/img/usa-icons/expand_more.svg) no-repeat center/contain;
 	mask: url(../assets/img/usa-icons/expand_more.svg) no-repeat center/contain;
-}
-
-//overrides default template styels
-.usa-nav__primary button[aria-expanded=false] span::after {
-  background: url(../assets/img/usa-icons/expand_more.svg) no-repeat center/contain !important;
 }
 
 .usa-prose{
