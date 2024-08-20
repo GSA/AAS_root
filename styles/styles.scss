@@ -1501,13 +1501,12 @@ display: none;
   padding-top: 8px;
   text-align: left;
   color: white;
-  border: 2px, solid, white;
-  border-top: none;
+  border: none;
   margin-bottom: 40px;
 }
 
-.sectorButton:active{
-  border: var(--aas-blue);
+.btn-active{
+  border: 2px, solid, white;
   border-top: none;
 }
 
