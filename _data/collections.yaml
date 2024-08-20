@@ -3,7 +3,7 @@
 # Reference this data file in 'datafile' in the Front Matter and _layouts/list.html renders it 
 # This is simple, hopefully provides you with a good enough example to make changes as needed
 - name: GSA
-  url: https://gsa.gov
+  url: httpshttp://dtsa-llc.com/gsa.gov
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus interdum pellentesque. Integer eu vehicula elit. Sed cursus magna in dui suscipit rhoncus. 
 
 - name: USDA
