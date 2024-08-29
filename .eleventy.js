@@ -16,6 +16,12 @@ module.exports = function (config) {
     return format(date, dateFormat)
   })
 
+  module.exports = function (eleventyConfig) {
+    eleventyConfig.setLiquidOptions({
+      jsTruthy: true,
+    });
+  };
+
   // Set pathPrefix for site
   let pathPrefix = '/';
 

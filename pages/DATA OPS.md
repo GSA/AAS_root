@@ -1,9 +1,9 @@
 ---
 title: Data Operations Pool
 layout: layouts/clean
-permalink: /astro/DATA OPS.html
+permalink: /astro/DATA_OPS.html
 sidenav: false
 ---
 
 
-{% include "DATA OPS.html" %}
+{% include "DATA_OPS.html" %}
