@@ -1,7 +1,7 @@
 ---
 title: Mission Operations Pool
 layout: layouts/clean
-permalink: /astro/MIS OPS.html
+permalink: /astro/MIS_OPS.html
 sidenav: false
 ---
 
