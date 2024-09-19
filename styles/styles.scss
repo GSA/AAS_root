@@ -1085,6 +1085,8 @@ a.external_link::after{
 .cso_cell_head, .cso_cell_grey_head, .cso_cell, .cso_cell_grey{
   padding: 8px;
   height: 90px;
+  width: 190px;
+  margin: 2px;
 }
 
 .cso_cell_head, .cso_cell_grey_head{
@@ -1141,7 +1143,7 @@ a.external_link::after{
   .cso_cell_head, .cso_cell_grey_head, .cso_cell, .cso_cell_grey{
     padding: 8px;
     height: auto;
-    width: 190px;
+    width: 180px;
   }
   
   .learnblock{
