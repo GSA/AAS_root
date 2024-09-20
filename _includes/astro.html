@@ -664,10 +664,12 @@
         var thisClosed = document.getElementById(closedIcon);
         if ( thisBlock.classList.contains('hide-element') ) {
             thisBlock.classList.remove('hide-element');
+            thisBlock.setAttribute(aria-hidden, false);
             thisOpened.classList.remove('hide-element');
             thisClosed.classList.add('hide-element');
         }else{
             thisBlock.classList.add('hide-element');
+            thisBlock.setAttribute(aria-hidden, true);
             thisOpened.classList.add('hide-element');
             thisClosed.classList.remove('hide-element');
         }
