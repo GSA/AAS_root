@@ -119,15 +119,15 @@
 </div>  
 <div class="v-buffer no-mobile"></div>
 <!-- CB popup -->
-<div id="bioPopup_CB" class="dialog-overlay" aria-hidden="true" onclick="javascript:closeBio();">
+<div id="bioPopup_CB" class="dialog-overlay" aria-hidden="true" aria-live="off" onclick="javascript:closeBio();">
     <div class="dialog" role="dialog" tabindex="-1" aria-modal="true">
         <div class="modalblock">
             <div class="flex-wrapper">
                 <img src="../assets/img/members/CB_pic.png" class="member-pic" alt="Chris Bennethum" />
                 <div class="infoblock">
                     <span style="font-weight: bold;">
-                        <p class="allcaps">Chris Bennethum</p>
-                        <p>Assistant Commissioner, AAS<br>
+                        <p class="allcaps" tabindex="0">Chris Bennethum</p>
+                        <p tabindex="1">Assistant Commissioner, AAS<br>
                             Assisted Acquisition Services<br>
                             Federal Acquisition Service<br>
                             U.S. General Services Administration
@@ -135,15 +135,15 @@
                     </span>
                 </div>
             </div>
-            <p>Chris Bennethum is the Assistant Commissioner for GSA’s Office of Assisted Acquisition Services (AAS) within the Federal Acquisition Service (FAS). In this position, Chris oversees AAS’ delivery of over $15 billion in custom acquisition, project, and financial management Services.</p>
-            <p>AAS is a nationally based client-centric organization specializing in complex, sensitive, and mission-critical projects offered to federal clients on a fee-for-service basis.</p> <p>Previously, Chris served as the Deputy Assistant Commissioner for AAS. In this position, he oversaw the AAS portfolio’s business strategy and operations, systems development, acquisition policy, communications, financial management, and workforce recruitment, development, and engagement.</p>
-            <p>In his more than 25 years of service with various GSA components, Bennethum has held roles in several regional and central offices, and overseas locations. Some of his previous roles include serving as FAS Chief of Staff, Deputy Regional Commissioner for the National Capital Region, Director for GSA’s Travel and Transportation Northeast Zone, and Director for Marketing and Business Development in GSA’s European office.</p>
+            <p tabindex="2">Chris Bennethum is the Assistant Commissioner for GSA’s Office of Assisted Acquisition Services (AAS) within the Federal Acquisition Service (FAS). In this position, Chris oversees AAS’ delivery of over $15 billion in custom acquisition, project, and financial management Services.</p>
+            <p tabindex="3">AAS is a nationally based client-centric organization specializing in complex, sensitive, and mission-critical projects offered to federal clients on a fee-for-service basis.</p> <p>Previously, Chris served as the Deputy Assistant Commissioner for AAS. In this position, he oversaw the AAS portfolio’s business strategy and operations, systems development, acquisition policy, communications, financial management, and workforce recruitment, development, and engagement.</p>
+            <p tabindex="4">In his more than 25 years of service with various GSA components, Bennethum has held roles in several regional and central offices, and overseas locations. Some of his previous roles include serving as FAS Chief of Staff, Deputy Regional Commissioner for the National Capital Region, Director for GSA’s Travel and Transportation Northeast Zone, and Director for Marketing and Business Development in GSA’s European office.</p>
             <p style="font-style: italic;">Select anywhere to close this window.</p>
         </div>
     </div>
 </div>   
 <!-- CN popup -->
-<div id="bioPopup_CN" class="dialog-overlay" aria-hidden="true" onclick="javascript:closeBio();">
+<div id="bioPopup_CN" class="dialog-overlay" aria-hidden="true" aria-live="off" onclick="javascript:closeBio();">
     <div class="dialog" role="dialog" tabindex="-1" aria-modal="true">
         <div class="modalblock">
             <div class="flex-wrapper">
@@ -170,7 +170,7 @@
     </div>
 </div>   
 <!-- CH popup -->
-<div id="bioPopup_CH" class="dialog-overlay" aria-hidden="true" onclick="javascript:closeBio();">
+<div id="bioPopup_CH" class="dialog-overlay" aria-hidden="true" aria-live="off" onclick="javascript:closeBio();">
     <div class="dialog" role="dialog" tabindex="-1" aria-modal="true">
         <div class="modalblock">
             <div class="flex-wrapper">
@@ -197,7 +197,7 @@
     </div>
 </div>   
 <!-- PB popup -->
-<div id="bioPopup_PB" class="dialog-overlay" aria-hidden="true" onclick="javascript:closeBio();">
+<div id="bioPopup_PB" class="dialog-overlay" aria-hidden="true" aria-live="off" onclick="javascript:closeBio();">
     <div class="dialog" role="dialog" tabindex="-1" aria-modal="true">
         <div class="modalblock">
             <div class="flex-wrapper">
@@ -221,7 +221,7 @@
     </div>
 </div> 
 <!-- EC popup -->
-<div id="bioPopup_EC" class="dialog-overlay" aria-hidden="true" onclick="javascript:closeBio();">
+<div id="bioPopup_EC" class="dialog-overlay" aria-hidden="true" aria-live="off" onclick="javascript:closeBio();">
     <div class="dialog" role="dialog" tabindex="-1" aria-modal="true">
         <div class="modalblock">
             <div class="flex-wrapper">
@@ -247,7 +247,7 @@
     </div>
 </div>   
 <!-- JN popup -->
-<div id="bioPopup_JN" class="dialog-overlay" aria-hidden="true" onclick="javascript:closeBio();">
+<div id="bioPopup_JN" class="dialog-overlay" aria-hidden="true" aria-live="off" onclick="javascript:closeBio();">
     <div class="dialog" role="dialog" tabindex="-1" aria-modal="true">
         <div class="modalblock">
             <div class="flex-wrapper">
@@ -275,7 +275,7 @@
     </div>
 </div> 
 <!-- CK popup -->
-<div id="bioPopup_CK" class="dialog-overlay" aria-hidden="true" onclick="javascript:closeBio();">
+<div id="bioPopup_CK" class="dialog-overlay" aria-hidden="true" aria-live="off" onclick="javascript:closeBio();">
     <div class="dialog" role="dialog" tabindex="-1" aria-modal="true">
         <div class="modalblock">
             <div class="flex-wrapper">
@@ -299,7 +299,7 @@
     </div>
 </div>  
 <!-- DE popup -->
-<div id="bioPopup_DE" class="dialog-overlay" aria-hidden="true" onclick="javascript:closeBio();">
+<div id="bioPopup_DE" class="dialog-overlay" aria-hidden="true" aria-live="off" onclick="javascript:closeBio();">
     <div class="dialog" role="dialog" tabindex="-1" aria-modal="true">
         <div class="modalblock">
             <div class="flex-wrapper">  
@@ -327,13 +327,15 @@ Darrick holds Master’s of Public Management from East Tennessee State Universi
 <script type="text/javascript">   
     function openBio(memberInfo)
     {
-        document.getElementById(memberInfo).setAttribute("aria-hidden", "false");        
+        document.getElementById(memberInfo).setAttribute("aria-hidden", "false");
+        document.getElementById(memberInfo).setAttribute("aria-live", "assertive");        
     }   
     function closeBio()
     {
         var elements = document.getElementsByClassName("dialog-overlay");
         for (var i = 0; i < elements.length; i++){
             elements[i].setAttribute("aria-hidden", "true");
+            elements[i].setAttribute("aria-live", "off");
         }
     }   
 </script>
