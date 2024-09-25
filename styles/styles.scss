@@ -628,6 +628,13 @@ a.external_link::after{
   text-align: left;
 }
 
+.modal_close_btn{
+  position: relative;
+  float: right;
+  top: -10px;
+  right: -10px;
+}
+
 .infoblock-fixed{
   display: flow-root;
   margin: auto;
@@ -637,7 +644,6 @@ a.external_link::after{
 .infoblock-fixed{
   background-color: white;
 }
-
 
 .infoblock, .modalblock{
   display: flow-root;
