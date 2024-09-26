@@ -10,7 +10,7 @@
 <div class="v-buffer"></div>      
 <!-- SBIR Intake Forms-->
 <div class="flex-wrapper-big">
-    <div class="infoblock back-blue centered" style="padding: 10px 50px;">
+    <div class="infoblock back-blue centered" style="padding: 10px 50px;" tabindex="0">
         <h2 class="whitetext">SBIR Intake</h2>
         <div class="flex-wrapper">
             <div id="intake-gen" class="section-btn-orange" onclick="window.open('https://touchpoints.app.cloud.gov/touchpoints/4b740fc1/submit', '_new');">
@@ -34,7 +34,7 @@
         <div id="o1" class="tic-opened hide-element">-</div><div id="c1" class="tic-closed">+</div><label>Using AAS to Award SBIR Phase III Work</label> 
     </button>
     <!-- BLOCK  -->
-        <div id="block-1" class="c-sect  hide-element">
+        <div id="block-1" class="c-sect  hide-element" aria-hidden="true" tabindex="1">
             <div style="text-align:center;" onclick="window.open('../assets/img/SBIR-workflow-diagram.png', '_new');"><img src="../assets/img/SBIR-workflow-diagram.png" alt="SBIR Workflow" />
                 <br>
             <i>Select the graphic to open it in a new window.</i>
@@ -76,7 +76,7 @@
         <div id="o2" class="tic-opened hide-element">-</div><div id="c2" class="tic-closed">+</div><label>Resources and Legal Information</label> 
     </button>
     <!-- BLOCK  -->
-    <div id="block-2" class="c-sect  hide-element">
+    <div id="block-2" class="c-sect  hide-element" aria-hidden="true" tabindex="2">
         <h3>SBIR/STTR Training Resources</h3>
         <p>
             <ul>
@@ -103,7 +103,7 @@
         <div id="o3" class="tic-opened hide-element">-</div><div id="c3" class="tic-closed">+</div><label>SBIR Success Stories</label> 
     </button>
     <!-- BLOCK  -->
-    <div id="block-3" class="c-sect  hide-element">
+    <div id="block-3" class="c-sect  hide-element" aria-hidden="true" tabindex="3">
     <div class="flex-wrapper-big">
         <div class="storyCard">
                 <div class="storyCardHead">
@@ -189,7 +189,7 @@
         <div id="o4" class="tic-opened hide-element">-</div><div id="c4" class="tic-closed">+</div><label>AAS SBIR Award Data</label> 
     </button>
     <!-- BLOCK  -->
-        <div id="block-4" class="c-sect  hide-element">
+        <div id="block-4" class="c-sect  hide-element" aria-hidden="true" tabindex="4">
             <div style="text-align: center;">
                 <br>
                 <p><img src="../assets/img/SBIR_STTR_SAFY.jpg" alt="SBIR/STTR Table 1" />
@@ -206,7 +206,7 @@
         <div id="o5" class="tic-opened hide-element">-</div><div id="c5" class="tic-closed">+</div><label>SBIR Frequently Asked Questions</label> 
     </button>
     <!-- BLOCK  -->
-    <div id="block-5" class="c-sect  hide-element">
+    <div id="block-5" class="c-sect  hide-element" aria-hidden="true" tabindex="5">
         <div>
             <h4>Q 01: What do Phase III awards result from?
             </h4>
@@ -374,7 +374,12 @@
 <br>   
 <!--  javascript functions -->
 <script type="text/javascript">   
-    function openPool(poolInfo) {document.getElementById(poolInfo).setAttribute("aria-hidden", "false");}   
+    function openPool(poolInfo) 
+    {
+        document.getElementById(poolInfo).setAttribute("aria-hidden", "false");
+        document.getElementById(poolInfo).setAttribute("aria-live", "polite");
+    }
+
     function closePool()
     {
         var elements = document.getElementsByClassName("dialog-overlay");
@@ -398,10 +403,12 @@
         var thisClosed = document.getElementById(closedIcon);   
         if ( thisBlock.classList.contains('hide-element') ) {
             thisBlock.classList.remove('hide-element');
+            thisBlock.setAttribute('aria-hidden', 'false');
             thisOpened.classList.remove('hide-element');
             thisClosed.classList.add('hide-element');
         }else{
             thisBlock.classList.add('hide-element');
+            thisBlock.setAttribute('aria-hidden', 'true');
             thisOpened.classList.add('hide-element');
             thisClosed.classList.remove('hide-element');
         }
