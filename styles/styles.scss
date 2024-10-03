@@ -655,9 +655,6 @@ a.external_link::after{
 
 .block-header, .block-header-grey{
   padding: 10px 8px;
-  color: white;
-  font-weight: 600;
-  text-transform: uppercase;
   height: 60px;
 }
 .block-header{
@@ -669,6 +666,15 @@ a.external_link::after{
   background-color: var(--fedsim-darkgrey);
   font-size: 1.4em;
   margin-bottom: 20px;
+}
+.block-header h2{
+  line-height: 1em;
+  font-size: larger;
+  margin-block-start: 0em;
+  margin-block-end: 0.2em;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
 }
 
 .tallblock{
