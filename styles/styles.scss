@@ -119,6 +119,11 @@ img{
   font-weight: 600;
 }
 
+.back-darkgrey{
+  background-color: var(--fedsim-darkgrey) !important;
+  color: white;
+}
+
 .greyborder{
   background-color: var(--fedsim-litegrey);
   border: solid 2px var(--fedsim-darkgrey);
@@ -366,7 +371,6 @@ color: var(--fedsim-darkgrey);
 
 .withborder-grey{
   border: solid 2px var(--fedsim-darkgrey);
-  color: var(--fedsim-darkgrey)
 }
 
 .withborder-left{
@@ -393,6 +397,11 @@ color: var(--fedsim-darkgrey);
   color: #004bbd;
   cursor: pointer;
   font-style: italic;
+}
+
+.textLinkLite {
+  color: var(--aas-blue);
+  cursor: pointer;
 }
 
 .spacedList li{
@@ -654,27 +663,32 @@ a.external_link::after{
 }
 
 .block-header, .block-header-grey{
-  padding: 10px 8px;
+  display: flex;
   height: 60px;
-}
-.block-header{
-  background-color: var(--fedsim-blue1);
   font-size: 1.2em;
+  color: white !important;
 }
 
-.block-header-grey{
-  background-color: var(--fedsim-darkgrey);
-  font-size: 1.4em;
-  margin-bottom: 20px;
-}
+.block-header{ background-color: var(--fedsim-blue1);}
+.block-header-grey{background-color: var(--fedsim-darkgrey);}
+
 .block-header h2{
   line-height: 1em;
-  font-size: larger;
+  font-size: 1.2em;
   margin-block-start: 0em;
   margin-block-end: 0.2em;
   color: white;
   font-weight: 600;
   text-transform: uppercase;
+  padding: 14px 10px;
+}
+
+.block-header h3{
+  font-size: 1.1em;
+  color: white !important;
+  padding: 8px;
+  margin-block-start: 0em;
+  margin-block-end: 0.2em;
 }
 
 .tallblock{
@@ -1207,13 +1221,17 @@ a.external_link::after{
 }
 
 .learn-gov{
-  background-image: url(../assets/img/cso1.png);
   background-color: var(--fedsim-blue1);
 }
 
 .learn-ind{
-  background-image: url(../assets/img/cso2.png);
   background-color: var(--fedsim-darkgrey);
+}
+
+img.learn-icon{
+  width: 56px;
+  height: 56px;
+  margin-left: 10px;
 }
 
 .learnmore-mobile{
