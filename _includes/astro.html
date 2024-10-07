@@ -10,10 +10,10 @@
 <div class="flex-wrapper-big flexCols" >
     <!-- BLOCK TITLE -->
     <button id="title-1" class="dark-buttonbar" onclick="javascript:toggleBlock('o1','c1','block-1');">
-        <div id="o1" class="tic-opened hide-element">-</div><div id="c1" class="tic-closed">+</div><label>What is ASTRO?</label> 
+        <div id="o1" class="tic-opened hide">-</div><div id="c1" class="tic-closed">+</div><label>What is ASTRO?</label> 
     </button>
     <!-- BLOCK  -->
-    <div id="block-1" class="c-sect  hide-element">
+    <div id="block-1" class="c-sect  hide" aria-hidden="true">
         <p>ASTRO is a broadly scoped series of contract vehicles encompassing virtually all services supporting or involving manned, unmanned, or optionally manned platforms and robotics.</p>
         <br>
         <p>ASTRO is administered by the General Services Administration’s (GSA's) Office of Assisted Acquisition Service (AAS). It is a family of ten separate, individual, Multiple Award (MA), Indefinite Delivery/Indefinite Quantity (IDIQ) contracts. ASTRO orders may only be placed by authorized contracting officers (COs) within GSA's AAS.
@@ -26,10 +26,10 @@
 <div class="flex-wrapper-big flexCols" >
     <!-- BLOCK TITLE -->
     <button id="title-2" class="dark-buttonbar" onclick="javascript:toggleBlock('o2','c2','block-2');">
-        <div id="o2" class="tic-opened hide-element">-</div><div id="c2" class="tic-closed">+</div><label>ASTRO Pools</label> 
+        <div id="o2" class="tic-opened hide">-</div><div id="c2" class="tic-closed">+</div><label>ASTRO Pools</label> 
     </button>
     <!-- BLOCK -->
-    <div id="block-2" class="c-sect hide-element">
+    <div id="block-2" class="c-sect  hide" aria-hidden="true">
         <p>ASTRO services are organized into ten functional pools, with the appropriate pool selected for task order solicitation based upon the preponderance of work in the requirement being solicited.</p>
         <p>Select each pool icon to learn more about the pool functions, NAICS, and small business size standards. </p>
         <!-- begin pool icons  ROW 1-->
@@ -104,10 +104,10 @@
 <div class="flex-wrapper-big flexCols" >
     <!-- BLOCK TITLE -->
     <button id="title-3" class="dark-buttonbar" onclick="javascript:toggleBlock('o3','c3','block-3');">
-        <div id="o3" class="tic-opened hide-element">-</div><div id="c3" class="tic-closed">+</div><label>Who is on ASTRO and How Do I Contact Them?</label> 
+        <div id="o3" class="tic-opened hide">-</div><div id="c3" class="tic-closed">+</div><label>Who is on ASTRO and How Do I Contact Them?</label> 
     </button>
     <!-- BLOCK -->
-    <div id="block-3" class="c-sect hide-element">
+    <div id="block-3" class="c-sect  hide" aria-hidden="true">
         <h1>ASTRO Points of Contact</h1>
         <table class="res_table">
             <thead aria-label="ASTRO Points of Contact">
@@ -171,9 +171,9 @@
 <div class="v-buffer"></div>
 <div class="flex-wrapper-big flexCols" >
     <button id="title-4" class="dark-buttonbar" onclick="javascript:toggleBlock('o4','c4','block-4');">
-        <div id="o4" class="tic-opened hide-element">-</div><div id="c4" class="tic-closed">+</div><label>ASTRO Contracts and Ordering Guide</label> 
+        <div id="o4" class="tic-opened hide">-</div><div id="c4" class="tic-closed">+</div><label>ASTRO Contracts and Ordering Guide</label> 
     </button>
-    <div id="block-4" class="c-sect hide-element">
+    <div id="block-4" class="c-sect  hide" aria-hidden="true">
         <h1>ASTRO Contracts</h1>
         <table class="res_table">
             <thead aria-label="ASTRO Contacts">
@@ -662,16 +662,16 @@
         var thisBlock = document.getElementById(sectBlock);
         var thisOpened = document.getElementById(openedIcon);
         var thisClosed = document.getElementById(closedIcon);
-        if ( thisBlock.classList.contains('hide-element') ) {
-            thisBlock.classList.remove('hide-element');
-            thisBlock.setAttribute(aria-hidden, false);
-            thisOpened.classList.remove('hide-element');
-            thisClosed.classList.add('hide-element');
+        if ( thisBlock.classList.contains('hide') ) {
+            thisBlock.classList.remove('hide');
+            thisBlock.setAttribute('aria-hidden', 'false');
+            thisOpened.classList.remove('hide');
+            thisClosed.classList.add('hide');
         }else{
-            thisBlock.classList.add('hide-element');
-            thisBlock.setAttribute(aria-hidden, true);
-            thisOpened.classList.add('hide-element');
-            thisClosed.classList.remove('hide-element');
+            thisBlock.classList.add('hide');
+            thisBlock.setAttribute('aria-hidden', 'true');
+            thisOpened.classList.add('hide');
+            thisClosed.classList.remove('hide');
         }
     }
 </script>
