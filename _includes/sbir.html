@@ -34,7 +34,7 @@
         <div id="o1" class="tic-opened hide-element" aria-label="Close Section">-</div><div id="c1" class="tic-closed" aria-label="Open Section">+</div><label>Using AAS to Award SBIR Phase III Work</label> 
     </button>
     <!-- BLOCK  -->
-        <div id="block-1" class="c-sect  hide-element" aria-hidden="true" tabindex="1">
+        <div id="block-1" class="c-sect  hide-element" aria-hidden="true">
             <div style="text-align:center;" onclick="window.open('../sbir_diagram/', '_new');"><img src="../assets/img/SBIR-workflow-diagram.png" alt="SBIR Workflow" />
                 <br>
             <i>Select the graphic to open it in a new window.</i>
@@ -76,7 +76,7 @@
         <div id="o2" class="tic-opened hide-element" aria-label="Close Section">-</div><div id="c2" class="tic-closed" aria-label="Open Section">+</div><label>Resources and Legal Information</label> 
     </button>
     <!-- BLOCK  -->
-    <div id="block-2" class="c-sect  hide-element" aria-hidden="true" tabindex="2">
+    <div id="block-2" class="c-sect  hide-element" aria-hidden="true">
         <h3>SBIR/STTR Training Resources</h3>
         <p>
             <ul>
@@ -103,7 +103,7 @@
         <div id="o3" class="tic-opened hide-element" aria-label="Close Section">-</div><div id="c3" class="tic-closed" aria-label="Open Section">+</div><label>SBIR Success Stories</label> 
     </button>
     <!-- BLOCK  -->
-    <div id="block-3" class="c-sect  hide-element" aria-hidden="true" tabindex="3">
+    <div id="block-3" class="c-sect  hide-element" aria-hidden="true">
     <div class="flex-wrapper-big"><p tabindex="-1">Click on the stories below to read more.</p></div>
     <div class="flex-wrapper-big">
         <div class="storyCard">
@@ -190,7 +190,7 @@
         <div id="o4" class="tic-opened hide-element" aria-label="Close Section">-</div><div id="c4" class="tic-closed" aria-label="Open Section">+</div><label>AAS SBIR Award Data</label> 
     </button>
     <!-- BLOCK  -->
-        <div id="block-4" class="c-sect  hide-element" aria-hidden="true" tabindex="4">
+        <div id="block-4" class="c-sect  hide-element" aria-hidden="true">
             <div style="text-align: center;">
                 <br>
                 <p><img src="../assets/img/SBIR_STTR_SAFY.jpg" alt="SBIR/STTR Table 1" />
@@ -207,7 +207,7 @@
         <div id="o5" class="tic-opened hide-element" aria-label="Close Section">-</div><div id="c5" class="tic-closed" aria-label="Open Section">+</div><label>SBIR Frequently Asked Questions</label> 
     </button>
     <!-- BLOCK  -->
-    <div id="block-5" class="c-sect  hide-element" aria-hidden="true" tabindex="5">
+    <div id="block-5" class="c-sect  hide-element" aria-hidden="true">
         <div>
             <p> Select "Answer:+" and "Answer:-" to toggle the answers to each question.</p>
             <h4>Q 01: What do Phase III awards result from?
@@ -406,6 +406,7 @@
         if ( thisBlock.classList.contains('hide-element') ) {
             thisBlock.classList.remove('hide-element');
             thisBlock.setAttribute('aria-hidden', 'false');
+            thisBlock.setAttribute('tabeindex', '-1');
             thisOpened.classList.remove('hide-element');
             thisClosed.classList.add('hide-element');
         }else{
