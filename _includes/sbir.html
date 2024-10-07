@@ -406,7 +406,8 @@
         if ( thisBlock.classList.contains('hide') ) {
             thisBlock.classList.remove('hide');
             thisBlock.classList.add('show');
-            thisBlock.setAttribute('tabeindex', '-1');
+            thisBlock.setAttribute('aria-hidden', 'false');
+            thisBlock.setAttribute('tabindex', '-1');
             thisOpened.classList.remove('hide');
             thisClosed.classList.add('hide');
             thisOpened.classList.add('show');
@@ -414,6 +415,7 @@
         }else{
             thisBlock.classList.add('hide');
             thisBlock.classList.remove('show');
+            thisBlock.setAttribute('aria-hidden', 'true');
             thisOpened.classList.add('hide');
             thisClosed.classList.remove('hide');
             thisOpened.classList.remove('show');
