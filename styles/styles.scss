@@ -1279,7 +1279,7 @@ display: none;
 
 .perk-title{
   color: var(--fedsim-purple);
-  font-size: 1.2em;
+  font-size: 1.2em !important;
   font-weight: 600;
   text-transform: uppercase;
   margin: 6px 0 0 0;
@@ -1312,7 +1312,11 @@ display: none;
     height: auto;
   }
 
-  .careerpath-block h5{
+  .careerpath-block h3{
+    font-size: 1.2em !important;
+    color: var(--fedsim-blue3) !important;
+    font-weight: 600;
+    text-transform: uppercase;
     margin-bottom: 8px;
   }
 
