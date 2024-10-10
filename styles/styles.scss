@@ -939,6 +939,14 @@ a.external_link::after{
   border-radius: 12px;
 }
 
+.roundedCard-orange h2{
+  font-size: 1.2em;
+  margin: 20px auto;
+  color: white;
+  margin-block-start: 0.8em;
+  margin-block-end: 0.8em;
+}
+
 .roundedCard-blue{
   background-color: var(--fedsim-blue1);
   z-index: 9;
