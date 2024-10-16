@@ -33,6 +33,7 @@ a:visited{
 /* FEDSIM/AAS COLORS */
 :root{
   --fedsim-blue1: #1D5187;
+  --fedsim-blue1-visited: #39597a;
   --fedsim-blue2: #4B92CE;
   --fedsim-blue3: #4D7999;
   --fedsim-blue4: #90CBE4;
@@ -43,6 +44,7 @@ a:visited{
   --fedsim-gold: #a38e4a;
   --fedsim-offwhite: #f3f3f3;
   --aas-orange: #E65722;
+  --aas-orange-visited: #9c4b2d;
   --aas-pale: #d4e2ed;
   --aas-grey: #99b9ce;
   --aas-blue: #28a1d8;
@@ -224,6 +226,10 @@ hr.highlight-line{
  background-color: var(--fedsim-blue3);
 }
 
+.section-btn:visited{
+  background-color: var(--fedsim-blue1-visited);
+}
+
 .section-btn a, .section-btn a:hover{
   color: white;
   text-decoration: none;
@@ -268,6 +274,10 @@ hr.highlight-line{
 .section-btn-clear:hover{
   background-color: white;
  }
+
+ .section-btn-orange:visited{
+  background-color: var(--aas-orange-visited);
+}
  
  .section-btn-clear a, .section-btn-clear a:hover{
    color:  var(--fedsim-blue1);
@@ -387,11 +397,6 @@ color: var(--fedsim-darkgrey);
 
 .spacedList li b{
   color: var(--fedsim-blue1);
-}
-
-.lnk_icon{
-  font-size: 1.2em;
-  font-weight: 950;
 }
 
 //Header styles
