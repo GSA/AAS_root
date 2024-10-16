@@ -218,7 +218,7 @@ hr.highlight-line{
   cursor: pointer;
 }
 
-.section-btn p, .section-btn-clear p{
+.section-btn p{
   margin: auto;
 }
 
@@ -233,19 +233,6 @@ hr.highlight-line{
 .section-btn a, .section-btn a:hover{
   color: white;
   text-decoration: none;
-}
-
-.section-btn-clear{
-  height: 70px;
-  text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  margin: auto;
-  background-color: white;
-  color:  var(--fedsim-blue1);
-  border-radius: 36px;
-  border: solid var(--fedsim-blue1) 5px;
-  cursor: pointer;
 }
 
 .section-btn-orange{
@@ -271,30 +258,8 @@ hr.highlight-line{
   border: 0 !important;
 } 
 
-.section-btn-clear:hover{
-  background-color: white;
- }
-
  .section-btn-orange:visited{
   background-color: var(--aas-orange-visited);
-}
- 
- .section-btn-clear a, .section-btn-clear a:hover{
-   color:  var(--fedsim-blue1);
-   text-decoration: none;
- }
-
-@media screen and (max-width: 375px){
-  .section-btn-clear{
-    min-width: 250px;
-    margin-bottom: 24px;
-  }
-
-}
-
-.doubleLines{
-  padding-top: 16px!important;
-  padding-bottom: 16px!important;
 }
 
 .one-third{
@@ -579,7 +544,7 @@ a.external_link::after{
   margin:auto;
 }
 
-.flex-wrapper-big, .flex-wrapper-full{
+.flex-wrapper-big{
   margin: auto;
   display: flex;
 }
@@ -592,10 +557,6 @@ a.external_link::after{
   width: 960px;
 }
 
-.flex-wrapper-full{
-  width: 1000px;
-}
-
 @media screen and (max-width: 768px){
   .flex-wrapper-big{
     width: 740px;
@@ -603,7 +564,7 @@ a.external_link::after{
 }
 
 @media screen and (max-width: 414px){
-  .flex-wrapper-big, .flex-wrapper-full{
+  .flex-wrapper-big{
     width: 360px;
     flex-flow: column;
   }
@@ -786,10 +747,6 @@ a.external_link::after{
   .wholeblock{
     width: 100%;
   }
-}
-
-.dual-block{
-  display: flex;
 }
 
 .half-block {
@@ -1063,13 +1020,6 @@ a.external_link::after{
   padding-right: 40px;
 }
 
-.nestedSize{
-  width: 45%!important;
-  margin-left: 0 !important;
-  margin-bottom: 10px;
-  padding-bottom: 20px;
-}
-
 @media screen and (max-width:414px){
   .storyCardHead{
     width: 300px;
@@ -1094,11 +1044,6 @@ a.external_link::after{
     display: none !important;
   }
 
-  .nestedSize{
-    width: 340px!important;
-    margin-left: 0 !important;
-
-  }
   .smallerTextMobile{
     font-size: smaller;
   }
@@ -1253,24 +1198,6 @@ display: none;
   }
 }
 
-.stack-top{
-  z-index: 9;
-  position: absolute;
-  opacity: 0;
-  padding: 0 10px;
-  font-size: 1.1em;
-}
-
-.stack-top:hover{
-  opacity: 100%;
-}
-
-.stack-top h2{
-  color: var(--fedsim-darkgrey);
-  margin: 10px;
-}
-
-
 //Join Us sections
 
 .careerpath-banner{
@@ -1404,11 +1331,6 @@ display: none;
   background-color: white;
 }
 
-.bio-spacer-big{
-  width: 60px;
-  background-color: white;
-}
-
 .memberblock, .memberblock-head{
   color: var(--fedsim-darkgrey);
   background-color: var(--aas-grey);
@@ -1446,38 +1368,6 @@ display: none;
   width: 140px;
 }
 
-.level-1 {
-  width: 50%;
-  margin: 0 auto 40px;
-  background: var(--aas-grey);
-}
-.level-1::before {
-  content: "";
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 2px;
-  height: 20px;
-  background: var(--black);
-}
-
-.sectorbar{
-  width: 282px;
-  height: 40px;
-  margin: 10px;
-  color: white;
-  background-color: var(--fedsim-blue1);
-  padding: 10px;
-}
-
-.sectorbar h3{
-  font-size: 1.1em;
-  text-transform: uppercase;
-  font-weight: 700;
-  margin: 0;
-}
-
 .sectorblock{
   box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -1507,7 +1397,7 @@ display: none;
 }
 
 @media screen and (max-width: 768px) {
-  .bio-spacer, .bio-spacer-big{
+  .bio-spacer{
     width: 2px;
   }
 
@@ -1539,15 +1429,6 @@ display: none;
 
   .member-two-heads{
     display: flex;
-  }
-  
-  .sectorbar{
-    width: 310px;
-    height: 40px;
-  }
-  
-  .sectorbar h3{
-    font-size: 1.1em;
   }
   
   .sectorblock{
@@ -1639,18 +1520,6 @@ hr.small-line{
 
 
 //Contact Us form
-#gform{
-  font-size: 1em;
-}
-
-.error-msg{
-  border: 1px solid var(--fedsim-litegrey);
-  width: 250px;
-  padding: 7px;
-  margin-bottom: 10px;
-  box-shadow: 2px 4px 5px 1px var(--fedsim-litegrey);
-}
-
 input{
   margin: 0 0 1rem 0;
   border-radius: 12px;
@@ -1956,31 +1825,6 @@ li.input-li{
   }
 
  }
-
-.register-link {
-  display: block;
-  border: 0;
-  border-radius: 12px;
-  width: 300px;
-  height: 35px;
-  padding: 6px;
-  text-align: center;
-  font-weight: 700;
-  background-color: var(--fedsim-blue1);
-  cursor: pointer;
-}
-
-.register-link a{
-  color: white !important;
-  font-weight: 600 !important;
-  font-size: 1.2em;
-  margin-block-start: 0.8em;
-  margin-block-end: 0.8em;
-}
-
-.register-link:hover{
- background-color: var(--aas-orange);
-}
 
 //Industry and Opportunities
 

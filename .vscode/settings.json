@@ -1,0 +1,7 @@
+{
+    "editor.quickSuggestionsDelay": 90000,
+    "editor.screenReaderAnnounceInlineSuggestion": false,
+    "editor.inlineSuggest.showToolbar": "never",
+    "editor.inlineSuggest.suppressSuggestions": true,
+    "editor.snippetSuggestions": "none"
+}
