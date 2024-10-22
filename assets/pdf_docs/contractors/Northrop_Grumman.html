@@ -1,0 +1,242 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>ASTRO</title>
+<style>
+	body {
+		font-family: Arial,"Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+		font-size: 14px;
+		line-height:1.6;
+	}
+	.wrapper {
+		margin: 0 auto;
+		max-width: 1000px;
+	}
+	.header {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 10px;
+	}
+	.header > div {
+		display: flex;
+	}
+	.header > div.logo {
+		justify-content: flex-end;
+	}
+	.header img {
+		max-width: 100%;
+	}
+	.cols {
+		display: flex;
+	}	
+	.cols > div {
+		display: flex;
+		border: solid 2px #000;
+		flex-direction: column;
+	}
+	.cols .col1 {
+		width:30%;
+		padding: 1em;
+	}
+	.cols .col2 {
+		width:68%;
+		margin-left: 2%;
+		padding: 0;
+	}
+	.cols .col2 > div {
+		padding: 1em;
+	}
+	.cols .col2 > div:first-child {
+		padding-bottom: .5em;
+	}
+	.pools {
+		border-top:solid 2px #000;
+	}
+	.cols .col1 img {
+		width:100%;
+	}
+	h2 {
+		margin: 2em 0 1em 0;
+		font-size: 1.2em;
+		line-height: 1.4;
+		color: #000;
+		font-weight: 700;
+		text-align: center;
+	}
+	h3 {
+		margin:.5em 0;
+		font-size: 1.2em;
+		line-height: 1.4;
+		color: #00249C;
+		font-weight: 700;
+	}
+	h4 {
+		margin:2em 0 1em 0;
+		padding: 0;
+		font-size: 1.1em;
+		line-height: 1.4;
+		color: #00249C;
+	}
+	h5 {
+		margin:2em 0 .5em 0;
+		padding: 0;
+		font-size: 1em;
+		line-height: 1.4;
+		color: #000;
+		font-weight: 700;
+	}
+	h6 {
+		margin:1em 0 0 0;
+		padding: 0;
+		font-size: 1em;
+		line-height: 1.4;
+		color: #000;
+		font-weight: 700;
+	}
+	p {
+		padding: 0;
+		margin:0 0 1em 0;
+	}
+	a,
+	a:visited {
+		color:#00249C;
+	}
+	.caption {
+		background-color: #00249C;
+		color: #fff;
+		font-size: 1.3em;
+		line-height: 1.4;
+		font-weight: 700;
+		font-style: italic;
+		text-align: center;
+		padding: 10px;
+	}
+	ul {
+		margin-left: 10px;
+		margin-top: 0;
+		padding: 0;
+		list-style: none;
+	}
+	ul li {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	ul li:before {
+		display: block;
+		float: left;
+		margin-right: 10px;
+	}
+	.col1 ul li:before {
+		content: url('../../img/vendors/list1.gif');
+	}
+	.col2 ul li:before {
+		content: "➢";
+	}
+	.footer {
+		text-align: right;
+		font-size: 12px;
+		color: #7C8886;
+		margin-top: 1em;
+	}
+	@media print {
+		body {
+			font-size: 12px;
+			line-height:1.4;
+		}
+		.header img {
+			width: 80%;
+		}
+		.header logo img {
+			text-align: right;
+		}
+		h2,
+		h4,
+		h5 {
+			margin: 1em 0 .5em 0;
+		}
+		h3 {
+			margin: 0;
+		}
+		p {
+			margin: 0 0 10px 0;
+		}
+		.caption {
+			background-color: #00249C !important;
+			color: #fff !important;
+			print-color-adjust: exact;
+			-webkit-print-color-adjust:exact;
+		}
+		.footer {
+			font-size: 10px;
+			margin-top: 10px;
+		}
+	}
+</style>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="header"><div><img src="../../img/vendors/ng-logo.jpg" alt="NG logo"/></div><div class="logo"><img src="../../img/vendors/astro-logo.jpg" alt="ASTRO logo"/></div></div>
+		<div class="cols">
+			<div class="col1">
+				<img src="../../img/vendors/picture.jpg"/>
+				<h4>Northrop Grumman Points of Contact:</h4>
+				<h6>ASTRO Program Manager (CAPM)<br/>Sharlene D'Angelo</h6>
+				<p>7575 Colshire Drive<br/>
+					McLean, VA 22102<br/>
+					<a href="mailto:Sharlene.Dangelo@ngc.com">Sharlene.Dangelo@ngc.com</a><br/>
+					(858) 255-3121</p>
+				<h6>ASTRO Contract Manager (CACM)<br/>Monica Kulisch</h6>
+				<p>7575 Colshire Drive<br/>
+					McLean, VA 22102<br/>
+					<a href="mailto:Monica.Kulisch@ngc.com">Monica.Kulisch@ngc.com</a><br/>
+					(703) 713-4588</p>
+				<h5>Company web site</h5> 
+				<p><a href="http://www.northropgrumman.com" target="_blank">www.northropgrumman.com</a></p> 
+				<h5>Locations</h5> 
+				<p>Northrop Grumman has approximately 90,000 employees with more than 550 facilities in all 50 U.S. states and in more than 25 countries around the world.</p> 
+				<h5>Certifications and Awards</h5>  
+				<ul>
+					<li>CMMI Maturity Level 3</li>  
+					<li>ISO 9001</li>  
+					<li>ISO14001</li>  
+					<li>AS9110C</li>  
+					<li>AS9100D</li>
+				</ul>
+			</div>
+			<div class="col2">
+				<div>
+					<h2 style="margin-top: 0;">We are Defining Possible</h2>
+					<p>Northrop Grumman is a pioneering company. We design, develop, build and support some of the world's most advanced products, from cutting-edge aircraft and next-generation spacecraft to unrivaled cyber security systems and all-seeing radars.</p>
+					<h2>What We Do</h2>
+					<p><strong>Aviation</strong> - We build some of the world's most advanced aircraft. From innovative stealth bombers to the groundbreaking unmanned combat aerial vehicle (UCAV), in addition to powerful airborne sensors and systems.</p>
+					<p><strong>Ground</strong> - We provide critical logistics, sustainment and modernization services for everything from America's emergency services infrastructure to combat vehicles on the battlefield.</p>
+					<p><strong>Space</strong> - We've been pioneering in space for over 60 years and we continue to push the boundaries of what's possible. From the Lunar Module to the latest space telescopes, from national security launch systems and payloads to advanced communications satellites, our space capabilities are unrivaled.</p>
+					<p><strong>Maritime</strong> - We are a world leader in the design, development and production of naval systems. From sonar that can map the deepest depths of the ocean to anti-submarine systems and advanced electronic warfare, we're constantly evolving to counter increasingly sophisticated threats at sea.</p>
+					<p><strong>Multi-Domain</strong> - In the future, more than ever before, mission advantage will go to military forces who can coordinate and act together across all domains. Observing, orienting, deciding and acting together, faster and with greater effect than their adversaries is the next-gen technological edge for Joint Forces.</p>
+					<p><strong>Advanced Weapons</strong> - For decades, Northrop Grumman has protected U.S. forces and our allies by designing, developing and delivering weapons of increasing complexity and capabilities for expanded missions and domains.</p>
+					<p><strong>Cyber</strong> - We are a leading provider of full-spectrum cyber across land, air, sea and space. From preventing cyber-attacks to securing military communications and giving our customers a decisive advantage, our capabilities are second to none.</p>
+				</div>
+				<div class="pools">
+					<h3>GSA ASTRO Pools</h3>
+					<ul>
+						<li>Data Operations (47QFCA22D0024)</li>
+						<li>Mission Operations (47QFCA22D0071)</li>
+						<li>Aviation (47QFCA22D0129)</li>
+						<li>Ground (47QFCA22D0165)</li>
+						<li>Space (47QFCA22D0217)</li>
+						<li>Maritime (47QFCA22D0267)</li>
+						<li>Development Systems Integration (47QFCA22D0331)</li>
+						<li>Research and Development (47QFCA22D0379)</li>
+						<li>Support (47QFCA22D0426)</li>
+						<li>Training (47QFCA22D0476)</li>
+					</ul>
+					<div class="caption">Northrop Grumman is a Prime on all 10 ASTRO Pools</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer">Approved for Public Release; NG22-1334. © 2024 Northrop Grumman Systems Corporation</div>
+	</div>
+</body>
+</html>

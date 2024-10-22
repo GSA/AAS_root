@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>ASTRO - The Rockhill Group</title>
+<meta name="description" content="The Rockhill Group, Inc. is in the ASTRO TRAINING POOL, offering instruction for platforms and robotics in land, air, or space projects.">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Create a row for a table layout */
+.row {
+  float: left;
+  width: 100%;
+  display:table;
+}
+
+/* Create one column the entire width */
+.col1 {
+  float: none;
+  width: 100%;
+  padding:20px;
+  display:table-cell;
+}
+
+.col1 img {
+  vertical-align:middle;
+  padding:20px;
+  height:150px;
+}
+
+/* Create two equal columns that float next to each other */
+.col2 {
+  float: none;
+  width: 50%;
+  padding:20px;
+  display:table-cell;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col2 {
+    width: 100%;
+    display:block;
+  }
+}
+
+#header {
+  background:white;
+}
+
+#company_logo {
+  float:left;
+}
+
+#partner_logo {
+  float:right;
+}
+
+#profile {
+  background:#BEA349;
+}
+
+#services {
+  background:#E3D39C;
+}
+
+#contact {
+  background:#D9D9D9;
+}
+
+span.title {
+  font-style:italic;
+  font-weight:bold;
+  font-size:.9em;
+}
+
+span.phone {
+  font-size:.9em;
+}
+
+span.email {
+  text-decoration:underline;
+  font-size:.9em;
+}
+
+#logos {
+  background:white;
+  text-align:center;
+  flex:25%;
+}
+
+#tagline {
+  background:black;
+  text-align:center;
+  font-weight:bold;
+  color:white;
+}
+
+#footer {
+  background:#BEA349;
+  text-align:center;
+}
+</style>
+</head>
+
+<body>
+  <div class="row" id="header">
+    <div class="col1">
+      <img src="../../img/vendors/TRG_Logo.png" alt="TRG Logo" id="company_logo">
+      <img src="../../img/vendors/ASTRO_Logo.png" alt="ASTRO Logo" id="partner_logo">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col1" id="profile">
+      <h1>Company Profile</h1>
+      <p>The Rockhill Group, Inc. (TRG), is a Service-Disabled Veteran-Owned Small Business (SDVOSB), founded in 2004 by President and Chief Executive Officer (CEO) James <q>Rock</q> Rockhill. TRG has the capability to support complex contractual requirements and maintains a DCAA-approved accounting system. TRG has provided 24/7 aviation support operations for over 18 years to multiple geographically dispersed areas; as many as 37 locations at any given time, to include OCONUS. Our key customers include the United States Air Force (USAF) and the Federal Aviation Administration (FAA).</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col2" id="services">
+      <h2>Services</h2>
+        <ul>
+        <li>Flight Training/CIS</li>
+        <li>Facility Maintenance</li>
+        <li>Aviation maintenance</li>
+        <li>ISR Training Support</li>
+        <li>Scenario Development</li>
+        <li>JTACs and Role Players</li>
+        <li>COCOM Exercise Support</li>
+        <li>Simulator Console Support</li>
+        <li>Aviation Cryogenic Services</li>
+        <li>Provide Pilots and Instructors</li>
+        <li>OPFOR/BLUFOR Role Player</li>
+        <li>Airfield Management Services</li>
+        <li>Meteorological Support Services</li>
+        <li>Advisory and Assistance Services</li>
+        <li>Academic and Ground Training</li>
+        <li>RPA Flight and Simulator Training</li>
+        <li>Provide Fixed Wing and Rotary Wing Aircraft</li>
+        <li>Courseware Development (Curriculum R&amp;M)</li>
+        </ul>
+    </div>
+    <div class="col2" id="contact">
+        <h2>Contractor ASTRO Contract Manager (CACM)</h2>
+        <p><b>Jessica Rockhill</b><br>
+        <span class="title">Chief Financial Officer</span><br>
+        <span class="email">jessica.rockhill@therockhillgroup.com</span><br>
+        <span class="phone">850-754-0400</span>
+        </p>
+        <h2>Contractor ASTRO Program Manager (CAPM)</h2>
+        <p><b>Kelly Healy</b><br>
+        <span class="title">Director of Business Development</span><br>
+        <span class="email">kelly.healy@therockhillgroup.com</span><br>
+        <span class="phone">850-754-0400</span>
+        </p>
+        <p>The Rockhill Group. Inc. is part of the <b>ASTRO TRAINING POOL</b> which may be used for all training (the providing of instruction) services required for successful execution of a product, program, project, or process regarding platforms and/or robotics for land, air, or space.</p>
+        <p><b>Contract:</b> 47QFCAD0483, Training Pool</p>
+    </div>
+  </div>
+  <div class="row" id="logos">
+    <div class="col1">
+      <img src="../../img/vendors/Logo_Hire_Vets.png" alt="Hire Vets Logo">
+      <img src="../../img/vendors/Logo_SDVOSB.png" alt="SDVOSB Logo">
+      <img src="../../img/vendors/Logo_NCMS.png" alt="NCMS Logo">
+      <img src="../../img/vendors/Logo_AS9100.jpg" alt="AS9100 Logo">
+    </div>
+  </div>
+  <div class="row" id="tagline">
+    <div class="col1">
+      <p><b><q>Providing and sustaining high quality services through EFFICIENT, SAFE AND RELIABLE processes.</q></b></p>
+    </div>
+  </div>
+  <div class="row" id="footer">
+    <div class="col1">
+      <p>1 Rockhill Drive | Molino, Florida 32577 | <a href="https://www.therockhillgroup.com">www.therockhillgroup.com</a></p>
+    </div>
+  </div>
+</body>
+</html>

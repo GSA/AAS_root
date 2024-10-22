@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="MobileOptimized" content="320" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>ASTRO</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.5;
+        }
+
+        h1, h2 {
+            color: #009d4f;
+            font-weight: 600;
+            margin: 0;
+        }
+
+        h2 {
+            font-size: 26px;
+        }
+
+        .container {
+            padding: 20px;
+        }
+        .header, .footer {
+            text-align: center;
+        }
+
+        .header {
+            padding: 40px 75px;
+            min-height: 100px;
+            background: url('../../img/vendors/banner.jpg') no-repeat;
+            background-size: cover;
+            background-position: bottom;
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            flex-direction: column;
+        }
+
+        .logo {
+            max-width: 200px;
+        }
+
+        .secondary-logo {
+            max-width: 80px;
+            margin-left: auto;
+        }
+
+        .content {
+            margin: 20px 0;
+        }
+        .awards, .capabilities {
+            margin: 20px 0;
+        }
+        .awards ul, .capabilities ul {
+            list-style: none;
+            padding: 0;
+        }
+        .awards ul li, .capabilities ul li {
+            margin: 5px 0;
+        }
+
+        .top-content {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .top-content--left {
+            padding: 30px 40px;
+            background: rgb(231 232 232);
+            color: #000;
+        }
+
+        .top-content--right {
+            background: #323031;
+            width: 100%;
+            text-align: center;
+            align-self: stretch;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 15px 0;
+        }
+        .top-content--cta {
+            margin-bottom: 20px;
+        }
+        .top-content--cta:last-child {
+            margin-bottom: 0;
+        }
+
+        .top-content--cta p{
+            margin: 0;
+            color: #fff;
+            font-size: 12px;
+        }
+
+        .top-content--cta span {
+            display: block;
+            color: #009d4f;
+            font-size: 36px;
+            line-height: 1;
+        }
+
+        .middle-content {
+            display: flex;
+            align-items: flex-start;
+            margin: 20px auto;
+            max-width: 96em;
+            justify-content: space-between;
+            flex-direction: column;
+        }
+
+        .awards-content {
+            width: 100%;
+            margin-top: 25px;
+        }
+
+        .table-content {
+            width: 100%;
+        }
+
+        .table-content p {
+            margin-bottom: 20px;
+        }
+
+        .table-container table {
+            border: 1px solid #ccc;
+        }
+
+        .tb-head {
+            background: #0C223F; color: #fff; font-weight: 300;
+        }
+
+        .table-container table th, .table-container table td {
+            border-bottom: 1px solid #ccc;
+        }
+
+        .table-container table td {
+            padding: 5px 5px 5px 10px;
+        }
+
+        .table-container table tr th {
+            border-right: 1px solid #ccc;
+            text-align: left;
+            padding: 5px 5px 5px 10px;
+        }
+        .table-container table tr:last-child th,.table-container table tr:last-child td{
+            border-bottom: 0;
+        }
+
+        .awards-content ul, .capabilities ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .awards-list {
+            margin-top: 0;
+        }
+
+        .awards-list li{
+            padding-left: 18px;
+            position: relative;
+        }
+
+        .awards-list li::after {
+            content: '-';
+            position: absolute;
+            left: 5px;
+            top: 0;
+        }
+
+        .contract-pool {
+            width: 100%; border-collapse: collapse;
+        }
+
+        .contract-pool td {
+            border: 2px solid #fff;
+            border-radius: 2px;
+            padding: 8px;
+            background: #e7e8e8;
+            text-align: center;
+        }
+
+        footer {
+            background: #e7e8e8;
+            padding: 25px 50px;
+        }
+
+        footer .inner {
+            max-width: 96em;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        footer .footer-left p{
+            color: #85959a;
+        }
+        
+        footer .footer-left a {
+            display: block;
+            color: #000; text-decoration: none; font-size: 20px;
+            margin-top: 40px;
+            margin-bottom: 25px;
+        }
+
+        footer .footer-left {
+            text-align: center;
+        }
+
+        footer .footer-right {
+            display: block;
+            text-align: center;
+        }
+
+        footer .footer-right span {
+            display: block;
+            font-size: 12px;
+            color: #898f91;
+        }
+
+        @media (min-width: 768px) {
+            .header {
+                flex-direction: row;
+            }
+
+            .secondary-logo {
+                max-width: 150px;
+                margin-left: 0;
+            }
+
+            .middle-content {
+                flex-direction: row;
+            }
+            .awards-content {
+                width: 40%;
+            }
+
+            .table-content {
+                width: 55%;
+            }
+
+            .top-content {
+                flex-direction: row;
+            }
+
+            .top-content--left {
+                width: 70%;
+                padding: 30px 40px 30px 9%
+            }
+
+            .top-content--right {
+                width: 30%;
+                padding: 0;
+            }
+
+            footer .inner {
+                flex-direction: row;
+            }
+
+            footer .footer-left {
+                text-align: left;
+            }
+
+            footer .footer-right {
+                width: 25%;
+                text-align: right;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img class="logo" src="../../img/vendors/amentum-logo.png" alt="Amentum Logo">
+            <img class="secondary-logo" src="../../img/vendors/astro-logo-3.png" alt="Astro Logo">
+        </div>
+        <div class="top-content">
+            <div class="top-content--left">
+                <p>Amentum is a premier global technical and engineering services partner supporting critical programs
+                    of national significance across defense, security, intelligence, energy, and environment domains. We
+                    draw from a century-old heritage of operational excellence, mission focus, and successful execution,
+                    underpinned by a strong culture of safety and ethics. We operate, serve, maintain, protect, and
+                    support the most discerning and critical programs across all fifty states and 105 countries worldwide.
+                    Amentum’s culture of safety, operational excellence, and ethics is formed throughout our 117-year
+                    company heritage and is sharpened by our unrelenting dedication to the customer's mission.</p>
+            </div>
+            <div class="top-content--right">
+                <div class="top-content--cta">
+                    <span>105</span>
+                    <p>Countries Worldwide</p>
+                </div>
+                <div class="top-content--cta">
+                    <span>117</span>
+                    <p>Year Company Heritage</p>
+                </div>
+            </div>
+        </div>
+        <div class="middle-content">
+            <div class="table-content">
+                <p>Our extensive experience in robotics, and unmanned vehicles combined with our
+                    expertise in mission and data operations, systems integration, research, support & training
+                    and vehicle platform systems modernization/sustainment make ASTRO a perfect contract
+                    vehicle for us to continue to deliver critical support to the warfighter, anytime/anywhere!
+                </p>
+                <div class="table-container">
+                    <table>
+                            <tr>
+                                <th class="tb-head">ASTRO Pool</th>
+                                <th class="tb-head">Relevant Capabilities</th>
+                            </tr>
+                            <tr>
+                                <th>Data Operations</th>
+                                <td>Intel Ops & Analysis; Digital Force Protection; Multi Domain Sensor Systems; Autonomous Vehicle Enabled Networks</td>
+                            </tr>
+                            <tr>
+                                <th>Mission Operations</th>
+                                <td>WMD Detection / Elimination; Foreign Military Sales (FMS); Contingency Operations & Disaster Response</td>
+                            </tr>
+                            <tr>
+                                <th>Aviation</th>
+                                <td>O&M; Live-Virt; Aircrew; Logistics & Sustainment; Flight Training & Readiness; RDT&E; UAS & C-UAS; Air Fleet Modification</td>
+                            </tr>
+                            <tr>
+                                <th>Ground</th>
+                                <td>O&M; Logistics & Sustainment; Ground Vehicle Readiness Test; Equipment Readiness; Fleet Mgmt; Combat Training Centers</td>
+                            </tr>
+                            <tr>
+                                <th>Space</th>
+                                <td>Sustain/Comms; Gov't & Commercial Launch Support; Space Facilities & Infrastructure Mgmt</td>
+                            </tr>
+                            <tr>
+                                <th>Maritime</th>
+                                <td>O&M; Logistics & Sustainment; Fleet Readiness; Naval EW Support; Support Eqmt O&M; Engineering & Modernization</td>
+                            </tr>
+                            <tr>
+                                <th>Development/System Integration</th>
+                                <td>MBSE; Software Engineering (Agile, Scrum, Spiral, Waterfall); Prototype Systems Engineering; Microelectronics; Digital Domains</td>
+                            </tr>
+                            <tr>
+                                <th>Research</th>
+                                <td>DARPA Programs; Spectrum Threat & Vulnerability Analysis; Prototyping & Engineering; Hypersonic; Aircraft Fleet Reduction</td>
+                            </tr>
+                            <tr>
+                                <th>Support</th>
+                                <td>Base Operations; Integrated Facility Mgmt; Critical Infrastructure Protection; Laboratory Operations; Weapons Demil</td>
+                            </tr>
+                            <tr>
+                                <th>Training</th>
+                                <td>Live/Virtual/Constructive Simulations; Test & Training Facilities & Ranges; Exercises & Wargames; ML/AI Learning Systems</td>
+                            </tr>
+                    </table>
+                </div>
+
+                <p style="text-align: center; margin-top: 25px;"><strong>Amentum is a Prime Awardee on all 10 ASTRO Contract Pools.</strong> Visit our ASTRO
+                    website for additional details: <br> <a target="_blank" href="https://www.amentum.com/contracting-vehicles/gsa_astro/"> GSA ASTRO | Amentum</a></p>
+
+                    <table class="contract-pool">
+                        <tr>
+                          <td>Data Ops 47QFCA22D0003</td>
+                          <td>Maritime 47QFCA22D0251</td>
+                        </tr>
+                        <tr>
+                          <td>Mission Ops 47QFCA22D0060</td>
+                          <td>Dvpmnt/Sys Integ 47QFCA22D0304</td>
+                        </tr>
+                        <tr>
+                          <td>Aviation 47QFCA22D0118</td>
+                          <td>Research 47QFCA22D0382</td>
+                        </tr>
+                        <tr>
+                          <td>Ground 47QFCA22D0158</td>
+                          <td>Support 47QFCA22D0402</td>
+                        </tr>
+                        <tr>
+                          <td>Space 47QFCA22D0201</td>
+                          <td>Training 47QFCA22D0463</td>
+                        </tr>
+                      </table>
+            </div>
+            <div class="awards-content">
+                <h2>Awards</h2>
+                <p>We are proud to be recognized for our accomplishments through its industry peers and the Public Sector community at large. Some of our recent awards and community service include:</p>
+
+                    <span><strong style="font-size: 20px;">2022 Military Friendly Awards</strong></span>
+                    <ul class="awards-list">
+                        <li>Top 10 Company</li>
+                        <li>Top 10 Employer</li>
+                        <li>Top 10 Spouse Employer</li>
+                        <li>Top 10 Supplier Diversity Program</li>
+                    </ul>
+                    <p><strong>We employ more than 10,000+ veterans on projects around the world, in a multitude of professions, disciplines and markets. We value the outstanding contributions veterans make to our contract performance and overall business success and have a long-standing commitment to supporting those who serve as well as those who have returned to civilian life.</strong></p>
+                    <p><strong>9-award recipient at DOE's Voluntary Protection Programs Participant's Association (VPPPA) Awards</strong></p>
+                    <p><strong>20-time Gold Royal Society for the Prevention of Accidents Award Winner
+                        2023 National Safety Council: 300+ safety awards including:</strong></p>
+                    <ul class="awards-list">
+                        <li>Industry Leader Award</li>
+                        <li>Superior Safety Performance</li>
+                        <li>Safety Leadership</li>
+                        <li>Occupational Excellence</li>
+                    </ul>
+
+                    <p>
+                        <h2>Contact Us</h2>
+                        <h3 style="margin-bottom: 0; margin-top: 0;">Erik TerHaar</h3>
+                        <a href="mailto:erik.terhaar@amentum.com">erik.terhaar@amentum.com</a>
+                        <h3 style="margin-bottom: 0;">Eileen Brown</h3>
+                        <a href="mailto: eileen.brown@amentum.com">eileen.brown@amentum.com</a>
+                    </p>
+            </div>
+        </div>
+
+        <footer>
+            <div class="inner">
+                <div class="footer-left">
+                    <a href="https://amentum.com"><strong>amentum.com</strong></a>
+
+                    <p>&copy; Amentum. All rights reserved</p>
+                </div>
+                <div class="footer-right">
+                    <span><strong>UEI</strong>: QEMLRQA7PLG4 </span>
+                    <span><strong>CAGE</strong>: 5W3V7 </span>
+
+                    
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
