@@ -23,7 +23,6 @@ html{
 
 a{
   text-decoration: none;
-  color: #004bbd;
 }
 
 a:visited{
@@ -43,11 +42,12 @@ a:visited{
   --fedsim-pink: #AA839D;
   --fedsim-gold: #a38e4a;
   --fedsim-offwhite: #f3f3f3;
-  --aas-orange: #E65722;
+  --aas-orange: #c23400;
   --aas-orange-visited: #9c4b2d;
   --aas-pale: #d4e2ed;
   --aas-grey: #99b9ce;
   --aas-blue: #28a1d8;
+  --aas-darkblue: #083769;
   --aas-liteblue: #b8e5f8;
   --aas-red: #861111;
 }
@@ -105,6 +105,10 @@ img{
 
 
 //General stylings
+
+.back-white{
+background-color: white;
+}
 
 .back-blue {
   background-color: var(--fedsim-blue1) !important;
@@ -692,7 +696,7 @@ a.external_link::after{
 }
 
 .darkblock, .darkblock-sm{
-  background-color: var(--fedsim-blue1);
+  background-color: var(--aas-darkblue);
 }
 
 .darkblock-alt, .darkblock-alt-sm{
@@ -701,7 +705,7 @@ a.external_link::after{
 
 .darkblock-numbered{
   color: white;
-  background: linear-gradient(to bottom,  white 0%,white 15%, var(--fedsim-blue1) 15%, var(--fedsim-blue1) 100%);
+  background: linear-gradient(to bottom,  white 0%,white 15%, var(--aas-darkblue) 15%, var(--aas-darkblue) 100%);
 }
 
 .darkblock-alt-numbered{
@@ -778,10 +782,9 @@ a.external_link::after{
 
 //About Us
 
-
 .about-block{
   width: 960px;
-  padding-left: 146px;
+  padding-left: 190px;
   display: block;
   margin: 10px;
   background-color: var(--aas-pale);
@@ -793,7 +796,7 @@ a.external_link::after{
   padding: 8px;
 }
 
-.about-block h4{
+.about-block h2{
   padding: 6px 0 0 20px;
   font-size: 1.4em;
 }
@@ -808,7 +811,7 @@ a.external_link::after{
     background-color: var(--aas-pale);
   }
 
-  .about-block h4{
+  .about-block h2{
       padding: 6px;
       font-size: 1.2em;
   }
@@ -1298,8 +1301,8 @@ display: none;
 
 //Numbered Block Sections
 .numberCircle {
-  border: 8px solid var(--fedsim-blue1);
-  color: var(--fedsim-blue1);
+  border: 8px solid var(--aas-darkblue);
+  color: var(--aas-darkblue);
   background: white;
 }
 
@@ -1880,7 +1883,7 @@ li.input-li{
 
 .d2d_frame{
   width: 940px;
-  height: 880px;
+  height: 900px;
 }
 
 .d2d_frame_m{
